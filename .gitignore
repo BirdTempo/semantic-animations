@@ -3,3 +3,6 @@ dist/
 .env
 *.log
 .omc/
+site/dist/
+site/styles/
+.wrangler/

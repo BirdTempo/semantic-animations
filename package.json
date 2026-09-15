@@ -32,6 +32,8 @@
     "anim:build": "tsx scripts/build-library.ts",
     "anim:check": "tsx scripts/check-library.ts",
     "anim:probe": "tsx scripts/prose-probe.ts",
+    "site:build": "npm run anim:build && npm run build && node scripts/prepare-site.mjs",
+    "site:deploy": "npm run site:build && wrangler pages deploy site --project-name semantic-animations",
     "prepublishOnly": "npm run anim:build && npm run test && npm run build"
   },
   "peerDependencies": {
@@ -50,7 +52,8 @@
     "tsup": "^8.3.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.0",
-    "vitest": "^2.1.8"
+    "vitest": "^2.1.8",
+    "wrangler": "^4.131.2"
   },
   "sideEffects": [
     "*.css"

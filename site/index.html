@@ -6,7 +6,7 @@
 <title>semantic-animations — type what you mean, get the motion</title>
 <meta name="description" content="33 curated CSS animations, found by plain prose. No network call, no dependency, no class names to memorize." />
 <link rel="icon" href="data:," />
-<link rel="stylesheet" href="../styles/animate.css" />
+<link rel="stylesheet" href="./styles/animate.css" />
 <style>
   :root {
     --paper: #f1f2ed;
@@ -502,8 +502,8 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
   async function boot() {
     try {
       [lib, core] = await Promise.all([
-        import('../dist/library/index.js'),
-        import('../dist/core.js'),
+        import('./dist/library/index.js'),
+        import('./dist/core.js'),
       ]);
     } catch (err) {
       groupsEl.innerHTML =
