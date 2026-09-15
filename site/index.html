@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>semantic-animations — type what you mean, get the motion</title>
+<meta name="description" content="33 curated CSS animations, found by plain prose. No network call, no dependency, no class names to memorize." />
+<link rel="icon" href="data:," />
+<link rel="stylesheet" href="../styles/animate.css" />
+<style>
+  :root {
+    --paper: #f1f2ed;
+    --paper-raised: #e9ebe3;
+    --ink: #15181d;
+    --muted: #62685f;
+    --line: #d3d5cc;
+    --accent: #ff3366;
+    --trace: #2b5fe0;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color-scheme: light;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+      --paper: #14161a;
+      --paper-raised: #1b1e23;
+      --ink: #edefe9;
+      --muted: #9a9f92;
+      --line: #33362f;
+      --accent: #ff5c82;
+      --trace: #6f9bff;
+    }
+  }
+  :root[data-theme='dark'] {
+    --paper: #14161a;
+    --paper-raised: #1b1e23;
+    --ink: #edefe9;
+    --muted: #9a9f92;
+    --line: #33362f;
+    --accent: #ff5c82;
+    --trace: #6f9bff;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; }
+  [hidden] { display: none !important; }
+  a { color: inherit; }
+  ::selection { background: var(--accent); color: #fff; }
+
+  .wrap {
+    max-width: 68rem;
+    margin: 0 auto;
+    padding-inline: 1.5rem;
+  }
+
+  /* ---------------------------------------------------------------- nav */
+  .topbar {
+    border-bottom: 1px solid var(--line);
+  }
+  .topbar-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .wordmark {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .wordmark span { color: var(--accent); }
+  .toplinks {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .toplinks a { text-decoration: none; }
+  .toplinks a:hover { color: var(--ink); }
+
+  /* --------------------------------------------------------------- hero */
+  .hero {
+    padding-block: 3.5rem 3rem;
+    background-image: repeating-linear-gradient(
+      90deg,
+      var(--line) 0,
+      var(--line) 1px,
+      transparent 1px,
+      transparent 64px
+    );
+    background-position: left top;
+  }
+  .kicker {
+    font-family: var(--mono);
+    font-size: 0.8125rem;
+    color: var(--muted);
+    margin: 0 0 1.1rem;
+  }
+  .kicker::before {
+    content: '';
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background: var(--accent);
+    margin-right: 0.6em;
+    vertical-align: middle;
+  }
+  h1.headline {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: clamp(2.1rem, 5.4vw, 3.6rem);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0 0 1.15rem;
+    max-width: 20ch;
+  }
+  .sub {
+    font-size: 1.1rem;
+    color: var(--muted);
+    max-width: 46ch;
+    margin: 0 0 2.25rem;
+  }
+
+  /* ---------------------------------------------------------- cue console */
+  .console {
+    border: 1px solid var(--line);
+    background: var(--paper-raised);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .console-input-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--line);
+    padding: 0.15rem 0.15rem 0.15rem 1rem;
+  }
+  .console-cue {
+    font-family: var(--mono);
+    color: var(--accent);
+    font-size: 0.95rem;
+    margin-right: 0.7rem;
+    user-select: none;
+  }
+  #q {
+    flex: 1;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    font-family: var(--mono);
+    font-size: 1rem;
+    color: var(--ink);
+    padding: 0.9rem 0.25rem;
+    outline: none;
+  }
+  #q::placeholder { color: var(--muted); }
+  .console-play {
+    border: 0;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    padding: 0.6rem 1.1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .console-play:hover { opacity: 0.85; }
+  .console-stage {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.75rem 1.25rem;
+    min-height: 6.5rem;
+  }
+  .stage-demo {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 10px;
+    background: var(--trace);
+    flex: none;
+    color: var(--paper-raised);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .stage-demo.is-pill {
+    width: auto;
+    min-width: 8rem;
+    height: 2.5rem;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.25rem;
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: #fff;
+  }
+  .stage-meta { font-family: var(--mono); font-size: 0.85rem; min-width: 0; }
+  .stage-name { color: var(--ink); }
+  .stage-class { color: var(--muted); }
+  .stage-empty { color: var(--muted); font-size: 0.9rem; }
+  .stage-demo .dot, .row-demo .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--paper);
+    margin: 0 2px;
+  }
+  .row-demo .dot { width: 4px; height: 4px; margin: 0 1px; }
+
+  /* -------------------------------------------------------------- quick */
+  .quickstart {
+    padding-block: 3rem;
+    border-top: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+  @media (max-width: 40rem) {
+    .quickstart { grid-template-columns: minmax(0, 1fr); }
+  }
+  h2 {
+    font-family: var(--mono);
+    font-size: 1.35rem;
+    letter-spacing: -0.01em;
+    margin: 0 0 1rem;
+  }
+  .lede { color: var(--muted); max-width: 46ch; margin: 0 0 1.25rem; }
+  pre {
+    background: var(--ink);
+    color: #dfe3d8;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    line-height: 1.65;
+    padding: 1rem 1.1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 0 0 0.75rem;
+  }
+  pre .tok-str { color: #ffd479; }
+  pre .tok-com { color: #8b9184; }
+  pre .tok-fn { color: #8cc2ff; }
+
+  /* ------------------------------------------------------------ catalog */
+  .catalog { padding-block: 3rem; border-top: 1px solid var(--line); }
+  .catalog-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+  .count { font-family: var(--mono); font-size: 0.85rem; color: var(--muted); }
+  .category-group { margin-bottom: 2rem; }
+  .category-group:last-child { margin-bottom: 0; }
+  .category-label {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--muted);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 0.25rem;
+  }
+  .category-desc { font-weight: 400; color: var(--muted); }
+  .row {
+    display: grid;
+    grid-template-columns: 2.25rem 2.75rem 11.5rem minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--line);
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+  }
+  @media (max-width: 40rem) {
+    .row { grid-template-columns: 1.75rem 2.25rem minmax(0, 1fr); }
+    .row .row-phrase, .row .row-copy { display: none; }
+  }
+  .row:hover, .row:focus-visible { background: var(--paper-raised); outline: none; }
+  .row[hidden] { display: none; }
+  .row-num { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+  .row-demo {
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 6px;
+    background: var(--trace);
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row-name { font-family: var(--mono); font-size: 0.85rem; white-space: nowrap; }
+  .row-phrase { color: var(--muted); font-size: 0.92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .row-copy {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 0.3rem 0.55rem;
+    background: transparent;
+  }
+  .row:hover .row-copy { color: var(--ink); }
+  .no-results { color: var(--muted); padding: 1.5rem 0; font-size: 0.95rem; }
+
+  /* --------------------------------------------------------------- a11y */
+  .a11y {
+    padding-block: 3rem;
+    border-top: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+  @media (max-width: 40rem) {
+    .a11y { grid-template-columns: minmax(0, 1fr); }
+  }
+  .a11y-demo {
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--paper-raised);
+  }
+  .a11y-dot { width: 2.75rem; height: 2.75rem; border-radius: 50%; background: var(--accent); flex: none; }
+  .a11y-note { font-size: 0.85rem; color: var(--muted); font-family: var(--mono); }
+
+  /* ------------------------------------------------------------ footer */
+  footer {
+    border-top: 1px solid var(--line);
+    padding-block: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  footer a { text-decoration: none; }
+  footer a:hover { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap topbar-row">
+    <a class="wordmark" href="#top">semantic<span>-</span>animations</a>
+    <nav class="toplinks">
+      <a href="#catalog">Catalog</a>
+      <a href="#quickstart">Install</a>
+      <a href="https://github.com/BirdTempo/semantic-animations">GitHub</a>
+      <a href="https://www.npmjs.com/package/semantic-animations">npm</a>
+    </nav>
+  </div>
+</div>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">33 animations · 6 categories · 0 network calls</p>
+      <h1 class="headline">Type what you mean.<br />Get the motion.</h1>
+      <p class="sub">
+        A curated set of CSS/JS UI animations, found by plain prose. No API,
+        no key, no class names to memorize — describe the moment and
+        <code>semantic-animations</code> finds the closest match, right here
+        in your browser.
+      </p>
+
+      <div class="console">
+        <div class="console-input-row">
+          <span class="console-cue" aria-hidden="true">&gt;</span>
+          <input id="q" type="text" autocomplete="off" spellcheck="false"
+                 placeholder="the password was wrong" aria-label="Describe an animation" />
+          <button class="console-play" id="replay" type="button">Replay</button>
+        </div>
+        <div class="console-stage">
+          <div class="stage-demo" id="stage" aria-hidden="true"></div>
+          <div class="stage-meta" id="stage-meta">
+            <div class="stage-empty">Start typing above, or press Replay.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quickstart wrap" id="quickstart">
+      <div>
+        <h2>Install</h2>
+        <p class="lede">Zero required dependencies. Works with any framework, or none.</p>
+        <pre><span class="tok-com"># npm</span>
+npm install semantic-animations</pre>
+        <pre><span class="tok-com">// vanilla JS</span>
+<span class="tok-fn">import</span> { playAnimation } <span class="tok-fn">from</span> <span class="tok-str">'semantic-animations'</span>;
+<span class="tok-fn">import</span> <span class="tok-str">'semantic-animations/animate.css'</span>;
+
+<span class="tok-fn">await</span> playAnimation(toast, <span class="tok-str">'slide in from below'</span>);</pre>
+      </div>
+      <div>
+        <h2>Or skip the JS</h2>
+        <p class="lede">Every animation is a plain CSS class. Link the stylesheet and go.</p>
+        <pre>&lt;link rel=<span class="tok-str">"stylesheet"</span>
+      href=<span class="tok-str">"node_modules/semantic-animations/styles/animate.css"</span> /&gt;
+
+&lt;div class=<span class="tok-str">"sa-fade-in"</span>&gt;Welcome&lt;/div&gt;</pre>
+        <pre><span class="tok-com">// React</span>
+<span class="tok-fn">import</span> { useSemanticAnimation } <span class="tok-fn">from</span> <span class="tok-str">'semantic-animations/web'</span>;
+
+useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCount);</pre>
+      </div>
+  </section>
+
+  <section class="catalog" id="catalog">
+    <div class="wrap">
+      <div class="catalog-head">
+        <h2 style="margin:0">The catalog</h2>
+        <span class="count" id="count"></span>
+      </div>
+      <div id="groups"></div>
+      <p class="no-results" id="no-results" hidden>Nothing in the catalog matches that. Try a different phrase — or that gap is honest: not every motion belongs in a curated set.</p>
+    </div>
+  </section>
+
+  <section class="a11y">
+    <div>
+      <h2>Reduced motion, by default</h2>
+      <p class="lede">
+        Every animation here is disabled under <code>prefers-reduced-motion:
+        reduce</code>. An entrance that starts invisible, or an exit that ends
+        invisible, is explicitly returned to its settled state in that same
+        rule — turning motion off never leaves an element stuck hidden.
+      </p>
+      <p class="lede">This is written once, in <code>styles/animate.css</code>, and applies to all 33 animations — nothing to configure per component.</p>
+    </div>
+    <div class="a11y-demo">
+      <div class="a11y-dot sa-pulse"></div>
+      <div class="a11y-note">this dot pulses — unless your OS says otherwise</div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+    <span>MIT License © BirdTempo</span>
+    <span>
+      <a href="https://github.com/BirdTempo/semantic-animations">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="https://www.npmjs.com/package/semantic-animations">npm</a>
+      &nbsp;·&nbsp;
+      <a href="https://semanticicons.com">semantic-icons</a>
+    </span>
+</footer>
+
+<script type="module">
+  const stage = document.getElementById('stage');
+  const stageMeta = document.getElementById('stage-meta');
+  const input = document.getElementById('q');
+  const replayBtn = document.getElementById('replay');
+  const groupsEl = document.getElementById('groups');
+  const countEl = document.getElementById('count');
+  const noResultsEl = document.getElementById('no-results');
+
+  const CATEGORY_COPY = {
+    entrance: 'an element has arrived — plays once, holds',
+    exit: 'an element is leaving — plays once, holds hidden',
+    attention: 'look here, without changing what is present — loops',
+    feedback: 'the result of an action — plays once',
+    loading: 'ongoing, indeterminate work — always loops',
+    state: 'an ambient idle state — always loops',
+  };
+
+  let lib, core, ANIMATIONS = [], categories = [];
+  let lastPlayed = null;
+
+  async function boot() {
+    try {
+      [lib, core] = await Promise.all([
+        import('../dist/library/index.js'),
+        import('../dist/core.js'),
+      ]);
+    } catch (err) {
+      groupsEl.innerHTML =
+        '<p class="no-results">Could not load the built package. Run <code>npm run build</code> in the repo root, then reload this page.</p>';
+      console.error(err);
+      return;
+    }
+    ANIMATIONS = lib.ANIMATIONS;
+    categories = lib.categories();
+    countEl.textContent = ANIMATIONS.length + ' animations';
+    renderCatalog(ANIMATIONS);
+    wireConsole();
+    wireCatalogSearch();
+    // One orchestrated entrance: the stage announces itself, then goes idle.
+    core.playAnimation(stage, 'pop-in').catch(() => {});
+  }
+
+  // dots-bounce animates *children*, not the element itself, and shimmer
+  // needs a gradient to sweep across rather than a solid fill — a plain
+  // swatch shows nothing for either. Every other animation is transform,
+  // opacity, box-shadow, or filter and plays fine on a plain box.
+  function prepareDemoElement(el, entry) {
+    el.innerHTML = '';
+    el.style.backgroundImage = 'none';
+    if (entry.name === 'dots-bounce') {
+      for (let i = 0; i < 3; i += 1) {
+        const dot = document.createElement('span');
+        dot.className = 'dot';
+        el.appendChild(dot);
+      }
+    } else if (entry.name === 'shimmer') {
+      el.style.backgroundImage =
+        'linear-gradient(90deg, rgba(255,255,255,.1) 25%, rgba(255,255,255,.85) 50%, rgba(255,255,255,.1) 75%)';
+    }
+  }
+
+  function play(name) {
+    stage.className = 'stage-demo';
+    stage.style.backgroundImage = '';
+    void stage.offsetWidth; // restart the animation on repeated plays
+    const entry = lib.getAnimation(name);
+    if (!entry) return;
+    stage.classList.toggle('is-pill', entry.category === 'feedback');
+    if (entry.category === 'feedback') {
+      stage.textContent = entry.phrase;
+    } else {
+      prepareDemoElement(stage, entry);
+    }
+    core.playAnimation(stage, name).catch(() => {});
+    stageMeta.innerHTML =
+      '<div class="stage-name">' + escapeHtml(entry.phrase) + '</div>' +
+      '<div class="stage-class">sa-' + entry.name + '</div>';
+    lastPlayed = name;
+  }
+
+  function wireConsole() {
+    const examples = [
+      'the password was wrong',
+      'task completed',
+      'someone is typing',
+      'slide in from below',
+      'look here',
+    ];
+    let exampleIndex = 0;
+    let cycling = true;
+    const cycle = window.setInterval(() => {
+      if (!cycling) return;
+      input.placeholder = examples[exampleIndex % examples.length];
+      exampleIndex += 1;
+    }, 2200);
+
+    function stopCycling() {
+      cycling = false;
+      window.clearInterval(cycle);
+    }
+
+    let debounceTimer;
+    input.addEventListener('input', () => {
+      stopCycling();
+      window.clearTimeout(debounceTimer);
+      const value = input.value.trim();
+      if (value === '') {
+        stageMeta.innerHTML = '<div class="stage-empty">Start typing above, or press Replay.</div>';
+        return;
+      }
+      debounceTimer = window.setTimeout(() => {
+        const match = lib.findAnimation(value, { minScore: lib.LOCAL_MIN_SCORE });
+        if (match) play(match.name);
+        else stageMeta.innerHTML = '<div class="stage-empty">No curated match yet for that one.</div>';
+      }, 220);
+    });
+    input.addEventListener('focus', stopCycling);
+    input.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' && lastPlayed) play(lastPlayed);
+    });
+    replayBtn.addEventListener('click', () => {
+      if (lastPlayed) play(lastPlayed);
+      else if (input.value.trim()) input.dispatchEvent(new Event('input'));
+    });
+  }
+
+  function renderCatalog(entries) {
+    groupsEl.innerHTML = '';
+    let cueNumber = 1;
+    for (const category of categories) {
+      const inCategory = entries.filter((a) => a.category === category);
+      if (inCategory.length === 0) continue;
+      const group = document.createElement('div');
+      group.className = 'category-group';
+      group.dataset.category = category;
+      const label = document.createElement('div');
+      label.className = 'category-label';
+      label.innerHTML = category + ' <span class="category-desc">— ' + CATEGORY_COPY[category] + '</span>';
+      group.appendChild(label);
+
+      for (const entry of inCategory) {
+        const row = document.createElement('button');
+        row.type = 'button';
+        row.className = 'row';
+        row.dataset.name = entry.name;
+        row.dataset.search = (entry.name + ' ' + entry.phrase + ' ' + entry.keywords.join(' ')).toLowerCase();
+        row.innerHTML =
+          '<span class="row-num">' + String(cueNumber).padStart(2, '0') + '</span>' +
+          '<span class="row-demo" aria-hidden="true"></span>' +
+          '<span class="row-name">sa-' + entry.name + '</span>' +
+          '<span class="row-phrase">"' + escapeHtml(entry.phrase) + '"</span>' +
+          '<span class="row-copy" data-copy>copy class</span>';
+        row.addEventListener('click', (event) => {
+          if (event.target.closest('[data-copy]')) {
+            copyToClipboard('sa-' + entry.name, event.target.closest('[data-copy]'));
+            return;
+          }
+          const demo = row.querySelector('.row-demo');
+          demo.className = 'row-demo';
+          demo.style.backgroundImage = '';
+          void demo.offsetWidth;
+          prepareDemoElement(demo, entry);
+          core.playAnimation(demo, entry.name).catch(() => {});
+          input.value = entry.phrase;
+          play(entry.name);
+        });
+        group.appendChild(row);
+        cueNumber += 1;
+      }
+      groupsEl.appendChild(group);
+    }
+  }
+
+  function wireCatalogSearch() {
+    // The hero console filters the catalog list too, so typing "wrong
+    // password" both plays the match on stage and narrows the list below.
+    input.addEventListener('input', () => {
+      const query = input.value.trim().toLowerCase();
+      const rows = groupsEl.querySelectorAll('.row');
+      let visible = 0;
+      rows.forEach((row) => {
+        const match = query === '' || row.dataset.search.includes(query);
+        row.hidden = !match;
+        if (match) visible += 1;
+      });
+      groupsEl.querySelectorAll('.category-group').forEach((group) => {
+        const anyVisible = [...group.querySelectorAll('.row')].some((r) => !r.hidden);
+        group.hidden = !anyVisible;
+      });
+      noResultsEl.hidden = visible !== 0;
+    });
+  }
+
+  function copyToClipboard(text, button) {
+    const original = button.textContent;
+    navigator.clipboard?.writeText(text).then(
+      () => {
+        button.textContent = 'copied';
+        window.setTimeout(() => (button.textContent = original), 1200);
+      },
+      () => {},
+    );
+  }
+
+  function escapeHtml(str) {
+    return str.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  boot();
+</script>
+</body>
+</html>

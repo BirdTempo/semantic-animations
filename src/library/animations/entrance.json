@@ -1,0 +1,128 @@
+[
+  {
+    "name": "fade-in",
+    "phrase": "fade in",
+    "category": "entrance",
+    "concept": "Opacity climbs from nothing to fully visible, with no movement. The plainest way to say an element has arrived.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "appear",
+      "show up",
+      "materialize",
+      "become visible",
+      "gently appear",
+      "softly appear",
+      "opacity in",
+      "reveal",
+      "arriving",
+      "come into view",
+      "just appeared",
+      "quiet entrance",
+      "simple entrance"
+    ]
+  },
+  {
+    "name": "slide-in-up",
+    "phrase": "slide in from below",
+    "category": "entrance",
+    "concept": "The element rises up into place from just below its resting position while fading in. Reads as content arriving from off-screen, like a toast or a bottom sheet.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "enter from bottom",
+      "rise up",
+      "slide up into view",
+      "toast entrance",
+      "bottom sheet",
+      "come up from below",
+      "float up into place",
+      "enter upward",
+      "arriving from below",
+      "push up into view"
+    ]
+  },
+  {
+    "name": "slide-in-down",
+    "phrase": "slide in from above",
+    "category": "entrance",
+    "concept": "The element drops down into place from just above its resting position while fading in. Reads as a banner or a dropdown arriving from the top of the screen.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "enter from top",
+      "drop down into view",
+      "banner entrance",
+      "dropdown open",
+      "descend into place",
+      "come down from above",
+      "arriving from the top",
+      "top notification"
+    ]
+  },
+  {
+    "name": "slide-in-left",
+    "phrase": "slide in from the left",
+    "category": "entrance",
+    "concept": "The element travels in from the left edge to its resting position while fading in. Reads as a panel or drawer opening from the left side.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "enter from the left",
+      "left drawer open",
+      "slide from left edge",
+      "arriving from the left",
+      "panel slides in",
+      "left sidebar open",
+      "come in from the left side"
+    ]
+  },
+  {
+    "name": "slide-in-right",
+    "phrase": "slide in from the right",
+    "category": "entrance",
+    "concept": "The element travels in from the right edge to its resting position while fading in. Reads as a panel or drawer opening from the right side.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "enter from the right",
+      "right drawer open",
+      "slide from right edge",
+      "arriving from the right",
+      "panel slides in from right",
+      "right sidebar open",
+      "notification from the right"
+    ]
+  },
+  {
+    "name": "scale-in",
+    "phrase": "scale in",
+    "category": "entrance",
+    "concept": "The element grows from slightly smaller than its resting size up to full size while fading in. A calmer, centered entrance than a slide, good for cards and dialogs.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "grow into view",
+      "zoom in gently",
+      "pop into place",
+      "dialog open",
+      "modal appear",
+      "card appears",
+      "grow from small",
+      "expand into view",
+      "appear centered"
+    ]
+  },
+  {
+    "name": "pop-in",
+    "phrase": "pop in with a bounce",
+    "category": "entrance",
+    "concept": "The element springs in from small, overshoots slightly past full size, then settles. A playful, energetic entrance for something new and welcome.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "bounce in",
+      "spring into view",
+      "playful entrance",
+      "overshoot then settle",
+      "new item appears",
+      "badge appears",
+      "springy entrance",
+      "elastic entrance",
+      "joyful arrival"
+    ]
+  }
+]

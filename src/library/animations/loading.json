@@ -1,0 +1,86 @@
+[
+  {
+    "name": "spin",
+    "phrase": "spin",
+    "category": "loading",
+    "concept": "A full, continuous, constant-speed rotation. The most familiar way to say something is loading or working, with no sense of progress.",
+    "keywords": [
+      "loading",
+      "spinner",
+      "working",
+      "processing",
+      "refreshing",
+      "syncing",
+      "please wait",
+      "buffering",
+      "in progress",
+      "fetching",
+      "thinking",
+      "loading icon",
+      "sync icon spinning"
+    ]
+  },
+  {
+    "name": "spin-reverse",
+    "phrase": "spin the other way",
+    "category": "loading",
+    "concept": "The same continuous rotation as spin, reversed. Useful to pair two spinners that should visibly counter-rotate, or a sync icon spinning against its usual direction.",
+    "keywords": [
+      "counter-rotate",
+      "reverse spinner",
+      "undo sync direction",
+      "opposite spin",
+      "mirrored loading icon",
+      "spinning backward"
+    ]
+  },
+  {
+    "name": "shimmer",
+    "phrase": "loading skeleton",
+    "category": "loading",
+    "concept": "A soft gradient highlight sweeps across the element, continuous. Reads as a placeholder standing in for content that has not arrived yet.",
+    "keywords": [
+      "skeleton screen",
+      "placeholder loading",
+      "content loading",
+      "shimmer effect",
+      "loading placeholder",
+      "gradient sweep",
+      "ghost content",
+      "loading state",
+      "blank content loading"
+    ]
+  },
+  {
+    "name": "dots-bounce",
+    "phrase": "typing indicator",
+    "category": "loading",
+    "concept": "Three dots bounce one after another in a continuous loop. Reads as someone typing, or a system thinking before it replies.",
+    "keywords": [
+      "someone is typing",
+      "chat typing dots",
+      "thinking",
+      "processing reply",
+      "ellipsis loading",
+      "three dots loading",
+      "waiting for a reply",
+      "composing a message"
+    ]
+  },
+  {
+    "name": "progress-sweep",
+    "phrase": "progress unknown",
+    "category": "loading",
+    "concept": "A bar sweeps back and forth across its track, continuous. For a loading bar when there is no percentage to report, only that work is happening.",
+    "keywords": [
+      "indeterminate progress bar",
+      "loading bar",
+      "unknown duration",
+      "progress unknown",
+      "please wait bar",
+      "working on it",
+      "no eta",
+      "loading progress bar"
+    ]
+  }
+]

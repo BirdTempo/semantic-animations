@@ -1,0 +1,82 @@
+[
+  {
+    "name": "float",
+    "phrase": "float gently",
+    "category": "state",
+    "concept": "A slow, small, continuous vertical bob. For an element in an empty state or an illustration that should feel calm and alive, not urgent.",
+    "keywords": [
+      "empty state illustration",
+      "gentle bobbing",
+      "hovering",
+      "weightless",
+      "calm idle motion",
+      "drifting",
+      "ambient movement",
+      "resting animation"
+    ]
+  },
+  {
+    "name": "breathe",
+    "phrase": "breathe",
+    "category": "state",
+    "concept": "A very slow, small, continuous scale in and out. The quietest possible way to say an element is alive and idle, waiting.",
+    "keywords": [
+      "idle state",
+      "waiting quietly",
+      "subtle life",
+      "ambient scale",
+      "resting pulse",
+      "calm and alive",
+      "standby",
+      "quiet idle animation"
+    ]
+  },
+  {
+    "name": "sway",
+    "phrase": "sway gently",
+    "category": "state",
+    "concept": "A slow, small, continuous rotation from one side to the other, pivoting from the top. For something that hangs, like a sign, a pendant, or a mobile.",
+    "keywords": [
+      "hanging sign",
+      "gentle rotation",
+      "pendulum",
+      "swinging slightly",
+      "mobile hanging",
+      "ambient rotation",
+      "drifting side to side"
+    ]
+  },
+  {
+    "name": "glow",
+    "phrase": "glow",
+    "category": "state",
+    "concept": "A soft halo brightens and fades around the element, continuous. For an element that should read as active, highlighted, or lit up, without moving.",
+    "keywords": [
+      "highlighted",
+      "lit up",
+      "active state glow",
+      "soft light pulse",
+      "ambient highlight",
+      "radiant",
+      "glowing edge",
+      "selected and glowing"
+    ]
+  },
+  {
+    "name": "nudge",
+    "phrase": "look here",
+    "category": "state",
+    "concept": "A small, continuous side-to-side shift, gentler and slower than a shake. For pointing attention at something new without alarming the user, like an onboarding hint.",
+    "keywords": [
+      "try this",
+      "new feature hint",
+      "onboarding cue",
+      "hint arrow",
+      "tooltip hint",
+      "look over here",
+      "gentle hint",
+      "point it out",
+      "tap here hint"
+    ]
+  }
+]

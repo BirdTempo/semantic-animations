@@ -1,0 +1,123 @@
+[
+  {
+    "name": "pulse",
+    "phrase": "pulse",
+    "category": "attention",
+    "concept": "The element grows and shrinks smoothly and continuously. A calm, steady way to say something here deserves a second look, without demanding it.",
+    "keywords": [
+      "gentle pulse",
+      "breathing highlight",
+      "soft emphasis",
+      "keep noticing",
+      "live indicator",
+      "draw the eye softly",
+      "heartbeat-like",
+      "subtle attention",
+      "ongoing emphasis"
+    ]
+  },
+  {
+    "name": "beat",
+    "phrase": "beat like a heart",
+    "category": "attention",
+    "concept": "A sharper double-beat than a pulse: a quick scale up, a small settle, then rest. For a like button, a heart icon, or anything that should feel alive when tapped.",
+    "keywords": [
+      "heartbeat",
+      "like button",
+      "favorite tapped",
+      "love reaction",
+      "double pulse",
+      "heart icon animation",
+      "liked",
+      "favorited"
+    ]
+  },
+  {
+    "name": "flash",
+    "phrase": "flash",
+    "category": "attention",
+    "concept": "Opacity flickers between fully visible and faded, continuously. Reads as an alert or a live indicator blinking for attention.",
+    "keywords": [
+      "blink",
+      "flicker",
+      "alert blinking",
+      "live dot",
+      "recording indicator",
+      "warning light",
+      "strobe softly",
+      "on air",
+      "blinking notification"
+    ]
+  },
+  {
+    "name": "wobble",
+    "phrase": "wobble like a bell",
+    "category": "attention",
+    "concept": "A rotation that swings wide, overshoots back, and settles, continuous. Reads as something being struck or rung, like a bell or a notification badge.",
+    "keywords": [
+      "ring a bell",
+      "notification bell shake",
+      "struck and ringing",
+      "tilting back and forth",
+      "bell icon animation",
+      "wobbling badge",
+      "teeter"
+    ]
+  },
+  {
+    "name": "shake",
+    "phrase": "shake",
+    "category": "attention",
+    "concept": "A quick side-to-side rattle that runs once and returns to rest. The general-purpose way to say wrong, denied, or try again.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "wrong password",
+      "the password was wrong",
+      "invalid input",
+      "access denied",
+      "error",
+      "try again",
+      "incorrect",
+      "no entry",
+      "rejected",
+      "form validation error",
+      "rattling",
+      "disagree"
+    ]
+  },
+  {
+    "name": "jiggle",
+    "phrase": "jiggle",
+    "category": "attention",
+    "concept": "A small, quick, continuous rock and scale, playful rather than urgent. For an icon set that invites a tap, like a home-screen app in edit mode.",
+    "keywords": [
+      "wiggle",
+      "edit mode icons",
+      "draggable hint",
+      "playful shake",
+      "app icons wiggling",
+      "ready to rearrange",
+      "rearranged",
+      "reorder icons",
+      "delete mode",
+      "loose and ready to move"
+    ]
+  },
+  {
+    "name": "ring",
+    "phrase": "ring like a notification",
+    "category": "attention",
+    "concept": "An expanding ring fades outward from the element's edge and disappears, continuous. Reads as a ping or a live signal radiating outward, like sonar or a notification dot.",
+    "keywords": [
+      "ping",
+      "sonar",
+      "notification dot pulse",
+      "live signal",
+      "radiating ring",
+      "broadcasting",
+      "online indicator",
+      "expanding halo",
+      "radar ping"
+    ]
+  }
+]

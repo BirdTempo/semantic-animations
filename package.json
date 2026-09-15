@@ -1,0 +1,84 @@
+{
+  "name": "semantic-animations",
+  "version": "0.1.0",
+  "description": "A curated set of CSS/JS UI animations you can find with plain prose. Search runs in your page, with no request and no key.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/core.d.ts",
+      "import": "./dist/core.js"
+    },
+    "./web": {
+      "types": "./dist/web.d.ts",
+      "import": "./dist/web.js"
+    },
+    "./library": {
+      "types": "./dist/library/index.d.ts",
+      "import": "./dist/library/index.js"
+    },
+    "./animate.css": "./styles/animate.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "styles",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/core.ts src/web.ts src/library/index.ts --format esm --dts --clean --out-dir dist",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "anim:build": "tsx scripts/build-library.ts",
+    "anim:check": "tsx scripts/check-library.ts",
+    "anim:probe": "tsx scripts/prose-probe.ts",
+    "prepublishOnly": "npm run anim:build && npm run test && npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "jsdom": "^25.0.1",
+    "react": "^19.0.0",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.8"
+  },
+  "sideEffects": [
+    "*.css"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "animation",
+    "css-animation",
+    "ui-animation",
+    "motion",
+    "react",
+    "search",
+    "semantic-search",
+    "design-system"
+  ],
+  "homepage": "https://github.com/BirdTempo/semantic-animations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BirdTempo/semantic-animations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BirdTempo/semantic-animations/issues"
+  },
+  "author": "BirdTempo",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

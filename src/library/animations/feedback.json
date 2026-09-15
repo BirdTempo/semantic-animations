@@ -1,0 +1,66 @@
+[
+  {
+    "name": "success-pop",
+    "phrase": "task completed",
+    "category": "feedback",
+    "concept": "The element grows briefly past full size and settles, once, and holds. A short celebratory acknowledgment that an action fully succeeded.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "success",
+      "done",
+      "completed",
+      "purchase complete",
+      "order placed",
+      "task finished",
+      "checkmark moment",
+      "achievement unlocked",
+      "submitted successfully",
+      "added to cart",
+      "well done",
+      "that worked",
+      "celebrate",
+      "went through successfully",
+      "we made it"
+    ]
+  },
+  {
+    "name": "nope",
+    "phrase": "that's not allowed",
+    "category": "feedback",
+    "concept": "A tight, quick double-shake that runs once and returns exactly to rest. Sharper and smaller than the general attention shake, for a precise no.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "invalid",
+      "denied",
+      "not allowed",
+      "wrong pin",
+      "incorrect code",
+      "blocked action",
+      "cannot do that",
+      "refused",
+      "disabled action tapped",
+      "forbidden",
+      "access refused"
+    ]
+  },
+  {
+    "name": "saved-flash",
+    "phrase": "saved",
+    "category": "feedback",
+    "concept": "A brief, subtle dip in opacity and scale that runs once and returns to rest. A quiet acknowledgment for a low-stakes automatic action.",
+    "defaults": { "repeat": 1 },
+    "keywords": [
+      "autosave",
+      "copied to clipboard",
+      "synced",
+      "updated",
+      "saved automatically",
+      "change recorded",
+      "copied",
+      "backed up",
+      "draft saved",
+      "acknowledgment",
+      "quick confirmation"
+    ]
+  }
+]
