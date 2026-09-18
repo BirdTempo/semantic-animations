@@ -1,0 +1,402 @@
+[
+  {
+    "name": "collapse-down",
+    "phrase": "collapse down",
+    "category": "exit",
+    "concept": "The element's height collapses toward its top edge, as if a hidden panel folds up beneath it. Use it for closing an expandable row or a details panel.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["collapse height", "close expandable row", "shrink to top edge", "panel folds up", "accordion row close", "hide expanded section", "vertical collapse down", "drawer shuts upward", "shrink height to zero"]
+  },
+  {
+    "name": "collapse-up",
+    "phrase": "collapse up",
+    "category": "exit",
+    "concept": "The element's height collapses toward its bottom edge, like a drawer sliding shut from below. Use it for a footer panel or a bottom sheet that tucks away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["collapse toward bottom", "bottom sheet close", "shrink to bottom edge", "drawer shuts downward", "footer panel hide", "vertical collapse up", "height shrinks to base", "tuck panel away", "close from the bottom"]
+  },
+  {
+    "name": "collapse-vertical-fade",
+    "phrase": "collapse and fade vertically",
+    "category": "exit",
+    "concept": "The element shrinks to zero height from its center while it fades out. A softer, symmetric version of a vertical collapse.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["collapse from center", "vertical shrink and fade", "symmetric height collapse", "fade while collapsing", "centered vertical close", "shrink height evenly", "soft vertical exit", "collapse row centered"]
+  },
+  {
+    "name": "drawer-close",
+    "phrase": "drawer close",
+    "category": "exit",
+    "concept": "The element snaps quickly to a small height, then settles flat and fades. It suggests a drawer pushed shut with some momentum.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["quick drawer shut", "snap closed panel", "fast then settle collapse", "push drawer shut", "momentum close animation", "snappy vertical close", "sidebar drawer close", "settle then vanish"]
+  },
+  {
+    "name": "accordion-close",
+    "phrase": "accordion close",
+    "category": "exit",
+    "concept": "The element's height steps down in even stages before it disappears, like pleats folding flat one after another. Good for accordion panels.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["accordion panel close", "stepped height collapse", "pleated fold close", "fold in stages", "faq panel close", "collapsible section shut", "staged vertical shrink", "fold flat in steps"]
+  },
+  {
+    "name": "squash-flat",
+    "phrase": "squash flat",
+    "category": "exit",
+    "concept": "The element flattens to almost nothing, bulging slightly wider as it is pressed down, then it fades. Like squashing a soft object flat.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["squash flat and fade", "press object flat", "flatten with bulge", "squish shut", "compress to a line", "flatten then disappear", "pancake squash exit", "squashed pillow effect"]
+  },
+  {
+    "name": "press-flatten",
+    "phrase": "press flatten",
+    "category": "exit",
+    "concept": "The element is pressed down from the bottom until it is flat, widening slightly before it fades away. A heavier version of squashing flat.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["press down and flatten", "compress from bottom", "flatten under weight", "squished from below", "heavy press exit", "flatten and vanish", "stomped flat effect", "bottom-anchored squash"]
+  },
+  {
+    "name": "collapse-left",
+    "phrase": "collapse left",
+    "category": "exit",
+    "concept": "The element's width collapses toward its left edge, like a curtain drawn shut from the right side. Use it for closing a sidebar or panel.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["collapse toward left edge", "sidebar collapse left", "width shrinks to left", "horizontal collapse left", "panel closes leftward", "shrink width to zero", "close sidebar panel", "left-anchored width collapse"]
+  },
+  {
+    "name": "collapse-right",
+    "phrase": "collapse right",
+    "category": "exit",
+    "concept": "The element's width collapses toward its right edge, like a panel sliding shut from the left side. Use it for closing a right-hand drawer.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["collapse toward right edge", "width shrinks to right", "horizontal collapse right", "right-anchored width collapse", "close right drawer", "panel closes rightward", "shrink width to zero right", "sidebar collapse right"]
+  },
+  {
+    "name": "collapse-horizontal-fade",
+    "phrase": "collapse and fade horizontally",
+    "category": "exit",
+    "concept": "The element shrinks to zero width from its center while it fades out. A softer, symmetric version of a horizontal collapse.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["collapse width from center", "horizontal shrink and fade", "symmetric width collapse", "centered horizontal close", "fade while narrowing", "shrink width evenly", "soft horizontal exit", "close column centered"]
+  },
+  {
+    "name": "pinch-shut",
+    "phrase": "pinch shut",
+    "category": "exit",
+    "concept": "The element pinches inward from both sides while bulging slightly taller, then it vanishes. Like fabric pinched closed in the middle.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["pinch closed", "squeeze shut from sides", "fabric pinch close", "narrow and bulge", "gathered close effect", "pinch to nothing", "cinch shut animation", "squeeze narrow then fade"]
+  },
+  {
+    "name": "curtain-close",
+    "phrase": "curtain close",
+    "category": "exit",
+    "concept": "The element narrows in slowing stages toward one edge, like a curtain drawn shut. Good for a wide banner or a modal backdrop panel.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["curtain drawn shut", "narrow in stages", "banner draws closed", "slow curtain close", "decelerating width close", "stage-close width panel", "curtain sweep shut", "draw panel closed"]
+  },
+  {
+    "name": "deflate",
+    "phrase": "deflate",
+    "category": "exit",
+    "concept": "The element shrinks unevenly on each axis in turn, like a balloon losing air a little at a time. A soft, organic shrink rather than a uniform scale.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["balloon deflate", "uneven shrink", "lose air slowly", "organic shrink exit", "shrink unevenly", "air leaking out", "soft deflate animation", "not a uniform scale down"]
+  },
+  {
+    "name": "deflate-wobble",
+    "phrase": "deflate with a wobble",
+    "category": "exit",
+    "concept": "The element shrinks while it wobbles side to side, as if it is losing air unevenly and tipping over. A livelier version of a deflate.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["deflate and wobble", "shrink with a wobble", "tip over while shrinking", "wobbly balloon deflate", "lose air and rock", "unstable shrink exit", "side to side deflate", "wobbling collapse effect"]
+  },
+  {
+    "name": "deflate-sideways",
+    "phrase": "deflate sideways",
+    "category": "exit",
+    "concept": "The element leans to one side as it shrinks, like a punctured object sagging while it collapses. It combines a skew with an uneven scale.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["lean while deflating", "sag to one side", "skewed deflate", "punctured and sagging", "tilted shrink exit", "collapse and lean", "deflate with a lean", "sideways sag effect"]
+  },
+  {
+    "name": "punctured",
+    "phrase": "punctured",
+    "category": "exit",
+    "concept": "The element dips suddenly in size first, then it trails off into a slow final shrink. Like something punctured that loses air fast, then slowly.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["sudden dip then shrink", "punctured balloon effect", "quick pop then fade", "fast dip slow finish", "puncture and deflate", "sudden then gradual shrink", "burst then settle", "two-speed deflate"]
+  },
+  {
+    "name": "air-let-out",
+    "phrase": "air let out",
+    "category": "exit",
+    "concept": "The element flattens vertically while it widens slightly, like a balloon slowly losing air and settling flat on a surface.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["let the air out", "flatten and widen", "settle flat slowly", "slow balloon deflate", "widen while flattening", "air escapes slowly", "gradual flatten exit", "deflate onto surface"]
+  },
+  {
+    "name": "sag-deflate",
+    "phrase": "sag and deflate",
+    "category": "exit",
+    "concept": "The element sags downward while it shrinks, like fabric losing its shape and drooping as it collapses.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["sag while shrinking", "droop and deflate", "fabric losing shape", "sink and shrink", "sagging collapse", "droopy deflate exit", "collapse downward slowly", "shape gives way"]
+  },
+  {
+    "name": "wither",
+    "phrase": "wither",
+    "category": "exit",
+    "concept": "The element fades out while it droops downward and tilts slightly, like a flower wilting on its stem.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["wilt and fade", "droop like a flower", "wither away", "fade with a droop", "tilt and fade out", "flower wilting effect", "sink and fade", "fading droop exit"]
+  },
+  {
+    "name": "droop-fade",
+    "phrase": "droop fade",
+    "category": "exit",
+    "concept": "The element sinks downward and shortens as it fades, with no rotation. A heavier, straighter droop than a wither.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["sink and shrink fade", "heavy droop exit", "straight downward droop", "shorten and fade", "sag without tilt", "vertical droop fade", "sink then vanish", "weighty fade down"]
+  },
+  {
+    "name": "wilt",
+    "phrase": "wilt",
+    "category": "exit",
+    "concept": "The element tilts and shrinks around its base corner while it fades, like a stem bending as it wilts.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["stem bending wilt", "tilt from the base", "corner-anchored wilt", "bend and fade", "wilting stem effect", "shrink around a corner", "droop from base corner", "fade while bending"]
+  },
+  {
+    "name": "slump",
+    "phrase": "slump",
+    "category": "exit",
+    "concept": "The element settles downward and widens slightly before it fades, like posture slumping under its own weight.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["slump down", "settle under weight", "posture slumping effect", "widen and sink", "sag under weight", "settle then fade", "tired slump exit", "sink and widen"]
+  },
+  {
+    "name": "fade-and-droop",
+    "phrase": "fade and droop",
+    "category": "exit",
+    "concept": "The element fades out first, with only a small downward drift near the end. The fade leads, and the droop is a quiet finishing touch.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["fade leads the droop", "mostly a fade out", "small downward drift", "subtle droop at the end", "gentle fade with drift", "quiet finishing droop", "light droop after fade", "soft fade with a dip"]
+  },
+  {
+    "name": "tired-fade",
+    "phrase": "tired fade",
+    "category": "exit",
+    "concept": "The element rotates and sinks to one side while it fades, as if it is running out of energy.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["running out of energy", "tired sinking fade", "rotate and sink out", "energy fading effect", "lean and fade slowly", "worn out exit", "sleepy droop fade", "sink to one side"]
+  },
+  {
+    "name": "crumble",
+    "phrase": "crumble",
+    "category": "exit",
+    "concept": "The element's opacity and size drop in distinct stages instead of smoothly, like it is crumbling apart piece by piece.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["crumble apart", "fade in stages", "piece by piece exit", "staged opacity drop", "break apart slowly", "stepped crumble fade", "crumbling structure effect", "fall apart in stages"]
+  },
+  {
+    "name": "crumble-shrink",
+    "phrase": "crumble and shrink",
+    "category": "exit",
+    "concept": "The element shrinks and fades in three abrupt jumps rather than smoothly, like a structure giving way stage by stage.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["abrupt shrink jumps", "three-stage crumble", "structure giving way", "jumpy shrink fade", "collapse in jumps", "staged structural collapse", "sudden shrink stages", "give way in steps"]
+  },
+  {
+    "name": "disintegrate-steps",
+    "phrase": "disintegrate in steps",
+    "category": "exit",
+    "concept": "The element fades and shrinks along a stepped timing curve, so the motion happens in visible discrete jumps, like frame-by-frame disintegration.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["disintegrate frame by frame", "stepped timing exit", "discrete jump fade", "choppy disintegration", "frame by frame vanish", "jittery step exit", "digital disintegrate effect", "stepped shrink and fade"]
+  },
+  {
+    "name": "flicker-fade",
+    "phrase": "flicker fade",
+    "category": "exit",
+    "concept": "The element's opacity flickers unevenly before it settles to fully gone, like a dying light before it shrinks away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flicker before fading", "dying light effect", "uneven opacity flicker", "flicker then vanish", "unstable fade out", "light flickering exit", "flicker and shrink", "glitchy fade effect"]
+  },
+  {
+    "name": "stutter-fade",
+    "phrase": "stutter fade",
+    "category": "exit",
+    "concept": "The element's scale stutters slightly back and forth as its opacity drops, like a signal losing sync before it disappears.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["stutter before vanishing", "signal losing sync", "scale stutter fade", "glitchy stutter exit", "jittery scale fade", "unstable signal effect", "stutter and shrink", "small scale jitter fade"]
+  },
+  {
+    "name": "fragment-fade",
+    "phrase": "fragment fade",
+    "category": "exit",
+    "concept": "The element rocks side to side in small rotations while it shrinks and fades, like it is breaking into fragments.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["rock and fragment", "breaking apart rotation", "small rotation shrink", "fragmenting exit effect", "rock side to side fade", "shatter-like rotation", "fragment and vanish", "unstable rotation fade"]
+  },
+  {
+    "name": "crumble-fall",
+    "phrase": "crumble and fall",
+    "category": "exit",
+    "concept": "The element sinks downward in stages while it shrinks and fades, like debris crumbling and falling away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["debris falling away", "sink in stages", "crumble downward", "staged fall and fade", "falling debris effect", "collapse and drop", "crumbling descent exit", "fall apart downward"]
+  },
+  {
+    "name": "dissolve",
+    "phrase": "dissolve",
+    "category": "exit",
+    "concept": "The element softly blurs while it fades out, like it is dissolving into the background.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["soft blur fade", "dissolve into background", "blur and fade out", "gentle dissolve exit", "melt away softly", "blur to nothing", "fade with blur", "vanish into blur"]
+  },
+  {
+    "name": "dissolve-soft",
+    "phrase": "soft dissolve",
+    "category": "exit",
+    "concept": "The element dissolves slowly with a light blur and a barely noticeable shrink. A gentler, slower dissolve for calmer moments.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["gentle slow dissolve", "light blur fade", "barely noticeable shrink", "calm dissolve exit", "soft slow blur fade", "subtle dissolve effect", "quiet fade with blur", "slow gentle vanish"]
+  },
+  {
+    "name": "blur-fade",
+    "phrase": "blur then fade",
+    "category": "exit",
+    "concept": "The element blurs sharply first, then it fades, so its shape turns soft before it disappears.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["blur leads the fade", "sharp blur first", "soft shape before fade", "blur then disappear", "defocus before fading", "strong blur exit", "shape softens first", "blur-first dissolve"]
+  },
+  {
+    "name": "mist-fade",
+    "phrase": "mist fade",
+    "category": "exit",
+    "concept": "The element expands slightly while it blurs and fades, like it is turning into mist that spreads and thins.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["turn into mist", "spread and thin out", "expand while blurring", "misty fade exit", "spreading blur fade", "thin out like mist", "expand and dissolve", "mist spreading effect"]
+  },
+  {
+    "name": "haze-out",
+    "phrase": "haze out",
+    "category": "exit",
+    "concept": "The element brightens and blurs as it fades, like heat haze washing the shape out.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["heat haze effect", "brighten and blur", "wash out shape", "haze fade exit", "bright blur dissolve", "shimmer haze out", "wash away in light", "bright fading blur"]
+  },
+  {
+    "name": "fog-dissolve",
+    "phrase": "fog dissolve",
+    "category": "exit",
+    "concept": "The element spreads wider and drifts down slightly while it blurs away, like fog settling and dispersing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["fog settling effect", "spread and drift down", "dispersing fog fade", "widen while blurring", "fog dispersing exit", "drift down and blur", "settle like fog", "spreading fog dissolve"]
+  },
+  {
+    "name": "soft-focus-out",
+    "phrase": "soft focus out",
+    "category": "exit",
+    "concept": "The element pulls back out of focus while it shrinks slightly, like a camera losing focus on the subject.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["camera loses focus", "pull out of focus", "defocus and shrink", "soft focus exit", "out of focus fade", "camera blur effect", "focus pulled away", "shrink out of focus"]
+  },
+  {
+    "name": "fold-away",
+    "phrase": "fold away",
+    "category": "exit",
+    "concept": "The element collapses vertically while it skews, like a hinged panel folding flat and away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["fold like a hinge", "collapse with a skew", "hinged panel fold", "skewed vertical fold", "fold flat away", "panel hinges shut", "skew and collapse", "fold and vanish"]
+  },
+  {
+    "name": "fold-up",
+    "phrase": "fold up",
+    "category": "exit",
+    "concept": "The element folds upward from its base with a skew, like a flap closing from below.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flap folds upward", "fold from the base", "upward hinge fold", "skewed fold from below", "close like a flap", "base-anchored fold", "fold shut from bottom", "hinge closes upward"]
+  },
+  {
+    "name": "fold-down",
+    "phrase": "fold down",
+    "category": "exit",
+    "concept": "The element folds downward in two stages, skewing further as it closes, like a lid folding shut.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["lid folding shut", "two-stage fold down", "increasing skew fold", "fold shut like a lid", "downward hinge close", "staged skewed fold", "close in two folds", "lid closes downward"]
+  },
+  {
+    "name": "paper-fold",
+    "phrase": "paper fold",
+    "category": "exit",
+    "concept": "The element narrows in two folds with alternating skew, like a sheet of paper being folded flat.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["paper folding flat", "alternating skew fold", "two-fold narrow exit", "sheet of paper fold", "fold flat like paper", "narrow in two stages", "origami-like fold", "paper crease narrow"]
+  },
+  {
+    "name": "fold-flat",
+    "phrase": "fold flat",
+    "category": "exit",
+    "concept": "The element flattens almost completely before it fades at the very last moment, like paper pressed flat.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["press paper flat", "flatten before fading", "almost flat then fade", "last moment fade", "pressed flat exit", "flatten fully first", "delayed fade flatten", "flat then gone"]
+  },
+  {
+    "name": "crease-fold",
+    "phrase": "crease fold",
+    "category": "exit",
+    "concept": "The element creases sharply at first, then it slowly finishes closing, like a fold pressed into shape.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["sharp crease first", "slow finish fold", "press a crease in", "fold pressed into shape", "quick crease slow close", "crisp fold exit", "crease then settle", "fold with a sharp start"]
+  },
+  {
+    "name": "evaporate",
+    "phrase": "evaporate",
+    "category": "exit",
+    "concept": "The element grows slightly and rises while it fades, like it is evaporating into the air.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["evaporate into air", "rise and thin out", "grow slightly and fade", "float up and vanish", "evaporating exit effect", "rise while fading", "thin into the air", "disappear upward"]
+  },
+  {
+    "name": "evaporate-rise",
+    "phrase": "evaporate and rise",
+    "category": "exit",
+    "concept": "The element rises steadily and expands while it thins out. A stronger, more visible version of evaporating.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["strong upward evaporate", "rise steadily and expand", "expand while rising", "stronger evaporate exit", "steady rise and thin", "expanding upward fade", "rise and expand away", "bigger evaporate effect"]
+  },
+  {
+    "name": "steam-off",
+    "phrase": "steam off",
+    "category": "exit",
+    "concept": "The element rises, expands, and blurs as it fades, like steam drifting up and dispersing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["steam drifting away", "rise expand and blur", "dispersing steam effect", "blur while rising", "steam off into air", "vapor drifting upward", "expand blur and rise", "steam dispersing exit"]
+  },
+  {
+    "name": "rise-and-fade",
+    "phrase": "rise and fade",
+    "category": "exit",
+    "concept": "The element drifts upward while it fades, with only a small increase in size. A simple, calm upward exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["drift upward and fade", "simple rising fade", "calm upward exit", "gentle rise and fade", "small size increase", "float up gently", "subtle rising exit", "quiet upward fade"]
+  },
+  {
+    "name": "puff-away",
+    "phrase": "puff away",
+    "category": "exit",
+    "concept": "The element puffs outward quickly, then it rises and fades, like a small puff of smoke dispersing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["puff of smoke effect", "quick outward puff", "rise after puffing", "smoke dispersing exit", "puff then float away", "sudden puff and rise", "smoke puff fade", "expand quickly then rise"]
+  },
+  {
+    "name": "vanish-upward",
+    "phrase": "vanish upward",
+    "category": "exit",
+    "concept": "The element rises with a slight rotation while it thins out, like it is vanishing upward into nothing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["vanish into nothing", "rise with a rotation", "twist while rising", "thin out upward", "rotate and float away", "disappear upward slowly", "rising twist fade", "fade away into the sky"]
+  }
+]

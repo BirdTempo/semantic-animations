@@ -1,0 +1,909 @@
+[
+  {
+    "name": "hard-blink",
+    "phrase": "hard blink",
+    "category": "attention",
+    "concept": "Opacity snaps instantly between fully visible and fully hidden, with no fade in between. Use it for a strict binary indicator, like a state that is simply on or off.",
+    "keywords": [
+      "hard blink",
+      "binary blink",
+      "snap blink",
+      "on off toggle",
+      "instant blink",
+      "square wave blink",
+      "digital blink",
+      "toggle indicator",
+      "crisp blink",
+      "strict on off",
+      "no fade blink"
+    ]
+  },
+  {
+    "name": "strict-strobe",
+    "phrase": "strict strobe",
+    "category": "attention",
+    "concept": "Opacity snaps between fully visible and nearly invisible, holding each state before the next hard cut. Use it where the element must stay faintly present instead of vanishing completely.",
+    "keywords": [
+      "strict strobe",
+      "near invisible blink",
+      "abrupt toggle",
+      "snap flicker",
+      "hold and snap",
+      "stepped blink",
+      "binary flicker",
+      "crisp toggle",
+      "sharp on off",
+      "square strobe"
+    ]
+  },
+  {
+    "name": "bare-blink",
+    "phrase": "bare blink",
+    "category": "attention",
+    "concept": "Opacity cuts sharply between full strength and a dimmed half state, never fading through the middle. Use it for a mild version of a hard blink that still reads as interrupted.",
+    "keywords": [
+      "bare blink",
+      "half strength blink",
+      "dim toggle",
+      "hard half blink",
+      "mild strobe",
+      "interrupted signal",
+      "snap dim",
+      "toggle half opacity",
+      "choppy blink",
+      "sharp half fade"
+    ]
+  },
+  {
+    "name": "crisp-toggle",
+    "phrase": "crisp toggle",
+    "category": "attention",
+    "concept": "Opacity snaps on and off twice as often as a normal blink, with each cut equally sharp. Use it for a fast, rigid toggle that reads as mechanical rather than organic.",
+    "keywords": [
+      "crisp toggle",
+      "fast square blink",
+      "double rate blink",
+      "mechanical toggle",
+      "rigid blink",
+      "rapid square wave",
+      "toggle twice",
+      "sharp double cut",
+      "stiff blink",
+      "precise toggle"
+    ]
+  },
+  {
+    "name": "instant-flicker",
+    "phrase": "instant flicker",
+    "category": "attention",
+    "concept": "Opacity drops to zero for a brief instant, then snaps straight back, all within a short cycle. Use it for a very fast, clean toggle that feels almost too quick to track.",
+    "keywords": [
+      "instant flicker",
+      "fast snap",
+      "quick cut blink",
+      "brief blackout",
+      "micro toggle",
+      "flash cut",
+      "very fast blink",
+      "short square wave",
+      "sharp micro blink",
+      "tiny strobe"
+    ]
+  },
+  {
+    "name": "square-blink",
+    "phrase": "square blink",
+    "category": "attention",
+    "concept": "Opacity holds fully visible for most of the cycle, then cuts sharply to a low floor for a short stretch. Use it for a steady presence with a brief, unmistakable interruption.",
+    "keywords": [
+      "square blink",
+      "short dip toggle",
+      "brief cutoff",
+      "mostly on blink",
+      "interrupted presence",
+      "low floor toggle",
+      "square wave dip",
+      "short dark stretch",
+      "steady with cut",
+      "asymmetric toggle"
+    ]
+  },
+  {
+    "name": "shutter-blink",
+    "phrase": "shutter blink",
+    "category": "attention",
+    "concept": "Opacity stays fully visible and drops out for only an instant, like a camera shutter closing once per cycle. Use it for a subtle, mostly steady element with one sharp beat.",
+    "keywords": [
+      "shutter blink",
+      "camera shutter",
+      "brief blackout beat",
+      "instant dip",
+      "single sharp beat",
+      "mostly visible blink",
+      "shutter click",
+      "quick eye blink",
+      "momentary cutoff",
+      "one beat flicker"
+    ]
+  },
+  {
+    "name": "failing-bulb",
+    "phrase": "failing bulb",
+    "category": "attention",
+    "concept": "Opacity dips at uneven points and depths, mimicking a fluorescent tube about to die. Use it to suggest a faulty or aging light source rather than a deliberate signal.",
+    "keywords": [
+      "failing bulb",
+      "dying light",
+      "faulty fluorescent",
+      "light about to die",
+      "uneven flicker",
+      "irregular dimming",
+      "old bulb flicker",
+      "erratic light",
+      "struggling lamp",
+      "flickering tube"
+    ]
+  },
+  {
+    "name": "dying-fluorescent",
+    "phrase": "dying fluorescent",
+    "category": "attention",
+    "concept": "Opacity stutters through long steady stretches broken by sudden uneven drops, like a fluorescent tube losing its charge. Use it for a slower, more drawn-out failing light effect.",
+    "keywords": [
+      "dying fluorescent",
+      "tube light flicker",
+      "failing ballast",
+      "stuttering light",
+      "slow light failure",
+      "uneven long flicker",
+      "aging tube",
+      "erratic fluorescent",
+      "struggling fixture",
+      "flicker and hold"
+    ]
+  },
+  {
+    "name": "loose-connection",
+    "phrase": "loose connection",
+    "category": "attention",
+    "concept": "Opacity holds steady, then drops to near black for a sudden brief instant at unpredictable points. Use it to suggest a bad electrical contact rather than a constant flicker.",
+    "keywords": [
+      "loose connection",
+      "bad contact",
+      "sudden dropout",
+      "intermittent fault",
+      "electrical fault flicker",
+      "random blackout",
+      "brief signal loss",
+      "unreliable connection",
+      "spotty flicker",
+      "sudden gap"
+    ]
+  },
+  {
+    "name": "static-flicker",
+    "phrase": "static flicker",
+    "category": "attention",
+    "concept": "Opacity jitters in small rapid steps throughout the cycle, like visual noise or static interference. Use it for a nervous, unstable presence rather than a slow failing light.",
+    "keywords": [
+      "static flicker",
+      "noise jitter",
+      "visual static",
+      "unstable flicker",
+      "nervous flicker",
+      "interference blink",
+      "signal noise",
+      "jittery opacity",
+      "rapid small jitter",
+      "electrical noise"
+    ]
+  },
+  {
+    "name": "faulty-wire",
+    "phrase": "faulty wire",
+    "category": "attention",
+    "concept": "Opacity mostly stays near full, but drops all the way to zero for one unpredictable stretch per cycle. Use it for a rare, jarring total dropout amid otherwise normal visibility.",
+    "keywords": [
+      "faulty wire",
+      "total dropout",
+      "rare blackout",
+      "wiring fault",
+      "occasional zero opacity",
+      "jarring cutoff",
+      "unpredictable outage",
+      "brief total loss",
+      "broken circuit flicker",
+      "sudden gap in signal"
+    ]
+  },
+  {
+    "name": "candle-flicker",
+    "phrase": "candle flicker",
+    "category": "attention",
+    "concept": "Opacity and scale waver gently and unevenly around a high resting point, like a flame reacting to soft air currents. Use it for a warm, living flicker rather than a cold electrical fault.",
+    "keywords": [
+      "candle flicker",
+      "flame flicker",
+      "warm flicker",
+      "living flicker",
+      "soft flame wobble",
+      "wavering light",
+      "unsteady candle",
+      "gentle flame motion",
+      "organic flicker",
+      "warm glow flicker"
+    ]
+  },
+  {
+    "name": "old-tv-flicker",
+    "phrase": "old tv flicker",
+    "category": "attention",
+    "concept": "Opacity twitches in fast, small, uneven increments throughout the cycle, like a television losing signal. Use it for a dated, glitchy screen effect.",
+    "keywords": [
+      "old tv flicker",
+      "screen flicker",
+      "signal loss flicker",
+      "television static",
+      "retro screen glitch",
+      "fast small jitter",
+      "broken screen flicker",
+      "weak signal blink",
+      "crt flicker",
+      "antenna flicker"
+    ]
+  },
+  {
+    "name": "glitch-flicker",
+    "phrase": "glitch flicker",
+    "category": "attention",
+    "concept": "Opacity jumps abruptly between full and zero at irregular points, with no smooth transition, like a digital signal error. Use it for a broken, glitchy attention cue.",
+    "keywords": [
+      "glitch flicker",
+      "digital glitch",
+      "signal error blink",
+      "broken blink",
+      "corrupted flicker",
+      "erratic on off",
+      "glitch blink",
+      "malfunction flicker",
+      "data error blink",
+      "stutter glitch"
+    ]
+  },
+  {
+    "name": "haunted-flicker",
+    "phrase": "haunted flicker",
+    "category": "attention",
+    "concept": "Opacity holds steady for a long stretch, then suddenly dips hard and unevenly before settling again. Use it for an eerie, unpredictable presence rather than a rhythmic blink.",
+    "keywords": [
+      "haunted flicker",
+      "eerie flicker",
+      "spooky blink",
+      "unpredictable dip",
+      "long hold flicker",
+      "creepy light",
+      "suspenseful flicker",
+      "sudden eerie dip",
+      "ghost light flicker",
+      "ominous flicker"
+    ]
+  },
+  {
+    "name": "gentle-fade-flicker",
+    "phrase": "gentle fade flicker",
+    "category": "attention",
+    "concept": "Opacity eases slowly and smoothly between full strength and a slightly dimmed state. Use it for a calm, barely noticeable flicker that will not distract from nearby content.",
+    "keywords": [
+      "gentle fade flicker",
+      "barely there flicker",
+      "calm dim",
+      "slow soft flicker",
+      "subtle opacity dip",
+      "quiet dimming",
+      "mild flicker",
+      "smooth slow dip",
+      "understated flicker",
+      "soft breathing dim"
+    ]
+  },
+  {
+    "name": "soft-dim-flicker",
+    "phrase": "soft dim flicker",
+    "category": "attention",
+    "concept": "Opacity eases slowly toward a noticeably dimmer floor before rising back to full. Use it for a slightly deeper gentle flicker than a barely there variant, while staying smooth.",
+    "keywords": [
+      "soft dim flicker",
+      "slow deep dim",
+      "smooth low flicker",
+      "gentle dimming cycle",
+      "gradual dim",
+      "slow opacity dip",
+      "calm dim wave",
+      "subdued flicker",
+      "soft dimming pulse",
+      "slow deep fade"
+    ]
+  },
+  {
+    "name": "faint-flicker",
+    "phrase": "faint flicker",
+    "category": "attention",
+    "concept": "Opacity dips twice per cycle by slightly different amounts, both times gently and smoothly. Use it for a soft flicker with a little more texture than a single smooth dip.",
+    "keywords": [
+      "faint flicker",
+      "light double dip",
+      "soft twin dim",
+      "gentle two step flicker",
+      "mild texture flicker",
+      "subtle uneven soft dip",
+      "calm double dim",
+      "faint pulse wave",
+      "light flicker texture",
+      "smooth twin dip"
+    ]
+  },
+  {
+    "name": "subtle-dim-pulse",
+    "phrase": "subtle dim pulse",
+    "category": "attention",
+    "concept": "Opacity eases very slowly toward a deep dim and back, over a long, calm cycle. Use it for the slowest and deepest of the gentle fade flickers, for a quietly dramatic effect.",
+    "keywords": [
+      "subtle dim pulse",
+      "slow deep dim pulse",
+      "very slow flicker",
+      "long calm dim",
+      "deep gentle dip",
+      "patient dim cycle",
+      "slow dramatic dim",
+      "extended dim pulse",
+      "long soft cycle",
+      "deep quiet flicker"
+    ]
+  },
+  {
+    "name": "whisper-flicker",
+    "phrase": "whisper flicker",
+    "category": "attention",
+    "concept": "Opacity dips quickly to a soft floor, then rises back slowly and smoothly, giving an asymmetric, breath like rhythm. Use it for a gentle flicker with a distinct inhale exhale feel.",
+    "keywords": [
+      "whisper flicker",
+      "breath like flicker",
+      "quick dip slow rise",
+      "asymmetric soft flicker",
+      "inhale exhale dim",
+      "gentle uneven pace",
+      "soft breathing flicker",
+      "light asymmetric fade",
+      "hushed flicker",
+      "quiet uneven dim"
+    ]
+  },
+  {
+    "name": "low-flicker",
+    "phrase": "low flicker",
+    "category": "attention",
+    "concept": "Opacity eases smoothly and quickly to a mild dim, then holds briefly before recovering. Use it for a short, gentle flicker on the faster end of the slow fade family.",
+    "keywords": [
+      "low flicker",
+      "quick gentle dim",
+      "short soft flicker",
+      "mild fast dim",
+      "brief calm dip",
+      "smooth quick flicker",
+      "light dim hold",
+      "short gentle wave",
+      "subdued quick dip",
+      "calm brief flicker"
+    ]
+  },
+  {
+    "name": "urgent-strobe",
+    "phrase": "urgent strobe",
+    "category": "attention",
+    "concept": "Opacity snaps between full and off very quickly and steadily, reading as an urgent alert. Use it when attention is needed right away, such as a critical warning.",
+    "keywords": [
+      "urgent strobe",
+      "rapid alert blink",
+      "fast warning strobe",
+      "quick alarm flicker",
+      "high frequency blink",
+      "critical alert flicker",
+      "urgent attention blink",
+      "fast flashing alert",
+      "emergency style blink",
+      "quick strobe alarm"
+    ]
+  },
+  {
+    "name": "rapid-strobe",
+    "phrase": "rapid strobe",
+    "category": "attention",
+    "concept": "Opacity switches between full and off at the fastest pace in the strobe family, almost too quick to follow. Use it sparingly, for the most urgent possible cue.",
+    "keywords": [
+      "rapid strobe",
+      "fastest blink",
+      "extreme strobe",
+      "very high frequency flicker",
+      "maximum urgency blink",
+      "blazing fast flicker",
+      "intense strobe",
+      "near flicker fusion",
+      "critical fast blink",
+      "top speed strobe"
+    ]
+  },
+  {
+    "name": "panic-strobe",
+    "phrase": "panic strobe",
+    "category": "attention",
+    "concept": "Opacity flashes quickly on, then stays off for a longer stretch of each short cycle. Use it for an urgent strobe with a jittery, uneven duty cycle that feels more frantic.",
+    "keywords": [
+      "panic strobe",
+      "frantic blink",
+      "short on long off",
+      "uneven urgent blink",
+      "jittery fast strobe",
+      "nervous strobe pace",
+      "anxious flicker",
+      "frantic alert blink",
+      "quick flash long gap",
+      "panicked strobe"
+    ]
+  },
+  {
+    "name": "emergency-strobe",
+    "phrase": "emergency strobe",
+    "category": "attention",
+    "concept": "Opacity strobes rapidly between full and a low but visible floor, never fully vanishing. Use it for an urgent cue that must still remain legible, like emergency lighting.",
+    "keywords": [
+      "emergency strobe",
+      "urgent visible blink",
+      "fast never fully off",
+      "emergency lighting flicker",
+      "rapid legible blink",
+      "urgent low floor strobe",
+      "fast alert never off",
+      "emergency flash pattern",
+      "visible urgent blink",
+      "bright fast strobe"
+    ]
+  },
+  {
+    "name": "alarm-strobe",
+    "phrase": "alarm strobe",
+    "category": "attention",
+    "concept": "Opacity fires two rapid flashes within each short cycle before repeating, like a warning light double pulsing. Use it for an urgent strobe with a distinct double flash texture.",
+    "keywords": [
+      "alarm strobe",
+      "double flash strobe",
+      "rapid twin flash",
+      "warning double pulse",
+      "fast paired flash",
+      "urgent double blink fast",
+      "alarm light pattern",
+      "two quick flashes fast",
+      "siren style strobe",
+      "double pulse alert"
+    ]
+  },
+  {
+    "name": "warning-strobe",
+    "phrase": "warning strobe",
+    "category": "attention",
+    "concept": "Opacity strobes quickly between full and a faint glow, at a slightly gentler pace than the fastest strobes. Use it for an urgent but marginally less intense warning cue.",
+    "keywords": [
+      "warning strobe",
+      "moderate fast blink",
+      "slightly gentler strobe",
+      "urgent faint floor blink",
+      "warning light pace",
+      "fast but readable strobe",
+      "cautionary flicker",
+      "alert with faint floor",
+      "toned down strobe",
+      "warning flash pace"
+    ]
+  },
+  {
+    "name": "double-blink",
+    "phrase": "double blink",
+    "category": "attention",
+    "concept": "Opacity flashes off twice in quick succession, then holds steady for a longer pause before repeating. Use it for a notification cue that reads as two short taps.",
+    "keywords": [
+      "double blink",
+      "two flashes then pause",
+      "notification double blink",
+      "blink twice pause",
+      "paired blink pattern",
+      "two tap blink",
+      "short double flash",
+      "blink blink rest",
+      "double pulse notification",
+      "two quick blinks"
+    ]
+  },
+  {
+    "name": "text-notification-blink",
+    "phrase": "text notification blink",
+    "category": "attention",
+    "concept": "Opacity fades down and back up twice in quick succession with soft edges, then rests before repeating. Use it for a gentler double blink suited to message notifications.",
+    "keywords": [
+      "text notification blink",
+      "message blink pattern",
+      "soft double blink",
+      "gentle notification flicker",
+      "chat alert blink",
+      "two soft dips",
+      "message received blink",
+      "soft paired dim",
+      "notification double dip",
+      "incoming message flicker"
+    ]
+  },
+  {
+    "name": "two-tap-flicker",
+    "phrase": "two tap flicker",
+    "category": "attention",
+    "concept": "Opacity dips to a visible floor twice in a row, never fully vanishing, then pauses at full strength. Use it for a double blink that stays legible throughout.",
+    "keywords": [
+      "two tap flicker",
+      "double dip never off",
+      "visible double blink",
+      "paired soft dip",
+      "two taps then rest",
+      "legible double flicker",
+      "gentle two beat blink",
+      "dual dip pattern",
+      "soft double tap",
+      "two pulse then pause"
+    ]
+  },
+  {
+    "name": "paired-flash",
+    "phrase": "paired flash",
+    "category": "attention",
+    "concept": "Opacity flashes off twice with a clear gap between the two flashes, then rests for a longer stretch. Use it when the two beats of a double blink should feel distinctly separate.",
+    "keywords": [
+      "paired flash",
+      "separated double blink",
+      "spaced double flash",
+      "two distinct flashes",
+      "gapped blink pair",
+      "clear double beat",
+      "spaced out blink pair",
+      "distinct paired flicker",
+      "separated flash pair",
+      "two clear blinks"
+    ]
+  },
+  {
+    "name": "heartbeat-blink",
+    "phrase": "heartbeat blink",
+    "category": "attention",
+    "concept": "Opacity dips twice quickly, the second dip a little deeper than the first, then rests, echoing a heartbeat's lub dub. Use it for a lively double blink notification.",
+    "keywords": [
+      "heartbeat blink",
+      "lub dub flicker",
+      "pulse like double blink",
+      "two beat heart flicker",
+      "uneven double dip",
+      "heartbeat notification",
+      "living double blink",
+      "two beat pulse pattern",
+      "cardiac style blink",
+      "rhythmic double dip"
+    ]
+  },
+  {
+    "name": "quick-double-flicker",
+    "phrase": "quick double flicker",
+    "category": "attention",
+    "concept": "Opacity fires two very fast, tight blinks back to back, then pauses briefly before repeating. Use it for the quickest and tightest of the double blink patterns.",
+    "keywords": [
+      "quick double flicker",
+      "tight double blink",
+      "fast paired blink",
+      "rapid two beat flicker",
+      "short double pulse",
+      "fast blink pair",
+      "tight paired flash",
+      "quick twin blink",
+      "brisk double dip",
+      "fast double beat"
+    ]
+  },
+  {
+    "name": "blink-blink-pause",
+    "phrase": "blink blink pause",
+    "category": "attention",
+    "concept": "Opacity snaps off twice sharply, then holds fully visible for a long, calm pause before the pattern repeats. Use it when the rest between double blinks should dominate the cycle.",
+    "keywords": [
+      "blink blink pause",
+      "long pause double blink",
+      "mostly resting blink pair",
+      "sharp double snap then rest",
+      "dominant pause pattern",
+      "long rest double flicker",
+      "two snaps long calm",
+      "slow cycle double blink",
+      "calm interval blink pair",
+      "double snap long hold"
+    ]
+  },
+  {
+    "name": "electric-flicker",
+    "phrase": "electric flicker",
+    "category": "attention",
+    "concept": "Opacity dips unevenly while brightness rises slightly at each dip, suggesting a small electrical surge. Use it for a flicker with an extra charged, electric quality.",
+    "keywords": [
+      "electric flicker",
+      "charged flicker",
+      "brightness surge flicker",
+      "electrical surge dip",
+      "sparking flicker",
+      "live current flicker",
+      "electric dip and glow",
+      "surge and dim",
+      "charged dip pattern",
+      "electrified flicker"
+    ]
+  },
+  {
+    "name": "charged-flicker",
+    "phrase": "charged flicker",
+    "category": "attention",
+    "concept": "Opacity and brightness both climb briefly at irregular points before settling back down, like static building up. Use it for a flicker that feels like it is gathering charge.",
+    "keywords": [
+      "charged flicker",
+      "building static flicker",
+      "brightness build up",
+      "static charge dip",
+      "gathering charge flicker",
+      "electric build up",
+      "charged pulse flicker",
+      "static build flicker",
+      "rising charge dip",
+      "brightness climb flicker"
+    ]
+  },
+  {
+    "name": "static-charge",
+    "phrase": "static charge",
+    "category": "attention",
+    "concept": "Brightness leads the motion with a small steady pulse while opacity dips only slightly. Use it when the electrical feel should read mainly through light intensity, not visibility.",
+    "keywords": [
+      "static charge",
+      "brightness led flicker",
+      "subtle brightness pulse",
+      "light intensity flicker",
+      "mild opacity electric",
+      "brightness dominant flicker",
+      "gentle electric glow pulse",
+      "steady brightness dip",
+      "soft static pulse",
+      "mild charged glow"
+    ]
+  },
+  {
+    "name": "power-surge-flicker",
+    "phrase": "power surge flicker",
+    "category": "attention",
+    "concept": "Opacity drops deeply and unevenly at one point in the cycle while brightness spikes right after, like a power surge followed by a dim recovery. Use it for a dramatic electrical fault.",
+    "keywords": [
+      "power surge flicker",
+      "electrical fault dip",
+      "surge then dim",
+      "dramatic electric flicker",
+      "power spike flicker",
+      "deep dip with brightness spike",
+      "fault recovery flicker",
+      "surge and sag",
+      "voltage spike flicker",
+      "electrical drama flicker"
+    ]
+  },
+  {
+    "name": "live-wire-flicker",
+    "phrase": "live wire flicker",
+    "category": "attention",
+    "concept": "Opacity and brightness jitter together in small fast increments, like a live wire sparking continuously. Use it for a fast, nervy electrical texture.",
+    "keywords": [
+      "live wire flicker",
+      "sparking flicker",
+      "fast electric jitter",
+      "nervy flicker",
+      "continuous spark flicker",
+      "jittery electric texture",
+      "fast brightness jitter",
+      "live current jitter",
+      "sparking wire effect",
+      "electric nerve flicker"
+    ]
+  },
+  {
+    "name": "voltage-flicker",
+    "phrase": "voltage flicker",
+    "category": "attention",
+    "concept": "Brightness swells and fades slowly while opacity holds mostly steady with only a mild dip. Use it for a slow, moody electrical shimmer rather than a fast fault.",
+    "keywords": [
+      "voltage flicker",
+      "slow brightness swell",
+      "moody electric shimmer",
+      "gentle voltage wave",
+      "slow electric mood",
+      "brightness sway flicker",
+      "mild electric dip",
+      "slow current wave",
+      "steady voltage pulse",
+      "electric mood shimmer"
+    ]
+  },
+  {
+    "name": "current-flicker",
+    "phrase": "current flicker",
+    "category": "attention",
+    "concept": "Opacity and brightness both flicker in short irregular bursts spread unevenly across the cycle, like current running inconsistently through a wire. Use it for a textured electrical fault.",
+    "keywords": [
+      "current flicker",
+      "inconsistent current flicker",
+      "irregular electric bursts",
+      "uneven current flicker",
+      "textured electric fault",
+      "erratic current flicker",
+      "spotty current flicker",
+      "irregular brightness burst",
+      "uneven electric texture",
+      "current fault flicker"
+    ]
+  },
+  {
+    "name": "dramatic-flash",
+    "phrase": "dramatic flash",
+    "category": "attention",
+    "concept": "Opacity starts dim, then flashes brightly to full just once before settling. Use it for a one-time dramatic reveal, such as confirming a rare event.",
+    "keywords": [
+      "dramatic flash",
+      "one time flash",
+      "single bright flash",
+      "one shot flash reveal",
+      "dramatic reveal flash",
+      "flash once and settle",
+      "rare event flash",
+      "single dramatic pulse",
+      "one flash confirmation",
+      "bright single reveal"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "sudden-flash",
+    "phrase": "sudden flash",
+    "category": "attention",
+    "concept": "Opacity and brightness both spike together once, from a dim resting state to an overexposed peak, before settling back to normal. Use it for a rare, high impact one-time alert.",
+    "keywords": [
+      "sudden flash",
+      "overexposed flash",
+      "one time bright spike",
+      "high impact flash",
+      "dim to bright flash",
+      "single electric flash",
+      "one shot brightness spike",
+      "sudden bright reveal",
+      "rare alert flash",
+      "flash and settle once"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "quiet-pulse",
+    "phrase": "quiet pulse",
+    "category": "attention",
+    "concept": "Opacity eases smoothly between two visible levels, never approaching zero. Use it for a quiet, always present cue that signals gentle ongoing activity.",
+    "keywords": [
+      "quiet pulse",
+      "always visible pulse",
+      "never disappearing pulse",
+      "gentle ongoing pulse",
+      "steady presence pulse",
+      "soft continuous pulse",
+      "two level pulse",
+      "quietly alive pulse",
+      "subtle activity pulse",
+      "calm visible pulse"
+    ]
+  },
+  {
+    "name": "standby-pulse",
+    "phrase": "standby pulse",
+    "category": "attention",
+    "concept": "Opacity eases gently between a near full level and a moderate floor, never dimming too far. Use it for a standby cue that reads as idle but ready.",
+    "keywords": [
+      "standby pulse",
+      "idle but ready pulse",
+      "near full pulse",
+      "moderate floor pulse",
+      "gentle standby cue",
+      "ready state pulse",
+      "soft idle pulse",
+      "standby indicator pulse",
+      "waiting pulse",
+      "light idle glow"
+    ]
+  },
+  {
+    "name": "idle-glimmer",
+    "phrase": "idle glimmer",
+    "category": "attention",
+    "concept": "Opacity eases slowly between two mid range levels, keeping the element present but understated. Use it for a low key idle indicator that avoids drawing too much attention.",
+    "keywords": [
+      "idle glimmer",
+      "mid range pulse",
+      "understated pulse",
+      "low key idle cue",
+      "subtle mid pulse",
+      "quiet glimmer effect",
+      "gentle mid range fade",
+      "muted idle pulse",
+      "soft mid tone pulse",
+      "reserved pulse cue"
+    ]
+  },
+  {
+    "name": "steady-alive-pulse",
+    "phrase": "steady alive pulse",
+    "category": "attention",
+    "concept": "Opacity eases between full strength and a high floor, dipping only a little to stay clearly alive without fading much. Use it for a confident, steady presence cue.",
+    "keywords": [
+      "steady alive pulse",
+      "confident presence pulse",
+      "high floor pulse",
+      "clearly alive cue",
+      "strong steady pulse",
+      "minimal dip pulse",
+      "reassuring pulse",
+      "confident idle cue",
+      "steady visibility pulse",
+      "strong presence flicker"
+    ]
+  },
+  {
+    "name": "resting-pulse",
+    "phrase": "resting pulse",
+    "category": "attention",
+    "concept": "Opacity eases between a moderate level and a dimmer one, resting well below full strength throughout. Use it for a cue that should look calm and low energy, but never fully fade.",
+    "keywords": [
+      "resting pulse",
+      "low energy pulse",
+      "calm dim pulse",
+      "below full strength pulse",
+      "relaxed pulse cue",
+      "moderate to dim pulse",
+      "restful glow pulse",
+      "soft low pulse",
+      "dimmed steady pulse",
+      "calm energy cue"
+    ]
+  },
+  {
+    "name": "low-power-pulse",
+    "phrase": "low power pulse",
+    "category": "attention",
+    "concept": "Opacity eases very slowly between a dim mid level and a lower floor, suggesting reduced energy. Use it for a slow, conservative pulse that reads as running on low power.",
+    "keywords": [
+      "low power pulse",
+      "reduced energy pulse",
+      "conservative pulse",
+      "battery saver pulse",
+      "slow low energy cue",
+      "dim mid level pulse",
+      "power saving flicker",
+      "sluggish pulse cue",
+      "economy mode pulse",
+      "minimal energy pulse"
+    ]
+  }
+]

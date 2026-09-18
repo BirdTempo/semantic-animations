@@ -1,0 +1,402 @@
+[
+  {
+    "name": "corner-in-top-left",
+    "phrase": "slide in from the top-left corner",
+    "category": "entrance",
+    "concept": "The element travels diagonally from beyond the top-left corner into its resting position while fading in. Use it for content anchored to an upper-left origin, like a corner badge or a flag callout.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["enter from the top-left corner", "diagonal entrance from upper left", "corner badge appears", "slide in from the corner", "arrive from the upper-left", "diagonally into place from top left", "top-left flag entrance", "come in from the corner above", "enter from upper-left diagonally"]
+  },
+  {
+    "name": "corner-in-top-right",
+    "phrase": "slide in from the top-right corner",
+    "category": "entrance",
+    "concept": "The element travels diagonally from beyond the top-right corner into its resting position while fading in. Use it for alerts or badges that feel pinned to an upper-right origin.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["enter from the top-right corner", "diagonal entrance from upper right", "corner alert appears", "slide in from the corner", "arrive from the upper-right", "diagonally into place from top right", "top-right badge entrance", "come in from the corner above-right", "enter from upper-right diagonally"]
+  },
+  {
+    "name": "corner-in-bottom-left",
+    "phrase": "slide in from the bottom-left corner",
+    "category": "entrance",
+    "concept": "The element travels diagonally from beyond the bottom-left corner into place while fading in. Suits chat bubbles or widgets that feel rooted to a lower-left origin.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["enter from the bottom-left corner", "diagonal entrance from lower left", "corner widget appears", "slide in from the corner below", "arrive from the lower-left", "diagonally into place from bottom left", "bottom-left chat bubble entrance", "come in from the corner below-left", "enter from lower-left diagonally"]
+  },
+  {
+    "name": "corner-in-bottom-right",
+    "phrase": "slide in from the bottom-right corner",
+    "category": "entrance",
+    "concept": "The element travels diagonally from beyond the bottom-right corner into place while fading in. Fits floating action buttons or toasts anchored to a lower-right origin.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["enter from the bottom-right corner", "diagonal entrance from lower right", "floating button appears", "slide in from the corner below-right", "arrive from the lower-right", "diagonally into place from bottom right", "bottom-right toast entrance", "come in from the corner below", "enter from lower-right diagonally"]
+  },
+  {
+    "name": "dock-in-left",
+    "phrase": "slide in and dock against the left edge",
+    "category": "entrance",
+    "concept": "The element slides in from well past the left edge, overshoots slightly past its resting spot, then settles flush. Reads like a panel docking into a sidebar slot.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dock into the left side", "panel slides in and locks left", "sidebar docking entrance", "slide in from far left and settle", "overshoot then dock left", "enter and lock to the left edge", "panel snaps into the left slot", "slide in and settle against the left"]
+  },
+  {
+    "name": "dock-in-right",
+    "phrase": "slide in and dock against the right edge",
+    "category": "entrance",
+    "concept": "The element slides in from well past the right edge, overshoots slightly past its resting spot, then settles flush. Reads like a panel docking into a right-hand slot.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dock into the right side", "panel slides in and locks right", "sidebar docking entrance", "slide in from far right and settle", "overshoot then dock right", "enter and lock to the right edge", "panel snaps into the right slot", "slide in and settle against the right"]
+  },
+  {
+    "name": "dock-in-top",
+    "phrase": "slide in and dock against the top edge",
+    "category": "entrance",
+    "concept": "The element drops in from above the top edge, overshoots slightly past its resting spot, then settles flush. Reads like a toolbar docking into place.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dock into the top edge", "toolbar slides down and locks", "drop in and settle at the top", "overshoot then dock at the top", "enter and lock to the top edge", "header snaps into place", "slide down from far above and settle", "banner docks against the top"]
+  },
+  {
+    "name": "dock-in-bottom",
+    "phrase": "slide in and dock against the bottom edge",
+    "category": "entrance",
+    "concept": "The element rises in from below the bottom edge, overshoots slightly past its resting spot, then settles flush. Reads like a tray docking into place.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dock into the bottom edge", "tray slides up and locks", "rise in and settle at the bottom", "overshoot then dock at the bottom", "enter and lock to the bottom edge", "footer snaps into place", "slide up from far below and settle", "sheet docks against the bottom"]
+  },
+  {
+    "name": "arc-in-from-left",
+    "phrase": "curve in from the left along a low arc",
+    "category": "entrance",
+    "concept": "The element travels in from the left while dipping down through the middle of its path, then levels out into place. Gives a natural, non-linear feel instead of a straight slide.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["curve in from the left", "arc across from the left side", "swoop in along a curved path from left", "enter from the left with a dip", "non-linear entrance from the left", "travel in on a curved arc from left", "dip and level in from the left", "enter with a gentle curve from the left"]
+  },
+  {
+    "name": "arc-in-from-right",
+    "phrase": "curve in from the right along a low arc",
+    "category": "entrance",
+    "concept": "The element travels in from the right while rising up through the middle of its path, then levels out into place. Gives a natural, non-linear feel instead of a straight slide.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["curve in from the right", "arc across from the right side", "swoop in along a curved path from right", "enter from the right with a rise", "non-linear entrance from the right", "travel in on a curved arc from right", "rise and level in from the right", "enter with a gentle curve from the right"]
+  },
+  {
+    "name": "arc-in-from-top",
+    "phrase": "curve in from above along a wide arc",
+    "category": "entrance",
+    "concept": "The element drops in from above while curving sideways through the middle of its path, then straightens into place. Reads as a softer, more organic drop than a straight fall.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["curve in from above", "arc down from the top", "swoop in along a curved path from above", "enter from the top with a sideways curve", "non-linear entrance from above", "drop in on a curved arc", "curve and straighten in from the top", "enter with a gentle arc from above"]
+  },
+  {
+    "name": "arc-in-from-bottom",
+    "phrase": "curve in from below along a wide arc",
+    "category": "entrance",
+    "concept": "The element rises in from below while curving sideways through the middle of its path, then straightens into place. Reads as a softer, more organic rise than a straight slide.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["curve in from below", "arc up from the bottom", "swoop in along a curved path from below", "enter from the bottom with a sideways curve", "non-linear entrance from below", "rise in on a curved arc", "curve and straighten in from the bottom", "enter with a gentle arc from below"]
+  },
+  {
+    "name": "swoop-in-top-left",
+    "phrase": "swoop in from the top-left with a turning rotation",
+    "category": "entrance",
+    "concept": "The element travels a long diagonal path from the top-left corner while rotating, then unwinds flat as it settles. Suits a dramatic, attention-grabbing arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["swoop in from the top-left", "diagonal entrance with rotation from upper left", "spin in from the corner", "dramatic entrance from top-left", "fly in and unwind from upper left", "rotating diagonal entrance", "turn and settle in from the top-left", "enter with a swooping rotation"]
+  },
+  {
+    "name": "swoop-in-bottom-right",
+    "phrase": "swoop in from the bottom-right with a turning rotation",
+    "category": "entrance",
+    "concept": "The element travels a long diagonal path from the bottom-right corner while rotating, then unwinds flat as it settles. Suits a dramatic, attention-grabbing arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["swoop in from the bottom-right", "diagonal entrance with rotation from lower right", "spin in from the corner", "dramatic entrance from bottom-right", "fly in and unwind from lower right", "rotating diagonal entrance", "turn and settle in from the bottom-right", "enter with a swooping rotation"]
+  },
+  {
+    "name": "spiral-in",
+    "phrase": "spiral inward while growing to full size",
+    "category": "entrance",
+    "concept": "The element rotates and grows from small while curling inward toward its resting spot. A playful, energetic entrance that reads as materializing from a swirl.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["spiral into place", "curl inward while growing", "swirl in and expand", "rotate and grow into view", "materialize with a spin", "twist in from small", "corkscrew growth entrance", "spinning entrance that expands"]
+  },
+  {
+    "name": "corkscrew-in-left",
+    "phrase": "enter from the left twisting back and forth",
+    "category": "entrance",
+    "concept": "The element travels in from the left while rocking through opposite rotations before settling flat. Reads as a springy, twisting arrival rather than a plain slide.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["twist in from the left", "rock side to side while entering from left", "corkscrew entrance from the left", "enter from the left with a wobble twist", "spring in with a rotating wobble", "enter left while rocking", "twisting slide in from the left", "playful twisting entrance from left"]
+  },
+  {
+    "name": "two-phase-in-left",
+    "phrase": "slide in from the left, pause, then finish arriving",
+    "category": "entrance",
+    "concept": "The element moves most of the way in from the left, holds briefly, then completes the final approach. Reads as a two-step reveal instead of one continuous motion.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["enter from the left in two steps", "slide in, pause, then finish from the left", "two-stage entrance from the left", "hesitate then arrive from the left", "pause partway entering from the left", "staggered entrance from the left", "stop-and-go slide from the left", "enter from the left with a mid-pause"]
+  },
+  {
+    "name": "two-phase-in-right",
+    "phrase": "slide in from the right, pause, then finish arriving",
+    "category": "entrance",
+    "concept": "The element moves most of the way in from the right, holds briefly, then completes the final approach. Reads as a two-step reveal instead of one continuous motion.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["enter from the right in two steps", "slide in, pause, then finish from the right", "two-stage entrance from the right", "hesitate then arrive from the right", "pause partway entering from the right", "staggered entrance from the right", "stop-and-go slide from the right", "enter from the right with a mid-pause"]
+  },
+  {
+    "name": "two-phase-in-top",
+    "phrase": "slide in from above, pause, then finish arriving",
+    "category": "entrance",
+    "concept": "The element drops most of the way in from above, holds briefly, then completes the final approach. Reads as a two-step reveal instead of one continuous drop.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["enter from above in two steps", "drop in, pause, then finish from above", "two-stage entrance from the top", "hesitate then arrive from above", "pause partway entering from the top", "staggered entrance from above", "stop-and-go drop from the top", "enter from above with a mid-pause"]
+  },
+  {
+    "name": "two-phase-in-bottom",
+    "phrase": "slide in from below, pause, then finish arriving",
+    "category": "entrance",
+    "concept": "The element rises most of the way in from below, holds briefly, then completes the final approach. Reads as a two-step reveal instead of one continuous rise.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["enter from below in two steps", "rise in, pause, then finish from below", "two-stage entrance from the bottom", "hesitate then arrive from below", "pause partway entering from the bottom", "staggered entrance from below", "stop-and-go rise from the bottom", "enter from below with a mid-pause"]
+  },
+  {
+    "name": "creep-then-dash-left",
+    "phrase": "creep in from the left then dash the last stretch",
+    "category": "entrance",
+    "concept": "The element barely moves at first from the left, then covers most of the distance in a quick final dash. Use for a reveal that feels reluctant, then sudden.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["creep then dash in from the left", "slow start then fast finish from the left", "hesitant entrance that speeds up from left", "crawl then snap into place from the left", "reluctant then sudden entrance from left", "slow-to-fast slide from the left", "barely move then rush in from the left", "gradual then abrupt entrance from left"]
+  },
+  {
+    "name": "creep-then-dash-right",
+    "phrase": "creep in from the right then dash the last stretch",
+    "category": "entrance",
+    "concept": "The element barely moves at first from the right, then covers most of the distance in a quick final dash. Use for a reveal that feels reluctant, then sudden.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["creep then dash in from the right", "slow start then fast finish from the right", "hesitant entrance that speeds up from right", "crawl then snap into place from the right", "reluctant then sudden entrance from right", "slow-to-fast slide from the right", "barely move then rush in from the right", "gradual then abrupt entrance from right"]
+  },
+  {
+    "name": "dash-then-settle-top",
+    "phrase": "dash in from above then settle gently",
+    "category": "entrance",
+    "concept": "The element covers most of the distance from above almost instantly, then eases the last small stretch into place. Use for a snappy arrival that still lands softly.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dash in from above then settle", "fast drop that eases at the end", "quick entrance from the top with a soft landing", "snap down then settle from above", "rapid then gentle entrance from the top", "fast start slow finish from above", "drop in fast then ease into place", "abrupt then soft entrance from the top"]
+  },
+  {
+    "name": "dash-then-settle-bottom",
+    "phrase": "dash in from below then settle gently",
+    "category": "entrance",
+    "concept": "The element covers most of the distance from below almost instantly, then eases the last small stretch into place. Use for a snappy arrival that still lands softly.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dash in from below then settle", "fast rise that eases at the end", "quick entrance from the bottom with a soft landing", "snap up then settle from below", "rapid then gentle entrance from the bottom", "fast start slow finish from below", "rise in fast then ease into place", "abrupt then soft entrance from the bottom"]
+  },
+  {
+    "name": "snap-in-from-left",
+    "phrase": "snap in from the left with a slight overshoot",
+    "category": "entrance",
+    "concept": "The element shrinks slightly and slides in fast from the left, overshoots past full size and position, then snaps back to rest. A crisp, mechanical-feeling arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["snap in from the left", "fast entrance from the left with overshoot", "crisp slide in from the left", "mechanical entrance from the left", "overshoot and snap back from the left", "quick snappy arrival from the left", "elastic snap from the left", "enter fast from the left and correct"]
+  },
+  {
+    "name": "snap-in-from-right",
+    "phrase": "snap in from the right with a slight overshoot",
+    "category": "entrance",
+    "concept": "The element shrinks slightly and slides in fast from the right, overshoots past full size and position, then snaps back to rest. A crisp, mechanical-feeling arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["snap in from the right", "fast entrance from the right with overshoot", "crisp slide in from the right", "mechanical entrance from the right", "overshoot and snap back from the right", "quick snappy arrival from the right", "elastic snap from the right", "enter fast from the right and correct"]
+  },
+  {
+    "name": "glide-in-lower-left",
+    "phrase": "glide in from the lower-left, mostly sideways",
+    "category": "entrance",
+    "concept": "The element travels in mostly horizontally from the lower-left with a slight upward drift. A shallow diagonal, gentler than a full corner entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["glide in from the lower left", "mostly horizontal entrance from lower-left", "shallow diagonal from the bottom-left", "slide in sideways with a slight rise from left", "gentle diagonal entrance from lower-left", "enter mostly sideways from the lower-left", "low-angle entrance from bottom-left", "glide across with a hint of rise from left"]
+  },
+  {
+    "name": "glide-in-upper-right",
+    "phrase": "glide in from the upper-right, mostly sideways",
+    "category": "entrance",
+    "concept": "The element travels in mostly horizontally from the upper-right with a slight downward drift. A shallow diagonal, gentler than a full corner entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["glide in from the upper right", "mostly horizontal entrance from upper-right", "shallow diagonal from the top-right", "slide in sideways with a slight drop from right", "gentle diagonal entrance from upper-right", "enter mostly sideways from the upper-right", "low-angle entrance from top-right", "glide across with a hint of drop from right"]
+  },
+  {
+    "name": "glide-in-upper-left",
+    "phrase": "glide in from the upper-left, mostly downward",
+    "category": "entrance",
+    "concept": "The element travels in mostly vertically from the upper-left with a slight rightward drift. A shallow diagonal dominated by the drop rather than the sideways motion.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["glide in from the upper left", "mostly vertical entrance from upper-left", "shallow diagonal from the top-left", "drop in with a slight rightward drift", "gentle diagonal entrance from upper-left", "enter mostly downward from the upper-left", "low-angle drop from top-left", "glide down with a hint of drift right"]
+  },
+  {
+    "name": "glide-in-lower-right",
+    "phrase": "glide in from the lower-right, mostly upward",
+    "category": "entrance",
+    "concept": "The element travels in mostly vertically from the lower-right with a slight leftward drift. A shallow diagonal dominated by the rise rather than the sideways motion.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["glide in from the lower right", "mostly vertical entrance from lower-right", "shallow diagonal from the bottom-right", "rise in with a slight leftward drift", "gentle diagonal entrance from lower-right", "enter mostly upward from the lower-right", "low-angle rise from bottom-right", "glide up with a hint of drift left"]
+  },
+  {
+    "name": "drop-then-slide-right",
+    "phrase": "drop from above, then slide right into place",
+    "category": "entrance",
+    "concept": "The element falls straight down first, then slides sideways to the right once it reaches its resting height. Two distinct straight-line moves rather than one diagonal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["drop then slide right into place", "fall then slide sideways to the right", "two-step entrance: drop then slide right", "vertical drop followed by a rightward slide", "land then shift right into position", "sequential drop and slide from the left", "fall straight down then move right", "two-phase entrance dropping then sliding right"]
+  },
+  {
+    "name": "drop-then-slide-left",
+    "phrase": "drop from above, then slide left into place",
+    "category": "entrance",
+    "concept": "The element falls straight down first, then slides sideways to the left once it reaches its resting height. Two distinct straight-line moves rather than one diagonal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["drop then slide left into place", "fall then slide sideways to the left", "two-step entrance: drop then slide left", "vertical drop followed by a leftward slide", "land then shift left into position", "sequential drop and slide from the right", "fall straight down then move left", "two-phase entrance dropping then sliding left"]
+  },
+  {
+    "name": "rise-and-drift-right",
+    "phrase": "rise up while drifting right then correcting back",
+    "category": "entrance",
+    "concept": "The element rises from below while drifting right through the middle of its path, then eases back left as it settles into place. An S-curved rise rather than a straight line.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["rise up and drift right then correct", "s-curve entrance rising from below", "rise with a rightward sway that settles back", "curved rise entrance drifting right", "float up while swaying right then centering", "wandering rise from below to the right", "rise and correct back to center from right drift", "organic rising entrance with a rightward sway"]
+  },
+  {
+    "name": "rise-and-drift-left",
+    "phrase": "rise up while drifting left then correcting back",
+    "category": "entrance",
+    "concept": "The element rises from below while drifting left through the middle of its path, then eases back right as it settles into place. An S-curved rise rather than a straight line.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["rise up and drift left then correct", "s-curve entrance rising from below", "rise with a leftward sway that settles back", "curved rise entrance drifting left", "float up while swaying left then centering", "wandering rise from below to the left", "rise and correct back to center from left drift", "organic rising entrance with a leftward sway"]
+  },
+  {
+    "name": "streak-in-from-left",
+    "phrase": "streak in from the left in a motion blur",
+    "category": "entrance",
+    "concept": "The element rushes in from the left with heavy motion blur that sharpens as it arrives. Reads as a fast, energetic entrance like a speeding object coming to rest.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["streak in from the left", "motion blur entrance from the left", "fast blurred slide in from the left", "speed in from the left and sharpen", "whoosh in from the left", "blur to focus entrance from the left", "racing entrance from the left", "rush in from the left with a blur trail"]
+  },
+  {
+    "name": "streak-in-from-right",
+    "phrase": "streak in from the right in a motion blur",
+    "category": "entrance",
+    "concept": "The element rushes in from the right with heavy motion blur that sharpens as it arrives. Reads as a fast, energetic entrance like a speeding object coming to rest.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["streak in from the right", "motion blur entrance from the right", "fast blurred slide in from the right", "speed in from the right and sharpen", "whoosh in from the right", "blur to focus entrance from the right", "racing entrance from the right", "rush in from the right with a blur trail"]
+  },
+  {
+    "name": "streak-in-from-top",
+    "phrase": "streak in from above in a motion blur",
+    "category": "entrance",
+    "concept": "The element rushes in from above with heavy motion blur that sharpens as it arrives. Reads as a fast, energetic drop like a speeding object coming to rest.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["streak in from above", "motion blur entrance from the top", "fast blurred drop in from above", "speed in from the top and sharpen", "whoosh in from above", "blur to focus entrance from the top", "racing entrance from above", "rush in from above with a blur trail"]
+  },
+  {
+    "name": "streak-in-from-bottom",
+    "phrase": "streak in from below in a motion blur",
+    "category": "entrance",
+    "concept": "The element rushes in from below with heavy motion blur that sharpens as it arrives. Reads as a fast, energetic rise like a speeding object coming to rest.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["streak in from below", "motion blur entrance from the bottom", "fast blurred rise in from below", "speed in from the bottom and sharpen", "whoosh in from below", "blur to focus entrance from the bottom", "racing entrance from below", "rush in from below with a blur trail"]
+  },
+  {
+    "name": "hop-in-from-left",
+    "phrase": "hop in from the left with two small bounces",
+    "category": "entrance",
+    "concept": "The element travels in from the left while bouncing twice along the way, like it is skipping across the surface before landing. A playful, rhythmic entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["hop in from the left", "skip across from the left", "double-bounce entrance from the left", "bouncing entrance from the left", "playful hopping entrance from left", "enter from the left with two hops", "bounce twice while entering from left", "skipping entrance from the left"]
+  },
+  {
+    "name": "hop-in-from-right",
+    "phrase": "hop in from the right with two small bounces",
+    "category": "entrance",
+    "concept": "The element travels in from the right while bouncing twice along the way, like it is skipping across the surface before landing. A playful, rhythmic entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["hop in from the right", "skip across from the right", "double-bounce entrance from the right", "bouncing entrance from the right", "playful hopping entrance from right", "enter from the right with two hops", "bounce twice while entering from right", "skipping entrance from the right"]
+  },
+  {
+    "name": "swing-in-from-top-left",
+    "phrase": "swing in like a pendulum from the top-left",
+    "category": "entrance",
+    "concept": "The element hangs from an implied top-left pivot and swings down into place, rocking slightly before settling flat. Reads like something dropping in on a hinge.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["swing in from the top-left", "pendulum entrance from the upper left", "hinge in from the top-left corner", "dangling swing entrance from upper left", "rock into place from the top-left", "swinging drop from the top-left corner", "enter like a pendulum from upper left", "hanging swing entrance from top-left"]
+  },
+  {
+    "name": "swing-in-from-top-right",
+    "phrase": "swing in like a pendulum from the top-right",
+    "category": "entrance",
+    "concept": "The element hangs from an implied top-right pivot and swings down into place, rocking slightly before settling flat. Reads like something dropping in on a hinge.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["swing in from the top-right", "pendulum entrance from the upper right", "hinge in from the top-right corner", "dangling swing entrance from upper right", "rock into place from the top-right", "swinging drop from the top-right corner", "enter like a pendulum from upper right", "hanging swing entrance from top-right"]
+  },
+  {
+    "name": "orbit-in",
+    "phrase": "orbit inward before settling in place",
+    "category": "entrance",
+    "concept": "The element sweeps along a curved orbit, from the side and over the top, spiraling inward before coming to rest at center. A swirling, planetary-feeling arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["orbit into place", "sweep around before settling", "spiral orbit entrance", "curved orbiting entrance", "swirl around and land in place", "planetary orbit entrance", "circle in before settling", "arc around and settle at center"]
+  },
+  {
+    "name": "peek-in-from-left",
+    "phrase": "peek in from the left, pause, then arrive in focus",
+    "category": "entrance",
+    "concept": "The element edges in from the left slightly blurred and dims to a pause, as if peeking out, then finishes sliding in and sharpens into full focus. A shy, two-stage reveal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["peek in from the left then arrive", "shy entrance from the left that pauses", "peek out then commit from the left", "blurred peek then sharp arrival from left", "hesitant reveal from the left", "two-stage peek entrance from the left", "edge in and pause from the left", "peek then fully enter from the left"]
+  },
+  {
+    "name": "peek-in-from-right",
+    "phrase": "peek in from the right, pause, then arrive in focus",
+    "category": "entrance",
+    "concept": "The element edges in from the right slightly blurred and dims to a pause, as if peeking out, then finishes sliding in and sharpens into full focus. A shy, two-stage reveal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["peek in from the right then arrive", "shy entrance from the right that pauses", "peek out then commit from the right", "blurred peek then sharp arrival from right", "hesitant reveal from the right", "two-stage peek entrance from the right", "edge in and pause from the right", "peek then fully enter from the right"]
+  },
+  {
+    "name": "cross-in-from-bottom-right",
+    "phrase": "enter from the bottom-right and cross past center",
+    "category": "entrance",
+    "concept": "The element travels diagonally from the bottom-right, overshoots past its resting position toward the opposite corner, then settles back. Reads as a confident diagonal sweep.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["cross in from the bottom-right", "diagonal entrance that overshoots past center", "sweep in from bottom-right and settle back", "enter from the corner and cross the middle", "overshoot past center from bottom-right", "diagonal sweep entrance from lower-right", "travel past center then settle from bottom-right", "confident diagonal overshoot from bottom-right"]
+  },
+  {
+    "name": "wide-arc-in-from-right",
+    "phrase": "swing wide from the right before dropping in",
+    "category": "entrance",
+    "concept": "The element sweeps in a wide arc from far to the right and above, traveling sideways before dropping down into place. A large, deliberate curved path rather than a tight one.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["wide arc entrance from the right", "swing wide from the right then drop", "large curved entrance from the right", "sweep sideways then drop from the right", "big arc entrance from the upper right", "travel wide then settle from the right", "broad curved path from the right", "swing in and descend from the right"]
+  },
+  {
+    "name": "wide-arc-in-from-left",
+    "phrase": "swing wide from the left before dropping in",
+    "category": "entrance",
+    "concept": "The element sweeps in a wide arc from far to the left and above, traveling sideways before dropping down into place. A large, deliberate curved path rather than a tight one.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["wide arc entrance from the left", "swing wide from the left then drop", "large curved entrance from the left", "sweep sideways then drop from the left", "big arc entrance from the upper left", "travel wide then settle from the left", "broad curved path from the left", "swing in and descend from the left"]
+  },
+  {
+    "name": "unfurl-in-from-top",
+    "phrase": "unfurl downward from the top edge",
+    "category": "entrance",
+    "concept": "The element drops from the top edge while unrolling from a compressed height to its full size, like a banner deploying. Suits headers or announcements unrolling into view.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["unfurl from the top edge", "unroll downward like a banner", "banner deploys from the top", "drop and unroll from above", "unfurling entrance from the top", "announcement unrolls from the top edge", "expand downward from the top edge", "banner unrolls into view from above"]
+  },
+  {
+    "name": "unfurl-in-from-left",
+    "phrase": "unfurl rightward from the left edge",
+    "category": "entrance",
+    "concept": "The element slides from the left edge while unrolling from a compressed width to its full size, like a scroll or ribbon deploying. Suits side panels or labels unrolling into view.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["unfurl from the left edge", "unroll rightward like a ribbon", "scroll deploys from the left", "slide and unroll from the left", "unfurling entrance from the left", "label unrolls from the left edge", "expand rightward from the left edge", "ribbon unrolls into view from the left"]
+  }
+]

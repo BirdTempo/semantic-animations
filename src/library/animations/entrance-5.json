@@ -1,0 +1,402 @@
+[
+  {
+    "name": "drift-in-slow",
+    "phrase": "drift in slowly",
+    "category": "entrance",
+    "concept": "The element hangs almost still, then drifts gently upward into place over a long, unhurried span. Use it for a hero element in a calm, premium layout where nothing should feel rushed.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["slow entrance", "gentle drift", "unhurried arrival", "premium reveal", "calm entrance", "slow rise", "editorial entrance", "drift upward", "patient arrival", "quiet hero reveal"]
+  },
+  {
+    "name": "gentle-rise",
+    "phrase": "gentle rise",
+    "category": "entrance",
+    "concept": "A quick, quiet lift with almost no travel distance, as if the element simply settles into its resting height. Good for small UI details that should not draw attention to their own motion.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["small rise", "subtle lift", "barely moves", "quiet appear", "almost no distance", "gentle entrance", "understated rise", "soft lift", "minimal motion", "quick settle"]
+  },
+  {
+    "name": "focus-in",
+    "phrase": "come into focus",
+    "category": "entrance",
+    "concept": "The element starts heavily blurred and sharpens into full clarity as it fades in, like a camera racking focus. Use it when an element should feel like it is being brought into attention rather than simply appearing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["blur in", "focus pull", "sharpen into view", "camera focus", "defocused entrance", "soft focus reveal", "clarity reveal", "rack focus", "blurred to sharp", "photographic entrance"]
+  },
+  {
+    "name": "unhurried-reveal",
+    "phrase": "unhurried reveal",
+    "category": "entrance",
+    "concept": "The plainest possible entrance, stretched over a very long, gently eased fade with no movement at all. Reach for it when an element should simply exist a moment later, without any sense of arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["very slow fade", "long fade", "patient reveal", "calm fade", "no movement", "extended fade in", "quiet appearance", "long ease", "slow opacity", "measured reveal"]
+  },
+  {
+    "name": "hush-in",
+    "phrase": "fade with a hush of scale",
+    "category": "entrance",
+    "concept": "Opacity climbs while the element grows from a barely-there 0.97 scale to full size, a scale change so small it reads as texture, not motion. Use it for cards or panels that should feel settled rather than animated.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["subtle scale in", "barely scales", "quiet scale fade", "soft grow", "gentle zoom in", "near invisible scale", "calm scale reveal", "refined fade", "understated grow", "premium card entrance"]
+  },
+  {
+    "name": "drift-in-diagonal",
+    "phrase": "drift in diagonally",
+    "category": "entrance",
+    "concept": "The element travels a short diagonal path from the upper left as it fades in, giving the arrival a graceful, angled quality rather than a straight line. Suits editorial layouts with off-axis composition.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal entrance", "angled drift", "corner arrival", "graceful diagonal", "off axis reveal", "slanted entrance", "editorial drift", "diagonal fade in", "cross drift", "elegant angle"]
+  },
+  {
+    "name": "exhale-in",
+    "phrase": "exhale into place",
+    "category": "entrance",
+    "concept": "The element grows past full size by a hair before settling back, like a soft exhale after holding a breath. The overshoot is barely visible, giving a living, unforced quality to the arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["soft overshoot", "breathe into view", "gentle settle", "gentle overshoot", "gentle scale settle", "living entrance", "organic arrival", "exhale effect", "barely visible bounce", "relaxed settle"]
+  },
+  {
+    "name": "soft-unveil",
+    "phrase": "soft unveil",
+    "category": "entrance",
+    "concept": "A light lift combines with a defocused-to-sharp blur, as though a veil is lifted from the element. Use it for image captions or feature callouts that deserve a refined introduction.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["veil lift", "soft blur reveal", "unveil effect", "gentle unveiling", "refined reveal", "lift and focus", "curtain lift", "elegant unveil", "blur and rise", "premium unveiling"]
+  },
+  {
+    "name": "quiet-arrival",
+    "phrase": "quiet arrival",
+    "category": "entrance",
+    "concept": "The element settles down into place from just above its resting spot, at a modest, unhurried pace. A calm default for content blocks that should arrive without ceremony.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["settle down", "quiet appear", "calm arrival", "descend gently", "soft settle", "understated entrance", "modest reveal", "content block reveal", "plain arrival", "gentle descent"]
+  },
+  {
+    "name": "drift-in-left-slow",
+    "phrase": "drift in from the left, slowly",
+    "category": "entrance",
+    "concept": "The element glides in from the left at an unhurried pace, covering a modest distance with a long, even ease. Use it for side panels or captions in calm, editorial interfaces.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["slow slide from left", "gentle left entrance", "unhurried horizontal drift", "calm left glide", "side panel reveal", "slow horizontal entrance", "left drift", "measured left slide", "quiet left arrival", "editorial side entrance"]
+  },
+  {
+    "name": "drift-in-right-slow",
+    "phrase": "drift in from the right, slowly",
+    "category": "entrance",
+    "concept": "The mirror of a slow left drift: the element glides in from the right at an unhurried pace. Use it to balance a left-drifting sibling or when content should arrive from the trailing edge.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["slow slide from right", "gentle right entrance", "unhurried horizontal drift", "calm right glide", "trailing edge reveal", "slow horizontal entrance", "right drift", "measured right slide", "quiet right arrival", "editorial side entrance"]
+  },
+  {
+    "name": "settle-in",
+    "phrase": "settle in",
+    "category": "entrance",
+    "concept": "A short rise pairs with a subtle grow from 0.98 scale, giving the sense of an element settling firmly into its spot. Good general-purpose entrance for cards and list rows.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["settle into place", "rise and grow", "firm settle", "card entrance", "list row reveal", "gentle settle", "small lift and scale", "composed arrival", "calm settle", "steady entrance"]
+  },
+  {
+    "name": "veil-lift",
+    "phrase": "lift the veil",
+    "category": "entrance",
+    "concept": "A heavy blur clears well before the fade finishes, so clarity arrives first and the last moments are pure opacity settling in. Use it for a dramatic but still quiet reveal of a focal image or headline.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["heavy blur clear", "clarity first", "dramatic soft reveal", "headline unveil", "focal image reveal", "blur resolves early", "staged blur fade", "refined unveiling", "soft focus lift", "editorial headline reveal"]
+  },
+  {
+    "name": "glide-in",
+    "phrase": "glide in",
+    "category": "entrance",
+    "concept": "The element travels a noticeable diagonal path from the upper left, gliding smoothly into its resting position. Suits feature panels that want a graceful, deliberate sense of movement.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal glide", "graceful travel", "smooth diagonal entrance", "feature panel reveal", "elegant glide", "corner glide", "deliberate diagonal motion", "upper left entrance", "poised glide", "editorial glide"]
+  },
+  {
+    "name": "calm-reveal",
+    "phrase": "calm reveal",
+    "category": "entrance",
+    "concept": "Opacity barely moves for the first third of the animation, then resolves fully, giving the entrance a held-breath pause before it commits. Use it where a beat of stillness suits the moment.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["paused fade", "held breath entrance", "delayed reveal", "pause then appear", "measured pause", "stillness before reveal", "patient hold", "quiet delay", "reflective reveal", "considered entrance"]
+  },
+  {
+    "name": "whisper-in",
+    "phrase": "whisper in",
+    "category": "entrance",
+    "concept": "A tiny nudge from the left with a barely perceptible overshoot, quick and light as a whisper. Use it for small inline elements like tags or icons that should arrive without any weight.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["tiny nudge", "light entrance", "quick soft arrival", "inline tag reveal", "featherlight motion", "small overshoot", "delicate entrance", "quiet nudge", "soft left tap", "minimal overshoot"]
+  },
+  {
+    "name": "hush-glide-right",
+    "phrase": "hush glide from the right",
+    "category": "entrance",
+    "concept": "The mirror of a whisper: a tiny, quick nudge from the right with a faint overshoot before settling. Use it alongside its left-hand counterpart for paired inline elements.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["tiny right nudge", "light entrance", "quick soft arrival", "inline tag reveal", "featherlight motion", "small overshoot", "delicate entrance", "quiet nudge", "soft right tap", "minimal overshoot"]
+  },
+  {
+    "name": "muted-descent",
+    "phrase": "muted descent",
+    "category": "entrance",
+    "concept": "The element eases down from above with a faint overshoot past its resting point before quietly settling. Suited to dropdown-adjacent content or notices that should feel composed, not snappy.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["soft overshoot descent", "gentle drop", "composed descent", "muted drop in", "faint bounce down", "calm downward settle", "understated drop", "slow descent", "notice reveal", "quiet drop"]
+  },
+  {
+    "name": "drift-in-upper-right",
+    "phrase": "drift in from the upper right",
+    "category": "entrance",
+    "concept": "A short diagonal drift arriving from the upper right corner, calm and direct. Use it for badges or secondary content anchored near a top-right corner.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["upper right entrance", "corner drift", "diagonal corner reveal", "badge entrance", "top right arrival", "short diagonal motion", "quiet corner drift", "calm corner arrival", "angled corner reveal", "secondary content entrance"]
+  },
+  {
+    "name": "drift-in-lower-left",
+    "phrase": "drift in from the lower left",
+    "category": "entrance",
+    "concept": "A short diagonal drift arriving from the lower left corner, giving a grounded, upward-and-rightward sense of arrival. Use it for content anchored near a bottom-left corner.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["lower left entrance", "corner drift", "diagonal corner reveal", "grounded arrival", "bottom left arrival", "short diagonal motion", "quiet corner drift", "calm corner arrival", "angled corner reveal", "upward diagonal entrance"]
+  },
+  {
+    "name": "poise-in",
+    "phrase": "poise into place",
+    "category": "entrance",
+    "concept": "The element starts very slightly larger than its final size and eases down to rest, the opposite of growing into view. Gives a composed, settling-down feeling suited to modest badges or labels.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["shrink to rest", "settle down from above size", "composed shrink", "poised settle", "label entrance", "badge settle", "gentle contraction", "calm downscale", "refined settle", "quiet contraction"]
+  },
+  {
+    "name": "linger-in",
+    "phrase": "linger, then arrive",
+    "category": "entrance",
+    "concept": "The element barely changes for over half its duration, then resolves fully in the final stretch, as if it lingered before committing to appear. Reserve it for moments where patience itself is the message.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["long hold reveal", "delayed commitment", "lingering entrance", "patient hold then appear", "slow resolve", "held pause", "reluctant reveal", "extended stillness", "late arrival", "measured lingering"]
+  },
+  {
+    "name": "soften-in",
+    "phrase": "soften into view",
+    "category": "entrance",
+    "concept": "A whisper-light blur clears alongside a barely-there scale change, both resolving together in a quick, soft motion. Use it for tooltips or small overlays that should feel weightless.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["soft blur and scale", "light defocus reveal", "weightless entrance", "tooltip reveal", "small overlay entrance", "quick soft blur", "gentle sharpen", "featherlight blur", "subtle combined reveal", "quiet overlay appear"]
+  },
+  {
+    "name": "hazy-in",
+    "phrase": "clear from a haze",
+    "category": "entrance",
+    "concept": "Opacity and scale finish first while a light haze of blur lingers a moment longer before clearing completely. Use it where the last hint of softness should trail behind the rest of the motion.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["lingering haze", "blur trails behind", "trailing softness", "haze clears last", "delayed sharpen", "soft trailing blur", "hazy reveal", "residual blur", "slow clarity finish", "gentle haze fade"]
+  },
+  {
+    "name": "veiled-rise",
+    "phrase": "rise through a veil",
+    "category": "entrance",
+    "concept": "The blur clears well before the rise and fade finish, so the element sharpens early and spends its last moments simply settling upward. Suited to portrait or profile imagery that deserves a graceful reveal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["blur clears early", "rise after sharpen", "portrait reveal", "graceful blur lift", "veiled entrance", "early clarity", "soft rise reveal", "profile image entrance", "refined veiled rise", "staged blur and rise"]
+  },
+  {
+    "name": "calm-descend",
+    "phrase": "calmly descend into focus",
+    "category": "entrance",
+    "concept": "Opacity finishes at the halfway point while the position and blur continue to settle afterward, so the element is fully visible before it finishes sharpening into place. Good for callouts that should feel present quickly but polish gently.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["opacity resolves first", "visible before sharp", "gentle late focus", "callout reveal", "early visibility", "trailing blur clear", "calm settle and sharpen", "quiet descent focus", "soft late clarity", "present then polish"]
+  },
+  {
+    "name": "soft-arrival",
+    "phrase": "soft arrival",
+    "category": "entrance",
+    "concept": "A short descent pairs with a light blur clearing at the same pace, both resolving together for a clean, quiet arrival from just above. A dependable everyday entrance for notices and small panels.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["gentle drop and focus", "quiet notice reveal", "soft panel entrance", "light blur descent", "everyday soft entrance", "clean arrival", "small panel reveal", "calm descend and sharpen", "understated arrival", "notice appear"]
+  },
+  {
+    "name": "diagonal-hush",
+    "phrase": "hushed diagonal arrival",
+    "category": "entrance",
+    "concept": "A short diagonal drift from the upper left clears its blur in step with the motion, arriving hushed and composed. Use it for feature cards in a quiet, editorial grid.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal blur reveal", "hushed corner arrival", "quiet diagonal entrance", "editorial grid reveal", "composed diagonal motion", "soft corner focus", "feature card entrance", "calm angled reveal", "refined diagonal hush", "gentle corner drift"]
+  },
+  {
+    "name": "reveal-through-haze",
+    "phrase": "reveal through a haze",
+    "category": "entrance",
+    "concept": "A longer diagonal drift clears through a heavy blur, as if the element is emerging from mist over an unhurried span. Reserve it for a hero or featured image that deserves a slow, atmospheric introduction.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["heavy blur diagonal", "emerge from mist", "atmospheric reveal", "slow hero entrance", "misty diagonal arrival", "long diagonal blur clear", "featured image reveal", "dramatic soft entrance", "editorial hero reveal", "hazy diagonal drift"]
+  },
+  {
+    "name": "float-up-in",
+    "phrase": "float up into view",
+    "category": "entrance",
+    "concept": "A tiny rise and scale grow drift slightly past their resting values before easing back, giving the arrival a light, floating quality. Use it for small badges or icons that should feel weightless and alive.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["floating overshoot", "light rise and settle", "weightless float", "icon entrance", "badge float in", "gentle float overshoot", "airy arrival", "soft floating settle", "buoyant entrance", "small overshoot rise"]
+  },
+  {
+    "name": "breathe-in-view",
+    "phrase": "breathe into view",
+    "category": "entrance",
+    "concept": "A noticeable grow from 0.95 scale pairs with a short descent, giving the arrival a slow, breath-like expansion. Use it for feature panels that should feel deliberate and full-bodied.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["noticeable scale grow", "breath like expansion", "deliberate panel reveal", "full bodied entrance", "descend and expand", "slow expansion", "calm breathing motion", "feature panel grow", "composed expansion", "gentle scale descent"]
+  },
+  {
+    "name": "tranquil-rise",
+    "phrase": "tranquil rise",
+    "category": "entrance",
+    "concept": "A short descent and subtle grow hold nearly still before resolving in the final stretch, a held pause that gives the arrival a tranquil, unforced quality. Use it for section intros that should breathe before they land.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["held pause descent", "tranquil hold", "unforced arrival", "section intro reveal", "patient descent and scale", "calm held motion", "delayed settle", "quiet held rise", "breathing pause entrance", "measured tranquil arrival"]
+  },
+  {
+    "name": "gentle-glide-left",
+    "phrase": "gentle glide from the left",
+    "category": "entrance",
+    "concept": "A modest slide from the left combines with a subtle grow from 0.98 scale, both easing in together at an unhurried pace. Use it for side-anchored content that should feel composed rather than snappy.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["slide and scale left", "composed left entrance", "gentle horizontal grow", "unhurried side reveal", "left anchored glide", "calm slide and grow", "refined left entrance", "soft horizontal scale", "measured left glide", "quiet side arrival"]
+  },
+  {
+    "name": "gentle-glide-right",
+    "phrase": "gentle glide from the right",
+    "category": "entrance",
+    "concept": "The mirror of a left glide: a modest slide from the right combines with a subtle grow from 0.98 scale, easing in together at an unhurried pace. Use it for right-anchored content in a balanced layout.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["slide and scale right", "composed right entrance", "gentle horizontal grow", "unhurried side reveal", "right anchored glide", "calm slide and grow", "refined right entrance", "soft horizontal scale", "measured right glide", "quiet side arrival"]
+  },
+  {
+    "name": "poised-arrival",
+    "phrase": "poised arrival",
+    "category": "entrance",
+    "concept": "A small nudge from the right pairs with a slight shrink from just above full size, giving the arrival a composed, settling-in feel rather than a growing one. Suited to small labels beside body text.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["nudge and shrink", "composed small entrance", "label arrival", "settling shrink", "poised small reveal", "quiet right nudge", "refined small settle", "calm contraction entrance", "inline label reveal", "understated poise"]
+  },
+  {
+    "name": "poised-hush",
+    "phrase": "poised hush from the corner",
+    "category": "entrance",
+    "concept": "A short diagonal drift from the lower left pairs with a subtle grow from 0.98 scale, both resolving together for a composed corner arrival. Use it for small cards in a quiet dashboard grid.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["corner drift and scale", "composed corner arrival", "dashboard card reveal", "quiet diagonal grow", "small card entrance", "hushed corner settle", "refined corner motion", "calm diagonal scale", "lower left composed reveal", "understated corner arrival"]
+  },
+  {
+    "name": "dissolve-into-view",
+    "phrase": "dissolve into view",
+    "category": "entrance",
+    "concept": "The element becomes fully visible at the halfway point while a trailing blur keeps softening the edges a moment longer, as if resolving out of a dissolve. Use it for photographic content in a calm editorial spread.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dissolve reveal", "trailing soft edges", "photographic dissolve", "opacity first blur last", "editorial dissolve", "soft edge resolve", "visible then sharpen", "gentle dissolve effect", "calm photographic reveal", "late blur clear"]
+  },
+  {
+    "name": "hazed-arrival",
+    "phrase": "hazed arrival",
+    "category": "entrance",
+    "concept": "A blur and a noticeable scale grow both hold nearly still for over half the duration before resolving together, arriving as if stepping fully out of a haze only at the last moment. Use it for a slow, atmospheric section reveal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["held haze", "late scale and focus", "atmospheric held reveal", "slow haze resolve", "section haze entrance", "patient blur and scale", "delayed atmospheric arrival", "quiet held haze", "editorial haze reveal", "measured haze settle"]
+  },
+  {
+    "name": "graceful-ascent",
+    "phrase": "graceful ascent",
+    "category": "entrance",
+    "concept": "The element rises a noticeable distance and drifts a touch past its resting point before easing back, a graceful overshoot on a longer rise. Use it for section headers that deserve a more pronounced but still calm lift.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["noticeable rise overshoot", "graceful lift", "section header reveal", "longer overshoot rise", "elegant ascent", "calm pronounced lift", "soft upward overshoot", "refined ascent", "header entrance", "gentle rise and settle"]
+  },
+  {
+    "name": "patient-fade",
+    "phrase": "patient fade in",
+    "category": "entrance",
+    "concept": "A short descent holds nearly invisible for over half its duration before resolving fully in a late, patient finish. Use it where a beat of anticipation suits a descending element.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["held descent", "patient late reveal", "anticipation entrance", "delayed descent resolve", "quiet held drop", "measured patient fade", "late finishing descent", "calm anticipatory reveal", "long held drop", "reluctant descent"]
+  },
+  {
+    "name": "muted-rise",
+    "phrase": "muted rise through blur",
+    "category": "entrance",
+    "concept": "A gentle rise and a soft blur both hold nearly still through most of the duration before resolving together at the very end. Use it for a slow, contemplative reveal of a quote or pull-text.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["held rise and blur", "contemplative reveal", "quote entrance", "pull text reveal", "slow held focus", "late resolving rise", "patient blur and rise", "muted held motion", "quiet contemplative arrival", "measured late rise"]
+  },
+  {
+    "name": "soft-settle",
+    "phrase": "soft settle",
+    "category": "entrance",
+    "concept": "A minimal rise and a subtle grow both hold nearly still before resolving together late in the duration, settling gently into place after a considered pause. Use it for secondary content that should feel deliberate, not eager.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["held minimal rise", "deliberate settle", "considered pause entrance", "gentle late scale", "quiet secondary reveal", "patient small settle", "measured held arrival", "calm late resolve", "unhurried settle", "soft paused entrance"]
+  },
+  {
+    "name": "subtle-exhale",
+    "phrase": "subtle exhale downward",
+    "category": "entrance",
+    "concept": "The element descends while growing from 0.97 scale, drifting a touch past its resting size and position before easing back, a quiet exhale on the way down. Use it for notification banners that should feel soft, not sudden.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["descending overshoot", "soft downward exhale", "notification reveal", "gentle drop overshoot", "quiet banner entrance", "small settle after drop", "calm downward breathe", "refined descending settle", "soft banner exhale", "understated drop overshoot"]
+  },
+  {
+    "name": "long-exhale",
+    "phrase": "long exhale",
+    "category": "entrance",
+    "concept": "A heavy blur clears while the element grows past full size before settling back, an extended, more pronounced exhale than a quick one. Reserve it for a slow, atmospheric hero reveal that can afford a longer breath.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["extended exhale", "pronounced soft overshoot", "atmospheric hero exhale", "long breathing entrance", "heavy blur overshoot", "slow dramatic settle", "editorial exhale reveal", "calm extended overshoot", "hero breathing entrance", "gentle prolonged settle"]
+  },
+  {
+    "name": "drift-in-and-hover",
+    "phrase": "drift in and hover to rest",
+    "category": "entrance",
+    "concept": "A short diagonal drift eases slightly past its resting point before settling, as if it hovered for a moment before landing. Use it for small floating badges anchored near a corner.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal hover settle", "floating badge entrance", "small corner overshoot", "hover before landing", "quiet diagonal overshoot", "gentle corner hover", "soft floating arrival", "understated diagonal settle", "corner badge hover", "light diagonal overshoot"]
+  },
+  {
+    "name": "graceful-diagonal-rise",
+    "phrase": "graceful diagonal rise",
+    "category": "entrance",
+    "concept": "A short diagonal drift from the lower right holds nearly still before resolving late, giving the corner arrival a graceful, unhurried pause. Use it for pull quotes anchored near a corner in an editorial layout.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["held diagonal pause", "graceful corner reveal", "editorial pull quote entrance", "late resolving diagonal", "patient diagonal rise", "quiet corner pause", "unhurried diagonal arrival", "measured corner rise", "calm held diagonal", "refined corner pause"]
+  },
+  {
+    "name": "quiet-corner-arrival",
+    "phrase": "quiet corner arrival",
+    "category": "entrance",
+    "concept": "A short diagonal drift from the upper right pairs with a subtle grow from 0.98 scale, resolving together for a composed corner reveal. Use it for small callouts anchored near a top-right corner.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["corner drift and scale", "composed callout reveal", "top right corner entrance", "quiet diagonal grow", "small callout arrival", "hushed corner settle", "refined corner motion", "calm diagonal scale", "upper right composed reveal", "understated corner arrival"]
+  },
+  {
+    "name": "hush-diagonal-settle",
+    "phrase": "hushed diagonal settle",
+    "category": "entrance",
+    "concept": "A diagonal drift and a subtle grow both hold nearly still before resolving together late in the duration, settling into a corner after a considered pause. Use it for feature cards that should feel deliberate rather than quick.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["held diagonal scale", "deliberate corner settle", "feature card pause entrance", "late resolving diagonal scale", "quiet considered corner", "patient diagonal grow", "measured corner hush", "calm held diagonal settle", "unhurried corner reveal", "soft paused diagonal"]
+  },
+  {
+    "name": "refined-unveil",
+    "phrase": "refined unveiling",
+    "category": "entrance",
+    "concept": "A minimal rise, a subtle grow, and a clearing blur all resolve together at once, the most layered of the quiet entrances. Reserve it for a premium feature reveal where every detail should feel considered.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["layered soft reveal", "premium feature entrance", "combined rise scale blur", "considered unveiling", "refined premium reveal", "editorial feature entrance", "full soft combination", "elegant layered arrival", "calm triple combination", "polished unveiling"]
+  },
+  {
+    "name": "editorial-reveal",
+    "phrase": "editorial reveal",
+    "category": "entrance",
+    "concept": "A descent, a subtle grow, and a clearing blur all hold nearly still before resolving together late in the duration, an unhurried, layered arrival fit for a magazine-style feature. Use it for the most premium content moments.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["held layered reveal", "magazine style entrance", "premium content reveal", "late resolving combination", "editorial layered arrival", "patient triple combination", "quiet held feature reveal", "measured editorial entrance", "calm delayed layered reveal", "refined magazine entrance"]
+  }
+]

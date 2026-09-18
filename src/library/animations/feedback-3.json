@@ -1,0 +1,956 @@
+[
+  {
+    "name": "bounce-back-down",
+    "phrase": "declined and dropped",
+    "category": "feedback",
+    "concept": "The element drops down as if pushed by a rejection, then bounces up and settles at rest. Use it for a firm decline that still feels physical, not harsh.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "card declined",
+      "payment rejected",
+      "login denied",
+      "form rejected",
+      "request denied",
+      "access denied",
+      "submit failed",
+      "transaction refused",
+      "declined charge",
+      "button push back"
+    ]
+  },
+  {
+    "name": "bounce-back-up",
+    "phrase": "pushed up and away",
+    "category": "feedback",
+    "concept": "The element lifts up as if repelled, then falls back and settles. Use it for a decline that reads as a firm push away rather than a drop.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "application denied",
+      "form submission rejected",
+      "request blocked",
+      "offer declined",
+      "bid rejected",
+      "entry denied",
+      "signup refused",
+      "claim denied",
+      "upgrade blocked"
+    ]
+  },
+  {
+    "name": "reject-drop-bounce",
+    "phrase": "checkout failed hard",
+    "category": "feedback",
+    "concept": "A heavier drop with a bigger fall and a slow multi-step bounce back to rest. Use it for a stronger failure, such as a blocked checkout.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "checkout failed",
+      "transaction blocked",
+      "order rejected",
+      "payment declined hard",
+      "purchase blocked",
+      "cart checkout error",
+      "billing failed",
+      "charge blocked",
+      "order cannot be placed"
+    ]
+  },
+  {
+    "name": "push-back-settle",
+    "phrase": "action blocked here",
+    "category": "feedback",
+    "concept": "A single downward push with one slow recovery, no secondary bounce. Use it for a disabled control that quietly resists a tap.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "disabled button tapped",
+      "action blocked",
+      "control unavailable",
+      "step not allowed",
+      "cannot proceed",
+      "option disabled",
+      "inactive control pressed",
+      "locked action attempted"
+    ]
+  },
+  {
+    "name": "deny-bounce-small",
+    "phrase": "promo code rejected",
+    "category": "feedback",
+    "concept": "A small, quick vertical bounce with a short single overshoot. Use it for a minor, low-stakes rejection like an invalid coupon.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "coupon code invalid",
+      "promo code rejected",
+      "discount code wrong",
+      "gift card invalid",
+      "voucher not accepted",
+      "referral code invalid",
+      "code does not apply",
+      "expired coupon entered"
+    ]
+  },
+  {
+    "name": "reject-lift-bounce",
+    "phrase": "upload rejected",
+    "category": "feedback",
+    "concept": "A slow, heavier lift upward followed by a settling drop. Use it when a submitted item is pushed back, such as a rejected upload.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "upload rejected",
+      "file too large",
+      "unsupported file type",
+      "attachment failed",
+      "image upload blocked",
+      "document rejected",
+      "file format invalid",
+      "upload not accepted"
+    ]
+  },
+  {
+    "name": "bounce-back-scale",
+    "phrase": "plan downgrade blocked",
+    "category": "feedback",
+    "concept": "The element drops and shrinks slightly, then rebounds and returns to full size. Use it for a decline that also feels like a small compress.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "plan downgrade blocked",
+      "subscription change declined",
+      "billing plan rejected",
+      "tier change blocked",
+      "membership downgrade denied",
+      "account change refused",
+      "plan swap failed",
+      "upgrade request refused"
+    ]
+  },
+  {
+    "name": "double-bounce-refuse",
+    "phrase": "retry denied again",
+    "category": "feedback",
+    "concept": "Two small downward dips before the element settles at rest. Use it for a repeated failure, such as a second denied retry.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "repeated login failure",
+      "retry denied",
+      "second attempt failed",
+      "resend blocked",
+      "repeated submit error",
+      "try again denied",
+      "second verification failed",
+      "retry not allowed"
+    ]
+  },
+  {
+    "name": "droop-fade-empty",
+    "phrase": "no results found",
+    "category": "feedback",
+    "concept": "The element sags down a little and dims, then recovers to rest. Use it for a soft failure such as an empty search, not a hard denial.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "no search results",
+      "empty search",
+      "nothing found",
+      "no matches",
+      "search returned nothing",
+      "no items found",
+      "empty result list",
+      "zero results"
+    ]
+  },
+  {
+    "name": "wilt-recover",
+    "phrase": "empty inbox result",
+    "category": "feedback",
+    "concept": "The element sags and shrinks slightly while it dims, then recovers to its normal size and opacity. Use it for a gentle, disappointing empty state.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "empty inbox",
+      "no messages found",
+      "no notifications",
+      "nothing to show",
+      "empty feed",
+      "no matching records",
+      "list is empty",
+      "no data available"
+    ]
+  },
+  {
+    "name": "slump-settle",
+    "phrase": "filter returned nothing",
+    "category": "feedback",
+    "concept": "A slow, heavier sag with a deeper dim, then a gradual recovery. Use it for a more noticeable empty state, such as a strict filter with no matches.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "filter returned nothing",
+      "no matching filters",
+      "no results for filters",
+      "search too narrow",
+      "no products match",
+      "criteria too strict",
+      "zero matches for query",
+      "narrow the search terms"
+    ]
+  },
+  {
+    "name": "empty-results-sag",
+    "phrase": "cart search empty",
+    "category": "feedback",
+    "concept": "The element sags down and tilts slightly, like a head hanging, while it dims briefly. Use it for an empty state that should feel a little forlorn.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "empty cart search",
+      "no items in list",
+      "no saved items",
+      "wishlist empty",
+      "no history found",
+      "no recent activity",
+      "no downloads found",
+      "browse history empty"
+    ]
+  },
+  {
+    "name": "soft-fail-dip",
+    "phrase": "minor issue noted",
+    "category": "feedback",
+    "concept": "A brief, shallow sag with a quick opacity flicker, then a fast recovery. Use it for a minor validation notice that should not feel alarming.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "minor validation issue",
+      "soft warning shown",
+      "small form error",
+      "field needs review",
+      "minor input issue",
+      "gentle validation notice",
+      "light error message",
+      "input needs a small fix"
+    ]
+  },
+  {
+    "name": "field-invalid-tint",
+    "phrase": "field stays flagged",
+    "category": "feedback",
+    "concept": "The field dips in scale and brightness, then holds a dimmed, muted state until the input is corrected. Use it for a field that should stay visibly flagged.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "invalid email format",
+      "required field missing",
+      "form field error",
+      "field validation failed",
+      "input still invalid",
+      "unfilled required field",
+      "field marked invalid",
+      "value out of range"
+    ]
+  },
+  {
+    "name": "recoil-pull",
+    "phrase": "wrong password entered",
+    "category": "feedback",
+    "concept": "A single sharp pull to one side followed by one quick release back to rest. Use it for a crisp, one-shot rejection like a wrong password.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "wrong password",
+      "incorrect credentials",
+      "login failed once",
+      "password does not match",
+      "authentication failed",
+      "wrong username",
+      "sign in rejected",
+      "sign in attempt rejected"
+    ]
+  },
+  {
+    "name": "flinch-recoil",
+    "phrase": "permission denied here",
+    "category": "feedback",
+    "concept": "A single sharp upward pull-back, like a flinch, followed by one quick settle. Use it for an unauthorized action that should feel abrupt and brief.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "permission denied",
+      "unauthorized action",
+      "access not permitted",
+      "restricted action attempted",
+      "insufficient privileges",
+      "admin only action",
+      "not authorized to edit",
+      "restricted area blocked"
+    ]
+  },
+  {
+    "name": "snap-back-scale",
+    "phrase": "insufficient funds",
+    "category": "feedback",
+    "concept": "The element shrinks sharply, springs slightly past full size, then settles. Use it for a single blocked purchase, such as insufficient funds.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "insufficient funds",
+      "purchase blocked",
+      "not enough balance",
+      "payment method declined",
+      "wallet balance too low",
+      "funds unavailable",
+      "transfer blocked",
+      "card declined at checkout"
+    ]
+  },
+  {
+    "name": "jolt-recoil-tilt",
+    "phrase": "wrong answer selected",
+    "category": "feedback",
+    "concept": "A single sharp tilt pulled back and released once. Use it for one incorrect selection, such as a wrong quiz answer.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "quiz answer wrong",
+      "incorrect selection",
+      "wrong choice picked",
+      "test answer incorrect",
+      "trivia miss",
+      "wrong option selected",
+      "answer marked wrong",
+      "wrong multiple choice picked"
+    ]
+  },
+  {
+    "name": "pull-back-release",
+    "phrase": "verification failed once",
+    "category": "feedback",
+    "concept": "A slower, larger pull-back to one side with a single release to rest. Use it for a more weighty single failure, such as a failed verification.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "account locked",
+      "verification failed",
+      "identity check failed",
+      "security check failed",
+      "confirmation code rejected",
+      "two factor failed",
+      "verification step blocked",
+      "otp code rejected"
+    ]
+  },
+  {
+    "name": "instant-recoil",
+    "phrase": "action blocked instantly",
+    "category": "feedback",
+    "concept": "A very fast, tiny pull-back and release. Use it for an immediate, low-weight rejection, such as a rapid invalid tap.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "click blocked",
+      "rapid invalid tap",
+      "double tap rejected",
+      "action too fast",
+      "spam click blocked",
+      "tap ignored",
+      "input rejected instantly",
+      "action denied immediately"
+    ]
+  },
+  {
+    "name": "wrong-answer-wobble",
+    "phrase": "guess was wrong",
+    "category": "feedback",
+    "concept": "A small rotation paired with a side-to-side shift, run once. Use it for a wrong-answer moment that should feel uncertain rather than harsh.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "quiz wrong answer",
+      "incorrect guess",
+      "wrong move made",
+      "puzzle answer wrong",
+      "game guess incorrect",
+      "trivia answer wrong",
+      "answer rejected as incorrect",
+      "puzzle guess incorrect"
+    ]
+  },
+  {
+    "name": "mismatch-wobble",
+    "phrase": "passwords do not match",
+    "category": "feedback",
+    "concept": "A small rotation paired with a vertical shift, run once. Use it for a mismatch between two related fields, such as passwords that do not agree.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "password mismatch",
+      "confirm password error",
+      "fields do not match",
+      "values do not agree",
+      "re-entered value differs",
+      "confirmation mismatch",
+      "emails do not match",
+      "otp code mismatch"
+    ]
+  },
+  {
+    "name": "confused-shake-tilt",
+    "phrase": "unclear selection made",
+    "category": "feedback",
+    "concept": "A slower rotation that swings direction twice while shifting side to side. Use it for an ambiguous or unclear input, not a flat wrong answer.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "ambiguous input",
+      "unclear selection",
+      "conflicting choice made",
+      "selection needs clarification",
+      "multiple matches found",
+      "input could not be resolved",
+      "unclear command given",
+      "input could not be parsed"
+    ]
+  },
+  {
+    "name": "off-target-wobble",
+    "phrase": "missed the target",
+    "category": "feedback",
+    "concept": "A small rotation combined with a light two-directional nudge, run once. Use it when an interaction lands near, but not on, its intended target.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "missed target",
+      "wrong drop zone",
+      "item dropped incorrectly",
+      "tap missed control",
+      "gesture off target",
+      "aim missed",
+      "placement rejected",
+      "wrong slot selected"
+    ]
+  },
+  {
+    "name": "quiz-wrong-wobble",
+    "phrase": "trivia answer incorrect",
+    "category": "feedback",
+    "concept": "A quick rotate-and-shift pulse to one side, then a mirrored pulse to the other, before settling. Use it for a fast, playful wrong-answer beat.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "trivia wrong answer",
+      "test answer incorrect",
+      "flashcard answer wrong",
+      "game answer rejected",
+      "wrong tap in quiz",
+      "incorrect response given",
+      "quiz feedback wrong",
+      "flashcard marked wrong"
+    ]
+  },
+  {
+    "name": "uncertain-wobble-shake",
+    "phrase": "low confidence match",
+    "category": "feedback",
+    "concept": "A slow, wider rotation paired with a longer side shift, easing to rest. Use it for a rejected match the system is not confident about.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "low confidence match",
+      "unsure input rejected",
+      "best guess declined",
+      "fuzzy match rejected",
+      "uncertain result flagged",
+      "match confidence too low",
+      "tentative answer rejected",
+      "suggested match declined"
+    ]
+  },
+  {
+    "name": "warn-pulse-once",
+    "phrase": "that did not work",
+    "category": "feedback",
+    "concept": "A single dim pulse with a light shrink, then a return to rest. Use it for a mild, non-alarming failure notice.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "that did not work",
+      "minor error occurred",
+      "soft failure notice",
+      "action did not complete",
+      "step failed quietly",
+      "something went wrong",
+      "operation not completed",
+      "save did not go through"
+    ]
+  },
+  {
+    "name": "soft-alert-fade",
+    "phrase": "gentle caution shown",
+    "category": "feedback",
+    "concept": "A slow single dim with a light brightness dip, then a smooth recovery. Use it for a gentle warning that should not feel urgent.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "heads up warning",
+      "gentle caution",
+      "soft warning message",
+      "please review this",
+      "advisory notice shown",
+      "non urgent warning",
+      "mild caution flagged",
+      "check settings before continuing"
+    ]
+  },
+  {
+    "name": "gentle-warning-flash",
+    "phrase": "light warning flash",
+    "category": "feedback",
+    "concept": "A quick, shallow single dim, run once and quickly recovered. Use it for the lightest-weight caution, barely more than a blink.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "light warning",
+      "minor caution flash",
+      "brief warning shown",
+      "quick heads up",
+      "subtle alert shown",
+      "small caution notice",
+      "light error flicker",
+      "small issue detected"
+    ]
+  },
+  {
+    "name": "caution-fade-once",
+    "phrase": "proceed with caution",
+    "category": "feedback",
+    "concept": "A single dim paired with a light shrink, then a return to full size and opacity. Use it when an action is flagged as risky but still allowed.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "proceed with caution",
+      "risky action flagged",
+      "confirm risky step",
+      "unusual activity noted",
+      "review before continuing",
+      "flagged for caution",
+      "potential issue noted",
+      "unusual action flagged"
+    ]
+  },
+  {
+    "name": "mild-error-glow-dim",
+    "phrase": "small glitch occurred",
+    "category": "feedback",
+    "concept": "A single brightness dip with no movement, then a smooth recovery. Use it for a minor glitch that needs the lightest possible signal.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "minor glitch",
+      "small error occurred",
+      "brief hiccup",
+      "temporary issue noted",
+      "small system error",
+      "minor processing issue",
+      "quick error blip",
+      "temporary error shown"
+    ]
+  },
+  {
+    "name": "attention-dim-once",
+    "phrase": "check this field",
+    "category": "feedback",
+    "concept": "A shallow dim paired with a barely visible downward shift, then a return to rest. Use it to draw quiet attention to something that needs a check.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "needs attention",
+      "check this field",
+      "please review value",
+      "field needs a look",
+      "double check entry",
+      "verify this input",
+      "confirm before submitting",
+      "value looks off"
+    ]
+  },
+  {
+    "name": "stubborn-shake",
+    "phrase": "account access locked",
+    "category": "feedback",
+    "concept": "A slow, heavy side-to-side shake with a wider swing than a quick shake. Use it for a stuck or locked refusal, not a snappy no.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "account locked",
+      "permission stuck",
+      "locked resource accessed",
+      "feature locked here",
+      "restricted content blocked",
+      "locked screen tapped",
+      "access remains blocked",
+      "restricted section blocked"
+    ]
+  },
+  {
+    "name": "locked-refuse-shake",
+    "phrase": "premium feature required",
+    "category": "feedback",
+    "concept": "A very slow, small-amplitude shake that eases out heavily. Use it for a refusal that should feel immovable, like a locked premium feature.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "feature locked",
+      "premium required",
+      "upgrade needed",
+      "subscription required",
+      "paid feature blocked",
+      "tier restriction hit",
+      "locked behind paywall",
+      "pro plan required"
+    ]
+  },
+  {
+    "name": "immovable-shake",
+    "phrase": "disabled control pressed",
+    "category": "feedback",
+    "concept": "A heavy shake combined with a slight shrink, as if anchored in place. Use it for a disabled control that visibly resists being pressed.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "disabled button pressed",
+      "locked control",
+      "control cannot move",
+      "fixed setting tapped",
+      "read only field tapped",
+      "non interactive element tapped",
+      "grayed out option pressed",
+      "setting cannot be changed"
+    ]
+  },
+  {
+    "name": "heavy-denial-shake",
+    "phrase": "access forbidden here",
+    "category": "feedback",
+    "concept": "A slow shake with only two wide swings before it settles. Use it for a strong, weighty denial such as a forbidden access attempt.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "access forbidden",
+      "strong rejection",
+      "action strictly blocked",
+      "hard denial shown",
+      "forbidden action attempted",
+      "firmly refused",
+      "blocked without exception",
+      "request firmly rejected"
+    ]
+  },
+  {
+    "name": "stuck-shake-drag",
+    "phrase": "process is jammed",
+    "category": "feedback",
+    "concept": "A slow drag to one side followed by a quicker rattle back to rest. Use it for something that feels jammed or caught, not cleanly refused.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "stuck process",
+      "jammed action",
+      "step will not advance",
+      "process caught here",
+      "action stuck in place",
+      "stalled operation",
+      "drag blocked midway",
+      "step will not proceed"
+    ]
+  },
+  {
+    "name": "rigid-refusal-shake",
+    "phrase": "policy does not allow this",
+    "category": "feedback",
+    "concept": "A slow shake with a small matching tilt at each swing. Use it for a rule-based refusal that should feel firm and structured.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "rule violation",
+      "policy blocked",
+      "not permitted by policy",
+      "compliance restriction hit",
+      "guideline violation flagged",
+      "terms of service blocked",
+      "policy refusal shown",
+      "compliance rule blocked"
+    ]
+  },
+  {
+    "name": "locked-field-shake",
+    "phrase": "field locked after attempts",
+    "category": "feedback",
+    "concept": "A shake that settles into a slightly shrunken, dimmed state instead of returning to rest. Use it when a field or control becomes locked after repeated failures.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "field locked after failed attempts",
+      "account frozen",
+      "too many attempts",
+      "input locked temporarily",
+      "control locked after error",
+      "field disabled after failure",
+      "reset required after lockout",
+      "field frozen until unlocked"
+    ]
+  },
+  {
+    "name": "diagonal-reject-shake",
+    "phrase": "too many requests",
+    "category": "feedback",
+    "concept": "The element shakes along a diagonal path instead of a straight axis. Use it for a rate-limit style rejection that should feel a bit off-kilter.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "rate limited",
+      "too many requests",
+      "slow down and retry",
+      "request throttled",
+      "api limit reached",
+      "too many attempts too fast",
+      "traffic limit hit",
+      "api throttled"
+    ]
+  },
+  {
+    "name": "corner-reject-shake",
+    "phrase": "quota limit reached",
+    "category": "feedback",
+    "concept": "A diagonal shake along the opposite corner axis from a standard diagonal shake. Use it for a distinct quota or limit rejection.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "quota exceeded",
+      "limit reached",
+      "storage limit hit",
+      "usage cap reached",
+      "monthly limit reached",
+      "allowance used up",
+      "cap exceeded for account",
+      "storage cap hit"
+    ]
+  },
+  {
+    "name": "cross-diagonal-shake",
+    "phrase": "multiple errors found",
+    "category": "feedback",
+    "concept": "The element shakes across both diagonal directions in sequence. Use it when several conflicting problems are flagged at once.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "multiple errors",
+      "conflicting input",
+      "several fields invalid",
+      "multiple issues found",
+      "conflicting values entered",
+      "several problems detected",
+      "many errors on form",
+      "form has several errors"
+    ]
+  },
+  {
+    "name": "diagonal-recoil-shake",
+    "phrase": "gesture not accepted",
+    "category": "feedback",
+    "concept": "A single diagonal pull-back and release, not a repeating shake. Use it for a rejected gesture or swipe, a one-shot diagonal motion.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "swipe rejected",
+      "gesture denied",
+      "drag gesture failed",
+      "swipe action blocked",
+      "gesture not recognized",
+      "invalid swipe direction",
+      "gesture cancelled by system",
+      "swipe direction invalid"
+    ]
+  },
+  {
+    "name": "slant-reject-wobble",
+    "phrase": "drop target invalid",
+    "category": "feedback",
+    "concept": "A diagonal shake combined with a small rotation. Use it for a rejected drag-and-drop, where the item visibly resists an invalid target.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "drag drop rejected",
+      "invalid drop target",
+      "item cannot be placed here",
+      "drop zone rejected",
+      "cannot move item here",
+      "placement not allowed",
+      "cannot drop item here",
+      "drag target rejected"
+    ]
+  },
+  {
+    "name": "diagonal-drop-shake",
+    "phrase": "item not compatible",
+    "category": "feedback",
+    "concept": "A diagonal shake with a downward drift before it returns to rest. Use it for an item rejected from a list or cart, such as an incompatible product.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item rejected from cart",
+      "incompatible item",
+      "product cannot be added",
+      "item not eligible",
+      "cannot combine items",
+      "conflicting item added",
+      "item excluded from bundle",
+      "bundle rule violated"
+    ]
+  },
+  {
+    "name": "timeout-fade",
+    "phrase": "request timed out",
+    "category": "feedback",
+    "concept": "A slow single dim and recover, with no movement. Use it for something that expired on its own, such as a timed-out request.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "request timed out",
+      "connection lost",
+      "server took too long",
+      "operation timed out",
+      "no response from server",
+      "request expired",
+      "timeout occurred",
+      "server did not answer"
+    ]
+  },
+  {
+    "name": "session-expired-fade",
+    "phrase": "session has expired",
+    "category": "feedback",
+    "concept": "A slow dim that settles into a dimmed, muted state instead of recovering. Use it for a session or credential that has actually expired and needs renewal.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "session expired",
+      "please log in again",
+      "credentials expired",
+      "token expired",
+      "auto logged out",
+      "session timed out",
+      "sign in again required",
+      "log in session ended"
+    ]
+  },
+  {
+    "name": "connection-timeout-dim",
+    "phrase": "network not responding",
+    "category": "feedback",
+    "concept": "A very slow dim and recover with a longer hold at its lowest point. Use it for a network-level timeout, distinct in pace from a request timeout.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "network timeout",
+      "server not responding",
+      "connection unstable",
+      "cannot reach server",
+      "network unreachable",
+      "poor connection detected",
+      "connection dropped",
+      "connection keeps dropping"
+    ]
+  },
+  {
+    "name": "request-timeout-pulse",
+    "phrase": "response is slow",
+    "category": "feedback",
+    "concept": "A slow single dim paired with a light shrink, then a full recovery. Use it for a slow response that is still expected to arrive, not a hard failure.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "request took too long",
+      "slow response timeout",
+      "waiting too long",
+      "response delayed",
+      "slow network response",
+      "loading taking too long",
+      "still waiting for response",
+      "still loading after delay"
+    ]
+  },
+  {
+    "name": "link-expired-fade",
+    "phrase": "link no longer valid",
+    "category": "feedback",
+    "concept": "The longest, slowest dim and recover of the timeout group, with almost no movement. Use it for an expired link or code that is now stale.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "link expired",
+      "verification code expired",
+      "invite link expired",
+      "reset link no longer valid",
+      "one time code expired",
+      "download link expired",
+      "shared link stale",
+      "reset password link stale"
+    ]
+  }
+]

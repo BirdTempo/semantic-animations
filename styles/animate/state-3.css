@@ -1,0 +1,409 @@
+.sa-glow-bright {
+  animation: sa-glow-bright var(--sa-duration, 2s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-bright {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  50% { filter: brightness(1.12) drop-shadow(0 0 5px currentColor); }
+}
+
+.sa-glow-luminous {
+  animation: sa-glow-luminous var(--sa-duration, 2.4s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-luminous {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  50% { filter: brightness(1.1) drop-shadow(0 0 8px currentColor); }
+}
+
+.sa-glow-radiant-wide {
+  animation: sa-glow-radiant-wide var(--sa-duration, 3s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-radiant-wide {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  50% { filter: brightness(1.08) drop-shadow(0 0 16px currentColor); }
+}
+
+.sa-glow-brighten-quick {
+  animation: sa-glow-brighten-quick var(--sa-duration, 1.8s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-brighten-quick {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  50% { filter: brightness(1.15) drop-shadow(0 0 5px currentColor); }
+}
+
+.sa-glow-luster {
+  animation: sa-glow-luster var(--sa-duration, 2.6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-luster {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  50% { filter: brightness(1.1) drop-shadow(0 0 10px currentColor); }
+}
+
+.sa-glow-shine-soft {
+  animation: sa-glow-shine-soft var(--sa-duration, 2.2s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-shine-soft {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  50% { filter: brightness(1.06) drop-shadow(0 0 7px currentColor); }
+}
+
+.sa-glow-bloom-fade {
+  animation: sa-glow-bloom-fade var(--sa-duration, 2s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-bloom-fade {
+  0% { filter: drop-shadow(0 0 0 transparent); }
+  15% { filter: drop-shadow(0 0 9px currentColor); }
+  100% { filter: drop-shadow(0 0 0 transparent); }
+}
+
+.sa-glow-fade-bloom {
+  animation: sa-glow-fade-bloom var(--sa-duration, 2.2s) var(--sa-timing, ease-in) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-fade-bloom {
+  0% { filter: drop-shadow(0 0 0 transparent); }
+  85% { filter: drop-shadow(0 0 9px currentColor); }
+  100% { filter: drop-shadow(0 0 0 transparent); }
+}
+
+.sa-glow-fast-bloom {
+  animation: sa-glow-fast-bloom var(--sa-duration, 2.6s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-fast-bloom {
+  0% { filter: drop-shadow(0 0 0 transparent); }
+  10% { filter: drop-shadow(0 0 12px currentColor); }
+  100% { filter: drop-shadow(0 0 0 transparent); }
+}
+
+.sa-glow-ember {
+  animation: sa-glow-ember var(--sa-duration, 3.2s) var(--sa-timing, ease-in) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-ember {
+  0% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  80% { filter: brightness(1.1) drop-shadow(0 0 14px currentColor); }
+  100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+}
+
+.sa-glow-swell {
+  animation: sa-glow-swell var(--sa-duration, 2.8s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-swell {
+  0% { filter: drop-shadow(0 0 0 transparent); }
+  30% { filter: drop-shadow(0 0 11px currentColor); }
+  100% { filter: drop-shadow(0 0 0 transparent); }
+}
+
+.sa-glow-simmer {
+  animation: sa-glow-simmer var(--sa-duration, 1.6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-simmer {
+  0%, 40%, 80%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  20%, 60% { filter: drop-shadow(0 0 5px currentColor); }
+}
+
+.sa-shimmer-sheen {
+  animation: sa-shimmer-sheen var(--sa-duration, 1.2s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-sheen {
+  0%, 100% { filter: brightness(1); opacity: 1; }
+  50% { filter: brightness(1.08); opacity: 0.96; }
+}
+
+.sa-shimmer-glint {
+  animation: sa-shimmer-glint var(--sa-duration, 0.9s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-glint {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.15); }
+}
+
+.sa-shimmer-veil {
+  animation: sa-shimmer-veil var(--sa-duration, 1.6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-veil {
+  0%, 100% { filter: brightness(1) blur(0); }
+  50% { filter: brightness(1.05) blur(0.4px); }
+}
+
+.sa-shimmer-quick {
+  animation: sa-shimmer-quick var(--sa-duration, 0.6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-quick {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.05); }
+}
+
+.sa-shimmer-flutter {
+  animation: sa-shimmer-flutter var(--sa-duration, 1s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-flutter {
+  0%, 20%, 40%, 100% { filter: brightness(1); }
+  10% { filter: brightness(1.06); }
+  30% { filter: brightness(1.05); }
+}
+
+.sa-shimmer-glaze {
+  animation: sa-shimmer-glaze var(--sa-duration, 1.8s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-glaze {
+  0%, 100% { filter: brightness(1) saturate(1); }
+  50% { filter: brightness(1.05) saturate(1.15); }
+}
+
+.sa-shimmer-subtle {
+  animation: sa-shimmer-subtle var(--sa-duration, 1.4s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-subtle {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.02); }
+}
+
+.sa-shimmer-drift {
+  animation: sa-shimmer-drift var(--sa-duration, 3s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-drift {
+  0%, 100% { filter: brightness(1) hue-rotate(0deg); }
+  50% { filter: brightness(1.05) hue-rotate(6deg); }
+}
+
+.sa-focus-breathe {
+  animation: sa-focus-breathe var(--sa-duration, 3s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-focus-breathe {
+  0%, 100% { filter: blur(0); }
+  50% { filter: blur(0.6px); }
+}
+
+.sa-soft-focus-drift {
+  animation: sa-soft-focus-drift var(--sa-duration, 4s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-soft-focus-drift {
+  0%, 100% { filter: blur(0) brightness(1); }
+  50% { filter: blur(0.4px) brightness(0.98); }
+}
+
+.sa-dreamy-blur-pulse {
+  animation: sa-dreamy-blur-pulse var(--sa-duration, 3.6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-dreamy-blur-pulse {
+  0%, 100% { filter: blur(0); opacity: 1; }
+  50% { filter: blur(1px); opacity: 0.92; }
+}
+
+.sa-hazy-breathe {
+  animation: sa-hazy-breathe var(--sa-duration, 5s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-hazy-breathe {
+  0%, 100% { filter: blur(0.2px); }
+  50% { filter: blur(0.8px); }
+}
+
+.sa-blur-dream {
+  animation: sa-blur-dream var(--sa-duration, 4.5s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-blur-dream {
+  0%, 100% { transform: scale(1); filter: blur(0); }
+  50% { transform: scale(1.01); filter: blur(1.2px); }
+}
+
+.sa-blur-soft-focus {
+  animation: sa-blur-soft-focus var(--sa-duration, 2.4s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-blur-soft-focus {
+  0%, 100% { filter: blur(0); }
+  50% { filter: blur(0.3px); }
+}
+
+.sa-blur-veil-breathe {
+  animation: sa-blur-veil-breathe var(--sa-duration, 3.8s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-blur-veil-breathe {
+  0%, 100% { filter: blur(0) drop-shadow(0 0 0 transparent); }
+  50% { filter: blur(0.5px) drop-shadow(0 0 3px currentColor); }
+}
+
+.sa-glow-breathe {
+  animation: sa-glow-breathe var(--sa-duration, 3s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-breathe {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 0 transparent); }
+  50% { transform: scale(1.02); filter: drop-shadow(0 0 8px currentColor); }
+}
+
+.sa-glow-pulse-soft {
+  animation: sa-glow-pulse-soft var(--sa-duration, 2s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-pulse-soft {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.015); filter: brightness(1.05); }
+}
+
+.sa-glow-scale-breathe {
+  animation: sa-glow-scale-breathe var(--sa-duration, 4s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-scale-breathe {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 0 transparent); }
+  50% { transform: scale(1.03); filter: drop-shadow(0 0 6px currentColor); }
+}
+
+.sa-glow-gentle-swell {
+  animation: sa-glow-gentle-swell var(--sa-duration, 3.4s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-gentle-swell {
+  0% { transform: scale(1); filter: drop-shadow(0 0 0 transparent); }
+  25% { transform: scale(1.025); filter: drop-shadow(0 0 9px currentColor); }
+  100% { transform: scale(1); filter: drop-shadow(0 0 0 transparent); }
+}
+
+.sa-glow-drift-scale {
+  animation: sa-glow-drift-scale var(--sa-duration, 5s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-drift-scale {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.02); filter: brightness(1.06); }
+}
+
+.sa-two-stage-glow {
+  animation: sa-two-stage-glow var(--sa-duration, 2.5s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-two-stage-glow {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  20%, 35% { filter: drop-shadow(0 0 8px currentColor); }
+}
+
+.sa-glow-flash-hold {
+  animation: sa-glow-flash-hold var(--sa-duration, 3s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-flash-hold {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  10%, 25% { filter: brightness(1.15) drop-shadow(0 0 10px currentColor); }
+}
+
+.sa-glow-step-pulse {
+  animation: sa-glow-step-pulse var(--sa-duration, 2.8s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-step-pulse {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  25% { filter: drop-shadow(0 0 6px currentColor); }
+  50%, 65% { filter: drop-shadow(0 0 12px currentColor); }
+}
+
+.sa-glow-brighten-hold {
+  animation: sa-glow-brighten-hold var(--sa-duration, 2.6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-brighten-hold {
+  0%, 100% { filter: brightness(1); }
+  15%, 35% { filter: brightness(1.12); }
+}
+
+.sa-glow-two-beat {
+  animation: sa-glow-two-beat var(--sa-duration, 3.2s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-two-beat {
+  0%, 20%, 45%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  10%, 30% { filter: drop-shadow(0 0 7px currentColor); }
+}
+
+.sa-aura-slow {
+  animation: sa-aura-slow var(--sa-duration, 6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-aura-slow {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  50% { filter: drop-shadow(0 0 10px currentColor); }
+}
+
+.sa-aura-deep {
+  animation: sa-aura-deep var(--sa-duration, 8s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-aura-deep {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  50% { filter: brightness(1.1) drop-shadow(0 0 18px currentColor); }
+}
+
+.sa-aura-meditative {
+  animation: sa-aura-meditative var(--sa-duration, 10s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-aura-meditative {
+  0%, 100% { filter: blur(0) drop-shadow(0 0 0 transparent); }
+  50% { filter: blur(0.5px) drop-shadow(0 0 14px currentColor); }
+}
+
+.sa-aura-drift {
+  animation: sa-aura-drift var(--sa-duration, 7s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-aura-drift {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 0 transparent); }
+  50% { transform: scale(1.02); filter: drop-shadow(0 0 12px currentColor); }
+}
+
+.sa-aura-long {
+  animation: sa-aura-long var(--sa-duration, 9s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-aura-long {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.2); }
+}
+
+.sa-aura-calm {
+  animation: sa-aura-calm var(--sa-duration, 12s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-aura-calm {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  50% { filter: drop-shadow(0 0 4px currentColor); }
+}
+
+.sa-glow-wide {
+  animation: sa-glow-wide var(--sa-duration, 2.6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-wide {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  50% { filter: drop-shadow(0 0 18px currentColor); }
+}
+
+.sa-glow-diffuse {
+  animation: sa-glow-diffuse var(--sa-duration, 3s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-diffuse {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  50% { filter: drop-shadow(0 0 22px currentColor); }
+}
+
+.sa-glow-halo-wide {
+  animation: sa-glow-halo-wide var(--sa-duration, 2.8s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-halo-wide {
+  0%, 100% { box-shadow: 0 0 0 transparent; }
+  50% { box-shadow: 0 0 20px currentColor; }
+}
+
+.sa-glow-spread {
+  animation: sa-glow-spread var(--sa-duration, 3.4s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-spread {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  50% { filter: drop-shadow(0 0 26px currentColor); }
+}
+
+.sa-glow-halo-soft {
+  animation: sa-glow-halo-soft var(--sa-duration, 3s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-halo-soft {
+  0%, 100% { filter: brightness(1) drop-shadow(0 0 0 transparent); }
+  50% { filter: brightness(1.04) drop-shadow(0 0 16px currentColor); }
+}
+
+.sa-shimmer-flicker {
+  animation: sa-shimmer-flicker var(--sa-duration, 0.5s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-shimmer-flicker {
+  0%, 15%, 32%, 60%, 100% { filter: brightness(1); }
+  8% { filter: brightness(1.04); }
+  25% { filter: brightness(1.03); }
+  45% { filter: brightness(1.05); }
+}
+
+.sa-glow-slow-radiance {
+  animation: sa-glow-slow-radiance var(--sa-duration, 11s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow-slow-radiance {
+  0%, 100% { filter: drop-shadow(0 0 0 transparent); }
+  50% { filter: drop-shadow(0 0 30px currentColor); }
+}

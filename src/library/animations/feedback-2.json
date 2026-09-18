@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "victory-bounce",
+    "phrase": "big win celebration",
+    "category": "feedback",
+    "concept": "The element bounces up past full size, dips slightly below the baseline, then rises again and settles. Use it for a major win, such as winning a tournament or a big prize.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "game won",
+      "tournament victory",
+      "championship win",
+      "big win",
+      "grand prize",
+      "epic win",
+      "you won",
+      "victory celebration",
+      "huge success",
+      "top score achieved"
+    ]
+  },
+  {
+    "name": "level-up-burst",
+    "phrase": "level up",
+    "category": "feedback",
+    "concept": "The element scales up and rises briefly before it settles back to place. Use it when a user's rank, level, or tier increases.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "level up",
+      "rank increased",
+      "tier upgraded",
+      "xp gained",
+      "character leveled up",
+      "power up",
+      "ascended a level",
+      "new level reached",
+      "skill unlocked",
+      "leveled up in game"
+    ]
+  },
+  {
+    "name": "high-five-pulse",
+    "phrase": "high five",
+    "category": "feedback",
+    "concept": "The element pulses twice in quick succession, then returns to rest. Use it for a fast, mutual celebration between two people.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "high five",
+      "mutual success",
+      "team celebration",
+      "nice job",
+      "teamwork win",
+      "slap hands",
+      "quick congrats",
+      "in sync win",
+      "collab success",
+      "we did it together"
+    ]
+  },
+  {
+    "name": "checkmark-settle",
+    "phrase": "checkbox ticked",
+    "category": "feedback",
+    "concept": "The element scales up and rotates slightly, then straightens to a stable, upright state. Use it when a form field or checklist item passes validation.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "checkbox checked",
+      "form validated",
+      "field verified",
+      "tick mark",
+      "input accepted",
+      "requirement met",
+      "step confirmed",
+      "validation passed",
+      "task ticked off",
+      "checklist item done"
+    ]
+  },
+  {
+    "name": "combo-escalate",
+    "phrase": "combo milestone hit",
+    "category": "feedback",
+    "concept": "The element pops larger than a standard success confirmation, dips, and settles. Use it when a combo or streak counter crosses a notable threshold.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "combo milestone",
+      "streak multiplier hit",
+      "chain bonus",
+      "combo x5",
+      "bigger win",
+      "escalating streak",
+      "combo threshold reached",
+      "multi kill",
+      "streak bonus",
+      "chain reaction success"
+    ]
+  },
+  {
+    "name": "quiet-win-settle",
+    "phrase": "small task done quietly",
+    "category": "feedback",
+    "concept": "The element grows a small amount and settles, with very little motion. Use it for a small, routine success that needs only a light acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "routine task complete",
+      "minor success",
+      "quiet confirmation",
+      "small checkbox done",
+      "auto saved",
+      "background task done",
+      "low key win",
+      "subtle acknowledgment",
+      "everyday task complete",
+      "small step finished"
+    ]
+  },
+  {
+    "name": "achievement-float-pop",
+    "phrase": "achievement unlocked",
+    "category": "feedback",
+    "concept": "The element pops up and floats briefly higher before it settles back down. Use it when a user unlocks a badge, trophy, or achievement.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "achievement unlocked",
+      "badge earned",
+      "trophy awarded",
+      "milestone badge",
+      "new achievement",
+      "unlocked reward",
+      "game achievement",
+      "accolade earned",
+      "award popup",
+      "feat accomplished"
+    ]
+  },
+  {
+    "name": "joy-spin-settle",
+    "phrase": "spin of joy",
+    "category": "feedback",
+    "concept": "The element rotates part of the way around and unwinds back to zero while it scales up and settles. Use it for a playful, joyful reaction.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "playful celebration",
+      "spin for joy",
+      "twirl of delight",
+      "fun win",
+      "cheerful spin",
+      "happy reaction",
+      "delighted response",
+      "celebratory twirl",
+      "gleeful confirmation",
+      "joyful wiggle"
+    ]
+  },
+  {
+    "name": "triumph-swell",
+    "phrase": "triumphant moment",
+    "category": "feedback",
+    "concept": "The element swells larger than usual with a brief rotation, then settles upright. Use it for a proud, triumphant moment, such as a crowning achievement.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "proud moment",
+      "triumphant finish",
+      "victorious feeling",
+      "crowning achievement",
+      "epic accomplishment",
+      "hero moment",
+      "standing ovation",
+      "triumphant reveal",
+      "glorious win",
+      "top of the leaderboard"
+    ]
+  },
+  {
+    "name": "milestone-bump",
+    "phrase": "milestone reached",
+    "category": "feedback",
+    "concept": "The element bumps upward once with a moderate scale increase, then settles back to place. Use it when a user reaches a defined milestone or checkpoint.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "milestone reached",
+      "checkpoint hit",
+      "progress milestone",
+      "halfway point reached",
+      "goal checkpoint",
+      "target reached",
+      "benchmark achieved",
+      "stage complete",
+      "waypoint reached",
+      "tracker milestone"
+    ]
+  },
+  {
+    "name": "streak-ignite",
+    "phrase": "streak on fire",
+    "category": "feedback",
+    "concept": "The element pulses once while it briefly brightens, then returns to rest. Use it when a user extends a winning or activity streak.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "hot streak",
+      "streak on fire",
+      "winning streak extended",
+      "streak bonus lit",
+      "on a roll",
+      "consecutive wins",
+      "streak counter up",
+      "fired up",
+      "hot hand",
+      "streak alive"
+    ]
+  },
+  {
+    "name": "personal-best-lift",
+    "phrase": "new personal best",
+    "category": "feedback",
+    "concept": "The element lifts upward and scales up, then eases back down to rest. Use it when a user beats their own previous best result.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "personal best",
+      "new pr",
+      "beat your record",
+      "self improvement win",
+      "best time yet",
+      "personal record broken",
+      "top your score",
+      "outdid yourself",
+      "new high for you",
+      "career best"
+    ]
+  },
+  {
+    "name": "badge-earn",
+    "phrase": "badge earned",
+    "category": "feedback",
+    "concept": "The element scales up with a small rotation wobble, then straightens and holds steady. Use it when a user earns a collectible badge.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "badge earned",
+      "collectible unlocked",
+      "sticker earned",
+      "patch awarded",
+      "digital badge",
+      "profile badge added",
+      "badge collection",
+      "earned stripes",
+      "merit badge",
+      "badge notification"
+    ]
+  },
+  {
+    "name": "trophy-raise",
+    "phrase": "trophy awarded",
+    "category": "feedback",
+    "concept": "The element rises and scales up as if held aloft, holds briefly, then lowers gently back into place. Use it when a user wins a trophy or a top prize.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "trophy awarded",
+      "first place win",
+      "champion trophy",
+      "top prize won",
+      "raised trophy",
+      "winner announced",
+      "gold trophy earned",
+      "prize ceremony",
+      "number one finish",
+      "hoisted trophy"
+    ]
+  },
+  {
+    "name": "confetti-burst",
+    "phrase": "confetti celebration",
+    "category": "feedback",
+    "concept": "The element bursts outward briefly with a flash of brightness, then settles. Use it for a big, shareable celebration moment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "confetti celebration",
+      "party popper",
+      "shower of confetti",
+      "celebration burst",
+      "festive win",
+      "party time",
+      "congratulations burst",
+      "celebratory explosion",
+      "confetti drop moment",
+      "party mode on"
+    ]
+  },
+  {
+    "name": "gold-star-pop",
+    "phrase": "gold star earned",
+    "category": "feedback",
+    "concept": "The element pops up and turns a full rotation before it settles upright. Use it when a user earns a top rating or a gold star.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "gold star earned",
+      "five star rating",
+      "star earned",
+      "top rated item",
+      "starred item",
+      "excellent rating given",
+      "star sticker",
+      "top marks",
+      "star reward",
+      "five stars awarded"
+    ]
+  },
+  {
+    "name": "cheer-bounce",
+    "phrase": "crowd cheering",
+    "category": "feedback",
+    "concept": "The element bounces twice with decreasing height, then settles. Use it for an enthusiastic, crowd-style celebration.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "crowd cheering",
+      "applause moment",
+      "fans celebrating",
+      "stadium roar",
+      "cheer squad",
+      "standing crowd cheer",
+      "applause received",
+      "enthusiastic reaction",
+      "roaring approval",
+      "crowd goes wild"
+    ]
+  },
+  {
+    "name": "fist-pump",
+    "phrase": "fist pump moment",
+    "category": "feedback",
+    "concept": "The element thrusts upward sharply once, dips slightly below the baseline, then settles. Use it for a decisive, personal win.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "fist pump",
+      "yes moment",
+      "pumped up",
+      "victory gesture",
+      "personal triumph",
+      "celebratory gesture",
+      "strong finish",
+      "solo win",
+      "that's a win",
+      "nailed it"
+    ]
+  },
+  {
+    "name": "round-won",
+    "phrase": "round won",
+    "category": "feedback",
+    "concept": "The element scales up firmly with a brief brightness lift, then settles. Use it for round-by-round feedback in a game or a match.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "round won",
+      "match point won",
+      "round victory",
+      "point scored in match",
+      "round complete win",
+      "best of three win",
+      "set won",
+      "game round success",
+      "round cleared",
+      "round result win"
+    ]
+  },
+  {
+    "name": "quest-complete",
+    "phrase": "quest completed",
+    "category": "feedback",
+    "concept": "The element scales up broadly with a slight rotation and lift, then settles. Use it when a user finishes a quest or a mission.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "quest complete",
+      "mission accomplished",
+      "task chain finished",
+      "storyline complete",
+      "adventure milestone",
+      "quest reward claimed",
+      "mission success",
+      "objective complete",
+      "side quest done",
+      "main quest finished"
+    ]
+  },
+  {
+    "name": "new-record-pop",
+    "phrase": "new record set",
+    "category": "feedback",
+    "concept": "The element pops sharply above full size and snaps back firmly. Use it when a user sets a new all-time record.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "new record set",
+      "record broken",
+      "all time high",
+      "high water mark",
+      "record shattered",
+      "leaderboard record",
+      "new benchmark set",
+      "record breaking result",
+      "top of chart",
+      "unprecedented score"
+    ]
+  },
+  {
+    "name": "unlock-reveal",
+    "phrase": "feature unlocked",
+    "category": "feedback",
+    "concept": "The element scales up from a dim, rotated, and faded state to a full, upright, and bright state. Use it when a user unlocks new content or a feature.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "feature unlocked",
+      "content unlocked",
+      "new item unlocked",
+      "tier unlocked",
+      "access granted",
+      "unlocked content reveal",
+      "unlocked level",
+      "hidden content revealed",
+      "new tool unlocked",
+      "capability unlocked"
+    ]
+  },
+  {
+    "name": "points-scored",
+    "phrase": "points scored",
+    "category": "feedback",
+    "concept": "The element hops up briefly, then returns to rest. Use it for a small point or score increment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "points scored",
+      "score increased",
+      "scoreboard update",
+      "points added",
+      "tally increased",
+      "score bump",
+      "points earned",
+      "running total up",
+      "score ticked up",
+      "points on the board"
+    ]
+  },
+  {
+    "name": "goal-net",
+    "phrase": "goal scored",
+    "category": "feedback",
+    "concept": "The element scales up and rocks slightly side to side before it settles. Use it when a user scores a goal in a sports context.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "goal scored",
+      "score a goal",
+      "net celebration",
+      "striker celebration",
+      "match goal scored",
+      "goal net ripple",
+      "hockey goal scored",
+      "goal celebration",
+      "back of the net",
+      "scored in soccer"
+    ]
+  },
+  {
+    "name": "jackpot-flash",
+    "phrase": "jackpot hit",
+    "category": "feedback",
+    "concept": "The element flashes brighter with a glowing outline and scales up, then settles. Use it for a rare, high-value win, such as a jackpot.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "jackpot hit",
+      "big prize win",
+      "slot machine win",
+      "rare drop",
+      "lucky win",
+      "grand jackpot",
+      "lottery win",
+      "rare loot found",
+      "huge payout",
+      "hit the jackpot"
+    ]
+  },
+  {
+    "name": "quiz-correct",
+    "phrase": "quiz answer correct",
+    "category": "feedback",
+    "concept": "The element scales up quickly with a short opacity flicker, then returns to rest. Use it for instant correct-answer feedback in a quiz.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "quiz correct",
+      "right answer",
+      "trivia win",
+      "correct response given",
+      "question answered correctly",
+      "quiz streak",
+      "correct guess",
+      "answer confirmed right",
+      "trivia point earned",
+      "quiz score up"
+    ]
+  },
+  {
+    "name": "exam-passed",
+    "phrase": "exam passed",
+    "category": "feedback",
+    "concept": "The element scales up broadly at a slower, steady pace, then settles. Use it for the relief of passing a test or an exam.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "exam passed",
+      "test passed",
+      "certification test passed",
+      "passed the test",
+      "licensing exam cleared",
+      "final exam success",
+      "passed with honors",
+      "qualifying exam cleared",
+      "board exam passed",
+      "grade posted pass"
+    ]
+  },
+  {
+    "name": "verified-check",
+    "phrase": "identity verified",
+    "category": "feedback",
+    "concept": "The element scales up slightly while a brief rotation resolves back to upright. Use it for identity or account verification success.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "identity verified",
+      "account verified",
+      "verification complete",
+      "verified badge granted",
+      "kyc passed",
+      "email verified",
+      "phone verified",
+      "verified checkmark shown",
+      "trust confirmed",
+      "verification success"
+    ]
+  },
+  {
+    "name": "approved-nod",
+    "phrase": "request approved",
+    "category": "feedback",
+    "concept": "The element dips down slightly, then rises past full size and settles. Use it for approvals, such as requests, applications, or reviews.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "request approved",
+      "application approved",
+      "approval granted",
+      "review approved",
+      "manager approved",
+      "sign off received",
+      "greenlit",
+      "approved for use",
+      "request accepted",
+      "approval confirmed"
+    ]
+  },
+  {
+    "name": "certified-seal",
+    "phrase": "certification granted",
+    "category": "feedback",
+    "concept": "The element scales up from a rotated position and stamps into an upright, held state in one decisive motion. Use it for a formal certification or credentialing moment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "certification granted",
+      "credential awarded",
+      "official seal applied",
+      "certified status",
+      "stamped approved",
+      "accreditation earned",
+      "license granted",
+      "official certification",
+      "seal of approval",
+      "credential issued"
+    ]
+  },
+  {
+    "name": "promoted-rise",
+    "phrase": "promotion announced",
+    "category": "feedback",
+    "concept": "The element rises steadily upward while it scales up, then settles back to its original position. Use it for a job promotion or a rank advancement.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "promotion announced",
+      "promoted to new role",
+      "career advancement",
+      "rank up at work",
+      "title upgraded",
+      "job level increase",
+      "promotion celebration",
+      "climbed the ladder",
+      "new position earned",
+      "advancement confirmed"
+    ]
+  },
+  {
+    "name": "graduate-toss",
+    "phrase": "graduation moment",
+    "category": "feedback",
+    "concept": "The element tosses upward with a rotation, falls back, and settles. Use it for a graduation or a course completion milestone.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "graduation moment",
+      "course completed",
+      "degree earned",
+      "cap toss moment",
+      "commencement day",
+      "diploma earned",
+      "class of graduation",
+      "finished the program",
+      "graduated today",
+      "academic milestone reached"
+    ]
+  },
+  {
+    "name": "deal-closed",
+    "phrase": "deal closed",
+    "category": "feedback",
+    "concept": "The element scales up firmly and holds slightly larger and brighter than its start. Use it when a business deal or a contract closes.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "deal closed",
+      "contract signed",
+      "sale closed",
+      "deal sealed",
+      "agreement finalized",
+      "negotiation won",
+      "sale confirmed",
+      "contract executed",
+      "deal done",
+      "business win"
+    ]
+  },
+  {
+    "name": "payment-confirmed",
+    "phrase": "payment confirmed",
+    "category": "feedback",
+    "concept": "The element scales up quickly with a soft opacity flash, then returns to rest. Use it for a successful payment or a transaction confirmation.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "payment confirmed",
+      "transaction successful",
+      "payment received",
+      "checkout complete",
+      "invoice paid",
+      "payment processed",
+      "funds transferred",
+      "billing successful",
+      "subscription charged",
+      "payment cleared"
+    ]
+  },
+  {
+    "name": "upvote-lift",
+    "phrase": "upvote registered",
+    "category": "feedback",
+    "concept": "The element lifts upward briefly and scales slightly, then returns to rest. Use it for a lightweight social action, such as an upvote.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "upvote registered",
+      "vote counted",
+      "thumbs up given",
+      "upvoted successfully",
+      "reaction added",
+      "vote cast",
+      "endorsement given",
+      "plus one given",
+      "upvote animation",
+      "vote submitted"
+    ]
+  },
+  {
+    "name": "like-heart-pop",
+    "phrase": "like given",
+    "category": "feedback",
+    "concept": "The element pops up larger than a light social reaction, then settles. Use it for a like or a heart reaction on content.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "like given",
+      "heart reaction",
+      "tapped to like",
+      "favorited content",
+      "loved this post",
+      "like button pressed",
+      "heart animation",
+      "liked successfully",
+      "reaction heart pop",
+      "content liked"
+    ]
+  },
+  {
+    "name": "follow-gained",
+    "phrase": "new follower gained",
+    "category": "feedback",
+    "concept": "The element scales up gently with a small rotation wiggle, then settles. Use it when a user gains a new follower or a connection.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "new follower gained",
+      "follow confirmed",
+      "connection added",
+      "friend added",
+      "following successful",
+      "subscriber gained",
+      "network grew",
+      "follow button success",
+      "added a contact",
+      "gained a fan"
+    ]
+  },
+  {
+    "name": "ribbon-award",
+    "phrase": "ribbon awarded",
+    "category": "feedback",
+    "concept": "The element scales up and tilts, then straightens and holds. Use it when a user receives a ribbon, a prize, or an honorable mention.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "ribbon awarded",
+      "honorable mention",
+      "prize ribbon given",
+      "award ceremony",
+      "blue ribbon given",
+      "contest ribbon won",
+      "recognition awarded",
+      "ribbon prize won",
+      "category winner",
+      "special mention earned"
+    ]
+  },
+  {
+    "name": "medal-shine",
+    "phrase": "medal earned",
+    "category": "feedback",
+    "concept": "The element scales up while it briefly brightens, then settles. Use it when a user earns a medal or a top ranking distinction.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "medal earned",
+      "gold medal won",
+      "silver medal awarded",
+      "bronze medal won",
+      "medal ceremony",
+      "podium finish",
+      "medal unlocked",
+      "ranking medal earned",
+      "competition medal",
+      "medal shine moment"
+    ]
+  },
+  {
+    "name": "boss-defeated",
+    "phrase": "boss defeated",
+    "category": "feedback",
+    "concept": "The element scales up dramatically with a strong rotation wobble across several steps before it settles. Use it for overcoming a major challenge, such as a difficult boss battle.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "boss defeated",
+      "boss battle won",
+      "hard level beaten",
+      "final boss down",
+      "challenge conquered",
+      "difficult fight won",
+      "boss fight victory",
+      "enemy defeated",
+      "raid boss down",
+      "epic battle won"
+    ]
+  },
+  {
+    "name": "level-cleared",
+    "phrase": "level cleared",
+    "category": "feedback",
+    "concept": "The element scales up and slides slightly sideways before it centers and settles. Use it when a user clears a game level or a stage.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "level cleared",
+      "stage complete",
+      "level finished",
+      "world cleared",
+      "dungeon cleared",
+      "level complete banner",
+      "stage cleared successfully",
+      "level passed",
+      "area cleared",
+      "zone completed"
+    ]
+  },
+  {
+    "name": "combo-multiplier",
+    "phrase": "combo multiplier increased",
+    "category": "feedback",
+    "concept": "The element scales up in two escalating steps, the second larger than the first. Use it when a combo multiplier increases in a game or a gamified app.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "combo multiplier increased",
+      "multiplier increased",
+      "combo x2 x3",
+      "chain multiplier up",
+      "score multiplier boost",
+      "combo counter rising",
+      "multiplier bonus",
+      "streak multiplier increased",
+      "combo level up",
+      "multiplier stacked"
+    ]
+  },
+  {
+    "name": "first-try-win",
+    "phrase": "solved on first try",
+    "category": "feedback",
+    "concept": "The element scales up briskly once with a crisp, quick settle. Use it for a clean success on the first attempt, without retries.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "first try success",
+      "solved first attempt",
+      "one shot success",
+      "nailed it first try",
+      "no retries needed",
+      "first attempt win",
+      "got it right away",
+      "clean first pass",
+      "first guess correct",
+      "aced it first time"
+    ]
+  },
+  {
+    "name": "daily-goal-met",
+    "phrase": "daily goal met",
+    "category": "feedback",
+    "concept": "The element scales up gently and pulses once softly, then returns to rest. Use it when a user meets a daily goal or a habit target.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "daily goal met",
+      "habit streak day complete",
+      "daily target hit",
+      "activity ring closed",
+      "daily challenge done",
+      "steps goal reached",
+      "daily quota met",
+      "habit completed today",
+      "daily checklist done",
+      "goal ring filled"
+    ]
+  },
+  {
+    "name": "bonus-earned",
+    "phrase": "bonus earned",
+    "category": "feedback",
+    "concept": "The element pops up, then adds a smaller secondary bounce before it settles. Use it when a user earns a bonus or an extra reward.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "bonus earned",
+      "extra reward given",
+      "bonus round won",
+      "surprise bonus",
+      "added bonus points",
+      "bonus unlocked",
+      "extra prize earned",
+      "bonus item received",
+      "stacked bonus",
+      "bonus multiplier earned"
+    ]
+  },
+  {
+    "name": "streak-saved",
+    "phrase": "streak saved",
+    "category": "feedback",
+    "concept": "The element starts slightly below full size, overshoots, dips again, then settles. Use it when a user narrowly saves a streak from breaking.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "streak saved",
+      "streak protected",
+      "saved your streak",
+      "streak freeze used",
+      "close call streak",
+      "streak continues",
+      "just in time save",
+      "streak rescued",
+      "kept the streak alive",
+      "phew streak safe"
+    ]
+  },
+  {
+    "name": "high-score-beat",
+    "phrase": "high score beaten",
+    "category": "feedback",
+    "concept": "The element scales up sharply with a slight rotation and a brightness spike, then settles. Use it when a user beats the previous high score.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "high score beaten",
+      "new high score",
+      "topped the leaderboard",
+      "beat previous score",
+      "high score flash",
+      "arcade high score",
+      "top score achieved",
+      "score record broken",
+      "leaderboard topped",
+      "new top score"
+    ]
+  },
+  {
+    "name": "perfect-score",
+    "phrase": "perfect score achieved",
+    "category": "feedback",
+    "concept": "The element scales up and holds a brief glow at its peak before it eases back to rest. Use it for a flawless or a 100 percent result.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "perfect score achieved",
+      "100 percent achieved",
+      "flawless run",
+      "all correct answers",
+      "full marks earned",
+      "perfect run",
+      "no mistakes made",
+      "clean sweep score",
+      "five out of five",
+      "perfect rating"
+    ]
+  },
+  {
+    "name": "small-victory",
+    "phrase": "small victory",
+    "category": "feedback",
+    "concept": "The element scales up just a little and settles quickly. Use it for a small but real win that deserves light acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "small victory",
+      "minor win",
+      "little success",
+      "small step forward",
+      "modest achievement",
+      "tiny win worth noting",
+      "incremental progress win",
+      "small task conquered",
+      "little accomplishment",
+      "small but real progress"
+    ]
+  },
+  {
+    "name": "quiet-confirm",
+    "phrase": "quiet confirmation",
+    "category": "feedback",
+    "concept": "The element softens briefly in opacity, then returns. Use it for the quietest, most low-key background confirmation.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "quiet confirmation",
+      "silent acknowledgment",
+      "background success",
+      "minimal feedback",
+      "low key confirmation",
+      "subtle success signal",
+      "understated win",
+      "barely there confirmation",
+      "gentle acknowledgment",
+      "soft success cue"
+    ]
+  }
+]

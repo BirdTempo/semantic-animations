@@ -1,0 +1,478 @@
+.sa-zoom-in-snap {
+  transform-origin: center;
+  animation: sa-zoom-in-snap var(--sa-duration, 0.25s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-zoom-in-snap {
+  from { opacity: 0; transform: scale(0.3); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.sa-expand-in-slow {
+  transform-origin: center;
+  animation: sa-expand-in-slow var(--sa-duration, 0.9s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-expand-in-slow {
+  0% { opacity: 0; transform: scale(0.92); }
+  60% { opacity: 1; transform: scale(0.98); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.sa-zoom-in-blast {
+  transform-origin: center;
+  animation: sa-zoom-in-blast var(--sa-duration, 0.4s) var(--sa-timing, cubic-bezier(0.11, 0.85, 0.32, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-zoom-in-blast {
+  from { opacity: 0; transform: scale(0.15); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.sa-scale-in-deep {
+  transform-origin: center;
+  animation: sa-scale-in-deep var(--sa-duration, 0.6s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-deep {
+  0% { opacity: 0; transform: scale(0.4); }
+  40% { opacity: 1; transform: scale(0.4); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.sa-scale-in-soft {
+  transform-origin: center;
+  animation: sa-scale-in-soft var(--sa-duration, 0.45s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-soft {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.sa-spin-scale-in {
+  transform-origin: center;
+  animation: sa-spin-scale-in var(--sa-duration, 0.55s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-spin-scale-in {
+  from { opacity: 0; transform: scale(0.5) rotate(-180deg); }
+  to { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+.sa-twist-scale-in {
+  transform-origin: center;
+  animation: sa-twist-scale-in var(--sa-duration, 0.45s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-twist-scale-in {
+  from { opacity: 0; transform: scale(0.6) rotate(45deg); }
+  to { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+.sa-scale-in-spiral {
+  transform-origin: center;
+  animation: sa-scale-in-spiral var(--sa-duration, 0.7s) var(--sa-timing, cubic-bezier(0.22, 1, 0.36, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-spiral {
+  0% { opacity: 0; transform: scale(0.3) rotate(-270deg); }
+  60% { opacity: 1; transform: scale(1.05) rotate(10deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+.sa-scale-in-corner-tl {
+  transform-origin: top left;
+  animation: sa-scale-in-corner-tl var(--sa-duration, 0.4s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-corner-tl {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.sa-scale-in-corner-br {
+  transform-origin: bottom right;
+  animation: sa-scale-in-corner-br var(--sa-duration, 0.4s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-corner-br {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.sa-scale-in-corner-tr {
+  transform-origin: top right;
+  animation: sa-scale-in-corner-tr var(--sa-duration, 0.4s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-corner-tr {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.sa-scale-in-corner-bl {
+  transform-origin: bottom left;
+  animation: sa-scale-in-corner-bl var(--sa-duration, 0.4s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-corner-bl {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.sa-scale-in-edge-left {
+  transform-origin: left center;
+  animation: sa-scale-in-edge-left var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-edge-left {
+  from { opacity: 0; transform: scaleX(0.3) scaleY(0.8); }
+  to { opacity: 1; transform: scaleX(1) scaleY(1); }
+}
+
+.sa-scale-in-edge-top {
+  transform-origin: top center;
+  animation: sa-scale-in-edge-top var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-edge-top {
+  from { opacity: 0; transform: scaleY(0.3) scaleX(0.8); }
+  to { opacity: 1; transform: scaleY(1) scaleX(1); }
+}
+
+.sa-scale-in-focus {
+  transform-origin: center;
+  animation: sa-scale-in-focus var(--sa-duration, 0.5s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-focus {
+  from { opacity: 0; transform: scale(1.15); filter: blur(8px); }
+  to { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+.sa-scale-in-hazy {
+  transform-origin: center;
+  animation: sa-scale-in-hazy var(--sa-duration, 0.55s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-hazy {
+  from { opacity: 0; transform: scale(0.85); filter: blur(4px); }
+  to { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+.sa-zoom-in-blur-snap {
+  transform-origin: center;
+  animation: sa-zoom-in-blur-snap var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.22, 1, 0.36, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-zoom-in-blur-snap {
+  0% { opacity: 0; transform: scale(0.4); filter: blur(12px); }
+  70% { opacity: 1; transform: scale(1.03); filter: blur(1px); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+.sa-scale-in-elastic {
+  transform-origin: center;
+  animation: sa-scale-in-elastic var(--sa-duration, 0.6s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-elastic {
+  0% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 1; transform: scale(1.15); }
+  75% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+.sa-scale-in-bounce-double {
+  transform-origin: center;
+  animation: sa-scale-in-bounce-double var(--sa-duration, 0.7s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-bounce-double {
+  0% { opacity: 0; transform: scale(0.3); }
+  40% { opacity: 1; transform: scale(1.1); }
+  60% { transform: scale(0.95); }
+  80% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.sa-scale-in-bounce-triple {
+  transform-origin: center;
+  animation: sa-scale-in-bounce-triple var(--sa-duration, 0.85s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-bounce-triple {
+  0% { opacity: 0; transform: scale(0.3); }
+  35% { opacity: 1; transform: scale(1.12); }
+  55% { transform: scale(0.92); }
+  75% { transform: scale(1.06); }
+  90% { transform: scale(0.98); }
+  100% { transform: scale(1); }
+}
+
+.sa-scale-in-skew {
+  transform-origin: center;
+  animation: sa-scale-in-skew var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-skew {
+  from { opacity: 0; transform: scale(0.6) skewX(-12deg); }
+  to { opacity: 1; transform: scale(1) skewX(0deg); }
+}
+
+.sa-scale-in-skew-y {
+  transform-origin: center;
+  animation: sa-scale-in-skew-y var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-skew-y {
+  from { opacity: 0; transform: scale(0.6) skewY(10deg); }
+  to { opacity: 1; transform: scale(1) skewY(0deg); }
+}
+
+.sa-scale-in-skew-twist {
+  transform-origin: center;
+  animation: sa-scale-in-skew-twist var(--sa-duration, 0.5s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-skew-twist {
+  from { opacity: 0; transform: scale(0.5) skewX(-8deg) skewY(-8deg); }
+  to { opacity: 1; transform: scale(1) skewX(0deg) skewY(0deg); }
+}
+
+.sa-iris-in {
+  transform-origin: center;
+  animation: sa-iris-in var(--sa-duration, 0.5s) var(--sa-timing, cubic-bezier(0.22, 1, 0.36, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-iris-in {
+  0% { opacity: 0; transform: scale(0); }
+  70% { opacity: 1; transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.sa-aperture-in {
+  transform-origin: center;
+  animation: sa-aperture-in var(--sa-duration, 0.5s) var(--sa-timing, cubic-bezier(0.22, 1, 0.36, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-aperture-in {
+  from { opacity: 0; transform: scale(0.1) rotate(8deg); }
+  to { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+.sa-unfold-in-horizontal {
+  transform-origin: center;
+  animation: sa-unfold-in-horizontal var(--sa-duration, 0.55s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-unfold-in-horizontal {
+  0% { opacity: 0; transform: scaleX(0) scaleY(0.6); }
+  60% { opacity: 1; transform: scaleX(1.02) scaleY(0.9); }
+  100% { transform: scaleX(1) scaleY(1); }
+}
+
+.sa-unfold-in-vertical {
+  transform-origin: center;
+  animation: sa-unfold-in-vertical var(--sa-duration, 0.55s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-unfold-in-vertical {
+  0% { opacity: 0; transform: scaleY(0) scaleX(0.6); }
+  60% { opacity: 1; transform: scaleY(1.02) scaleX(0.9); }
+  100% { transform: scaleY(1) scaleX(1); }
+}
+
+.sa-unfold-in-diagonal {
+  transform-origin: center;
+  animation: sa-unfold-in-diagonal var(--sa-duration, 0.6s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-unfold-in-diagonal {
+  0% { opacity: 0; transform: scaleX(0.2) scaleY(0.05); }
+  50% { opacity: 1; transform: scaleX(0.7) scaleY(0.4); }
+  100% { transform: scaleX(1) scaleY(1); }
+}
+
+.sa-scale-in-flip-x {
+  transform-origin: center;
+  animation: sa-scale-in-flip-x var(--sa-duration, 0.55s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-flip-x {
+  from { opacity: 0; transform: perspective(600px) rotateX(60deg) scale(0.8); }
+  to { opacity: 1; transform: perspective(600px) rotateX(0deg) scale(1); }
+}
+
+.sa-scale-in-flip-y {
+  transform-origin: center;
+  animation: sa-scale-in-flip-y var(--sa-duration, 0.55s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-flip-y {
+  from { opacity: 0; transform: perspective(600px) rotateY(-60deg) scale(0.8); }
+  to { opacity: 1; transform: perspective(600px) rotateY(0deg) scale(1); }
+}
+
+.sa-scale-in-tilt {
+  transform-origin: center;
+  animation: sa-scale-in-tilt var(--sa-duration, 0.45s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-tilt {
+  from { opacity: 0; transform: perspective(700px) rotateX(-20deg) scale(0.85); }
+  to { opacity: 1; transform: perspective(700px) rotateX(0deg) scale(1); }
+}
+
+.sa-scale-in-swoop {
+  transform-origin: center;
+  animation: sa-scale-in-swoop var(--sa-duration, 0.55s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-swoop {
+  from { opacity: 0; transform: translateY(calc(var(--sa-distance, 24px) * -1)) scale(0.6) rotate(-6deg); }
+  to { opacity: 1; transform: translateY(0) scale(1) rotate(0deg); }
+}
+
+.sa-zoom-in-drift {
+  transform-origin: center;
+  animation: sa-zoom-in-drift var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-zoom-in-drift {
+  from { opacity: 0; transform: translateX(calc(var(--sa-distance, 16px) * -1)) scale(0.5); }
+  to { opacity: 1; transform: translateX(0) scale(1); }
+}
+
+.sa-scale-in-corner-pull {
+  transform-origin: top left;
+  animation: sa-scale-in-corner-pull var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-corner-pull {
+  from { opacity: 0; transform: translate(calc(var(--sa-distance, 20px) * -1), calc(var(--sa-distance, 20px) * -1)) scale(0.5); }
+  to { opacity: 1; transform: translate(0, 0) scale(1); }
+}
+
+.sa-scale-in-squash {
+  transform-origin: center;
+  animation: sa-scale-in-squash var(--sa-duration, 0.5s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-squash {
+  0% { opacity: 0; transform: scaleY(0.4) scaleX(1.2); }
+  60% { opacity: 1; transform: scaleY(1.1) scaleX(0.95); }
+  100% { transform: scaleY(1) scaleX(1); }
+}
+
+.sa-scale-in-stretch {
+  transform-origin: center;
+  animation: sa-scale-in-stretch var(--sa-duration, 0.5s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-stretch {
+  0% { opacity: 0; transform: scaleX(0.4) scaleY(1.2); }
+  60% { opacity: 1; transform: scaleX(1.1) scaleY(0.95); }
+  100% { transform: scaleX(1) scaleY(1); }
+}
+
+.sa-scale-in-rubber {
+  transform-origin: center;
+  animation: sa-scale-in-rubber var(--sa-duration, 0.7s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-rubber {
+  0% { opacity: 0; transform: scale(0.5); }
+  30% { opacity: 1; transform: scaleX(1.15) scaleY(0.85); }
+  50% { transform: scaleX(0.9) scaleY(1.1); }
+  70% { transform: scaleX(1.05) scaleY(0.97); }
+  100% { transform: scale(1); }
+}
+
+.sa-scale-in-vortex {
+  transform-origin: center;
+  animation: sa-scale-in-vortex var(--sa-duration, 0.6s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-vortex {
+  from { opacity: 0; transform: scale(0.3) rotate(-360deg); filter: blur(6px); }
+  to { opacity: 1; transform: scale(1) rotate(0deg); filter: blur(0); }
+}
+
+.sa-scale-in-roll {
+  transform-origin: center;
+  animation: sa-scale-in-roll var(--sa-duration, 0.5s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-roll {
+  from { opacity: 0; transform: scale(0.4) rotate(180deg); }
+  to { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+.sa-scale-in-crisp {
+  transform-origin: center;
+  animation: sa-scale-in-crisp var(--sa-duration, 0.3s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-crisp {
+  from { opacity: 0; transform: scale(0.7); filter: blur(3px); }
+  to { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+.sa-scale-in-wide {
+  transform-origin: center;
+  animation: sa-scale-in-wide var(--sa-duration, 0.5s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-wide {
+  0% { opacity: 0; transform: scaleX(1.6) scaleY(0.5); }
+  60% { opacity: 1; transform: scaleX(0.9) scaleY(1.05); }
+  100% { transform: scale(1); }
+}
+
+.sa-scale-in-tall {
+  transform-origin: center;
+  animation: sa-scale-in-tall var(--sa-duration, 0.5s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-tall {
+  0% { opacity: 0; transform: scaleY(1.6) scaleX(0.5); }
+  60% { opacity: 1; transform: scaleY(0.9) scaleX(1.05); }
+  100% { transform: scale(1); }
+}
+
+.sa-scale-in-diamond {
+  transform-origin: center;
+  animation: sa-scale-in-diamond var(--sa-duration, 0.5s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-diamond {
+  0% { opacity: 0; transform: scale(0.6) rotate(45deg); }
+  60% { opacity: 1; transform: scale(1.05) rotate(8deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+.sa-scale-in-corner-spin {
+  transform-origin: bottom right;
+  animation: sa-scale-in-corner-spin var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-corner-spin {
+  from { opacity: 0; transform: scale(0.3) rotate(-90deg); }
+  to { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+.sa-scale-in-billow {
+  transform-origin: center;
+  animation: sa-scale-in-billow var(--sa-duration, 0.8s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-billow {
+  0% { opacity: 0; transform: scale(0.8); filter: blur(10px); }
+  50% { opacity: 0.6; transform: scale(0.92); filter: blur(4px); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+.sa-scale-in-defocus {
+  transform-origin: center;
+  animation: sa-scale-in-defocus var(--sa-duration, 0.6s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-defocus {
+  from { opacity: 0; transform: scale(1.3); filter: blur(14px); }
+  to { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+.sa-scale-in-skew-snap {
+  transform-origin: center;
+  animation: sa-scale-in-skew-snap var(--sa-duration, 0.4s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-skew-snap {
+  0% { opacity: 0; transform: scale(0.4) skewX(-20deg); }
+  60% { opacity: 1; transform: scale(1.05) skewX(6deg); }
+  100% { transform: scale(1) skewX(0deg); }
+}
+
+.sa-scale-in-pinwheel {
+  transform-origin: center;
+  animation: sa-scale-in-pinwheel var(--sa-duration, 0.6s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-pinwheel {
+  from { opacity: 0; transform: scale(0.2) rotate(-540deg); }
+  to { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+.sa-scale-in-aperture-close {
+  transform-origin: center;
+  animation: sa-scale-in-aperture-close var(--sa-duration, 0.55s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-aperture-close {
+  0% { opacity: 0; transform: scale(1.4); }
+  50% { opacity: 0.7; transform: scale(0.85); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.sa-scale-in-corner-fold {
+  transform-origin: top left;
+  animation: sa-scale-in-corner-fold var(--sa-duration, 0.5s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in-corner-fold {
+  0% { opacity: 0; transform: scale(0.3) rotate(-15deg); }
+  60% { opacity: 1; transform: scale(1.05) rotate(3deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}

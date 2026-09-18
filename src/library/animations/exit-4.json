@@ -1,0 +1,402 @@
+[
+  {
+    "name": "punch-out",
+    "phrase": "punch out with a snap",
+    "category": "exit",
+    "concept": "The element snaps down in scale and fades out almost instantly, like a hard punch landing. Use it for a fast, forceful dismissal with no lingering motion.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["punch out", "snap shrink and vanish", "hard dismiss", "quick scale down exit", "forceful removal", "snap to nothing", "abrupt shrink exit", "instant punch dismiss"]
+  },
+  {
+    "name": "gut-punch",
+    "phrase": "take a gut punch and collapse",
+    "category": "exit",
+    "concept": "The element squashes flat as if struck, then rapidly shrinks away. It reads as an impact absorbing before the element gives out and disappears.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["gut punch exit", "impact squash then vanish", "struck and collapses", "squash and shrink", "hit reaction exit", "compressed then gone", "impact dismiss", "punched and crumples"]
+  },
+  {
+    "name": "snap-vanish",
+    "phrase": "snap and vanish",
+    "category": "exit",
+    "concept": "The element briefly puffs up larger, then instantly collapses to nothing. The overshoot before the snap gives it a spring-loaded, decisive finish.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["snap vanish", "puff then collapse", "spring loaded exit", "overshoot then disappear", "elastic snap out", "quick pop then gone", "bounce collapse exit", "instant collapse exit"]
+  },
+  {
+    "name": "vortex-suck",
+    "phrase": "get sucked into a vortex",
+    "category": "exit",
+    "concept": "The element spins and shrinks while blurring, as if pulled down into a vortex. It suits a dramatic, swirling removal rather than a straight exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["vortex suck exit", "spin shrink blur", "sucked away", "swirl into nothing", "twisting disappear", "drain effect exit", "spiral vanish", "pulled into a vortex"]
+  },
+  {
+    "name": "zoom-snap-out",
+    "phrase": "zoom past and snap out of view",
+    "category": "exit",
+    "concept": "The element rushes toward the viewer with a scale burst and motion blur before cutting to invisible. Use it for a fast zoom-through dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["zoom snap out", "blur zoom exit", "rush forward and vanish", "motion blur dismiss", "zoom past camera", "fast blur out", "scale burst exit", "rushing toward viewer"]
+  },
+  {
+    "name": "yeet-right",
+    "phrase": "get yeeted off to the right",
+    "category": "exit",
+    "concept": "The element is flung hard to the right with a tumbling rotation, as if thrown away with force. It is the go-to for a gleeful, abrupt good-riddance exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yeet right", "flung off screen right", "thrown away right", "tumble exit right", "toss to the right", "fling and spin right", "good riddance right", "energetic toss right"]
+  },
+  {
+    "name": "yeet-left",
+    "phrase": "get yeeted off to the left",
+    "category": "exit",
+    "concept": "The element is flung hard to the left with a tumbling rotation, as if thrown away with force. It is the go-to for a gleeful, abrupt good-riddance exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yeet left", "flung off screen left", "thrown away left", "tumble exit left", "toss to the left", "fling and spin left", "good riddance left", "energetic toss left"]
+  },
+  {
+    "name": "yeet-up",
+    "phrase": "get yeeted straight up",
+    "category": "exit",
+    "concept": "The element is flung hard upward with a tumbling rotation, as if hurled off the top of the screen. It suits an energetic, over-the-top dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yeet up", "flung off screen up", "thrown away upward", "tumble exit up", "toss upward", "fling and spin up", "hurled away up", "energetic toss upward"]
+  },
+  {
+    "name": "yeet-down",
+    "phrase": "get yeeted straight down",
+    "category": "exit",
+    "concept": "The element is flung hard downward with a tumbling rotation, as if hurled off the bottom of the screen. It suits an energetic, over-the-top dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yeet down", "flung off screen down", "thrown away downward", "tumble exit down", "toss downward", "fling and spin down", "hurled away down", "energetic toss downward"]
+  },
+  {
+    "name": "recoil-vanish-right",
+    "phrase": "recoil back then shoot right",
+    "category": "exit",
+    "concept": "The element pulls back left for an instant like a loaded spring, then shoots off to the right. The wind-up makes the departure feel more forceful.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["recoil then exit right", "wind up and shoot right", "spring back then launch", "pull back release right", "loaded exit right", "anticipation exit right", "coiled then launched right", "spring recoil dismiss right"]
+  },
+  {
+    "name": "recoil-vanish-left",
+    "phrase": "recoil back then shoot left",
+    "category": "exit",
+    "concept": "The element pulls back right for an instant like a loaded spring, then shoots off to the left. The wind-up makes the departure feel more forceful.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["recoil then exit left", "wind up and shoot left", "spring back then launch left", "pull back release left", "loaded exit left", "anticipation exit left", "coiled then launched left", "spring recoil dismiss left"]
+  },
+  {
+    "name": "recoil-vanish-up",
+    "phrase": "recoil down then shoot upward",
+    "category": "exit",
+    "concept": "The element dips down for an instant like a loaded spring, then launches upward and out of view. The brief dip makes the upward launch feel more powerful.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["recoil then exit up", "wind up and shoot up", "spring dip then launch up", "pull down release up", "loaded exit up", "anticipation exit up", "coiled then launched up", "spring recoil dismiss up"]
+  },
+  {
+    "name": "recoil-vanish-down",
+    "phrase": "recoil up then drop away",
+    "category": "exit",
+    "concept": "The element hops up for an instant like a loaded spring, then drops hard and out of view. The brief hop makes the fall feel heavier and more sudden.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["recoil then exit down", "wind up and drop down", "spring hop then fall", "pull up release down", "loaded exit down", "anticipation exit down", "coiled then launched down", "spring recoil dismiss down"]
+  },
+  {
+    "name": "diagonal-blitz-ne",
+    "phrase": "blitz out to the upper right",
+    "category": "exit",
+    "concept": "The element barely moves at first, then accelerates sharply along a diagonal path up and to the right until it is gone. The sudden burst of speed reads as urgent.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal blitz exit", "accelerate off upper right", "sudden speed exit", "fast diagonal dismiss", "burst acceleration ne", "rapid diagonal getaway", "speeding off diagonally up right", "quick diagonal escape"]
+  },
+  {
+    "name": "diagonal-blitz-nw",
+    "phrase": "blitz out to the upper left",
+    "category": "exit",
+    "concept": "The element barely moves at first, then accelerates sharply along a diagonal path up and to the left until it is gone. The sudden burst of speed reads as urgent.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal blitz exit", "accelerate off upper left", "sudden speed exit", "fast diagonal dismiss", "burst acceleration nw", "rapid diagonal getaway left", "speeding off diagonally up left", "quick diagonal escape left"]
+  },
+  {
+    "name": "diagonal-blitz-se",
+    "phrase": "blitz out to the lower right",
+    "category": "exit",
+    "concept": "The element barely moves at first, then accelerates sharply along a diagonal path down and to the right until it is gone. The sudden burst of speed reads as urgent.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal blitz exit", "accelerate off lower right", "sudden speed exit", "fast diagonal dismiss", "burst acceleration se", "rapid diagonal getaway down", "speeding off diagonally down right", "quick diagonal escape right"]
+  },
+  {
+    "name": "diagonal-blitz-sw",
+    "phrase": "blitz out to the lower left",
+    "category": "exit",
+    "concept": "The element barely moves at first, then accelerates sharply along a diagonal path down and to the left until it is gone. The sudden burst of speed reads as urgent.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal blitz exit", "accelerate off lower left", "sudden speed exit", "fast diagonal dismiss", "burst acceleration sw", "rapid diagonal getaway lower left", "speeding off diagonally down left", "quick diagonal escape left"]
+  },
+  {
+    "name": "spin-shrink-out",
+    "phrase": "spin rapidly and shrink away",
+    "category": "exit",
+    "concept": "The element spins through several fast rotations while shrinking to nothing. It suits a whirlwind, almost cartoonish removal from the screen.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["spin shrink exit", "whirl and shrink", "fast spin vanish", "rotate rapidly and disappear", "twirl away", "spinning shrink dismiss", "multiple rotations then gone", "cartoonish spin exit"]
+  },
+  {
+    "name": "spin-shrink-out-reverse",
+    "phrase": "spin the other way and shrink away",
+    "category": "exit",
+    "concept": "The element spins through several fast counterclockwise rotations while shrinking to nothing. It gives the same whirlwind removal with the opposite spin direction.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["spin shrink exit reverse", "counterclockwise spin vanish", "reverse whirl and shrink", "opposite direction spin exit", "reverse rotate and disappear", "twirl away reverse", "counter spin dismiss", "reverse cartoonish spin exit"]
+  },
+  {
+    "name": "corkscrew-out",
+    "phrase": "corkscrew away and disappear",
+    "category": "exit",
+    "concept": "The element spins tightly while drifting diagonally downward and shrinking, like a corkscrew boring out of view. It combines rotation and travel for a busier exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["corkscrew exit", "spin and drift away", "twist diagonal vanish", "rotate while traveling", "boring out of view", "spiral diagonal exit", "drilling away diagonally", "twisting diagonal departure"]
+  },
+  {
+    "name": "spiral-flick",
+    "phrase": "flick into a spiral overhead",
+    "category": "exit",
+    "concept": "The element spins loosely while drifting upward and fading, like it was flicked away into the air. It is lighter and airier than a hard spin-shrink.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["spiral flick exit", "spin drift upward", "flicked into the air", "light spinning exit", "twirl upward and fade", "airy spiral dismiss", "loose spin upward exit", "gentle spiral departure"]
+  },
+  {
+    "name": "blast-off",
+    "phrase": "blast off in a burst",
+    "category": "exit",
+    "concept": "The element flashes larger with a glowing shockwave ring, then rapidly collapses to nothing, like a small explosion running in reverse. Reserve it for a rare, high-impact dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["blast off exit", "explosion in reverse", "shockwave burst exit", "flash then collapse", "glow burst dismiss", "impact blast vanish", "explosive collapse exit", "burst of light then gone"]
+  },
+  {
+    "name": "implosion-out",
+    "phrase": "implode into nothing",
+    "category": "exit",
+    "concept": "The element brightens and grows for a moment, then rapidly shrinks and blurs to nothing, like light collapsing inward. It gives a punchy exit without shadow effects.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["implosion exit", "bright grow then shrink", "collapse inward", "flash bright and vanish", "blur collapse exit", "light implosion dismiss", "brighten then collapse", "inward collapse departure"]
+  },
+  {
+    "name": "flare-vanish",
+    "phrase": "flare bright then vanish",
+    "category": "exit",
+    "concept": "The element flickers rapidly like a flare catching, then cuts to nothing. The flicker beforehand makes the disappearance feel electric and abrupt.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flare vanish exit", "flicker then gone", "electric flicker exit", "rapid flicker dismiss", "flash flicker vanish", "sputter and disappear", "stuttering flicker exit", "electric sputter departure"]
+  },
+  {
+    "name": "jolt-slide-right",
+    "phrase": "jolt side to side then slide right",
+    "category": "exit",
+    "concept": "The element jitters left and right rapidly as if startled, then slides fast off to the right. The jolt sells a moment of surprise before the getaway.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["jolt then slide right", "startled jitter exit", "shake then slide away", "jitter and dash right", "surprised jolt exit", "quick shake dash right", "jittery slide departure right", "twitch then bolt right"]
+  },
+  {
+    "name": "jolt-slide-left",
+    "phrase": "jolt side to side then slide left",
+    "category": "exit",
+    "concept": "The element jitters left and right rapidly as if startled, then slides fast off to the left. The jolt sells a moment of surprise before the getaway.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["jolt then slide left", "startled jitter exit", "shake then slide away", "jitter and dash left", "surprised jolt exit", "quick shake dash left", "jittery slide departure left", "twitch then bolt left"]
+  },
+  {
+    "name": "jolt-slide-up",
+    "phrase": "jolt up and down then slide up",
+    "category": "exit",
+    "concept": "The element jitters up and down rapidly as if startled, then slides fast off the top of the view. The jolt sells a moment of surprise before the getaway.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["jolt then slide up", "startled jitter exit up", "shake then slide away up", "jitter and dash up", "surprised jolt exit up", "quick shake dash up", "jittery slide departure up", "twitch then bolt up"]
+  },
+  {
+    "name": "jolt-slide-down",
+    "phrase": "jolt up and down then slide down",
+    "category": "exit",
+    "concept": "The element jitters up and down rapidly as if startled, then slides fast off the bottom of the view. The jolt sells a moment of surprise before the getaway.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["jolt then slide down", "startled jitter exit down", "shake then slide away down", "jitter and dash down", "surprised jolt exit down", "quick shake dash down", "jittery slide departure down", "twitch then bolt down"]
+  },
+  {
+    "name": "tilt-snap-right",
+    "phrase": "tilt sharply and snap out to the right",
+    "category": "exit",
+    "concept": "The element tilts hard on its axis in an instant, then snaps away to the right. The sudden tilt makes the exit feel off-balance and abrupt.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["tilt snap exit right", "sudden tilt then slide", "off balance exit right", "rotate snap dismiss", "sharp tilt away right", "abrupt tilt exit", "lean and snap out right", "sudden rotate departure right"]
+  },
+  {
+    "name": "tilt-snap-left",
+    "phrase": "tilt sharply and snap out to the left",
+    "category": "exit",
+    "concept": "The element tilts hard on its axis in an instant, then snaps away to the left. The sudden tilt makes the exit feel off-balance and abrupt.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["tilt snap exit left", "sudden tilt then slide left", "off balance exit left", "rotate snap dismiss left", "sharp tilt away left", "abrupt tilt exit left", "lean and snap out left", "sudden rotate departure left"]
+  },
+  {
+    "name": "skew-slam-right",
+    "phrase": "skew hard and slam out to the right",
+    "category": "exit",
+    "concept": "The element skews sharply as if slammed sideways, then shoots off to the right. Skew instead of rotation gives it a harder, more mechanical snap.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["skew slam exit right", "sheared exit right", "sharp skew dismiss", "slam sideways exit", "mechanical skew snap", "hard skew away right", "sheared departure right", "angular skew exit right"]
+  },
+  {
+    "name": "skew-slam-left",
+    "phrase": "skew hard and slam out to the left",
+    "category": "exit",
+    "concept": "The element skews sharply as if slammed sideways, then shoots off to the left. Skew instead of rotation gives it a harder, more mechanical snap.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["skew slam exit left", "sheared exit left", "sharp skew dismiss left", "slam sideways exit left", "mechanical skew snap left", "hard skew away left", "sheared departure left", "angular skew exit left"]
+  },
+  {
+    "name": "skew-slam-down",
+    "phrase": "skew down and slam away",
+    "category": "exit",
+    "concept": "The element shears vertically and drops straight down fast, like it was slammed downward through a gap. It reads heavier and more sudden than a sideways skew.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["skew slam down exit", "shear drop exit", "sheared downward dismiss", "slam through the floor", "vertical skew exit", "hard drop skew", "sheared departure down", "angular skew exit down"]
+  },
+  {
+    "name": "reel-back-snap",
+    "phrase": "reel back then snap off diagonally",
+    "category": "exit",
+    "concept": "The element pulls back and skews the opposite way like a slingshot loading, then snaps off diagonally at speed. The wind-up telegraphs the sudden release.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["reel back snap exit", "wind up skew release", "slingshot skew exit", "loaded then released diagonal", "pull back snap diagonal", "anticipation skew exit", "coiled skew departure", "wound up then fired diagonally"]
+  },
+  {
+    "name": "ejector-seat",
+    "phrase": "eject straight up and out",
+    "category": "exit",
+    "concept": "The element launches straight upward at speed with a slight rotation, like an ejector seat firing. It suits an urgent, vertical emergency-style exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["ejector seat exit", "launch straight up", "fired upward exit", "emergency eject", "vertical launch dismiss", "shot upward exit", "rocketed away up", "blasted straight up"]
+  },
+  {
+    "name": "slingshot-out",
+    "phrase": "pull back and let a slingshot fly",
+    "category": "exit",
+    "concept": "The element pulls back and shrinks slightly as though drawn back in a slingshot, then releases forward with a stretch as it shoots off. The elastic release feels satisfying and quick.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["slingshot exit", "pull back and release", "elastic launch exit", "drawn back then fired", "stretch and shoot away", "catapult release exit", "elastic pull then launch", "drawn and released departure"]
+  },
+  {
+    "name": "rug-pull",
+    "phrase": "get the rug pulled out",
+    "category": "exit",
+    "concept": "The element drops straight down fast with a slight rotation, as if the ground vanished beneath it. It works well for a sudden, unfair-feeling removal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["rug pull exit", "floor drops out", "sudden downward yank", "ground vanishes exit", "quick drop away", "yanked down exit", "pulled out from under", "sudden floor removal exit"]
+  },
+  {
+    "name": "trapdoor-drop",
+    "phrase": "fall through a trapdoor",
+    "category": "exit",
+    "concept": "The element drops straight down and shrinks slightly as it accelerates, like falling through a trapdoor. It stays upright, unlike a rug pull, for a cleaner vertical fall.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["trapdoor drop exit", "fall straight down", "accelerating vertical drop", "drop through the floor", "clean vertical fall exit", "plummet away", "straight drop departure", "accelerating plummet exit"]
+  },
+  {
+    "name": "kick-out-right",
+    "phrase": "get kicked out to the right",
+    "category": "exit",
+    "concept": "The element compresses as if struck by a kick, then rockets off to the right while rotating. The squash-then-launch pairing reads as a forceful shove.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["kick out exit right", "struck and launched right", "squash then shoot right", "forceful shove right", "impact launch right", "booted away right", "struck departure right", "impact kick exit right"]
+  },
+  {
+    "name": "kick-out-left",
+    "phrase": "get kicked out to the left",
+    "category": "exit",
+    "concept": "The element compresses as if struck by a kick, then rockets off to the left while rotating. The squash-then-launch pairing reads as a forceful shove.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["kick out exit left", "struck and launched left", "squash then shoot left", "forceful shove left", "impact launch left", "booted away left", "struck departure left", "impact kick exit left"]
+  },
+  {
+    "name": "catapult-arc-right",
+    "phrase": "catapult up and over to the right",
+    "category": "exit",
+    "concept": "The element launches upward, arcs across, and drops away to the right, tracing a catapult's path. The curved trajectory makes it read as thrown rather than slid.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["catapult arc exit right", "arc up and over right", "thrown in an arc right", "curved launch exit", "trajectory exit right", "lobbed away right", "arcing departure right", "curved throw exit right"]
+  },
+  {
+    "name": "catapult-arc-left",
+    "phrase": "catapult up and over to the left",
+    "category": "exit",
+    "concept": "The element launches upward, arcs across, and drops away to the left, tracing a catapult's path. The curved trajectory makes it read as thrown rather than slid.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["catapult arc exit left", "arc up and over left", "thrown in an arc left", "curved launch exit left", "trajectory exit left", "lobbed away left", "arcing departure left", "curved throw exit left"]
+  },
+  {
+    "name": "dropkick-diagonal",
+    "phrase": "get dropkicked off at an angle",
+    "category": "exit",
+    "concept": "The element spins a sharp half turn while rocketing diagonally downward, as if dropkicked off the screen. One hard rotation keeps it punchier than a multi-spin exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dropkick exit", "diagonal spin launch", "half turn and rocket away", "kicked off diagonally", "sharp single spin exit", "aggressive diagonal exit", "diagonal rocket departure", "one turn kick exit"]
+  },
+  {
+    "name": "bounce-eject-up",
+    "phrase": "bounce once then eject upward",
+    "category": "exit",
+    "concept": "The element dips down briefly as if compressing, then rockets straight up and away. The small bounce first gives the launch a coiled, springboard feel.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["bounce eject exit up", "springboard launch up", "dip then rocket up", "coiled launch exit", "compress then shoot up", "bounce then vanish up", "springboard departure up", "coil and launch upward"]
+  },
+  {
+    "name": "bounce-eject-down",
+    "phrase": "bounce once then eject downward",
+    "category": "exit",
+    "concept": "The element hops up briefly as if compressing, then drops hard straight down and away. The small bounce first gives the drop a coiled, springboard feel.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["bounce eject exit down", "springboard launch down", "hop then drop down", "coiled launch exit down", "compress then shoot down", "bounce then vanish down", "springboard departure down", "coil and drop downward"]
+  },
+  {
+    "name": "rapid-fire-out",
+    "phrase": "judder rapidly then vanish",
+    "category": "exit",
+    "concept": "The element stutters through several quick side-to-side jolts before cutting out entirely. The rapid judder feels glitchy and urgent rather than smooth.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["rapid fire exit", "judder then vanish", "glitchy stutter exit", "multiple quick jolts", "stutter step dismiss", "twitchy exit effect", "juddering departure", "stutter jolt vanish"]
+  },
+  {
+    "name": "whip-crack-out",
+    "phrase": "whip-crack and snap away",
+    "category": "exit",
+    "concept": "The element rotates sharply past its final angle and springs back slightly before vanishing, like the crack of a whip. The overshoot-and-settle rotation makes the exit feel sharp and elastic.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["whip crack exit", "overshoot rotation exit", "sharp whip motion", "elastic rotate vanish", "crack and snap away", "rotational overshoot exit", "whip snap departure", "elastic whip dismiss"]
+  },
+  {
+    "name": "flick-up-arc",
+    "phrase": "flick up in a light arc",
+    "category": "exit",
+    "concept": "The element is flicked upward and drifts slightly sideways as it fades, tracing a light arc rather than a heavy launch. It suits a quick, effortless dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flick up arc exit", "light upward flick", "effortless arc dismiss", "gentle flick away up", "quick upward drift exit", "soft arc launch up", "light arc departure up", "effortless upward flick"]
+  },
+  {
+    "name": "flick-down-arc",
+    "phrase": "flick down in a light arc",
+    "category": "exit",
+    "concept": "The element is flicked downward and drifts slightly sideways as it fades, tracing a light arc rather than a heavy drop. It suits a quick, effortless dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flick down arc exit", "light downward flick", "effortless arc dismiss down", "gentle flick away down", "quick downward drift exit", "soft arc launch down", "light arc departure down", "effortless downward flick"]
+  },
+  {
+    "name": "gone-in-a-blink",
+    "phrase": "collapse shut in a blink",
+    "category": "exit",
+    "concept": "The element collapses vertically to a thin line first, then squeezes horizontally to nothing, like a shutter blinking closed. The two-stage collapse reads as a fast mechanical close rather than a fade.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["blink collapse exit", "shutter close exit", "collapse to a line then gone", "mechanical blink dismiss", "two stage collapse exit", "squeeze shut exit", "shutter blink departure", "collapse then squeeze exit"]
+  }
+]

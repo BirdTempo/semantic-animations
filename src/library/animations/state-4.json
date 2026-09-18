@@ -1,0 +1,804 @@
+[
+  {
+    "name": "rock-base",
+    "phrase": "rocks slowly on its base",
+    "category": "state",
+    "concept": "A slow, small rotation from the bottom, like an object that rocks on a flat base. Use it for a toy, bottle, or icon that stands upright.",
+    "keywords": [
+      "rocking on a base",
+      "standing object sway",
+      "bottom pivot rotation",
+      "rocking toy motion",
+      "wobbling base",
+      "gentle base rock",
+      "standing item sway",
+      "rock side to side"
+    ]
+  },
+  {
+    "name": "rock-corner-left",
+    "phrase": "sway from a pinned corner",
+    "category": "state",
+    "concept": "A slow rotation pivoting from the bottom-left corner, as if the element is pinned there. Use it for a flag, tag, or banner anchored at one point.",
+    "keywords": [
+      "corner pinned sway",
+      "flag corner motion",
+      "bottom-left pivot",
+      "pinned banner sway",
+      "tag swaying gently",
+      "anchored corner rotation",
+      "gentle corner lean",
+      "hanging tag motion"
+    ]
+  },
+  {
+    "name": "rock-corner-right",
+    "phrase": "sway from the right corner",
+    "category": "state",
+    "concept": "A slow rotation pivoting from the bottom-right corner, mirroring a left-pinned sway. Use it for a flag or tag anchored at its right edge.",
+    "keywords": [
+      "corner pinned sway right",
+      "flag corner motion",
+      "bottom-right pivot",
+      "pinned banner sway",
+      "tag swaying right",
+      "anchored corner rotation",
+      "gentle corner lean right",
+      "hanging tag sway"
+    ]
+  },
+  {
+    "name": "rock-deep",
+    "phrase": "rock slowly and deeply",
+    "category": "state",
+    "concept": "A slower, wider rotation from the bottom than a standard base rock. Use it for a heavier object that settles into a long, deep rocking motion.",
+    "keywords": [
+      "deep rocking motion",
+      "heavy object sway",
+      "slow base rock",
+      "wide bottom pivot",
+      "weighted rocking",
+      "slow standing sway",
+      "deep base wobble",
+      "gentle heavy rock"
+    ]
+  },
+  {
+    "name": "nudge-up",
+    "phrase": "nudge upward",
+    "category": "state",
+    "concept": "A small, continuous upward shift and return. Use it to point attention at something above the element, like an onboarding hint pointing up.",
+    "keywords": [
+      "look up hint",
+      "point upward",
+      "above indicator",
+      "upward tap hint",
+      "attention above",
+      "hint arrow up",
+      "vertical nudge up",
+      "onboarding cue up",
+      "check above"
+    ]
+  },
+  {
+    "name": "nudge-down",
+    "phrase": "nudge downward",
+    "category": "state",
+    "concept": "A small, continuous downward shift and return. Use it to point attention at something below the element, like a hint toward a lower panel.",
+    "keywords": [
+      "look down hint",
+      "point downward",
+      "below indicator",
+      "downward tap hint",
+      "attention below",
+      "hint arrow down",
+      "vertical nudge down",
+      "onboarding cue down",
+      "check below"
+    ]
+  },
+  {
+    "name": "nudge-vertical",
+    "phrase": "shift gently up and down",
+    "category": "state",
+    "concept": "A small, continuous up-and-down shift, centered on the element. Use it for a vertical attention cue when direction does not matter.",
+    "keywords": [
+      "vertical bounce hint",
+      "up and down shift",
+      "gentle vertical motion",
+      "bobbing hint",
+      "small vertical nudge",
+      "vertical attention cue",
+      "new item marker",
+      "gentle bob"
+    ]
+  },
+  {
+    "name": "nudge-double",
+    "phrase": "give two quick taps upward",
+    "category": "state",
+    "concept": "Two small upward bumps followed by a pause, then the cycle repeats. Use it for a more insistent hint than a single nudge, without feeling urgent.",
+    "keywords": [
+      "double tap hint",
+      "two bumps upward",
+      "insistent hint",
+      "tap tap pause",
+      "repeated small bump",
+      "double nudge cue",
+      "gentle double bounce",
+      "attention double tap"
+    ]
+  },
+  {
+    "name": "drift-ne",
+    "phrase": "drift toward the top right",
+    "category": "state",
+    "concept": "A very slow, small diagonal wander toward the top-right corner and back. Use it for a background element that seems to drift lazily.",
+    "keywords": [
+      "diagonal drift",
+      "slow corner wander",
+      "top right drift",
+      "lazy background motion",
+      "ambient diagonal float",
+      "slow wander northeast",
+      "gentle diagonal shift",
+      "drifting element"
+    ]
+  },
+  {
+    "name": "drift-nw",
+    "phrase": "drift toward the top left",
+    "category": "state",
+    "concept": "A very slow, small diagonal wander toward the top-left corner and back. Use it for a background element that seems to drift lazily.",
+    "keywords": [
+      "diagonal drift",
+      "slow corner wander",
+      "top left drift",
+      "lazy background motion",
+      "ambient diagonal float",
+      "slow wander northwest",
+      "gentle diagonal shift",
+      "drifting element"
+    ]
+  },
+  {
+    "name": "drift-se",
+    "phrase": "drift toward the bottom right",
+    "category": "state",
+    "concept": "A very slow, small diagonal wander toward the bottom-right corner and back. Use it for a background element that seems to drift lazily.",
+    "keywords": [
+      "diagonal drift",
+      "slow corner wander",
+      "bottom right drift",
+      "lazy background motion",
+      "ambient diagonal float",
+      "slow wander southeast",
+      "gentle diagonal shift",
+      "drifting element"
+    ]
+  },
+  {
+    "name": "drift-sw",
+    "phrase": "drift toward the bottom left",
+    "category": "state",
+    "concept": "A very slow, small diagonal wander toward the bottom-left corner and back. Use it for a background element that seems to drift lazily.",
+    "keywords": [
+      "diagonal drift",
+      "slow corner wander",
+      "bottom left drift",
+      "lazy background motion",
+      "ambient diagonal float",
+      "slow wander southwest",
+      "gentle diagonal shift",
+      "drifting element"
+    ]
+  },
+  {
+    "name": "drift-haze",
+    "phrase": "drift with a soft fade",
+    "category": "state",
+    "concept": "A very slow diagonal drift paired with a soft dip in opacity at its farthest point. Use it for an element that seems to drift through haze.",
+    "keywords": [
+      "hazy drift",
+      "fading diagonal motion",
+      "soft opacity drift",
+      "dreamy wander",
+      "misty float",
+      "slow fading drift",
+      "ambient haze motion",
+      "ghostly drift"
+    ]
+  },
+  {
+    "name": "meander",
+    "phrase": "wander gently",
+    "category": "state",
+    "concept": "A small, irregular wander that loops through several small stops instead of a simple back-and-forth. Use it for an element that feels aimless and unhurried.",
+    "keywords": [
+      "gentle wander",
+      "irregular drift",
+      "aimless motion",
+      "loose wandering path",
+      "meandering element",
+      "slow irregular loop",
+      "ambient wander",
+      "drifting loosely"
+    ]
+  },
+  {
+    "name": "meander-wide",
+    "phrase": "wander over a wider loop",
+    "category": "state",
+    "concept": "A looser, larger version of a gentle wander, moving through six small stops. Use it when the wander needs more visible reach without losing its calm.",
+    "keywords": [
+      "wide wander",
+      "large irregular loop",
+      "loose meandering path",
+      "big gentle drift",
+      "expansive ambient motion",
+      "wide aimless drift",
+      "roomy wander loop",
+      "broad wander path"
+    ]
+  },
+  {
+    "name": "meander-horizontal",
+    "phrase": "wander mostly side to side",
+    "category": "state",
+    "concept": "An irregular wander biased along the horizontal axis, with only a slight vertical drift. Use it for a wide element where horizontal motion reads better.",
+    "keywords": [
+      "horizontal wander",
+      "side to side drift",
+      "wide element motion",
+      "x-axis meander",
+      "horizontal ambient drift",
+      "sideways wandering",
+      "loose horizontal path",
+      "wide drifting motion"
+    ]
+  },
+  {
+    "name": "meander-vertical",
+    "phrase": "wander mostly up and down",
+    "category": "state",
+    "concept": "An irregular wander biased along the vertical axis, like a slow, drunken walk upward and downward. Use it for a tall element where vertical drift reads better.",
+    "keywords": [
+      "vertical wander",
+      "drunken walk motion",
+      "up and down drift",
+      "y-axis meander",
+      "tall element motion",
+      "vertical ambient drift",
+      "loose vertical path",
+      "wandering up and down"
+    ]
+  },
+  {
+    "name": "meander-pause",
+    "phrase": "wander and linger",
+    "category": "state",
+    "concept": "An irregular wander that lingers at each stop before moving on, giving it a choppier rhythm than a smooth meander. Use it for a more deliberate, hesitant drift.",
+    "keywords": [
+      "lingering wander",
+      "hesitant drift",
+      "pausing meander",
+      "choppy ambient motion",
+      "stop and go drift",
+      "deliberate wander",
+      "resting wander points",
+      "wander with pauses"
+    ]
+  },
+  {
+    "name": "pendulum-wide",
+    "phrase": "swing like a wide pendulum",
+    "category": "state",
+    "concept": "A slow, wide rotation from the top, wider than a standard gentle sway. Use it for a hanging element that needs a more visible, pendulum-like swing.",
+    "keywords": [
+      "wide pendulum swing",
+      "hanging pendulum motion",
+      "broad swinging arc",
+      "top pivot swing",
+      "pendulum hint",
+      "swinging sign wide",
+      "visible pendulum sway",
+      "wide swinging motion"
+    ]
+  },
+  {
+    "name": "pendulum-slow",
+    "phrase": "swing very slowly and widely",
+    "category": "state",
+    "concept": "An even slower, wider rotation from the top than a standard pendulum swing. Use it for a large hanging element with a long, heavy swing.",
+    "keywords": [
+      "slow wide pendulum",
+      "heavy hanging swing",
+      "large pendulum arc",
+      "long swinging cycle",
+      "slow hanging motion",
+      "broad slow sway",
+      "weighted pendulum swing",
+      "very slow swing"
+    ]
+  },
+  {
+    "name": "pendulum-corner",
+    "phrase": "swing from a corner pivot",
+    "category": "state",
+    "concept": "A slow rotation pivoting from the top-left corner instead of the top center. Use it for an element hinged at one edge, like a corner-mounted sign.",
+    "keywords": [
+      "corner pivot swing",
+      "hinged corner motion",
+      "top left pivot",
+      "corner-mounted sign sway",
+      "asymmetric pendulum",
+      "edge-hinged swing",
+      "one-sided pendulum motion",
+      "swing from the edge"
+    ]
+  },
+  {
+    "name": "pendulum-drift-bob",
+    "phrase": "swing with a slight bob",
+    "category": "state",
+    "concept": "A wide pendulum swing combined with a small vertical bob at its outer point. Use it for a hanging element that feels weighted, like a heavy pendant.",
+    "keywords": [
+      "weighted pendulum bob",
+      "swing with bob",
+      "hanging pendant motion",
+      "heavy swing bob",
+      "pendulum with dip",
+      "combined swing and bob",
+      "weighted hanging sway",
+      "bobbing pendulum swing"
+    ]
+  },
+  {
+    "name": "loll-left",
+    "phrase": "lean left and hold",
+    "category": "state",
+    "concept": "A slow lean to the left that holds briefly before returning, like a head tilting and resting. Use it for a relaxed, idle attention cue.",
+    "keywords": [
+      "head tilt left",
+      "lean and hold",
+      "relaxed idle lean",
+      "tilting left motion",
+      "lazy head loll",
+      "resting lean left",
+      "asymmetric lean hold",
+      "gentle left tilt"
+    ]
+  },
+  {
+    "name": "loll-right",
+    "phrase": "lean right and hold",
+    "category": "state",
+    "concept": "A slow lean to the right that holds briefly before returning, like a head tilting and resting. Use it for a relaxed, idle attention cue.",
+    "keywords": [
+      "head tilt right",
+      "lean and hold",
+      "relaxed idle lean",
+      "tilting right motion",
+      "lazy head loll",
+      "resting lean right",
+      "asymmetric lean hold",
+      "gentle right tilt"
+    ]
+  },
+  {
+    "name": "loll-bob",
+    "phrase": "lean, dip, and hold",
+    "category": "state",
+    "concept": "A slow lean combined with a small downward dip that holds briefly before returning. Use it for a drowsy, relaxed idle motion.",
+    "keywords": [
+      "drowsy lean dip",
+      "head loll with dip",
+      "relaxed dip and lean",
+      "sleepy idle motion",
+      "lean and settle",
+      "tilt and dip hold",
+      "lazy resting dip",
+      "gentle dip and lean"
+    ]
+  },
+  {
+    "name": "loll-deep",
+    "phrase": "lean far and hold long",
+    "category": "state",
+    "concept": "A deeper lean that holds for longer than a standard loll before returning. Use it for a heavier or more exaggerated drowsy idle motion.",
+    "keywords": [
+      "deep head loll",
+      "long held lean",
+      "exaggerated drowsy tilt",
+      "heavy lean hold",
+      "extended idle lean",
+      "deep tilt and rest",
+      "long resting lean",
+      "slow deep lean"
+    ]
+  },
+  {
+    "name": "skew-sway",
+    "phrase": "sway with a subtle skew",
+    "category": "state",
+    "concept": "A slow, continuous skew oscillation instead of a rotation. Use it for a different visual quality of sway, like a soft rubbery wobble.",
+    "keywords": [
+      "skew sway motion",
+      "subtle shear wobble",
+      "rubbery sway",
+      "soft skew oscillation",
+      "gentle shear motion",
+      "skewed idle sway",
+      "wobbly skew loop",
+      "soft shear sway"
+    ]
+  },
+  {
+    "name": "skew-sway-wide",
+    "phrase": "sway with a wider skew",
+    "category": "state",
+    "concept": "A wider skew oscillation than a standard skew sway, for more visible shear. Use it for an element that needs a more pronounced soft wobble.",
+    "keywords": [
+      "wide skew sway",
+      "pronounced shear wobble",
+      "broad skew oscillation",
+      "strong rubbery wobble",
+      "visible skew motion",
+      "wide shear sway",
+      "exaggerated skew loop",
+      "big shear wobble"
+    ]
+  },
+  {
+    "name": "skew-tilt",
+    "phrase": "tilt with a vertical skew",
+    "category": "state",
+    "concept": "A slow, continuous vertical skew oscillation, shearing the element top to bottom instead of side to side. Use it for a distinct wobble on a tall element.",
+    "keywords": [
+      "vertical skew motion",
+      "skew y oscillation",
+      "top to bottom shear",
+      "tall element wobble",
+      "vertical shear sway",
+      "skewed vertical tilt",
+      "soft vertical wobble",
+      "gentle vertical shear"
+    ]
+  },
+  {
+    "name": "skew-drift",
+    "phrase": "skew while drifting sideways",
+    "category": "state",
+    "concept": "A skew oscillation combined with a small horizontal shift. Use it for an element that seems to wobble while gently sliding side to side.",
+    "keywords": [
+      "skew and slide",
+      "wobble while drifting",
+      "shear with shift",
+      "skewed horizontal drift",
+      "combined skew motion",
+      "sliding wobble",
+      "shear and drift",
+      "drifting shear wobble"
+    ]
+  },
+  {
+    "name": "skew-breathe",
+    "phrase": "skew with a soft fade",
+    "category": "state",
+    "concept": "A skew oscillation paired with a slight dip in opacity. Use it for an ambient element that wobbles softly while it fades in and out.",
+    "keywords": [
+      "skew fade motion",
+      "wobble with fade",
+      "breathing skew",
+      "soft fading wobble",
+      "shear opacity pulse",
+      "gentle skew fade",
+      "ambient wobble fade",
+      "fading shear motion"
+    ]
+  },
+  {
+    "name": "nudge-corner-ne",
+    "phrase": "nudge toward the top right",
+    "category": "state",
+    "concept": "A small, quick diagonal shift toward the top-right corner and back. Use it to point attention toward something in that corner, like a badge or menu.",
+    "keywords": [
+      "diagonal nudge",
+      "corner attention cue",
+      "top right hint",
+      "point to corner",
+      "quick diagonal shift",
+      "badge hint motion",
+      "look over there ne",
+      "corner pointer hint"
+    ]
+  },
+  {
+    "name": "nudge-corner-nw",
+    "phrase": "nudge toward the top left",
+    "category": "state",
+    "concept": "A small, quick diagonal shift toward the top-left corner and back. Use it to point attention toward something in that corner, like a badge or menu.",
+    "keywords": [
+      "diagonal nudge",
+      "corner attention cue",
+      "top left hint",
+      "point to corner",
+      "quick diagonal shift",
+      "badge hint motion",
+      "look over there nw",
+      "corner pointer hint"
+    ]
+  },
+  {
+    "name": "nudge-corner-se",
+    "phrase": "nudge toward the bottom right",
+    "category": "state",
+    "concept": "A small, quick diagonal shift toward the bottom-right corner and back. Use it to point attention toward something in that corner, like a badge or menu.",
+    "keywords": [
+      "diagonal nudge",
+      "corner attention cue",
+      "bottom right hint",
+      "point to corner",
+      "quick diagonal shift",
+      "badge hint motion",
+      "look over there se",
+      "corner pointer hint"
+    ]
+  },
+  {
+    "name": "nudge-corner-sw",
+    "phrase": "nudge toward the bottom left",
+    "category": "state",
+    "concept": "A small, quick diagonal shift toward the bottom-left corner and back. Use it to point attention toward something in that corner, like a badge or menu.",
+    "keywords": [
+      "diagonal nudge",
+      "corner attention cue",
+      "bottom left hint",
+      "point to corner",
+      "quick diagonal shift",
+      "badge hint motion",
+      "look over there sw",
+      "corner pointer hint"
+    ]
+  },
+  {
+    "name": "orbit-drift-loop",
+    "phrase": "drift in a slow loop",
+    "category": "state",
+    "concept": "A slow, small circular wander that loops the element around its resting point. Use it for an ambient element that feels like it is gently orbiting.",
+    "keywords": [
+      "circular drift",
+      "slow orbiting motion",
+      "looping wander",
+      "ambient circular path",
+      "gentle orbit loop",
+      "drifting in a circle",
+      "small orbit cycle",
+      "slow circular wander"
+    ]
+  },
+  {
+    "name": "orbit-loop-tight",
+    "phrase": "drift in a tight loop",
+    "category": "state",
+    "concept": "A smaller, quicker version of a circular wander. Use it for an element that needs a subtle orbiting motion without much visible reach.",
+    "keywords": [
+      "tight circular drift",
+      "small orbit loop",
+      "quick orbiting motion",
+      "subtle circular wander",
+      "compact orbit cycle",
+      "tiny drift loop",
+      "small ambient orbit",
+      "small orbiting drift"
+    ]
+  },
+  {
+    "name": "orbit-tilt",
+    "phrase": "orbit while tilting slightly",
+    "category": "state",
+    "concept": "A circular wander combined with a small rotation, like a leaf turning as it drifts. Use it for a more organic, tumbling ambient motion.",
+    "keywords": [
+      "orbit with tilt",
+      "tumbling drift motion",
+      "leaf drifting turn",
+      "circular tilt combo",
+      "organic drift motion",
+      "turning orbit loop",
+      "rotating circular drift",
+      "tumbling orbit motion"
+    ]
+  },
+  {
+    "name": "orbit-reverse",
+    "phrase": "drift in the opposite loop",
+    "category": "state",
+    "concept": "A circular wander that loops in the opposite direction from a standard orbit drift. Use it to vary the direction of motion across several elements.",
+    "keywords": [
+      "reverse orbit",
+      "counterclockwise drift",
+      "opposite circular loop",
+      "reverse circular wander",
+      "mirrored orbit motion",
+      "alternate direction drift",
+      "inverse orbit loop",
+      "opposite orbiting motion"
+    ]
+  },
+  {
+    "name": "lean-corner-ne",
+    "phrase": "lean and shift toward a corner",
+    "category": "state",
+    "concept": "A rotation and small shift toward the top-right corner that holds briefly before returning. Use it to draw the eye toward content in that corner.",
+    "keywords": [
+      "corner lean hold",
+      "tilt toward corner",
+      "lean and shift ne",
+      "held corner tilt",
+      "point and hold",
+      "corner-directed lean",
+      "attention lean top right",
+      "gentle corner attention"
+    ]
+  },
+  {
+    "name": "lean-corner-sw",
+    "phrase": "lean and shift toward the opposite corner",
+    "category": "state",
+    "concept": "A rotation and small shift toward the bottom-left corner that holds briefly before returning. Use it to draw the eye toward content in that corner.",
+    "keywords": [
+      "corner lean hold",
+      "tilt toward corner",
+      "lean and shift sw",
+      "held corner tilt",
+      "point and hold",
+      "corner-directed lean",
+      "attention lean bottom left",
+      "gentle corner attention sw"
+    ]
+  },
+  {
+    "name": "tilt-drift",
+    "phrase": "drift while tilting",
+    "category": "state",
+    "concept": "A slow, combined rotation and diagonal wander, back and forth without holding. Use it for an ambient element that feels like it is gently tumbling as it drifts.",
+    "keywords": [
+      "tilting drift motion",
+      "combined rotate and drift",
+      "tumbling wander",
+      "diagonal tilt sway",
+      "ambient tilt motion",
+      "drift with rotation",
+      "gentle tumbling drift",
+      "slow tilting wander"
+    ]
+  },
+  {
+    "name": "tilt-drift-reverse",
+    "phrase": "drift while tilting the other way",
+    "category": "state",
+    "concept": "The same combined rotation and diagonal wander as a tilting drift, but leaning the opposite way. Use it to vary the motion across a set of elements.",
+    "keywords": [
+      "reverse tilting drift",
+      "opposite tumbling wander",
+      "mirrored tilt drift",
+      "alternate diagonal tilt",
+      "inverse tilt motion",
+      "reverse rotate and drift",
+      "varied tumbling sway",
+      "slow reverse tilt wander"
+    ]
+  },
+  {
+    "name": "bob-tilt",
+    "phrase": "bob with a small tilt",
+    "category": "state",
+    "concept": "A small vertical bob combined with a slight rotation, pivoting from the top. Use it for an element that feels like it bobs and tilts at once.",
+    "keywords": [
+      "bob and tilt",
+      "vertical bob with rotation",
+      "bobbing tilt motion",
+      "combined bob and lean",
+      "small tilt bounce",
+      "top pivot bob",
+      "gentle bob tilt",
+      "soft bob and lean"
+    ]
+  },
+  {
+    "name": "bob-tilt-wide",
+    "phrase": "bob and tilt more widely",
+    "category": "state",
+    "concept": "A wider, slower version of a bob-and-tilt motion. Use it for an element that needs a more visible combined bounce and lean.",
+    "keywords": [
+      "wide bob tilt",
+      "pronounced bob and lean",
+      "strong tilt bounce",
+      "visible bob motion",
+      "broad bobbing tilt",
+      "exaggerated bob and tilt",
+      "large bob lean combo",
+      "wide bob and lean"
+    ]
+  },
+  {
+    "name": "bob-lean",
+    "phrase": "dip, lean, and hold",
+    "category": "state",
+    "concept": "A vertical dip combined with a lean that holds briefly before returning. Use it for a drowsy, weighted idle motion, like a heavy head nodding and settling.",
+    "keywords": [
+      "dip and lean hold",
+      "weighted nodding motion",
+      "drowsy dip lean",
+      "held tilt with dip",
+      "settling nod motion",
+      "heavy idle dip",
+      "resting dip and lean",
+      "gentle nodding dip"
+    ]
+  },
+  {
+    "name": "sway-asymmetric",
+    "phrase": "sway with an uneven rhythm",
+    "category": "state",
+    "concept": "A rotation that swings between two sides, holding one side longer than the other. Use it for a sway with a less mechanical, more natural rhythm.",
+    "keywords": [
+      "uneven sway rhythm",
+      "asymmetric swinging motion",
+      "natural sway timing",
+      "lopsided rotation loop",
+      "irregular swing rhythm",
+      "non-uniform sway",
+      "organic swinging rhythm",
+      "natural swinging motion"
+    ]
+  },
+  {
+    "name": "arc-nudge",
+    "phrase": "nudge along a small arc",
+    "category": "state",
+    "concept": "A small, quick shift that traces a short curved path instead of a straight line. Use it for a more playful attention cue than a straight nudge.",
+    "keywords": [
+      "curved nudge motion",
+      "arc-shaped hint",
+      "playful attention cue",
+      "curving small shift",
+      "arcing tap hint",
+      "short curved nudge",
+      "bouncy arc motion",
+      "gentle arc hint"
+    ]
+  },
+  {
+    "name": "wander-drift",
+    "phrase": "drift slowly and irregularly",
+    "category": "state",
+    "concept": "A very slow, irregular two-axis wander with a wider reach than a standard meander. Use it for a background element that drifts on a long, lazy cycle.",
+    "keywords": [
+      "slow irregular drift",
+      "long cycle wander",
+      "wide lazy drift",
+      "ambient long wander",
+      "background drifting motion",
+      "slow two-axis wander",
+      "extended drift cycle",
+      "very slow wandering motion"
+    ]
+  },
+  {
+    "name": "sway-deep-bottom",
+    "phrase": "rock deeply and hold",
+    "category": "state",
+    "concept": "A wide rotation from the bottom that holds briefly on one side before returning. Use it for a standing element with a heavier, more deliberate rock.",
+    "keywords": [
+      "deep bottom rock hold",
+      "weighted standing sway",
+      "held base rotation",
+      "heavy rocking pause",
+      "deliberate base sway",
+      "standing element hold",
+      "deep rock and rest",
+      "slow deliberate rock"
+    ]
+  }
+]

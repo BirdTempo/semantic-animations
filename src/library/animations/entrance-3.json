@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "zoom-in-snap",
+    "phrase": "zoom in fast",
+    "category": "entrance",
+    "concept": "The element snaps from very small to full size in one fast motion, with no bounce. Use it when speed matters more than polish, like a toast or a status chip.",
+    "keywords": [
+      "fast zoom in",
+      "snap into view",
+      "quick zoom",
+      "instant appear",
+      "sharp entrance",
+      "rapid pop",
+      "no bounce zoom",
+      "snappy appear",
+      "zoom in quickly",
+      "abrupt entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "expand-in-slow",
+    "phrase": "expand in slowly",
+    "category": "entrance",
+    "concept": "The element grows from almost full size to full size over a long, calm motion. Use it for a deliberate entrance, like a hero panel or a splash section.",
+    "keywords": [
+      "slow expand",
+      "gentle growth",
+      "calm entrance",
+      "deliberate appear",
+      "unhurried zoom",
+      "gradual expand in",
+      "soft slow appear",
+      "measured entrance",
+      "slow build in",
+      "patient reveal"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "zoom-in-blast",
+    "phrase": "zoom in from tiny",
+    "category": "entrance",
+    "concept": "The element rushes in from a tiny point straight to full size. Use it for a bold, attention-grabbing entrance, like an alert or a big reveal moment.",
+    "keywords": [
+      "zoom in from nothing",
+      "blast into view",
+      "tiny to full size",
+      "bold zoom entrance",
+      "dramatic zoom in",
+      "punchy appear",
+      "sudden zoom",
+      "big reveal",
+      "explosive entrance",
+      "zoom in hard"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-deep",
+    "phrase": "scale in with a pause",
+    "category": "entrance",
+    "concept": "The element stays small and fades in first, then grows to full size. Use it when the viewer should notice the element before it expands.",
+    "keywords": [
+      "scale in with delay",
+      "pause then grow",
+      "hold then expand",
+      "delayed scale up",
+      "grow after a beat",
+      "fade then grow",
+      "two-stage scale in",
+      "hesitant entrance",
+      "grow with a pause",
+      "settle then expand"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-soft",
+    "phrase": "scale in barely",
+    "category": "entrance",
+    "concept": "The element scales up from just slightly smaller than its full size, with a soft fade. Use it for a subtle entrance that does not draw much attention.",
+    "keywords": [
+      "subtle scale in",
+      "barely noticeable zoom",
+      "soft gentle appear",
+      "minimal scale entrance",
+      "quiet appear",
+      "low-key entrance",
+      "tiny scale change",
+      "understated zoom in",
+      "light touch entrance",
+      "faint grow in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "spin-scale-in",
+    "phrase": "scale in with a half spin",
+    "category": "entrance",
+    "concept": "The element grows to full size while it rotates half a turn. Use it for a lively entrance that mixes size change with rotation, like a badge or icon reveal.",
+    "keywords": [
+      "scale and spin in",
+      "rotate while growing",
+      "half turn entrance",
+      "spin into view",
+      "zoom with rotation",
+      "twirl in",
+      "grow and rotate",
+      "rotating scale entrance",
+      "spin pop in",
+      "icon spin reveal"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "twist-scale-in",
+    "phrase": "scale in with a twist",
+    "category": "entrance",
+    "concept": "The element grows to full size while it rotates a small amount. Use it for a light entrance with a hint of rotation, gentler than a full spin.",
+    "keywords": [
+      "small twist entrance",
+      "scale with slight rotation",
+      "gentle twist in",
+      "light rotate and grow",
+      "subtle spin entrance",
+      "tilt and scale in",
+      "mild twist appear",
+      "angled scale entrance",
+      "small rotate zoom in",
+      "playful twist in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-spiral",
+    "phrase": "scale in with a spiral turn",
+    "category": "entrance",
+    "concept": "The element spins through several turns as it grows, then overshoots slightly before it settles. Use it for a dramatic entrance, like a featured item or a game reward.",
+    "keywords": [
+      "spiral entrance",
+      "multiple turns scale in",
+      "dramatic spin and grow",
+      "energetic spiral appear",
+      "whirl into view",
+      "spin several times in",
+      "game reward entrance",
+      "featured item spiral",
+      "big spin scale in",
+      "twirl and settle"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-corner-tl",
+    "phrase": "scale in from the top-left corner",
+    "category": "entrance",
+    "concept": "The element grows from its top-left corner instead of its center. Use it when the element sits near a top-left anchor, like a menu that opens from a corner button.",
+    "keywords": [
+      "grow from top left",
+      "corner scale in",
+      "top-left origin entrance",
+      "scale from corner anchor",
+      "menu opens from corner",
+      "top left zoom in",
+      "anchored corner entrance",
+      "grow out of corner",
+      "corner origin appear",
+      "top-left pop in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-corner-br",
+    "phrase": "scale in from the bottom-right corner",
+    "category": "entrance",
+    "concept": "The element grows from its bottom-right corner instead of its center. Use it when the element sits near a bottom-right anchor, like a chat bubble that opens from a launcher button.",
+    "keywords": [
+      "grow from bottom right",
+      "corner scale in",
+      "bottom-right origin entrance",
+      "scale from corner anchor",
+      "chat bubble opens",
+      "bottom right zoom in",
+      "anchored corner entrance",
+      "grow out of corner",
+      "corner origin appear",
+      "bottom-right pop in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-corner-tr",
+    "phrase": "scale in from the top-right corner",
+    "category": "entrance",
+    "concept": "The element grows from its top-right corner instead of its center. Use it for a notification or badge that opens from a top-right icon.",
+    "keywords": [
+      "grow from top right",
+      "corner scale in",
+      "top-right origin entrance",
+      "scale from corner anchor",
+      "notification opens top right",
+      "top right zoom in",
+      "anchored corner entrance",
+      "grow out of corner",
+      "corner origin appear",
+      "top-right pop in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-corner-bl",
+    "phrase": "scale in from the bottom-left corner",
+    "category": "entrance",
+    "concept": "The element grows from its bottom-left corner instead of its center. Use it for a tooltip or panel that opens from a bottom-left anchor.",
+    "keywords": [
+      "grow from bottom left",
+      "corner scale in",
+      "bottom-left origin entrance",
+      "scale from corner anchor",
+      "tooltip opens bottom left",
+      "bottom left zoom in",
+      "anchored corner entrance",
+      "grow out of corner",
+      "corner origin appear",
+      "bottom-left pop in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-edge-left",
+    "phrase": "scale in from the left edge",
+    "category": "entrance",
+    "concept": "The element grows outward from its left edge, wider than tall at the start. Use it for a panel or drawer that expands from a left-side trigger.",
+    "keywords": [
+      "grow from left edge",
+      "left origin scale in",
+      "panel expands from left",
+      "edge anchored entrance",
+      "scale out from left side",
+      "left edge zoom in",
+      "drawer opens from left",
+      "asymmetric left scale",
+      "left side grow in",
+      "expand from left edge"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-edge-top",
+    "phrase": "scale in from the top edge",
+    "category": "entrance",
+    "concept": "The element grows downward from its top edge, flatter than wide at the start. Use it for a dropdown or banner that expands from a top-side trigger.",
+    "keywords": [
+      "grow from top edge",
+      "top origin scale in",
+      "dropdown expands from top",
+      "edge anchored entrance",
+      "scale out from top side",
+      "top edge zoom in",
+      "banner opens from top",
+      "asymmetric top scale",
+      "top side grow in",
+      "expand from top edge"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-focus",
+    "phrase": "scale in and come into focus",
+    "category": "entrance",
+    "concept": "The element starts slightly larger and blurred, then shrinks and sharpens to its resting size. Use it for a camera-focus feel, like a featured photo or preview card.",
+    "keywords": [
+      "focus pull entrance",
+      "blur to sharp in",
+      "camera focus appear",
+      "defocus then sharpen",
+      "photo comes into focus",
+      "blurred zoom settle",
+      "sharpen while shrinking",
+      "lens focus entrance",
+      "soft focus to clear",
+      "focus in effect"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-hazy",
+    "phrase": "scale in through a light haze",
+    "category": "entrance",
+    "concept": "The element grows from small while a light blur clears. Use it for a soft, dreamy entrance, like an image gallery item or a quote card.",
+    "keywords": [
+      "hazy entrance",
+      "soft blur clears in",
+      "dreamy scale in",
+      "light blur to clear",
+      "gentle haze appear",
+      "misty entrance",
+      "soft focus grow in",
+      "clear from haze",
+      "gallery item appear",
+      "quote card entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "zoom-in-blur-snap",
+    "phrase": "zoom in with a fast blur clear",
+    "category": "entrance",
+    "concept": "The element rushes in from small and heavily blurred, then snaps sharp with a slight overshoot. Use it for a punchy, high-energy entrance, like a game notification.",
+    "keywords": [
+      "fast blur to sharp",
+      "punchy blur entrance",
+      "heavy blur zoom in",
+      "snap into focus",
+      "high energy blur in",
+      "quick defocus to clear",
+      "dramatic blur zoom",
+      "game notification entrance",
+      "sharp snap after blur",
+      "zoom in and sharpen fast"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-elastic",
+    "phrase": "scale in with an elastic settle",
+    "category": "entrance",
+    "concept": "The element grows past full size, pulls back, then settles, like a rubber band. Use it for a lively entrance with more spring than a simple pop.",
+    "keywords": [
+      "elastic scale in",
+      "springy overshoot entrance",
+      "rubber band grow in",
+      "bouncy settle",
+      "stretch and settle in",
+      "spring back entrance",
+      "elastic pop",
+      "overshoot and recoil",
+      "lively bounce in",
+      "springy zoom in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-bounce-double",
+    "phrase": "scale in with two bounces",
+    "category": "entrance",
+    "concept": "The element grows past full size twice before it settles. Use it for a cheerful, bubbly entrance, like a like button or a playful badge.",
+    "keywords": [
+      "double bounce entrance",
+      "two bounce scale in",
+      "bubbly grow in",
+      "cheerful bounce appear",
+      "like button entrance",
+      "playful double bounce",
+      "bounce twice then settle",
+      "springy two-step entrance",
+      "badge double bounce",
+      "fun bouncy appear"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-bounce-triple",
+    "phrase": "scale in with three bounces",
+    "category": "entrance",
+    "concept": "The element grows past full size three times, each smaller than the last, before it settles. Use it for a rich, toy-like entrance, like a celebratory reward icon.",
+    "keywords": [
+      "triple bounce entrance",
+      "three bounce scale in",
+      "toy-like grow in",
+      "celebratory bounce appear",
+      "reward icon entrance",
+      "fading bounces entrance",
+      "bounce three times then settle",
+      "rich springy entrance",
+      "decaying bounce scale in",
+      "joyful triple bounce"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-skew",
+    "phrase": "scale in with a horizontal skew",
+    "category": "entrance",
+    "concept": "The element grows to full size while it straightens out of a horizontal skew. Use it for a dynamic entrance with a sense of motion, like a sliding card.",
+    "keywords": [
+      "skewed scale in",
+      "horizontal skew entrance",
+      "dynamic slant appear",
+      "straighten while growing",
+      "skew then settle",
+      "angled entrance",
+      "motion skew in",
+      "tilted grow in",
+      "slanted zoom in",
+      "card skew entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-skew-y",
+    "phrase": "scale in with a vertical skew",
+    "category": "entrance",
+    "concept": "The element grows to full size while it straightens out of a vertical skew. Use it for a dynamic entrance that reads as falling into alignment.",
+    "keywords": [
+      "vertical skew entrance",
+      "skew y scale in",
+      "fall into alignment",
+      "dynamic vertical slant",
+      "straighten upright while growing",
+      "skew then settle vertical",
+      "angled vertical entrance",
+      "tilted upright grow in",
+      "slanted vertical zoom in",
+      "vertical skew appear"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-skew-twist",
+    "phrase": "scale in with a double skew",
+    "category": "entrance",
+    "concept": "The element grows to full size while it straightens out of a skew on both axes at once. Use it for a stylized, off-kilter entrance with strong character.",
+    "keywords": [
+      "double axis skew entrance",
+      "stylized skew scale in",
+      "off-kilter appear",
+      "two-axis slant entrance",
+      "strong skew grow in",
+      "dual skew settle",
+      "character skew entrance",
+      "angled both ways appear",
+      "expressive skew zoom in",
+      "twisted skew entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "iris-in",
+    "phrase": "open like a camera iris",
+    "category": "entrance",
+    "concept": "The element opens from a single point to full size in one quick motion, with a tiny settle at the end. Use it for a lens-like reveal, like a photo viewer or a spotlight.",
+    "keywords": [
+      "iris open entrance",
+      "camera aperture reveal",
+      "lens open appear",
+      "spotlight reveal in",
+      "open from a point",
+      "photo viewer entrance",
+      "aperture opens",
+      "iris reveal effect",
+      "lens style entrance",
+      "shutter open in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "aperture-in",
+    "phrase": "open like camera blades",
+    "category": "entrance",
+    "concept": "The element opens from a tiny point while it rotates a small amount, like aperture blades that swing open. Use it for a mechanical, precise reveal, like a settings dial.",
+    "keywords": [
+      "aperture blades entrance",
+      "mechanical open reveal",
+      "camera blade appear",
+      "precise lens entrance",
+      "dial open effect",
+      "rotating aperture in",
+      "settings dial reveal",
+      "mechanical iris entrance",
+      "blade swing open",
+      "camera app entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "unfold-in-horizontal",
+    "phrase": "unfold open sideways",
+    "category": "entrance",
+    "concept": "The element unfolds sideways first, then the height catches up to full size. Use it for a panel or menu that reads as opening like a fan.",
+    "keywords": [
+      "unfold sideways entrance",
+      "horizontal unfold appear",
+      "fan open effect",
+      "panel unfolds across",
+      "sideways scale reveal",
+      "width leads height entrance",
+      "menu unfolds in",
+      "horizontal expand reveal",
+      "fan out entrance",
+      "unfurl sideways"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "unfold-in-vertical",
+    "phrase": "unfold open downward",
+    "category": "entrance",
+    "concept": "The element unfolds downward first, then the width catches up to full size. Use it for a dropdown or accordion panel that reads as opening top to bottom.",
+    "keywords": [
+      "unfold downward entrance",
+      "vertical unfold appear",
+      "accordion open effect",
+      "panel unfolds down",
+      "height leads width entrance",
+      "dropdown unfolds in",
+      "vertical expand reveal",
+      "unfurl downward",
+      "top to bottom unfold",
+      "fold open vertical"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "unfold-in-diagonal",
+    "phrase": "unfold open on a diagonal",
+    "category": "entrance",
+    "concept": "The element unfolds wider before it unfolds taller, so the two axes grow at different rates. Use it for a distinctive reveal that feels less mechanical than a straight unfold.",
+    "keywords": [
+      "diagonal unfold entrance",
+      "two axis unfold appear",
+      "uneven unfold reveal",
+      "width then height unfold",
+      "staggered axis entrance",
+      "distinctive unfold in",
+      "asymmetric unfold reveal",
+      "diagonal expand appear",
+      "off-axis unfold",
+      "layered unfold entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-flip-x",
+    "phrase": "scale in with a forward flip",
+    "category": "entrance",
+    "concept": "The element tips forward from a steep angle and grows to full size as it lands flat. Use it for a card-flip style entrance, like a stat tile or an info card.",
+    "keywords": [
+      "forward flip entrance",
+      "tip in and scale",
+      "card flip appear",
+      "stat tile flip entrance",
+      "tilt forward into view",
+      "3d flip scale in",
+      "info card flip",
+      "flip down into place",
+      "angled flip entrance",
+      "tip and settle flat"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-flip-y",
+    "phrase": "scale in with a side flip",
+    "category": "entrance",
+    "concept": "The element turns in from the side at a steep angle and grows to full size as it faces forward. Use it for a card-flip style entrance across a horizontal axis.",
+    "keywords": [
+      "side flip entrance",
+      "turn in and scale",
+      "horizontal flip appear",
+      "card side flip entrance",
+      "rotate in from side",
+      "3d side flip scale in",
+      "turn to face forward",
+      "flip across into place",
+      "angled side flip entrance",
+      "swing in and settle"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-tilt",
+    "phrase": "scale in with a slight tilt",
+    "category": "entrance",
+    "concept": "The element tilts back a small amount and grows to full size as it straightens. Use it for a subtle, three-dimensional pop, gentler than a full flip.",
+    "keywords": [
+      "subtle tilt entrance",
+      "slight 3d tilt scale in",
+      "gentle tilt pop",
+      "small angle tilt appear",
+      "soft dimensional entrance",
+      "light tilt and grow",
+      "mild 3d pop in",
+      "slight tip and settle",
+      "understated tilt entrance",
+      "gentle depth appear"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-swoop",
+    "phrase": "scale in with a swoop",
+    "category": "entrance",
+    "concept": "The element swoops down and in from above while it grows and rotates a small amount. Use it for an energetic entrance that combines motion, size, and angle.",
+    "keywords": [
+      "swoop down entrance",
+      "scale rotate and move in",
+      "energetic swoop appear",
+      "fly in and grow",
+      "combined motion entrance",
+      "swoop and settle",
+      "angled swoop scale in",
+      "dynamic drop and grow",
+      "sweeping entrance",
+      "swoop into place"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "zoom-in-drift",
+    "phrase": "zoom in with a slight drift",
+    "category": "entrance",
+    "concept": "The element zooms in from small while it drifts sideways a short distance. Use it for a fast entrance with a small sense of direction, like a chat message.",
+    "keywords": [
+      "drift zoom entrance",
+      "small sideways drift in",
+      "fast zoom with motion",
+      "chat message entrance",
+      "quick drift and grow",
+      "directional zoom in",
+      "subtle drift appear",
+      "zoom with a nudge",
+      "short sideways zoom in",
+      "light drift scale in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-corner-pull",
+    "phrase": "scale in and pull from the corner",
+    "category": "entrance",
+    "concept": "The element grows from its top-left corner while it also slides in from that corner. Use it for a panel that reads as being pulled out from an anchor point.",
+    "keywords": [
+      "corner pull entrance",
+      "slide and scale from corner",
+      "anchored pull in",
+      "panel pulled from corner",
+      "corner drag entrance",
+      "diagonal pull and grow",
+      "corner slide scale in",
+      "pulled out reveal",
+      "anchor point entrance",
+      "corner drift and scale"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-squash",
+    "phrase": "scale in with a squash",
+    "category": "entrance",
+    "concept": "The element starts flattened and wide, then squashes and stretches back to its normal shape. Use it for a cartoon-like, tactile entrance, like button press feedback.",
+    "keywords": [
+      "squash entrance",
+      "flatten then settle scale in",
+      "cartoon squash appear",
+      "tactile bounce entrance",
+      "squash and rebound",
+      "button press style entrance",
+      "squished then normal appear",
+      "playful squash scale in",
+      "toy-like squash entrance",
+      "elastic squash appear"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-stretch",
+    "phrase": "scale in with a stretch",
+    "category": "entrance",
+    "concept": "The element starts flattened and tall, then stretches and settles back to its normal shape. Use it as the vertical counterpart to a squash entrance.",
+    "keywords": [
+      "stretch entrance",
+      "tall then settle scale in",
+      "cartoon stretch appear",
+      "vertical elastic entrance",
+      "stretch and rebound",
+      "narrow then normal appear",
+      "playful stretch scale in",
+      "toy-like stretch entrance",
+      "elastic stretch appear",
+      "vertical squash counterpart"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-rubber",
+    "phrase": "scale in like rubber",
+    "category": "entrance",
+    "concept": "The element grows in and wobbles between wide and tall a few times before it settles. Use it for a stretchy entrance with more character than a plain bounce.",
+    "keywords": [
+      "rubber band entrance",
+      "wobble scale in",
+      "stretchy multi-axis appear",
+      "elastic wobble entrance",
+      "rubbery settle in",
+      "alternating squash stretch entrance",
+      "springy wobble appear",
+      "flexible entrance effect",
+      "bouncy rubber scale in",
+      "wobbly settle entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-vortex",
+    "phrase": "scale in through a blurred vortex",
+    "category": "entrance",
+    "concept": "The element spins a full turn and clears from a blur as it grows to full size. Use it for a dramatic, high-energy entrance, like a loading result or a big reveal.",
+    "keywords": [
+      "vortex entrance",
+      "spin and blur clear in",
+      "dramatic full turn appear",
+      "high energy vortex scale in",
+      "swirl and sharpen entrance",
+      "blurred spin reveal",
+      "big reveal vortex",
+      "whirl clear into view",
+      "full rotation blur entrance",
+      "dramatic spin clear in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-roll",
+    "phrase": "scale in with a roll",
+    "category": "entrance",
+    "concept": "The element rolls in through a half turn as it grows to full size, with no blur. Use it for a clean rotating entrance, simpler than a vortex.",
+    "keywords": [
+      "roll entrance",
+      "half turn scale in",
+      "clean rotate appear",
+      "simple rolling entrance",
+      "turn and grow in",
+      "roll into place",
+      "half spin scale in",
+      "clean rotation entrance",
+      "roll and settle",
+      "turning appear effect"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-crisp",
+    "phrase": "scale in and sharpen crisply",
+    "category": "entrance",
+    "concept": "The element grows a small amount while a light blur clears quickly. Use it for a fast, clean entrance with just a touch of focus effect.",
+    "keywords": [
+      "crisp sharpen entrance",
+      "light blur clear fast",
+      "quick focus scale in",
+      "clean crisp appear",
+      "small blur to sharp",
+      "fast light focus entrance",
+      "subtle sharpen appear",
+      "brief blur clear in",
+      "crisp quick zoom",
+      "snappy focus entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-wide",
+    "phrase": "scale in from wide",
+    "category": "entrance",
+    "concept": "The element starts short and wide, then narrows and settles to its normal size. Use it for a horizontal-feeling entrance, like a banner or a wide button.",
+    "keywords": [
+      "wide overshoot entrance",
+      "horizontal scale in settle",
+      "banner wide appear",
+      "short and wide entrance",
+      "narrow to normal scale in",
+      "wide button entrance",
+      "horizontal overshoot appear",
+      "stretched wide settle",
+      "landscape entrance effect",
+      "wide to normal scale"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-tall",
+    "phrase": "scale in from tall",
+    "category": "entrance",
+    "concept": "The element starts narrow and tall, then widens and settles to its normal size. Use it for a vertical-feeling entrance, like a sidebar item or a tall card.",
+    "keywords": [
+      "tall overshoot entrance",
+      "vertical scale in settle",
+      "sidebar tall appear",
+      "narrow and tall entrance",
+      "widen to normal scale in",
+      "tall card entrance",
+      "vertical overshoot appear",
+      "stretched tall settle",
+      "portrait entrance effect",
+      "tall to normal scale"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-diamond",
+    "phrase": "scale in as a diamond",
+    "category": "entrance",
+    "concept": "The element grows in as a diamond shape and rotates into a square as it settles. Use it for a distinctive, geometric entrance, like an achievement icon.",
+    "keywords": [
+      "diamond to square entrance",
+      "geometric rotate scale in",
+      "achievement icon entrance",
+      "angled shape settle",
+      "distinctive geometric appear",
+      "diamond settle effect",
+      "rotated square entrance",
+      "45 degree scale in",
+      "icon diamond reveal",
+      "geometric pop entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-corner-spin",
+    "phrase": "scale in and spin from the corner",
+    "category": "entrance",
+    "concept": "The element grows from its bottom-right corner while it rotates a quarter turn. Use it for a playful entrance anchored to a corner trigger, like a floating action menu.",
+    "keywords": [
+      "corner spin entrance",
+      "rotate from corner anchor",
+      "quarter turn corner scale in",
+      "fab menu entrance",
+      "anchored spin appear",
+      "corner rotate and grow",
+      "playful corner spin in",
+      "bottom right spin entrance",
+      "angled corner reveal",
+      "spin from anchor point"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-billow",
+    "phrase": "scale in like a soft billow",
+    "category": "entrance",
+    "concept": "The element grows slowly from a heavy blur that clears in gradual stages. Use it for a soft, smoke-like entrance, like a background element or an ambient card.",
+    "keywords": [
+      "billow entrance",
+      "slow blur clear scale in",
+      "smoke-like appear",
+      "soft gradual focus in",
+      "ambient billow effect",
+      "gentle multi-stage blur clear",
+      "dreamy slow reveal",
+      "background element entrance",
+      "hazy billow appear",
+      "soft cloud-like entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-defocus",
+    "phrase": "scale in from a strong defocus",
+    "category": "entrance",
+    "concept": "The element starts larger than normal and heavily blurred, then shrinks and sharpens to its resting size. Use it for a dramatic focus-pull entrance, stronger than a light focus effect.",
+    "keywords": [
+      "strong defocus entrance",
+      "dramatic focus pull in",
+      "heavy blur shrink settle",
+      "big blur to sharp",
+      "cinematic focus entrance",
+      "large blurred zoom in",
+      "strong lens focus effect",
+      "dramatic sharpen scale in",
+      "intense defocus appear",
+      "hero focus pull entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-skew-snap",
+    "phrase": "scale in with a skew snap",
+    "category": "entrance",
+    "concept": "The element grows in from a strong skew, overshoots past straight, then settles flat. Use it for a fast, energetic entrance with a whip-like feel.",
+    "keywords": [
+      "skew snap entrance",
+      "overshoot skew scale in",
+      "whip-like appear",
+      "fast skew settle",
+      "energetic skew snap in",
+      "snap past straight entrance",
+      "dynamic skew overshoot",
+      "quick skew and grow",
+      "whipped skew entrance",
+      "skew rebound appear"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-pinwheel",
+    "phrase": "scale in like a pinwheel",
+    "category": "entrance",
+    "concept": "The element spins one and a half turns as it grows from a tiny point. Use it for a whimsical, toy-like entrance, like a pinwheel or a spinning coin.",
+    "keywords": [
+      "pinwheel entrance",
+      "one and a half turn scale in",
+      "whimsical spin appear",
+      "toy spin entrance",
+      "coin spin scale in",
+      "multiple turns from tiny point",
+      "playful pinwheel reveal",
+      "spinning toy entrance",
+      "fun multi-turn appear",
+      "fanciful spin scale in"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-aperture-close",
+    "phrase": "scale in past a narrow aperture",
+    "category": "entrance",
+    "concept": "The element starts larger than normal, narrows down sharply, then springs back to its resting size. Use it for a shutter-like entrance that snaps through a pinch point.",
+    "keywords": [
+      "aperture close then open",
+      "pinch point entrance",
+      "shutter snap scale in",
+      "narrow then spring back",
+      "large to small to normal",
+      "camera shutter effect entrance",
+      "snap through pinch appear",
+      "dramatic aperture scale in",
+      "close then settle entrance",
+      "lens snap effect"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "scale-in-corner-fold",
+    "phrase": "scale in and unfold from the corner",
+    "category": "entrance",
+    "concept": "The element grows from its top-left corner while it rotates and overshoots slightly. Use it for a rich corner entrance that combines an anchor point with a fold-like turn.",
+    "keywords": [
+      "corner fold entrance",
+      "rotate and grow from corner",
+      "anchored fold reveal",
+      "top-left fold and settle",
+      "rich corner entrance effect",
+      "fold out from anchor",
+      "corner overshoot rotate scale in",
+      "angled corner fold appear",
+      "fold and pop from corner",
+      "unfold with rotation entrance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  }
+]

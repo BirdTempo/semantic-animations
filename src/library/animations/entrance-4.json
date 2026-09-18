@@ -1,0 +1,402 @@
+[
+  {
+    "name": "tumble-in",
+    "phrase": "tumble in with a rotating flip",
+    "category": "entrance",
+    "concept": "The element cartwheels in from the side with a full rotation, then lands upright. Use it for a lively, physical entrance, like a toy rolling onto the screen.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["tumble into view", "rolling entrance", "cartwheel flip in", "rotate and slide in", "playful rolling arrival", "toy tumbles in", "spin and land", "energetic rotate entrance", "flips in from the side"]
+  },
+  {
+    "name": "cartwheel-in",
+    "phrase": "cartwheel in along an arc",
+    "category": "entrance",
+    "concept": "The element arcs in from a corner while it spins a full turn, like a cartwheel. It gives a big, showy arrival for hero elements or celebratory moments.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["cartwheel entrance", "arc in with a spin", "diagonal spin arrival", "big showy entrance", "spins in from corner", "acrobatic entrance", "curved rotate in", "flip in from the corner"]
+  },
+  {
+    "name": "barrel-roll-in",
+    "phrase": "barrel roll in with a scale pulse",
+    "category": "entrance",
+    "concept": "The element grows and spins a full 360 degrees at once, like an airplane barrel roll. It suits confident, game-like entrances for icons and badges.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["barrel roll entrance", "spin and grow in", "360 spin arrival", "game icon entrance", "rotate while scaling up", "confident spin in", "full rotation pop", "airplane roll entrance"]
+  },
+  {
+    "name": "flip-tumble-in",
+    "phrase": "flip in thin then snap flat",
+    "category": "entrance",
+    "concept": "The element flattens to a sliver, rotates, then springs back to full shape. It reads like a card flipping into place with extra snap.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flip open entrance", "card flip in", "snap flat then expand", "thin flip arrival", "rotate and unflatten", "flippy entrance", "squeeze then flip open", "flatten and flip in"]
+  },
+  {
+    "name": "roll-in-bounce",
+    "phrase": "roll in then bounce once",
+    "category": "entrance",
+    "concept": "The element rolls in from the left with a spin, then gives one small bounce before it settles. Use it for a playful item that rolls to a stop.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["roll in and bounce", "spin then hop settle", "ball rolls into place", "rolling arrival with bounce", "spin slide bounce", "tumbles in and hops", "rolling stop entrance", "roll to a bounce stop"]
+  },
+  {
+    "name": "corkscrew-in",
+    "phrase": "corkscrew in on a spiral",
+    "category": "entrance",
+    "concept": "The element spirals in from a corner with multiple rotations while it shrinks into place. It feels tight and energetic, like a screw driving in.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["spiral entrance", "corkscrew spin in", "twist into place", "tight spiral arrival", "multi-spin entrance", "drilling spin in", "screwing into view", "spin tight into place"]
+  },
+  {
+    "name": "somersault-in",
+    "phrase": "somersault in from above",
+    "category": "entrance",
+    "concept": "The element drops in from above while it flips a full rotation, then lands flat. Use it for a lively drop entrance, like a gymnast landing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["somersault entrance", "flip down from above", "tumbling drop in", "gymnast landing", "vertical flip arrival", "drop and flip in", "rotating fall entrance", "flip and land entrance"]
+  },
+  {
+    "name": "hop-in",
+    "phrase": "hop in with three small bounces",
+    "category": "entrance",
+    "concept": "The element drops in and hops three times, with each hop smaller than the last, then rests. It suits a cheerful, bouncy arrival for small UI items.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["hop into view", "triple bounce entrance", "bouncing drop in", "cheerful hop arrival", "small bounces settle", "bunny hop entrance", "hops to a stop", "three hops then rest"]
+  },
+  {
+    "name": "bunny-hop-in",
+    "phrase": "bunny hop in with two big squashes",
+    "category": "entrance",
+    "concept": "The element drops with two big hops, each landing with a squash before it springs up again. It gives a bouncy, cartoon-like arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["bunny hop entrance", "two big bounces in", "squash on landing", "cartoon hop arrival", "springy double hop", "bounce and squash in", "playful double bounce", "hop hop and settle"]
+  },
+  {
+    "name": "skip-in",
+    "phrase": "skip in with diagonal hops",
+    "category": "entrance",
+    "concept": "The element skips in sideways with small diagonal hops that shrink as it goes, like a child skipping into a room. It feels light and cheerful.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["skip into view", "diagonal hop entrance", "light skipping arrival", "sideways bounce in", "cheerful skip in", "hopping sideways entrance", "bouncy diagonal arrival", "skip to a stop"]
+  },
+  {
+    "name": "bounce-hop-in",
+    "phrase": "bounce in like a thrown ball",
+    "category": "entrance",
+    "concept": "The element arcs in diagonally, then bounces vertically a few times as it settles, like a ball tossed onto the screen. Use it for a fun, physical arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["thrown ball entrance", "arc and bounce in", "toss into place", "diagonal bounce arrival", "ball drop entrance", "bouncing toss in", "physics-style bounce in", "tossed in and bounces"]
+  },
+  {
+    "name": "pogo-in",
+    "phrase": "pogo in with one strong squash",
+    "category": "entrance",
+    "concept": "The element compresses, springs up high, then squashes again before it settles, like one strong pogo-stick jump. It gives a single, punchy bouncy entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["pogo stick entrance", "single big bounce in", "compress and spring up", "punchy bounce arrival", "one strong hop in", "springy squash entrance", "jump and settle in", "spring jump entrance"]
+  },
+  {
+    "name": "hiccup-in",
+    "phrase": "hiccup in with a stutter",
+    "category": "entrance",
+    "concept": "The element flickers and jitters upward in small uneven steps before it settles, like a hiccup. Use it for a quirky, comic entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["hiccup entrance", "stutter step in", "jittery arrival", "uneven bounce in", "quirky stutter entrance", "comic hiccup arrival", "flicker and settle in", "stuttering hop in"]
+  },
+  {
+    "name": "overshoot-settle-in",
+    "phrase": "pop in and wobble to rest",
+    "category": "entrance",
+    "concept": "The element scales past full size, then rocks side to side before it settles still. Use it for a friendly pop that has extra personality.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["overshoot then wobble", "pop and rock to rest", "scale overshoot entrance", "wobbly settle in", "bouncy pop with rock", "springy overshoot arrival", "rock to a stop", "pop past size then rock"]
+  },
+  {
+    "name": "rubber-band-in",
+    "phrase": "rubber band in and stretch",
+    "category": "entrance",
+    "concept": "The element stretches wide, then tall, then narrows back to shape, like a rubber band snapping into place. It gives a stretchy, elastic entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["rubber band entrance", "stretchy arrival", "elastic snap in", "stretch and settle", "wide then tall entrance", "snappy elastic pop", "bouncy stretch in", "stretch into shape"]
+  },
+  {
+    "name": "teeter-in",
+    "phrase": "teeter in side to side",
+    "category": "entrance",
+    "concept": "The element pops to full size, then teeters left and right with shrinking swings before it holds still. Use it for a charming, off-balance arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["teeter entrance", "rock side to side in", "off-balance pop in", "charming teeter arrival", "swing to a stop", "wobbly rock in", "pop and teeter", "tip side to side entrance"]
+  },
+  {
+    "name": "tilt-in-settle",
+    "phrase": "tilt in and straighten up",
+    "category": "entrance",
+    "concept": "The element slides in at a tilt, then straightens as it reaches its resting spot. It suits a quick, confident arrival with a bit of flair.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["tilted slide entrance", "straighten on arrival", "angled slide in", "tilt and correct entrance", "confident tilted arrival", "slide in crooked then fix", "flair entrance with tilt", "crooked slide then straighten"]
+  },
+  {
+    "name": "jelly-in",
+    "phrase": "jelly in with a soft jiggle",
+    "category": "entrance",
+    "concept": "The element grows in with a soft, repeating jiggle that fades out, like a gelatin wobble. Use it for a squishy, friendly entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["jelly wobble entrance", "squishy jiggle in", "soft jiggle arrival", "gelatin bounce in", "gentle wobble pop", "friendly squishy entrance", "jiggly scale in", "soft bouncy jiggle in"]
+  },
+  {
+    "name": "wag-in",
+    "phrase": "wag in and settle",
+    "category": "entrance",
+    "concept": "The element pops in, then wags side to side like a tail, with each swing smaller than the last. It gives a friendly, eager arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["wag entrance", "tail wag arrival", "eager wagging pop in", "friendly wag settle", "pop and wag in", "excited wag motion", "swinging settle entrance", "wagging pop settle"]
+  },
+  {
+    "name": "skid-in",
+    "phrase": "skid in to a sharp stop",
+    "category": "entrance",
+    "concept": "The element slides in fast, overshoots slightly, then corrects to a sharp stop, like a skid on a floor. Use it for a fast, confident arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["skid to a stop entrance", "fast slide with overshoot", "sharp stop arrival", "skidding entrance", "slide and correct in", "confident fast slide", "quick skid arrival", "fast slide then correct"]
+  },
+  {
+    "name": "skid-stop-in",
+    "phrase": "skid in at an angle",
+    "category": "entrance",
+    "concept": "The element slides in fast while it tilts and stretches slightly, then straightens as it stops, like a car skidding to a halt. It suits an energetic, physical arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["angled skid entrance", "car skid arrival", "tilted slide stop", "stretch and straighten in", "dramatic skid stop", "fast tilted slide in", "skidding halt entrance", "tilt then straighten stop"]
+  },
+  {
+    "name": "brake-in",
+    "phrase": "brake in with a hard stop",
+    "category": "entrance",
+    "concept": "The element falls fast, stretches slightly in the fall, then squashes and rebounds a touch as it brakes to a stop. Use it for a sudden, forceful arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["hard brake entrance", "fast drop stop", "forceful stop arrival", "squash on stop entrance", "sudden stop in", "stretch then brake in", "abrupt landing entrance", "brake to a halt"]
+  },
+  {
+    "name": "drift-in",
+    "phrase": "drift in at an angle",
+    "category": "entrance",
+    "concept": "The element slides in diagonally while it rotates like a drifting car, then straightens as it settles into place. It gives a stylish, energetic arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["drift entrance", "diagonal skid arrival", "car drift in", "stylish angled slide", "rotate and slide in", "drifting stop entrance", "sideways drift arrival", "slide and drift to a stop"]
+  },
+  {
+    "name": "screech-in",
+    "phrase": "screech in with a blur",
+    "category": "entrance",
+    "concept": "The element streaks in fast with a motion blur that clears as it snaps to a stop. Use it for a high-speed, dramatic entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["screech to a stop", "motion blur entrance", "high speed arrival", "streaking slide in", "blur then snap stop", "dramatic fast entrance", "speedy blur arrival", "blurred fast slide in"]
+  },
+  {
+    "name": "spring-in-diagonal",
+    "phrase": "spring in on the diagonal",
+    "category": "entrance",
+    "concept": "The element springs in from a corner, grows past full size, then settles evenly on both axes. Use it for a bouncy, symmetric diagonal arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["diagonal spring entrance", "corner spring arrival", "symmetric bounce in", "spring in from a corner", "bouncy diagonal pop", "elastic diagonal entrance", "spring settle in", "diagonal bounce settle"]
+  },
+  {
+    "name": "zigzag-in",
+    "phrase": "zigzag in from the side",
+    "category": "entrance",
+    "concept": "The element slides in while it changes direction twice, like a zigzag path, before it settles. It gives a snappy, energetic sideways arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["zigzag entrance", "snappy direction change in", "sideways zigzag arrival", "darting slide in", "energetic zigzag slide", "quick direction shift entrance", "playful zigzag pop", "zigzag to a stop"]
+  },
+  {
+    "name": "boing-in",
+    "phrase": "boing in with a squash",
+    "category": "entrance",
+    "concept": "The element squashes wide then stretches tall in alternating beats, like a classic cartoon boing. Use it for the most rubbery, bouncy entrance in the set.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["boing entrance", "cartoon squash and stretch", "classic boing pop in", "rubbery bounce arrival", "squash then stretch in", "bouncy cartoon entrance", "springy boing pop", "squash stretch settle in"]
+  },
+  {
+    "name": "jack-in-the-box",
+    "phrase": "pop in like a jack-in-the-box",
+    "category": "entrance",
+    "concept": "The element springs open from nothing with a rotating pop, then rocks briefly before it settles. Use it for a surprise, playful reveal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["jack in the box entrance", "surprise pop in", "spring open reveal", "playful surprise arrival", "rotate and pop open", "sudden spring reveal", "toy box pop in", "pop open with a spin"]
+  },
+  {
+    "name": "trampoline-in",
+    "phrase": "trampoline in with big bounces",
+    "category": "entrance",
+    "concept": "The element drops from high up and bounces on an invisible trampoline, with each bounce lower and flatter, until it rests. Use it for a long, joyful bouncy entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["trampoline entrance", "big bounce drop in", "multi bounce arrival", "joyful bouncy landing", "repeated squash bounce in", "bouncing to a stop", "high energy bounce entrance", "bounces down to rest"]
+  },
+  {
+    "name": "spiral-pop-in",
+    "phrase": "spiral pop in place",
+    "category": "entrance",
+    "concept": "The element spins several full turns while it grows from tiny to full size, then settles still. Use it for a fast, dizzying pop entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["spiral pop entrance", "spin and grow in place", "dizzy pop arrival", "multi spin scale in", "fast spinning pop", "twirl into view", "spin to full size", "twirl and grow entrance"]
+  },
+  {
+    "name": "slam-in",
+    "phrase": "slam in with a recoil",
+    "category": "entrance",
+    "concept": "The element drops in fast and oversized, slams down to size, then recoils slightly before it settles. Use it for a bold, forceful arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["slam entrance", "forceful drop in", "bold slam arrival", "recoil after slam", "heavy impact entrance", "dramatic slam pop", "hard landing entrance", "drop and recoil in"]
+  },
+  {
+    "name": "power-slam-in",
+    "phrase": "power slam in from oversized",
+    "category": "entrance",
+    "concept": "The element shrinks fast from a huge size, slams into place, then recoils with a tiny rotation before it settles. It gives a dramatic, high-impact arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["power slam entrance", "huge to normal slam", "dramatic impact arrival", "big slam with recoil", "forceful shrink entrance", "high impact pop in", "bold power entrance", "shrink slam recoil in"]
+  },
+  {
+    "name": "stomp-in",
+    "phrase": "stomp in and squash flat",
+    "category": "entrance",
+    "concept": "The element drops in and squashes flat on landing, then rebounds slightly before it settles, like a heavy stomp. Use it for a weighty, powerful arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["stomp entrance", "heavy squash landing", "weighty drop in", "powerful stomp arrival", "flatten on impact entrance", "forceful landing squash", "stomping arrival", "squash flat then rebound"]
+  },
+  {
+    "name": "crash-land-in",
+    "phrase": "crash land in at an angle",
+    "category": "entrance",
+    "concept": "The element flies in diagonally and oversized, crashes into place with a tilt, then wobbles briefly before it settles. Use it for a chaotic, energetic arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["crash land entrance", "diagonal crash arrival", "chaotic impact entrance", "tilted crash landing", "wobble after crash in", "energetic crash pop", "rough landing entrance", "crash then wobble settle"]
+  },
+  {
+    "name": "ricochet-in",
+    "phrase": "ricochet in side to side",
+    "category": "entrance",
+    "concept": "The element bounces off an invisible wall to the right, then back left, with each bounce smaller until it settles. Use it for a snappy, pinball-like arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["ricochet entrance", "bounce side to side in", "pinball style arrival", "snappy ricochet pop", "bounce off wall entrance", "rebounding slide in", "energetic side bounce", "ricochet to a stop"]
+  },
+  {
+    "name": "yo-yo-in",
+    "phrase": "yo-yo in and unwind",
+    "category": "entrance",
+    "concept": "The element drops, rises back up, then dips again in a shrinking rhythm, like a yo-yo settling on its string. Use it for a playful up-down arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yo-yo entrance", "up down settle in", "playful yo-yo arrival", "bouncing string motion", "rise and dip entrance", "toy yo-yo pop in", "rhythmic up down arrival", "dip and rise settle"]
+  },
+  {
+    "name": "accordion-in",
+    "phrase": "accordion in and squeeze",
+    "category": "entrance",
+    "concept": "The element squeezes flat, then expands and contracts vertically a few times, like an accordion, before it settles. Use it for a springy vertical entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["accordion entrance", "squeeze and expand in", "vertical squash bounce", "concertina style arrival", "springy vertical squeeze", "pump in and settle", "bellows style entrance", "squeeze open entrance"]
+  },
+  {
+    "name": "wiggle-walk-in",
+    "phrase": "wiggle-walk in from the side",
+    "category": "entrance",
+    "concept": "The element slides in while it rocks left and right in a steady rhythm, like a playful walk, then straightens as it settles. Use it for a cheerful, animated arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["wiggle walk entrance", "rocking slide in", "playful walking motion", "side to side slide in", "animated wiggle arrival", "cheerful rocking entrance", "waddle in", "wiggle into place"]
+  },
+  {
+    "name": "star-burst-in",
+    "phrase": "star-burst in with a quick pop",
+    "category": "entrance",
+    "concept": "The element bursts in from tiny with a fast overshoot and a small spin, then settles almost instantly. Use it for a sharp, exciting quick reveal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["star burst entrance", "quick pop reveal", "fast overshoot arrival", "sharp spin pop in", "exciting quick reveal", "snappy burst entrance", "instant pop with spin", "burst into view fast"]
+  },
+  {
+    "name": "flicker-hop-in",
+    "phrase": "flicker in then hop once",
+    "category": "entrance",
+    "concept": "The element flickers in visibility as it rises, then gives one clean hop before it settles. Use it for a glitchy, energetic reveal with a bouncy finish.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flicker then hop entrance", "glitchy reveal in", "stutter fade then bounce", "flickering rise entrance", "energetic flicker pop", "glitch hop arrival", "fade flicker bounce in", "flicker up then hop"]
+  },
+  {
+    "name": "torque-in",
+    "phrase": "torque in and spring back",
+    "category": "entrance",
+    "concept": "The element spins in from a wide angle, then oscillates back and forth with shrinking swings until it points straight. Use it for a torsion-spring style entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["torque entrance", "twist and spring back", "oscillating rotate in", "torsion spring arrival", "spin back and forth entrance", "rotational bounce settle", "wind up and release in", "twist then settle straight"]
+  },
+  {
+    "name": "pinball-in",
+    "phrase": "pinball in off the walls",
+    "category": "entrance",
+    "concept": "The element bounces in from a corner along a zigzag diagonal path, with a small rotate at each bounce, like a pinball in play. Use it for a chaotic, arcade-style arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["pinball entrance", "arcade bounce arrival", "diagonal multi bounce in", "zigzag bounce with spin", "chaotic bounce entrance", "game style pinball pop", "bouncing off corners in", "multi bounce corner entrance"]
+  },
+  {
+    "name": "elastic-drop-in",
+    "phrase": "elastic drop in and rebound",
+    "category": "entrance",
+    "concept": "The element falls while it stretches, squashes on landing, then rebounds a few times with shrinking elasticity. Use it for a rubbery, physics-driven drop entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["elastic drop entrance", "rubbery rebound in", "stretchy fall arrival", "bouncy elastic landing", "physics style drop in", "squash stretch rebound entrance", "elastic bounce settle", "fall and rebound entrance"]
+  },
+  {
+    "name": "cannon-in",
+    "phrase": "cannon in at high speed",
+    "category": "entrance",
+    "concept": "The element launches in from far off screen at high speed, then eases to a near-instant stop. Use it for a bold, whoosh-style fast entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["cannon shot entrance", "high speed whoosh in", "fast launch arrival", "bold speed entrance", "shot into view", "fast whoosh pop in", "launched entrance", "high speed slide entrance"]
+  },
+  {
+    "name": "bobblehead-in",
+    "phrase": "bobblehead in and nod",
+    "category": "entrance",
+    "concept": "The element pops to size, then nods back and forth in small, quick swings that fade out, like a bobblehead toy. Use it for a cute, twitchy settle.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["bobblehead entrance", "nodding settle in", "toy nod arrival", "cute twitchy pop", "small nod bounce entrance", "bobbing settle motion", "quick nod fade in", "nod side to side in"]
+  },
+  {
+    "name": "kangaroo-in",
+    "phrase": "kangaroo in with a big leap",
+    "category": "entrance",
+    "concept": "The element leaps in with a single high, tilted arc, then lands and straightens as it settles. Use it for a bold, single-bound entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["kangaroo hop entrance", "big leap arrival", "single bound entrance", "tilted leap in", "bold jump arrival", "one big hop in", "leaping arc entrance", "leap in and land"]
+  },
+  {
+    "name": "dizzy-in",
+    "phrase": "dizzy in with a double spin",
+    "category": "entrance",
+    "concept": "The element grows in while it spins two full turns, then wobbles briefly before it stops still. Use it for a whirling, slightly disoriented arrival.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dizzy spin entrance", "double rotation arrival", "whirling pop in", "spin and wobble stop", "two full turns entrance", "disoriented spin arrival", "twirl and settle in", "spin twice then settle"]
+  },
+  {
+    "name": "pounce-in",
+    "phrase": "pounce in from a crouch",
+    "category": "entrance",
+    "concept": "The element crouches low and wide, then leaps forward to land and settle at full size. Use it for a predatory, playful pounce entrance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["pounce entrance", "crouch and leap in", "playful pounce arrival", "cat pounce style entrance", "leap forward settle", "crouch leap land in", "energetic pounce pop", "crouch then spring forward"]
+  },
+  {
+    "name": "firecracker-in",
+    "phrase": "firecracker in with quick snaps",
+    "category": "entrance",
+    "concept": "The element snaps rapidly in several small directions before it settles still, like a firecracker's crackle. Use it for a hyper, fizzy burst of energy.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["firecracker entrance", "rapid snap arrival", "crackling pop in", "fizzy burst entrance", "quick multi direction snap", "hyper energy pop in", "sparky snap settle", "snap snap settle in"]
+  },
+  {
+    "name": "gummy-drop-in",
+    "phrase": "gummy drop in and squish",
+    "category": "entrance",
+    "concept": "The element drops and squashes very flat, then stretches and settles through a few soft, gooey bounces. Use it for a squishy, candy-like landing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["gummy bear entrance", "squishy drop arrival", "gooey bounce in", "candy style landing", "soft squash entrance", "flat squish bounce", "jelly candy drop in", "squish and settle drop"]
+  }
+]

@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>semantic-animations — type what you mean, get the motion</title>
-<meta name="description" content="33 curated CSS animations, found by plain prose. No network call, no dependency, no class names to memorize." />
+<meta name="description" content="1033 curated CSS animations, found by plain prose. No network call, no dependency, no class names to memorize." />
 <link rel="icon" href="data:," />
 <link rel="stylesheet" href="./styles/animate.css" />
 <style>
@@ -386,7 +386,7 @@
 <main id="top">
   <section class="hero">
     <div class="wrap">
-      <p class="kicker">33 animations · 6 categories · 0 network calls</p>
+      <p class="kicker">1033 animations · 6 categories · 0 network calls</p>
       <h1 class="headline">Type what you mean.<br />Get the motion.</h1>
       <p class="sub">
         A curated set of CSS/JS UI animations, found by plain prose. No API,
@@ -458,7 +458,7 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
         invisible, is explicitly returned to its settled state in that same
         rule — turning motion off never leaves an element stuck hidden.
       </p>
-      <p class="lede">This is written once, in <code>styles/animate.css</code>, and applies to all 33 animations — nothing to configure per component.</p>
+      <p class="lede">This is written once, in <code>styles/animate.css</code>, and applies to all 1033 animations — nothing to configure per component.</p>
     </div>
     <div class="a11y-demo">
       <div class="a11y-dot sa-pulse"></div>
@@ -521,10 +521,10 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
     core.playAnimation(stage, 'pop-in').catch(() => {});
   }
 
-  // dots-bounce animates *children*, not the element itself, and shimmer
-  // needs a gradient to sweep across rather than a solid fill — a plain
-  // swatch shows nothing for either. Every other animation is transform,
-  // opacity, box-shadow, or filter and plays fine on a plain box.
+  // dots-bounce animates *children*, not the element itself, and every
+  // shimmer-family entry sweeps a gradient rather than a solid fill — a
+  // plain swatch shows nothing for either. Every other animation is
+  // transform, opacity, box-shadow, or filter and plays fine on a plain box.
   function prepareDemoElement(el, entry) {
     el.innerHTML = '';
     el.style.backgroundImage = 'none';
@@ -534,7 +534,7 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
         dot.className = 'dot';
         el.appendChild(dot);
       }
-    } else if (entry.name === 'shimmer') {
+    } else if (entry.name.startsWith('shimmer')) {
       el.style.backgroundImage =
         'linear-gradient(90deg, rgba(255,255,255,.1) 25%, rgba(255,255,255,.85) 50%, rgba(255,255,255,.1) 75%)';
     }

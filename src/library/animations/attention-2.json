@@ -1,0 +1,962 @@
+[
+  {
+    "name": "shake-vertical",
+    "phrase": "shake up and down",
+    "category": "attention",
+    "concept": "A vertical version of the classic shake: a quick up-down rattle that runs once and returns to rest. Use it when the wrong element is a row, a field, or anything better judged by vertical motion than horizontal.",
+    "keywords": [
+      "wrong entry vertical",
+      "vertical shake",
+      "up and down rattle",
+      "invalid row",
+      "denied",
+      "error judder",
+      "try again vertical",
+      "rejected vertical",
+      "form field shake up down",
+      "incorrect vertical nudge"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "shake-diagonal",
+    "phrase": "shake on a diagonal",
+    "category": "attention",
+    "concept": "A one-shot rattle that moves along a diagonal instead of a single axis. Use it to signal an error without matching the plain horizontal shake already used elsewhere on the page.",
+    "keywords": [
+      "diagonal shake",
+      "wrong input diagonal",
+      "error rattle",
+      "denied diagonal",
+      "corner to corner shake",
+      "invalid field diagonal",
+      "try again diagonal",
+      "rejected",
+      "off axis shake",
+      "form error diagonal"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "jolt",
+    "phrase": "give it a single jolt",
+    "category": "attention",
+    "concept": "One sharp sideways displacement and an immediate return to rest. The plainest way to say a single hard impact happened, once, with nothing left oscillating.",
+    "keywords": [
+      "single jolt",
+      "hard impact",
+      "sudden hit",
+      "one sharp movement",
+      "impact once",
+      "bump once",
+      "collision feedback",
+      "hit reaction",
+      "sharp nudge once",
+      "one-shot impact"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "jolt-down",
+    "phrase": "jolt downward",
+    "category": "attention",
+    "concept": "A single sharp downward displacement that snaps back to rest. Use it for a drop, a sudden weight, or an item that just landed hard.",
+    "keywords": [
+      "jolt down",
+      "sudden drop",
+      "landed hard",
+      "weight impact",
+      "downward jolt",
+      "dropped in place",
+      "hit from above",
+      "single downward hit",
+      "impact landing",
+      "gravity thump"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "jolt-up",
+    "phrase": "jolt upward",
+    "category": "attention",
+    "concept": "A single sharp upward displacement that snaps back to rest. Use it for a sudden push, a jump-scare beat, or a quick recoil away from something.",
+    "keywords": [
+      "jolt up",
+      "sudden push up",
+      "upward jolt",
+      "startled upward",
+      "single upward hit",
+      "recoil upward",
+      "jump beat",
+      "quick upward snap",
+      "pushed up once",
+      "impact upward"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "rattle-snap",
+    "phrase": "snap back into place",
+    "category": "attention",
+    "concept": "A single overshoot-and-settle motion: the element snaps out, rebounds past center, then eases to rest. Use it for a toggle, a chip, or anything that should feel elastic when it corrects itself.",
+    "keywords": [
+      "snap back",
+      "elastic correction",
+      "overshoot settle",
+      "rubber band motion",
+      "snap into place",
+      "toggle correction",
+      "bounce back once",
+      "settle after snap",
+      "corrective snap",
+      "spring settle"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "judder",
+    "phrase": "judder and settle",
+    "category": "attention",
+    "concept": "A rapid vertical judder that decays across the cycle before coming to rest, like a jolt working itself out. Use it for turbulence, a rough landing, or a glitchy correction.",
+    "keywords": [
+      "judder",
+      "decaying shake",
+      "turbulence",
+      "rough landing",
+      "glitch settle",
+      "vertical judder",
+      "shaking out",
+      "rattling to a stop",
+      "vibration decay",
+      "unsteady settle"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "tremor-burst",
+    "phrase": "a short burst of tremor",
+    "category": "attention",
+    "concept": "A brief multi-directional tremor that decays quickly and stops. Use it for a small system hiccup or a momentary loss of stability that resolves on its own.",
+    "keywords": [
+      "short tremor",
+      "momentary instability",
+      "brief tremor burst",
+      "system hiccup",
+      "quick unsteady moment",
+      "settles quickly",
+      "small tremor once",
+      "instability resolved",
+      "flicker of instability",
+      "brief wobble burst"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "shudder",
+    "phrase": "shudder once",
+    "category": "attention",
+    "concept": "A single full-body shudder combining a small rotation with a sideways rattle, decaying to rest. Use it for revulsion, cold, or a strong one-time reaction.",
+    "keywords": [
+      "shudder",
+      "revulsion reaction",
+      "cold shudder once",
+      "recoil in disgust",
+      "full body shudder",
+      "strong reaction once",
+      "creeped out",
+      "shiver of disgust",
+      "uneasy reaction",
+      "one-time shudder"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "recoil",
+    "phrase": "recoil and settle",
+    "category": "attention",
+    "concept": "A quick pull backward followed by a small forward overshoot before settling, like recoil from a kick. Use it for a fired action, a strong click, or a triggered event.",
+    "keywords": [
+      "recoil",
+      "kickback",
+      "fired feedback",
+      "trigger recoil",
+      "pulled back once",
+      "action fired",
+      "click recoil",
+      "strong action feedback",
+      "kick reaction",
+      "backward then settle"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "flinch",
+    "phrase": "flinch",
+    "category": "attention",
+    "concept": "A very quick, very small upward flinch and recovery. Use it for a light, momentary reaction to something unexpected but minor.",
+    "keywords": [
+      "flinch",
+      "small startled reaction",
+      "quick flinch",
+      "minor surprise",
+      "tiny recoil",
+      "startled briefly",
+      "light reaction",
+      "quick wince",
+      "brief flinch",
+      "small jolt of surprise"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "stagger-step",
+    "phrase": "stagger sideways",
+    "category": "attention",
+    "concept": "An uneven, asymmetric sequence of horizontal steps that reads as staggering off balance before it settles. Use it for a loss of footing or an off-balance correction.",
+    "keywords": [
+      "stagger",
+      "off balance",
+      "uneven steps",
+      "stumbling motion",
+      "lost footing",
+      "asymmetric shake",
+      "wobbly steps",
+      "staggering sideways",
+      "unsteady steps",
+      "recovering balance"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "rattle-double",
+    "phrase": "rattle twice",
+    "category": "attention",
+    "concept": "Two short rattle bursts in a row, separated by a brief pause, then rest. Use it when one shake isn't emphatic enough and the error deserves a second reminder.",
+    "keywords": [
+      "double rattle",
+      "shake twice",
+      "two bursts of error",
+      "repeated wrong entry",
+      "second warning shake",
+      "double error feedback",
+      "shake again",
+      "reinforced error",
+      "two-part rattle",
+      "emphatic wrong entry"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "shake-fade",
+    "phrase": "shake that builds then stops",
+    "category": "attention",
+    "concept": "A shake whose amplitude grows across the cycle, peaks, then snaps back to rest, instead of staying constant. Use it for tension that escalates toward a single release, like a countdown reaching zero.",
+    "keywords": [
+      "building shake",
+      "escalating tremor",
+      "growing intensity shake",
+      "shake that builds",
+      "rising tension motion",
+      "escalate then release",
+      "countdown shake",
+      "intensifying rattle",
+      "grows then resets",
+      "crescendo then stop"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "quake-jolt",
+    "phrase": "one strong diagonal quake",
+    "category": "attention",
+    "concept": "A single strong diagonal displacement with a small rebound before resting, larger and rougher than the plain jolt. Use it for a heavier one-time impact, like a nearby explosion or a hard collision.",
+    "keywords": [
+      "strong jolt",
+      "diagonal quake",
+      "heavy impact once",
+      "explosion feedback",
+      "hard collision",
+      "big single jolt",
+      "one strong hit",
+      "diagonal impact",
+      "forceful jolt",
+      "nearby blast reaction"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "buzz-off",
+    "phrase": "one quick buzz",
+    "category": "attention",
+    "concept": "A single fast burst of tiny horizontal vibration, like one phone buzz, then stillness. Use it for a one-time notification tap rather than an ongoing alert.",
+    "keywords": [
+      "single buzz",
+      "one phone buzz",
+      "quick vibration once",
+      "notification tap",
+      "buzz once",
+      "single vibrate pulse",
+      "short buzz burst",
+      "tap notification feedback",
+      "brief vibration",
+      "one-time buzz"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "knock",
+    "phrase": "knock once",
+    "category": "attention",
+    "concept": "A single brief downward dip, like a knuckle knocking once, then rest. Use it for a light tap acknowledgment rather than an error.",
+    "keywords": [
+      "knock",
+      "single tap feedback",
+      "light knock",
+      "acknowledge tap",
+      "one knock",
+      "tap once",
+      "quick dip feedback",
+      "single press feedback",
+      "soft knock motion",
+      "brief tap"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "twitch",
+    "phrase": "a single twitch",
+    "category": "attention",
+    "concept": "One small, quick rotational twitch and back, over almost before it registers. Use it for a subtle single reflex, like an eye twitch or a brief glitch.",
+    "keywords": [
+      "twitch",
+      "single reflex",
+      "quick twitch",
+      "eye twitch",
+      "brief glitch motion",
+      "tiny rotation once",
+      "momentary twitch",
+      "small involuntary move",
+      "quick single spasm",
+      "reflex motion"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "rattle-rotate",
+    "phrase": "rattle by rotating",
+    "category": "attention",
+    "concept": "A one-shot rattle built from rotation instead of translation, swinging back and forth before settling flat. Use it for a hinge, a lever, or anything that should visibly pivot when it errors.",
+    "keywords": [
+      "rotational rattle",
+      "pivot shake",
+      "hinge rattle",
+      "rotate back and forth once",
+      "swinging error feedback",
+      "lever shake",
+      "rotational error",
+      "twisting rattle",
+      "pivoting shake once",
+      "angular rattle"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "shiver-burst",
+    "phrase": "a burst of shivering",
+    "category": "attention",
+    "concept": "A brief, fast, tiny multi-directional shiver that runs once, like a single cold shudder. Use it for a momentary chill or a quick uneasy reaction.",
+    "keywords": [
+      "shiver once",
+      "cold shiver burst",
+      "brief chill",
+      "quick shiver",
+      "momentary cold reaction",
+      "single shudder burst",
+      "chilly reaction",
+      "shiver and stop",
+      "one-time shiver",
+      "brief cold tremor"
+    ],
+    "defaults": {
+      "repeat": 1
+    }
+  },
+  {
+    "name": "vibrate-fine",
+    "phrase": "vibrate fast and fine",
+    "category": "attention",
+    "concept": "A very small amplitude, very fast, continuous horizontal vibration. Use it for something actively buzzing right now, like a ringing phone icon or a live alert badge.",
+    "keywords": [
+      "fine vibrate",
+      "fast tiny vibration",
+      "actively buzzing",
+      "ringing phone icon",
+      "live alert vibration",
+      "high frequency shake",
+      "continuous buzz",
+      "small fast tremor",
+      "urgent vibration",
+      "alert badge buzzing"
+    ]
+  },
+  {
+    "name": "vibrate-buzz",
+    "phrase": "buzz continuously",
+    "category": "attention",
+    "concept": "A continuous small two-axis buzz, slightly larger and less linear than a fine vibrate. Use it for a device that is actively humming or vibrating in the user's hand.",
+    "keywords": [
+      "continuous buzz",
+      "device vibrating",
+      "humming device",
+      "active buzz loop",
+      "vibrating icon",
+      "ongoing buzz",
+      "phone vibrating continuously",
+      "buzzing indicator",
+      "two axis buzz",
+      "steady vibration"
+    ]
+  },
+  {
+    "name": "tremor-slow",
+    "phrase": "a slow ominous tremor",
+    "category": "attention",
+    "concept": "A slow, continuous, larger-amplitude tremor that never fully settles. Use it to build dread before something happens, like a monster approaching or a structure about to fail.",
+    "keywords": [
+      "ominous tremor",
+      "building dread",
+      "slow continuous shake",
+      "impending doom motion",
+      "something approaching",
+      "unsettling tremor",
+      "creeping instability",
+      "slow ground shake",
+      "dread building",
+      "monster approaching feedback"
+    ]
+  },
+  {
+    "name": "tremor-deep",
+    "phrase": "a deep, slow tremor",
+    "category": "attention",
+    "concept": "An even slower and larger continuous tremor than tremor-slow, for the deepest sense of dread. Use it for a large structure, a giant footstep, or an approaching catastrophe.",
+    "keywords": [
+      "deep tremor",
+      "giant footsteps",
+      "large structure shaking",
+      "slow heavy tremor",
+      "catastrophic dread",
+      "massive impending shake",
+      "deep ground tremor",
+      "heavy slow instability",
+      "large scale dread",
+      "looming disaster motion"
+    ]
+  },
+  {
+    "name": "rattle-loop",
+    "phrase": "rattle continuously",
+    "category": "attention",
+    "concept": "A continuous rotational rattle at a moderate pace, swinging left and right around center. Use it for an ongoing mechanical fault, a loose hinge, or a warning that keeps pivoting for attention.",
+    "keywords": [
+      "continuous rotational rattle",
+      "loose hinge",
+      "ongoing mechanical fault",
+      "pivoting warning",
+      "rattling loop",
+      "swinging alert",
+      "rotational vibration loop",
+      "warning that keeps rattling",
+      "mechanical rattle loop",
+      "hinge fault indicator"
+    ]
+  },
+  {
+    "name": "rattle-tilt",
+    "phrase": "tilt-rattle continuously",
+    "category": "attention",
+    "concept": "A fast, small, continuous rotational flutter, quicker and tighter than rattle-loop. Use it for a small icon that needs a nervous, persistent tilt.",
+    "keywords": [
+      "fast rotational flutter",
+      "tight tilt rattle",
+      "nervous tilt loop",
+      "quick rotational vibration",
+      "small icon rattle",
+      "persistent tilt",
+      "fast rattle loop",
+      "jittery rotation",
+      "small angle flutter",
+      "continuous fast tilt"
+    ]
+  },
+  {
+    "name": "shake-two-axis",
+    "phrase": "shake on two axes",
+    "category": "attention",
+    "concept": "A continuous shake where the horizontal and vertical motion peak at different points in the cycle, so the two axes feel slightly out of phase. Use it for a richer, more organic ongoing shake than a single-axis loop.",
+    "keywords": [
+      "two axis shake",
+      "out of phase shake",
+      "organic continuous shake",
+      "x and y shake loop",
+      "richer shake motion",
+      "combined axis vibration",
+      "layered shake",
+      "dual axis tremor",
+      "offset phase shake",
+      "complex shake loop"
+    ]
+  },
+  {
+    "name": "shake-orbit",
+    "phrase": "shake in a loop path",
+    "category": "attention",
+    "concept": "A continuous shake that traces a small square-ish loop path around center rather than a straight back-and-forth line. Use it for a distinctive, ongoing agitation that reads differently from a linear shake.",
+    "keywords": [
+      "orbiting shake",
+      "looping shake path",
+      "circular jitter",
+      "loop path vibration",
+      "distinctive continuous shake",
+      "orbit style tremor",
+      "path traced shake",
+      "square path jitter",
+      "wandering shake loop",
+      "non linear shake"
+    ]
+  },
+  {
+    "name": "tremble-vertical",
+    "phrase": "tremble up and down",
+    "category": "attention",
+    "concept": "A continuous, moderate-speed vertical tremble, smaller and gentler than a judder. Use it for a persistently nervous or unstable element that never fully resolves.",
+    "keywords": [
+      "vertical tremble loop",
+      "continuous up down tremor",
+      "gentle vertical instability",
+      "nervous vertical motion",
+      "persistent vertical shake",
+      "unstable element loop",
+      "ongoing vertical tremble",
+      "mild vertical vibration",
+      "vertical unease loop",
+      "small vertical judder loop"
+    ]
+  },
+  {
+    "name": "tremble-horizontal",
+    "phrase": "tremble side to side",
+    "category": "attention",
+    "concept": "A continuous, moderate-speed horizontal tremble, distinct in rhythm and amplitude from the finer vibrate loops. Use it for a persistently nervous element that shakes side to side rather than up and down.",
+    "keywords": [
+      "horizontal tremble loop",
+      "continuous side to side tremor",
+      "nervous horizontal motion",
+      "persistent horizontal shake",
+      "ongoing horizontal tremble",
+      "mild horizontal vibration",
+      "horizontal unease loop",
+      "unstable side to side motion",
+      "small horizontal judder loop",
+      "sideways nervous loop"
+    ]
+  },
+  {
+    "name": "nervous-jitter",
+    "phrase": "jitter nervously",
+    "category": "attention",
+    "concept": "A continuous, irregular multi-axis jitter with uneven timing between moves, reading as erratic rather than mechanical. Use it for anxiety, nervousness, or an unstable connection.",
+    "keywords": [
+      "nervous jitter",
+      "erratic continuous motion",
+      "anxious loop",
+      "irregular jitter",
+      "unstable connection feedback",
+      "uneven tremor loop",
+      "jittery anxiety motion",
+      "random feeling shake",
+      "restless loop",
+      "on edge motion"
+    ]
+  },
+  {
+    "name": "alert-vibrate",
+    "phrase": "vibrate like an alert",
+    "category": "attention",
+    "concept": "A continuous small combined rotation and shift, the rhythm of a notification badge that keeps nudging for attention. Use it for an unread count or an alert icon that should feel urgent but not chaotic.",
+    "keywords": [
+      "alert badge vibration",
+      "notification nudge loop",
+      "urgent badge motion",
+      "unread count vibration",
+      "attention seeking icon",
+      "ongoing alert nudge",
+      "badge shake loop",
+      "keeps nudging for attention",
+      "urgent but controlled vibration",
+      "notification pulse motion"
+    ]
+  },
+  {
+    "name": "earthquake",
+    "phrase": "shake like an earthquake",
+    "category": "attention",
+    "concept": "A rough, continuous, multi-axis shake with irregular amplitude and a slight rotation, reading as chaotic and uncontrolled. Use it for a large-scale disaster or a system in genuine crisis.",
+    "keywords": [
+      "earthquake shake",
+      "chaotic continuous shake",
+      "disaster feedback",
+      "system crisis motion",
+      "uncontrolled tremor",
+      "rough multi axis shake",
+      "large scale shaking",
+      "catastrophic loop",
+      "seismic motion",
+      "crisis vibration"
+    ]
+  },
+  {
+    "name": "rumble",
+    "phrase": "rumble continuously",
+    "category": "attention",
+    "concept": "A continuous, low, mostly vertical rumble with a dense, textured rhythm rather than a clean oscillation. Use it for an engine, distant thunder, or heavy machinery running nearby.",
+    "keywords": [
+      "engine rumble",
+      "distant thunder motion",
+      "heavy machinery running",
+      "low continuous vibration",
+      "textured rumble loop",
+      "dense vertical tremor",
+      "background rumble",
+      "machinery running feedback",
+      "low frequency loop",
+      "rumbling nearby"
+    ]
+  },
+  {
+    "name": "chatter",
+    "phrase": "chatter like teeth",
+    "category": "attention",
+    "concept": "A very fast, tiny, continuous vertical chatter, reading like teeth chattering from cold or fear. Use it for a small icon that needs a rapid, high-frequency nervous energy.",
+    "keywords": [
+      "teeth chattering",
+      "very fast vertical loop",
+      "cold chatter motion",
+      "rapid tiny vibration",
+      "high frequency chatter",
+      "nervous fast loop",
+      "chattering icon",
+      "quick vertical flutter",
+      "shivering fast loop",
+      "fear chatter motion"
+    ]
+  },
+  {
+    "name": "flutter-shake",
+    "phrase": "flutter and shake",
+    "category": "attention",
+    "concept": "A continuous small vertical bob paired with an alternating rotation, giving a light fluttering shake rather than a rigid one. Use it for something delicate that is nonetheless agitated, like a moth near a flame.",
+    "keywords": [
+      "fluttering shake",
+      "delicate agitation loop",
+      "light bobbing rotation",
+      "moth like motion",
+      "gentle flutter vibration",
+      "alternating rotation bob",
+      "soft continuous flutter",
+      "delicate but agitated",
+      "airy shake loop",
+      "fluttery nervous motion"
+    ]
+  },
+  {
+    "name": "dread-tremor",
+    "phrase": "a tremor building dread",
+    "category": "attention",
+    "concept": "A continuous loop that stays nearly still for most of the cycle, then erupts into a sudden burst of motion before settling again. Use it for a slow-burn sense of dread punctuated by sudden unease.",
+    "keywords": [
+      "dread building loop",
+      "sudden burst tremor",
+      "slow burn unease",
+      "punctuated dread motion",
+      "stillness then burst",
+      "unsettling pause and jolt",
+      "creeping then sudden shake",
+      "tension release loop",
+      "ominous pause pattern",
+      "eruption of unease"
+    ]
+  },
+  {
+    "name": "crescendo-shake",
+    "phrase": "shake that builds every cycle",
+    "category": "attention",
+    "concept": "A continuous shake whose amplitude ramps up from nearly nothing to a strong displacement each cycle, then resets and builds again. Use it for a repeating countdown, a charging attack, or mounting tension that keeps recurring.",
+    "keywords": [
+      "crescendo shake loop",
+      "ramping intensity vibration",
+      "charging attack motion",
+      "repeating countdown shake",
+      "mounting tension loop",
+      "builds every cycle",
+      "intensifying loop shake",
+      "escalating vibration loop",
+      "growing then resetting loop",
+      "recurring intensity ramp"
+    ]
+  },
+  {
+    "name": "simmer-shake",
+    "phrase": "simmer with tension",
+    "category": "attention",
+    "concept": "A continuous, very subtle diagonal shake, small enough to read as simmering tension rather than an active alarm. Use it for a background state that is quietly unstable without demanding attention.",
+    "keywords": [
+      "simmering tension loop",
+      "subtle background instability",
+      "quiet unease motion",
+      "low key tension shake",
+      "barely there vibration",
+      "understated continuous shake",
+      "simmering unease",
+      "background tension loop",
+      "muted instability motion",
+      "gentle simmering shake"
+    ]
+  },
+  {
+    "name": "rattle-cage",
+    "phrase": "rattle like a cage door",
+    "category": "attention",
+    "concept": "A continuous combined rotation and horizontal rattle with larger amplitude, like something pushing against a latched door. Use it for a contained threat straining against its container.",
+    "keywords": [
+      "cage rattling loop",
+      "door straining motion",
+      "contained threat vibration",
+      "pushing against latch",
+      "something trying to escape",
+      "large rattle rotation combo",
+      "straining container motion",
+      "latched door shake",
+      "trapped thing rattling",
+      "forceful continuous rattle"
+    ]
+  },
+  {
+    "name": "panic-vibrate",
+    "phrase": "vibrate in a panic",
+    "category": "attention",
+    "concept": "A continuous, very fast diagonal vibration with irregular, varying amplitude at each step, reading as frantic rather than steady. Use it for a critical alarm or a system that has lost control.",
+    "keywords": [
+      "panicked vibration",
+      "frantic continuous shake",
+      "critical alarm motion",
+      "erratic amplitude loop",
+      "lost control feedback",
+      "irregular fast vibration",
+      "system panic loop",
+      "varying magnitude shake",
+      "chaotic fast loop",
+      "frantic alert motion"
+    ]
+  },
+  {
+    "name": "static-buzz",
+    "phrase": "buzz like static",
+    "category": "attention",
+    "concept": "An ultra-fine, ultra-fast continuous vibration paired with a faint opacity flicker, like static electricity crackling. Use it for a broken connection, a glitching display, or electrical interference.",
+    "keywords": [
+      "static electricity loop",
+      "crackling motion",
+      "broken connection feedback",
+      "glitching display",
+      "electrical interference loop",
+      "flickering static vibration",
+      "ultra fine buzz",
+      "signal noise motion",
+      "electric crackle loop",
+      "tiny flicker vibration"
+    ]
+  },
+  {
+    "name": "jitter-diagonal",
+    "phrase": "jitter diagonally",
+    "category": "attention",
+    "concept": "A continuous fast diagonal jitter alternating between two opposite corners. Use it for a small element that needs a persistent, slightly aggressive nervous energy.",
+    "keywords": [
+      "diagonal jitter loop",
+      "fast diagonal vibration",
+      "aggressive nervous loop",
+      "corner to corner jitter",
+      "persistent diagonal motion",
+      "quick diagonal flutter",
+      "alternating diagonal shake",
+      "sharp jitter loop",
+      "restless diagonal motion",
+      "small element jitter"
+    ]
+  },
+  {
+    "name": "quiver",
+    "phrase": "quiver gently",
+    "category": "attention",
+    "concept": "A continuous, soft vertical quiver with a slight rotation, gentler and slower than a chatter. Use it for a delicate, timid motion rather than an urgent one.",
+    "keywords": [
+      "gentle quiver loop",
+      "soft continuous tremble",
+      "timid motion",
+      "delicate vertical quiver",
+      "slight rotation tremble",
+      "mild ongoing shake",
+      "soft nervous loop",
+      "tender quivering motion",
+      "quiet unease loop",
+      "gentle unstable motion"
+    ]
+  },
+  {
+    "name": "teeter-rattle",
+    "phrase": "teeter side to side",
+    "category": "attention",
+    "concept": "A slow, continuous, larger-angle rotational teeter, like something balanced precariously about to tip. Use it for instability or imbalance rather than urgency.",
+    "keywords": [
+      "teetering motion",
+      "precarious balance loop",
+      "about to tip",
+      "slow rotational instability",
+      "large angle teeter",
+      "imbalance feedback",
+      "wobbling on the edge",
+      "unsteady tilt loop",
+      "leaning back and forth",
+      "off balance rotation loop"
+    ]
+  },
+  {
+    "name": "rattle-fast",
+    "phrase": "rattle very fast",
+    "category": "attention",
+    "concept": "A very fast, small, continuous rotational rattle, quicker than both rattle-loop and rattle-tilt. Use it for a small part that is spinning loose or vibrating at high frequency.",
+    "keywords": [
+      "very fast rotational rattle",
+      "high frequency rotation loop",
+      "loose spinning part",
+      "rapid tilt vibration",
+      "small fast rattle",
+      "quick angular loop",
+      "high speed rotational buzz",
+      "tiny fast pivot",
+      "rattling loose",
+      "buzzing rotation"
+    ]
+  },
+  {
+    "name": "alert-ring-shake",
+    "phrase": "shake with an expanding alert ring",
+    "category": "attention",
+    "concept": "A continuous small shake paired with an expanding, fading ring of shadow around the element, like a radar ping crossed with a warning rattle. This is the library's one shake-family entry that also uses a box-shadow ring; use it for a critical, location-pinned alert.",
+    "keywords": [
+      "expanding alert ring",
+      "ping and shake",
+      "radar ping warning",
+      "location pinned alert",
+      "warning ring pulse",
+      "critical alert ring",
+      "shake with ring",
+      "ripple warning motion",
+      "alert beacon shake",
+      "attention ring loop"
+    ]
+  },
+  {
+    "name": "tremor-diagonal",
+    "phrase": "a diagonal tremor",
+    "category": "attention",
+    "concept": "A slow, continuous diagonal tremor, distinct in rhythm and amplitude from both the straight tremor-slow and the fast jitter-diagonal. Use it for an ongoing unease that reads along a single diagonal line.",
+    "keywords": [
+      "diagonal tremor loop",
+      "slow diagonal instability",
+      "ongoing diagonal unease",
+      "single axis diagonal tremor",
+      "continuous diagonal wobble",
+      "moderate diagonal shake",
+      "unsettled diagonal loop",
+      "diagonal drift tremor",
+      "persistent diagonal unease",
+      "slow diagonal vibration"
+    ]
+  },
+  {
+    "name": "vibrate-hum",
+    "phrase": "hum and vibrate",
+    "category": "attention",
+    "concept": "A continuous small vibration paired with a subtle brightness pulse, like a device humming and warming up as it runs. Use it for active machinery or an energized element that should feel alive.",
+    "keywords": [
+      "humming device loop",
+      "vibration with glow pulse",
+      "energized element motion",
+      "warm running machinery",
+      "active hum feedback",
+      "brightness pulse vibration",
+      "device warming up",
+      "alive humming motion",
+      "subtle glow vibration",
+      "running machine feedback"
+    ]
+  },
+  {
+    "name": "shudder-cold",
+    "phrase": "shudder from the cold",
+    "category": "attention",
+    "concept": "A continuous, fast, small multi-axis shudder, colder and more chaotic than the gentler simmer-shake. Use it for an ongoing chill or a persistent state of being unsettled.",
+    "keywords": [
+      "continuous cold shudder",
+      "ongoing chill motion",
+      "chaotic small shudder loop",
+      "persistent unsettled motion",
+      "cold multi axis vibration",
+      "shivering continuously",
+      "fast chill loop",
+      "unsettled cold loop",
+      "shuddering repeatedly",
+      "cold and chaotic motion"
+    ]
+  }
+]

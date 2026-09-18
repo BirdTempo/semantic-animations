@@ -1,0 +1,808 @@
+[
+  {
+    "name": "pulse-dot-soft",
+    "phrase": "gentle pulsing dot",
+    "category": "loading",
+    "concept": "A single dot grows and glows slightly in a slow, even rhythm. Use it for a calm status indicator that shows quiet, ongoing activity.",
+    "keywords": [
+      "loading dot",
+      "gentle pulse",
+      "status pulsing",
+      "soft loading indicator",
+      "quiet activity",
+      "online indicator",
+      "idle pulse",
+      "waiting quietly",
+      "small loading pulse",
+      "calm activity dot"
+    ]
+  },
+  {
+    "name": "pulse-dot-sharp",
+    "phrase": "quick pulsing dot",
+    "category": "loading",
+    "concept": "A dot snaps outward fast, then eases back. Use it where activity is brisk, such as a live-update marker or an active recording light.",
+    "keywords": [
+      "sharp pulse",
+      "quick loading dot",
+      "snappy indicator",
+      "live marker",
+      "active status dot",
+      "recording indicator",
+      "fast pulse loop",
+      "urgent status dot",
+      "brisk activity pulse"
+    ]
+  },
+  {
+    "name": "pulse-dot-slow",
+    "phrase": "slow pulsing dot",
+    "category": "loading",
+    "concept": "A dot swells gradually and holds before easing back down. Use it for background work that is running but not urgent.",
+    "keywords": [
+      "slow pulse",
+      "background loading",
+      "low priority status",
+      "calm status dot",
+      "long pulse cycle",
+      "idle background task",
+      "patient loading indicator",
+      "unhurried pulse loop"
+    ]
+  },
+  {
+    "name": "heartbeat-pulse",
+    "phrase": "heartbeat loading dot",
+    "category": "loading",
+    "concept": "A dot beats twice quickly, like lub-dub, then rests before repeating. Use it for a health check, a vitals monitor, or any alive-and-well signal.",
+    "keywords": [
+      "heartbeat",
+      "vitals monitor",
+      "health check pulse",
+      "pulse monitor",
+      "alive signal",
+      "double beat",
+      "ekg style pulse",
+      "system heartbeat",
+      "pulse indicator",
+      "life sign loading"
+    ]
+  },
+  {
+    "name": "pulse-fade-dot",
+    "phrase": "fading pulse dot",
+    "category": "loading",
+    "concept": "A dot dims and brightens on a steady loop with no size change. Use it as a subtle activity light where movement would be distracting.",
+    "keywords": [
+      "opacity pulse",
+      "fading dot",
+      "dimming indicator",
+      "subtle status light",
+      "blinking softly",
+      "steady fade loop",
+      "minimal loading indicator",
+      "no motion pulse"
+    ]
+  },
+  {
+    "name": "pulse-grow-hold",
+    "phrase": "grow and hold pulse",
+    "category": "loading",
+    "concept": "A dot expands and holds at its largest size for a beat before snapping back. Use it for a loading cue with a distinct pause of emphasis.",
+    "keywords": [
+      "grow and hold",
+      "pause pulse",
+      "emphasis loading dot",
+      "swell and hold",
+      "held pulse",
+      "expanding dot loop",
+      "loading with pause",
+      "hold at peak size"
+    ]
+  },
+  {
+    "name": "pulse-blur-dot",
+    "phrase": "soft focus pulsing dot",
+    "category": "loading",
+    "concept": "A dot grows while briefly going out of focus, then sharpens back. Use it for a dreamy or processing feel, like a camera hunting for focus.",
+    "keywords": [
+      "blur pulse",
+      "soft focus loading",
+      "camera focus hunt",
+      "out of focus dot",
+      "processing blur",
+      "hazy loading indicator",
+      "focus pulse loop",
+      "defocus loading dot"
+    ]
+  },
+  {
+    "name": "pulse-glow-dot",
+    "phrase": "glowing pulse dot",
+    "category": "loading",
+    "concept": "A dot brightens like a light source as it grows, then dims back. Use it for a beacon-like status light that suggests power or signal.",
+    "keywords": [
+      "glow pulse",
+      "bright loading dot",
+      "beacon light pulse",
+      "signal indicator",
+      "power light pulse",
+      "luminous dot loop",
+      "glowing status light",
+      "radiant loading dot"
+    ]
+  },
+  {
+    "name": "sonar-ping",
+    "phrase": "sonar ping loop",
+    "category": "loading",
+    "concept": "A dot expands outward while fading to nothing, then resets to repeat. Use it for a scanning or searching cue, like a radar sweep.",
+    "keywords": [
+      "sonar ping",
+      "radar sweep",
+      "scanning indicator",
+      "expanding ring fade",
+      "searching for signal",
+      "ping effect",
+      "ripple loading",
+      "detecting nearby",
+      "radar ping loop"
+    ]
+  },
+  {
+    "name": "sonar-ping-tight",
+    "phrase": "tight sonar ping",
+    "category": "loading",
+    "concept": "A faster, smaller ping that expands and fades in quick bursts. Use it for a compact scanning indicator in a dense interface.",
+    "keywords": [
+      "tight ping",
+      "fast sonar",
+      "compact scanning",
+      "quick ripple",
+      "small ping loop",
+      "dense ui indicator",
+      "rapid ping effect",
+      "mini radar pulse"
+    ]
+  },
+  {
+    "name": "squash-pulse-dot",
+    "phrase": "squashing pulse dot",
+    "category": "loading",
+    "concept": "A dot squashes wide then stretches tall on a steady loop, like it is breathing sideways. Use it for a playful, elastic loading cue.",
+    "keywords": [
+      "squash and stretch",
+      "elastic pulse",
+      "wobbly loading dot",
+      "jelly pulse",
+      "bouncy squash loop",
+      "playful loading indicator",
+      "squishing dot loop",
+      "elastic loading cue"
+    ]
+  },
+  {
+    "name": "ball-bounce-basic",
+    "phrase": "bouncing ball loader",
+    "category": "loading",
+    "concept": "A single ball hops up and lands with a light squash, arcade-loading-screen style. Use it as a friendly, game-like wait indicator.",
+    "keywords": [
+      "bouncing ball",
+      "arcade loading",
+      "game style loader",
+      "hop and land",
+      "ball loader",
+      "bounce with squash",
+      "single bounce loop",
+      "playful loading ball"
+    ]
+  },
+  {
+    "name": "ball-bounce-squash",
+    "phrase": "bouncing ball with squash",
+    "category": "loading",
+    "concept": "A ball rises, falls, and flattens hard on landing before popping back round. Use it where extra squash-and-stretch character fits the brand.",
+    "keywords": [
+      "squash landing",
+      "cartoon bounce",
+      "heavy squash ball",
+      "springy loader",
+      "ball flatten on landing",
+      "exaggerated bounce",
+      "cartoon style loader",
+      "flattening ball bounce"
+    ]
+  },
+  {
+    "name": "ball-bounce-double",
+    "phrase": "double bounce then pause",
+    "category": "loading",
+    "concept": "A ball bounces twice in quick succession, then rests before repeating. Use it as a distinctive loading rhythm that reads as counting.",
+    "keywords": [
+      "double bounce",
+      "bounce twice",
+      "counting bounce",
+      "two hops then pause",
+      "rhythmic bounce loader",
+      "bounce pause loop",
+      "double hop indicator",
+      "two beat bounce"
+    ]
+  },
+  {
+    "name": "ball-bounce-triple",
+    "phrase": "triple bounce loader",
+    "category": "loading",
+    "concept": "A ball takes three shrinking hops before settling and starting over. Use it for a bouncing-to-a-stop feel on each loop cycle.",
+    "keywords": [
+      "triple bounce",
+      "three hops",
+      "shrinking bounces",
+      "settle bounce loop",
+      "decaying bounce loader",
+      "bounce to a stop",
+      "three beat hop",
+      "diminishing bounce cycle"
+    ]
+  },
+  {
+    "name": "ball-bounce-wobble",
+    "phrase": "bouncing ball with wobble",
+    "category": "loading",
+    "concept": "A ball bounces upward while rocking slightly side to side. Use it for a lively, slightly clumsy loading character.",
+    "keywords": [
+      "wobble bounce",
+      "rocking bounce",
+      "clumsy loader",
+      "tilted bounce loop",
+      "bounce with rotation",
+      "wiggly ball loader",
+      "lively bounce indicator",
+      "side rocking hop"
+    ]
+  },
+  {
+    "name": "ball-bounce-low",
+    "phrase": "low bounce loader",
+    "category": "loading",
+    "concept": "A ball makes a short, quick hop close to the ground. Use it for a compact loading indicator in a small space.",
+    "keywords": [
+      "low bounce",
+      "small hop loader",
+      "compact bounce",
+      "short bounce loop",
+      "tight space loader",
+      "subtle bounce indicator",
+      "minimal hop cycle",
+      "shallow bounce loop"
+    ]
+  },
+  {
+    "name": "ball-bounce-high",
+    "phrase": "high bounce loader",
+    "category": "loading",
+    "concept": "A ball launches high with a moment of hang time at the top before dropping and squashing. Use it for a bold, attention-grabbing loader.",
+    "keywords": [
+      "high bounce",
+      "hang time loader",
+      "tall bounce loop",
+      "dramatic bounce",
+      "launch and drop",
+      "big bounce indicator",
+      "attention grabbing loader",
+      "tall hop cycle"
+    ]
+  },
+  {
+    "name": "ball-bounce-fade",
+    "phrase": "bouncing ball that fades",
+    "category": "loading",
+    "concept": "A ball rises and dims near the top of its arc, then returns and brightens on landing. Use it to suggest the ball leaving and returning to view.",
+    "keywords": [
+      "fading bounce",
+      "bounce with opacity",
+      "dim at peak",
+      "ball fade loop",
+      "bounce and fade",
+      "vanishing bounce indicator",
+      "fading arc bounce",
+      "opacity bounce loop"
+    ]
+  },
+  {
+    "name": "ball-drop-squash",
+    "phrase": "drop and squash loader",
+    "category": "loading",
+    "concept": "A ball starts raised, drops straight down, and squashes flat on impact before resetting to the top. Use it for a one-way falling loading cue.",
+    "keywords": [
+      "drop and squash",
+      "falling ball loader",
+      "impact squash",
+      "drop loop",
+      "gravity drop indicator",
+      "landing squash loader",
+      "one way fall loop",
+      "flattening drop cue"
+    ]
+  },
+  {
+    "name": "ball-hop-lean",
+    "phrase": "hopping ball that leans",
+    "category": "loading",
+    "concept": "A ball hops upward while leaning into the motion, then straightens on landing. Use it for a loader with a sense of forward energy.",
+    "keywords": [
+      "hop and lean",
+      "leaning bounce",
+      "forward hop loader",
+      "tilted hop",
+      "energetic bounce loop",
+      "lean into bounce",
+      "forward energy loader",
+      "hopping lean cycle"
+    ]
+  },
+  {
+    "name": "bar-pulse-height",
+    "phrase": "pulsing height bar",
+    "category": "loading",
+    "concept": "A bar stretches taller from its base and settles back on a steady loop. Use it for a single-bar activity meter, like a compact level indicator.",
+    "keywords": [
+      "bar pulse",
+      "height pulse bar",
+      "level indicator loading",
+      "meter pulse",
+      "vertical bar loading",
+      "activity bar loop",
+      "single bar meter",
+      "growing bar indicator"
+    ]
+  },
+  {
+    "name": "bar-pulse-fade",
+    "phrase": "pulsing bar that fades",
+    "category": "loading",
+    "concept": "A bar grows taller while dimming slightly, then returns to rest and full brightness. Use it for a softer variant of a single-bar activity meter.",
+    "keywords": [
+      "bar fade pulse",
+      "soft bar meter",
+      "dimming bar loader",
+      "faded height bar",
+      "gentle bar activity",
+      "bar opacity loop",
+      "softened level meter",
+      "fading bar indicator"
+    ]
+  },
+  {
+    "name": "bar-fill-snap",
+    "phrase": "fill and snap bar",
+    "category": "loading",
+    "concept": "A bar fills from empty to full, then snaps instantly back to empty and repeats. Use it for a repeating fill cue distinct from a sweeping progress bar.",
+    "keywords": [
+      "fill and snap",
+      "repeating fill bar",
+      "snap back progress",
+      "fill loop",
+      "instant reset bar",
+      "loading fill cycle",
+      "bar refill loop",
+      "repeating progress snap"
+    ]
+  },
+  {
+    "name": "bar-drain-reset",
+    "phrase": "drain and reset bar",
+    "category": "loading",
+    "concept": "A full bar drains down to empty, then snaps instantly back to full and repeats. Use it for a countdown-like loading cue, the reverse of a fill bar.",
+    "keywords": [
+      "drain and reset",
+      "emptying bar loop",
+      "countdown bar",
+      "drain loop",
+      "bar depleting",
+      "reset to full bar",
+      "draining meter",
+      "reverse fill indicator"
+    ]
+  },
+  {
+    "name": "bar-tick-step",
+    "phrase": "stepping fill bar",
+    "category": "loading",
+    "concept": "A bar fills in three distinct steps rather than a smooth sweep, then snaps back to start. Use it for a loader that reads as counting progress.",
+    "keywords": [
+      "stepped bar",
+      "tick fill bar",
+      "incremental fill",
+      "counting bar loader",
+      "segmented fill loop",
+      "step progress indicator",
+      "notched fill bar",
+      "stepwise loading meter"
+    ]
+  },
+  {
+    "name": "ring-breathe",
+    "phrase": "breathing ring",
+    "category": "loading",
+    "concept": "A ring shape grows and shrinks gently in place, like slow breathing. Use it for a calm loading ring that is not spinning.",
+    "keywords": [
+      "breathing ring",
+      "ring pulse",
+      "calm loading ring",
+      "non spinning loader",
+      "outline breathing",
+      "slow ring pulse",
+      "soft ring loader",
+      "still ring indicator"
+    ]
+  },
+  {
+    "name": "ring-pulse-glow",
+    "phrase": "glowing ring pulse",
+    "category": "loading",
+    "concept": "A ring brightens and grows slightly as it pulses, then dims back. Use it for a loading ring that suggests energy building and releasing.",
+    "keywords": [
+      "glowing ring",
+      "ring brightness pulse",
+      "energy ring loader",
+      "radiant ring",
+      "pulsing outline glow",
+      "ring power indicator",
+      "luminous ring loop",
+      "bright ring cycle"
+    ]
+  },
+  {
+    "name": "ring-expand-fade",
+    "phrase": "expanding fading ring",
+    "category": "loading",
+    "concept": "A ring expands outward and fades at its widest, then contracts and returns to full opacity. Use it for a ring that breathes out and back in.",
+    "keywords": [
+      "expanding ring",
+      "fading ring loop",
+      "outward ring pulse",
+      "ring contract loader",
+      "ripple ring loading",
+      "ring inhale exhale",
+      "breathing ring loop",
+      "widening fading ring"
+    ]
+  },
+  {
+    "name": "hourglass-tilt",
+    "phrase": "tilting hourglass wait",
+    "category": "loading",
+    "concept": "An element tilts gently side to side while narrowing at its middle, like sand settling in an hourglass. Use it for a slow, waiting-in-progress cue.",
+    "keywords": [
+      "hourglass tilt",
+      "waiting indicator",
+      "slow tilt loader",
+      "sand timer motion",
+      "gentle rocking wait",
+      "please wait tilt",
+      "timer waiting cue",
+      "hourglass wobble loop"
+    ]
+  },
+  {
+    "name": "hourglass-flip",
+    "phrase": "slow flipping hourglass",
+    "category": "loading",
+    "concept": "An element rotates a full turn slowly while shrinking through the middle of the flip. Use it for a deliberate, unhurried waiting indicator.",
+    "keywords": [
+      "hourglass flip",
+      "slow flip loader",
+      "turning wait indicator",
+      "unhurried loading",
+      "flip and shrink",
+      "deliberate wait cue",
+      "timer flip loop",
+      "slow rotation waiting"
+    ]
+  },
+  {
+    "name": "cursor-blink-scale",
+    "phrase": "blinking cursor pulse",
+    "category": "loading",
+    "concept": "An element blinks on and off sharply, with a slight vertical shrink when hidden, like a text cursor waiting for input. Use it for a typing-ready cue.",
+    "keywords": [
+      "cursor blink",
+      "text cursor pulse",
+      "blinking caret",
+      "waiting for input",
+      "typing cursor loop",
+      "insertion point blink",
+      "caret loading blink",
+      "ready to type indicator"
+    ]
+  },
+  {
+    "name": "thinking-breathe",
+    "phrase": "calm thinking breathe",
+    "category": "loading",
+    "concept": "An element swells and softens very slowly, calmer and quieter than a typing indicator. Use it for a system that is thinking before it responds.",
+    "keywords": [
+      "thinking indicator",
+      "calm breathe loop",
+      "slow thinking pulse",
+      "system pondering",
+      "quiet processing cue",
+      "gentle thinking animation",
+      "ai thinking pulse",
+      "considering reply cue"
+    ]
+  },
+  {
+    "name": "thinking-drift",
+    "phrase": "slow drifting thinking",
+    "category": "loading",
+    "concept": "An element drifts up slightly while growing, then settles back down. Use it for an idle, contemplative loading cue with a hint of motion.",
+    "keywords": [
+      "drifting pulse",
+      "contemplative loader",
+      "idle drift loop",
+      "slow float pulse",
+      "thinking drift cue",
+      "gentle upward drift",
+      "pondering motion cue",
+      "soft rising pulse"
+    ]
+  },
+  {
+    "name": "orbit-dot-pulse",
+    "phrase": "orbiting pulse dot",
+    "category": "loading",
+    "concept": "A dot shifts side to side while shrinking slightly at each extreme, suggesting a small orbit. Use it for a compact, self-contained loading cue.",
+    "keywords": [
+      "orbit pulse",
+      "side to side loader",
+      "small orbit dot",
+      "shifting pulse loop",
+      "compact orbit indicator",
+      "swaying pulse dot",
+      "self contained orbit cue",
+      "drifting side pulse"
+    ]
+  },
+  {
+    "name": "blip-pulse",
+    "phrase": "radar blip pulse",
+    "category": "loading",
+    "concept": "A dot sits dim, then flashes bright and large in a quick blip before returning to rest. Use it for a radar-style, periodic activity signal.",
+    "keywords": [
+      "radar blip",
+      "periodic flash",
+      "blip indicator",
+      "quick flash pulse",
+      "intermittent signal",
+      "detection blip loop",
+      "sonar blip",
+      "flashing radar cue"
+    ]
+  },
+  {
+    "name": "beacon-pulse",
+    "phrase": "beacon flash pulse",
+    "category": "loading",
+    "concept": "A dot rests dim for most of the loop, then briefly flashes bright and slightly larger like a lighthouse beacon. Use it for a low-frequency status signal.",
+    "keywords": [
+      "beacon flash",
+      "lighthouse pulse",
+      "periodic beacon",
+      "signal flash loop",
+      "low frequency pulse",
+      "status beacon indicator",
+      "occasional flash cue",
+      "beacon sweep pulse"
+    ]
+  },
+  {
+    "name": "stretch-pulse-vertical",
+    "phrase": "vertical stretch pulse",
+    "category": "loading",
+    "concept": "An element stretches tall then returns to its normal height on a steady loop, with no horizontal change. Use it for a simple vertical activity cue.",
+    "keywords": [
+      "vertical stretch",
+      "tall pulse loop",
+      "stretch loader",
+      "height only pulse",
+      "elongating pulse",
+      "vertical loading cue",
+      "stretching upward loop",
+      "tall growing pulse"
+    ]
+  },
+  {
+    "name": "stretch-pulse-horizontal",
+    "phrase": "horizontal stretch pulse",
+    "category": "loading",
+    "concept": "An element stretches wide then returns to its normal width on a steady loop, with no vertical change. Use it for a simple horizontal activity cue.",
+    "keywords": [
+      "horizontal stretch",
+      "wide pulse loop",
+      "stretch loader sideways",
+      "width only pulse",
+      "widening pulse",
+      "horizontal loading cue",
+      "sideways stretch loop",
+      "wide growing pulse"
+    ]
+  },
+  {
+    "name": "pulse-rock",
+    "phrase": "rocking pulse",
+    "category": "loading",
+    "concept": "An element rocks side to side while growing slightly at each extreme. Use it for a loading cue with a gentle rocking character.",
+    "keywords": [
+      "rocking pulse",
+      "side to side rock",
+      "gentle rock loop",
+      "swaying pulse loader",
+      "rock and grow",
+      "tilting pulse indicator",
+      "seesaw pulse cue",
+      "rocking loading motion"
+    ]
+  },
+  {
+    "name": "pulse-tilt-shift",
+    "phrase": "tilt and shift pulse",
+    "category": "loading",
+    "concept": "An element lifts slightly and tilts while dimming, then settles back level and opaque. Use it for a loading cue with a small sense of lift.",
+    "keywords": [
+      "tilt and shift",
+      "lift and tilt pulse",
+      "dimming tilt loader",
+      "small lift loop",
+      "tilted pulse cue",
+      "shifting pulse indicator",
+      "lifting dim pulse",
+      "angled loading shift"
+    ]
+  },
+  {
+    "name": "double-bounce-pause",
+    "phrase": "double bounce with pause",
+    "category": "loading",
+    "concept": "An element bounces twice in quick succession, the second hop shorter than the first, then pauses before repeating. Use it for a distinctive counted bounce.",
+    "keywords": [
+      "double bounce pause",
+      "two quick hops",
+      "bounce then rest",
+      "counted bounce loop",
+      "short second hop",
+      "rhythmic pause bounce",
+      "two step bounce cue",
+      "paused double hop"
+    ]
+  },
+  {
+    "name": "micro-bounce-loop",
+    "phrase": "continuous micro bounce",
+    "category": "loading",
+    "concept": "An element makes small, quick hops back to back with no pause between them. Use it for a busy, rapid loading rhythm.",
+    "keywords": [
+      "micro bounce",
+      "continuous small hops",
+      "rapid bounce loop",
+      "busy loading rhythm",
+      "quick tiny bounces",
+      "steady micro hop",
+      "constant small bounce",
+      "fast repeating hop"
+    ]
+  },
+  {
+    "name": "bounce-settle",
+    "phrase": "bounce that settles",
+    "category": "loading",
+    "concept": "An element bounces up once, then wobbles smaller and smaller before coming to rest, and repeats. Use it for a loader that reads as settling into place.",
+    "keywords": [
+      "bounce settle",
+      "settling wobble",
+      "decaying bounce",
+      "come to rest loop",
+      "wobble to a stop",
+      "settle and repeat",
+      "dampened bounce cue",
+      "bounce fading to rest"
+    ]
+  },
+  {
+    "name": "pulse-expand-contract",
+    "phrase": "wide expand contract pulse",
+    "category": "loading",
+    "concept": "An element grows and shrinks through a wide size range with no opacity change. Use it where a bold, visible pulse is needed against a busy background.",
+    "keywords": [
+      "wide pulse range",
+      "bold expand contract",
+      "large scale pulse",
+      "strong pulse loop",
+      "high contrast pulse",
+      "big pulse indicator",
+      "prominent loading pulse",
+      "wide swelling pulse"
+    ]
+  },
+  {
+    "name": "pulse-veil",
+    "phrase": "veiled opacity pulse",
+    "category": "loading",
+    "concept": "An element nearly disappears and reappears, with only a slight size change alongside the opacity swing. Use it for an opacity-led loading cue.",
+    "keywords": [
+      "veil pulse",
+      "near invisible loop",
+      "opacity led pulse",
+      "fading veil loader",
+      "translucent pulse cue",
+      "dimming veil loop",
+      "ghosting pulse indicator",
+      "vanishing opacity pulse"
+    ]
+  },
+  {
+    "name": "pulse-dim-bright",
+    "phrase": "dim to bright pulse",
+    "category": "loading",
+    "concept": "An element swings from dim to bright and back using brightness alone, with only a small opacity shift. Use it for a light-emitting loading cue.",
+    "keywords": [
+      "dim bright pulse",
+      "brightness swing",
+      "light emitting loader",
+      "brighten and dim loop",
+      "luminance pulse",
+      "glow swing indicator",
+      "brightness cycle cue",
+      "light level pulse"
+    ]
+  },
+  {
+    "name": "pulse-soft-blur-fade",
+    "phrase": "soft blur fade pulse",
+    "category": "loading",
+    "concept": "An element softens out of focus while fading, then sharpens back to full opacity, with no size change. Use it for a hazy, processing-in-progress cue.",
+    "keywords": [
+      "blur fade pulse",
+      "soft focus loop",
+      "hazy processing cue",
+      "defocus and fade",
+      "blur opacity pulse",
+      "processing haze indicator",
+      "softening fade loop",
+      "hazy loading pulse"
+    ]
+  },
+  {
+    "name": "loader-blob-pulse",
+    "phrase": "wobbling blob pulse",
+    "category": "loading",
+    "concept": "An element morphs unevenly between wide and tall on each phase of the loop, like a soft blob wobbling. Use it for a playful, organic loading shape.",
+    "keywords": [
+      "blob pulse",
+      "morphing loader",
+      "organic wobble loop",
+      "uneven pulse shape",
+      "jelly blob indicator",
+      "soft shape loading",
+      "wobbling shape cue",
+      "amorphous pulse loop"
+    ]
+  },
+  {
+    "name": "loader-pip-bounce",
+    "phrase": "small pip bounce",
+    "category": "loading",
+    "concept": "A small element hops up while brightening, then drops back and dims, in a tight, quick loop. Use it as a minimal loading pip for compact spaces.",
+    "keywords": [
+      "pip bounce",
+      "small hop loader",
+      "tiny bounce indicator",
+      "compact loading pip",
+      "brighten on hop",
+      "minimal bounce loop",
+      "tight space pip cue",
+      "small brightening hop"
+    ]
+  }
+]

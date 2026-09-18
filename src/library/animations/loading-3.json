@@ -1,0 +1,352 @@
+[
+  {
+    "name": "scan-flash-sweep",
+    "phrase": "scan line pass",
+    "category": "loading",
+    "concept": "A brief bright flash sweeps through the element as if a scan line passed over it, continuous. Use it for a scanner or processing indicator that has no moving part.",
+    "keywords": ["scan line effect", "scanning indicator", "document scanner loading", "processing scan", "brightness sweep", "scan pass", "loading scanner", "flash sweep", "scan effect loading"]
+  },
+  {
+    "name": "scan-pulse-line",
+    "phrase": "repeated scan pulse",
+    "category": "loading",
+    "concept": "Brightness rises and falls twice each cycle, like a scan beam sweeping back and forth. Fits a barcode reader or a repeated-pass scanning motif.",
+    "keywords": ["barcode scanner loading", "repeated scan", "scan beam", "double brightness pulse", "scanner sweep", "reading device loading", "pass and repeat scan", "scan back and forth"]
+  },
+  {
+    "name": "scan-glow-pass",
+    "phrase": "soft glow scan",
+    "category": "loading",
+    "concept": "A gentle glow brightens the element midway through the cycle, then fades. Use it for an ambient, low-key scanning cue instead of a sharp flash.",
+    "keywords": ["soft scan glow", "ambient loading glow", "gentle scan pass", "subtle brightness loading", "glow sweep", "calm scan effect", "low key loading indicator", "soft processing glow"]
+  },
+  {
+    "name": "scan-dim-sweep",
+    "phrase": "shadow sweep scan",
+    "category": "loading",
+    "concept": "A shadow dims the element midway through the cycle, the inverse of a bright scan. Use it on light backgrounds where a bright flash would not read well.",
+    "keywords": ["dim scan effect", "shadow sweep", "darkening pass", "inverse scan flash", "dim pulse loading", "shade sweep", "scan dip", "loading dim pass"]
+  },
+  {
+    "name": "scan-soft-pass",
+    "phrase": "gradual scan pass",
+    "category": "loading",
+    "concept": "Brightness and opacity rise and fall smoothly across five stops, a gradual scan pass. Use it where a subtle, unhurried scanning cue fits the tone.",
+    "keywords": ["gradual scan", "smooth brightness sweep", "subtle scanning cue", "gentle loading pass", "slow smooth scan", "soft processing pass", "unhurried scan effect", "measured scan pace"]
+  },
+  {
+    "name": "scan-sharp-pass",
+    "phrase": "sharp quick scan flash",
+    "category": "loading",
+    "concept": "A short, high-contrast flash snaps through the element at the midpoint of each cycle. Use it for a crisp, mechanical scan such as an ID or code reader.",
+    "keywords": ["sharp scan flash", "high contrast scan", "crisp scanning pass", "mechanical scan effect", "id reader loading", "code scanner flash", "snap scan pulse", "quick brightness snap"]
+  },
+  {
+    "name": "scan-reverse-sweep",
+    "phrase": "quick rise slow fade scan",
+    "category": "loading",
+    "concept": "Brightness jumps up fast then decays slowly across the rest of the cycle, a reversed scan rhythm. Use it where an even scan feels too uniform.",
+    "keywords": ["reverse scan rhythm", "fast rise slow decay", "asymmetric scan pulse", "uneven brightness sweep", "scan afterglow", "quick flash slow fade", "reversed scan pace", "uneven scan timing"]
+  },
+  {
+    "name": "scan-corner-sweep",
+    "phrase": "diagonal scan sweep",
+    "category": "loading",
+    "concept": "A brightness pulse pairs with a slight skew, suggesting a scan passing across at an angle. Use it for a document or page scan with a diagonal feel.",
+    "keywords": ["diagonal scan effect", "angled scan pass", "skewed brightness sweep", "document scan angle", "page scan effect", "tilted scan pulse", "corner to corner scan", "angled sweep effect"]
+  },
+  {
+    "name": "shimmer-vertical",
+    "phrase": "vertical loading shimmer",
+    "category": "loading",
+    "concept": "A soft gradient highlight sweeps top to bottom, continuous. Reads as a placeholder standing in for content, like shimmer but along the vertical axis. Requires a vertically oriented gradient background-image and background-size: 100% 200%.",
+    "keywords": ["vertical shimmer", "top to bottom shimmer", "vertical skeleton loading", "column placeholder", "vertical gradient sweep", "vertical loading effect", "tall skeleton shimmer", "up down shimmer"]
+  },
+  {
+    "name": "shimmer-vertical-reverse",
+    "phrase": "bottom to top shimmer",
+    "category": "loading",
+    "concept": "The gradient highlight sweeps from bottom to top, the reverse of a standard vertical shimmer. Use it when content loads or reveals upward on the page. Needs the same vertical gradient background setup as shimmer-vertical.",
+    "keywords": ["reverse vertical shimmer", "bottom to top shimmer", "upward loading sweep", "reversed skeleton shimmer", "inverted vertical gradient sweep", "shimmer going up", "upward gradient sweep", "reverse gradient direction"]
+  },
+  {
+    "name": "shimmer-vertical-soft",
+    "phrase": "gentle vertical shimmer",
+    "category": "loading",
+    "concept": "The vertical gradient sweep holds briefly at each end before moving, a gentler pace than the standard vertical shimmer. Use it for calmer, low-emphasis skeleton screens. Requires the same vertical gradient background setup.",
+    "keywords": ["gentle vertical shimmer", "soft skeleton loading", "calm vertical sweep", "low emphasis shimmer", "paused vertical gradient", "subtle vertical loading", "relaxed shimmer pace", "gentle skeleton sweep"]
+  },
+  {
+    "name": "shimmer-vertical-fade",
+    "phrase": "vertical shimmer with fade",
+    "category": "loading",
+    "concept": "The vertical gradient sweep pairs with an opacity dip and rise, fading as it passes. Use it where a plain vertical shimmer feels too flat. Requires the same vertical gradient background setup as shimmer-vertical.",
+    "keywords": ["fading vertical shimmer", "vertical shimmer opacity", "soft fade skeleton", "gradient sweep with fade", "dim and shine loading", "vertical shimmer variant", "fading gradient sweep", "opacity fade shimmer"]
+  },
+  {
+    "name": "shimmer-vertical-bounce",
+    "phrase": "bouncy vertical shimmer",
+    "category": "loading",
+    "concept": "The vertical gradient overshoots past its endpoint before settling, a light bounce at the end of the sweep. Use it for a more playful skeleton loading state. Requires the same vertical gradient background setup as shimmer-vertical.",
+    "keywords": ["bouncy shimmer", "playful vertical loading", "overshoot gradient sweep", "bounce skeleton effect", "springy vertical shimmer", "elastic vertical sweep", "fun loading shimmer", "bounce vertical gradient"]
+  },
+  {
+    "name": "shimmer-vertical-pause",
+    "phrase": "vertical shimmer with hold",
+    "category": "loading",
+    "concept": "The gradient sweeps down then holds at the bottom before snapping back, a pause between passes. Use it where a beat of stillness reads better than constant motion. Requires the same vertical gradient background setup as shimmer-vertical.",
+    "keywords": ["pausing vertical shimmer", "hold and reset shimmer", "vertical sweep with pause", "stop and go loading", "vertical shimmer beat", "paused gradient sweep", "rest between sweeps", "pause and continue shimmer"]
+  },
+  {
+    "name": "shimmer-vertical-tight",
+    "phrase": "narrow band vertical shimmer",
+    "category": "loading",
+    "concept": "A narrower gradient band sweeps top to bottom, a tighter highlight than the standard vertical shimmer. Use it on short elements where a wide band would look wrong. Requires a vertical gradient background-image and background-size: 100% 140%.",
+    "keywords": ["narrow vertical shimmer", "tight gradient band", "small element shimmer", "compact vertical sweep", "thin highlight loading", "short skeleton shimmer", "tight band loading", "narrow highlight band"]
+  },
+  {
+    "name": "radar-scan",
+    "phrase": "radar sweep loop",
+    "category": "loading",
+    "concept": "A ring grows outward and fades, then restarts before the fade fully finishes, an ongoing radar-style scan. Use it for a searching or scanning state, not a single alert ping.",
+    "keywords": ["radar sweep", "radar loading effect", "expanding scan ring", "searching indicator", "scanning ping loop", "ongoing radar pulse", "radar style loading", "looking for signal"]
+  },
+  {
+    "name": "radar-scan-tight",
+    "phrase": "tight radar sweep",
+    "category": "loading",
+    "concept": "The ring grows only a little before fading, a tighter and more subtle radar sweep. Use it inside small elements where a wide radar-scan would overflow.",
+    "keywords": ["tight radar loading", "small radar sweep", "compact scanning ring", "subtle radar pulse", "tight expanding ring", "small element radar", "close range scan", "narrow radar ring"]
+  },
+  {
+    "name": "radar-scan-wide",
+    "phrase": "wide radar sweep",
+    "category": "loading",
+    "concept": "The ring expands much further before fading, a wide, sweeping radar scan. Use it on larger elements where a bigger reach reads better.",
+    "keywords": ["wide radar loading", "large expanding ring", "big radar sweep", "broad scanning ring", "wide range scan", "large element radar", "expansive radar pulse", "big searching ring"]
+  },
+  {
+    "name": "radar-scan-fast",
+    "phrase": "quick radar sweep",
+    "category": "loading",
+    "concept": "The ring expands and fades quickly with fewer stops, a brisk radar scan. Use it where a standard radar scan feels too slow for the context.",
+    "keywords": ["fast radar loading", "quick scanning ring", "brisk radar pulse", "rapid expanding ring", "speedy radar sweep", "fast searching indicator", "quick radar ping", "brisk searching ring"]
+  },
+  {
+    "name": "radar-scan-slow",
+    "phrase": "slow methodical radar sweep",
+    "category": "loading",
+    "concept": "The ring expands gradually across five stops, a slow and methodical radar scan. Use it for a deliberate, careful searching state.",
+    "keywords": ["slow radar loading", "methodical scanning ring", "deliberate radar pulse", "gradual expanding ring", "careful radar sweep", "unhurried searching indicator", "slow searching ring", "patient radar sweep"]
+  },
+  {
+    "name": "radar-pulse-scan",
+    "phrase": "double pulse radar sweep",
+    "category": "loading",
+    "concept": "A small bump interrupts the ring's growth partway through, like two overlapping pulses in one sweep. Use it for a busier, more active scanning feel.",
+    "keywords": ["overlapping radar pulse", "double bump scan", "active scanning ring", "layered radar sweep", "busy radar loading", "stacked pulse scan", "dual pulse ring", "layered searching pulse"]
+  },
+  {
+    "name": "radar-scan-soft",
+    "phrase": "soft radar glow sweep",
+    "category": "loading",
+    "concept": "The ring's growth pairs with a gentle brightness lift, a softer radar scan than a plain scale-and-fade. Use it for an ambient, low-contrast scanning cue.",
+    "keywords": ["soft radar glow", "gentle scanning ring", "ambient radar pulse", "low contrast radar sweep", "subtle expanding glow", "calm scanning indicator", "soft searching glow", "gentle radar loading"]
+  },
+  {
+    "name": "fill-loop",
+    "phrase": "looping progress fill",
+    "category": "loading",
+    "concept": "A bar grows from empty to full, then resets and grows again, continuous. Use it for a working state when there is no real percentage to report.",
+    "keywords": ["looping fill bar", "indeterminate fill loading", "working progress loop", "fake progress bar", "repeating fill animation", "loading fill sweep", "fill and reset bar", "continuous fill loop"]
+  },
+  {
+    "name": "fill-loop-fast",
+    "phrase": "quick fill and snap reset",
+    "category": "loading",
+    "concept": "The bar fills quickly, holds briefly at full, then snaps back to empty. Use it for a brisk, repeated working cue.",
+    "keywords": ["fast fill loop", "quick progress fill", "snap reset bar", "brisk working indicator", "rapid fill animation", "fast loading bar loop", "quick snap fill", "fast bar reset"]
+  },
+  {
+    "name": "fill-loop-slow",
+    "phrase": "gradual staged fill loop",
+    "category": "loading",
+    "concept": "The bar fills in three gradual stages before resetting, a slower and more deliberate fill loop. Use it for a longer working process.",
+    "keywords": ["slow fill loop", "gradual progress fill", "staged fill animation", "deliberate working bar", "multi stage fill loop", "patient loading bar", "slow staged fill", "gradual bar stages"]
+  },
+  {
+    "name": "fill-hold-reset",
+    "phrase": "fill then hold before reset",
+    "category": "loading",
+    "concept": "The bar reaches full and holds there for most of the cycle before resetting. Use it where a lingering full state reads as work being reviewed or finalized.",
+    "keywords": ["fill and hold bar", "lingering progress fill", "hold at full loading", "pause before reset bar", "reviewing progress indicator", "long hold fill loop", "full bar hold", "lingering fill state"]
+  },
+  {
+    "name": "fill-fade-reset",
+    "phrase": "fill then fade out",
+    "category": "loading",
+    "concept": "The bar fills to full, then fades out instead of snapping back, before reappearing empty. Use it for a softer reset than a visible snap.",
+    "keywords": ["fade out fill bar", "soft reset progress", "fill and fade loop", "gentle progress reset", "disappearing fill bar", "smooth fill cycle", "fading progress bar", "soft fill disappear"]
+  },
+  {
+    "name": "fill-bounce-loop",
+    "phrase": "bouncy fill overshoot",
+    "category": "loading",
+    "concept": "The bar overshoots past full, settles back, then resets, a light bounce at the end of the fill. Use it for a livelier working indicator.",
+    "keywords": ["bouncy fill bar", "overshoot progress loop", "springy fill animation", "elastic fill bar", "lively loading bar", "bounce and settle fill", "fill overshoot bounce", "springy progress loop"]
+  },
+  {
+    "name": "fill-step-loop",
+    "phrase": "stepped quantized fill",
+    "category": "loading",
+    "concept": "The bar grows in four distinct steps rather than smoothly, a chunky, quantized fill. Use it to suggest discrete stages of work instead of a continuous flow.",
+    "keywords": ["stepped fill bar", "quantized progress loop", "chunky loading fill", "staged step bar", "discrete progress steps", "stair step fill animation", "step by step fill", "quantized loading bar"]
+  },
+  {
+    "name": "fill-elastic-loop",
+    "phrase": "elastic wobble fill",
+    "category": "loading",
+    "concept": "The bar oscillates around full before settling, like an elastic band coming to rest, then resets. Use it for a springy, energetic working cue.",
+    "keywords": ["elastic fill bar", "wobbling progress loop", "springy loading fill", "oscillating fill bar", "energetic progress cue", "elastic settle animation", "elastic bar wobble", "bouncy settle fill"]
+  },
+  {
+    "name": "shimmer-double-sweep",
+    "phrase": "double shimmer pass",
+    "category": "loading",
+    "concept": "The gradient highlight sweeps across twice per cycle with a short gap between passes. Use it where a single shimmer pass feels too sparse.",
+    "keywords": ["double shimmer", "two pass loading sweep", "repeated shimmer pass", "back to back shimmer", "doubled gradient sweep", "twice per cycle shimmer", "double pass shimmer", "two sweep loading"]
+  },
+  {
+    "name": "shimmer-double-tight",
+    "phrase": "close double shimmer",
+    "category": "loading",
+    "concept": "Two shimmer passes follow each other with only a brief gap, a tighter double sweep. Use it for a busier, more energetic loading cue.",
+    "keywords": ["tight double shimmer", "close together shimmer passes", "fast repeated sweep", "busy shimmer effect", "compact double sweep", "quick succession shimmer", "close shimmer passes", "dense double sweep"]
+  },
+  {
+    "name": "shimmer-double-wide",
+    "phrase": "spaced out double shimmer",
+    "category": "loading",
+    "concept": "Two shimmer passes are separated by a longer pause, a more spaced double sweep. Use it for a calmer loading cue that still reads as ongoing.",
+    "keywords": ["wide double shimmer", "spaced shimmer passes", "paused between sweeps", "calm double sweep", "long gap shimmer", "relaxed shimmer pacing", "spaced out sweep", "wide gap shimmer"]
+  },
+  {
+    "name": "shimmer-double-fast",
+    "phrase": "rapid double shimmer burst",
+    "category": "loading",
+    "concept": "Two shimmer passes fire quickly one after another early in the cycle, then the highlight holds still until the loop restarts. Use it for a brief, energetic burst of activity.",
+    "keywords": ["rapid double shimmer", "burst shimmer loading", "quick shimmer pair", "energetic sweep burst", "fast paired shimmer", "shimmer burst effect", "quick burst shimmer", "rapid paired sweep"]
+  },
+  {
+    "name": "shimmer-double-fade",
+    "phrase": "double shimmer with dip",
+    "category": "loading",
+    "concept": "The gradient sweeps across, dims briefly, then sweeps again, a double pass with a fade between them. Use it to add a beat of rest between two shimmer sweeps.",
+    "keywords": ["shimmer with fade dip", "double sweep with pause", "fading between shimmer passes", "dimmed shimmer gap", "two pass fade loading", "shimmer dip and repeat", "fading shimmer gap", "dip between sweeps"]
+  },
+  {
+    "name": "shimmer-double-stagger",
+    "phrase": "staggered overlapping shimmer",
+    "category": "loading",
+    "concept": "The second shimmer pass begins before the first fully completes, an overlapping, staggered sweep. Use it for a denser, layered loading effect.",
+    "keywords": ["staggered shimmer", "overlapping sweep passes", "layered shimmer effect", "dense loading sweep", "interleaved shimmer pattern", "offset double shimmer", "staggered sweep pattern", "overlapping shimmer loop"]
+  },
+  {
+    "name": "reading-wave-sweep",
+    "phrase": "reading order opacity wave",
+    "category": "loading",
+    "concept": "Opacity and a slight sideways shift rise and fall once per cycle, suggesting content being read left to right. Use it for text or list content that is being processed in order.",
+    "keywords": ["reading order animation", "text processing wave", "left to right loading cue", "content scanning wave", "reading indicator effect", "sequential read animation", "reading order wave", "left to right cue"]
+  },
+  {
+    "name": "reading-wave-slow",
+    "phrase": "slow methodical reading wave",
+    "category": "loading",
+    "concept": "The opacity wave rises and falls gradually across five stops, a slower, more methodical reading pace. Use it for careful, line-by-line processing cues.",
+    "keywords": ["slow reading wave", "methodical processing cue", "careful reading animation", "gradual reading sweep", "unhurried text scan", "line by line loading", "slow methodical scan", "careful line reading"]
+  },
+  {
+    "name": "reading-wave-step",
+    "phrase": "stepped reading jump",
+    "category": "loading",
+    "concept": "Opacity and position jump between two fixed points rather than flowing smoothly, like eyes jumping between words. Use it for a more mechanical reading cue.",
+    "keywords": ["stepped reading animation", "word jump loading cue", "mechanical reading effect", "discrete reading steps", "jumpy text scan", "segmented reading wave", "word by word jump", "stepped text scan"]
+  },
+  {
+    "name": "reading-wave-pause",
+    "phrase": "reading wave with hold",
+    "category": "loading",
+    "concept": "Opacity rises to full and holds there before falling, a pause as if dwelling on a line. Use it for a deliberate, comprehension-style reading cue.",
+    "keywords": ["pausing reading wave", "dwell on line effect", "comprehension loading cue", "hold and read animation", "lingering reading pace", "reading wave with rest", "reading dwell pause", "comprehension pause cue"]
+  },
+  {
+    "name": "saccade-scan",
+    "phrase": "quick eye saccade scan",
+    "category": "loading",
+    "concept": "Opacity and position jump quickly between two points with short pauses, mimicking the rapid eye movements used when scanning text. Use it for a fast, natural reading or review cue.",
+    "keywords": ["saccade animation", "eye movement scan", "quick text scanning", "rapid reading jump", "natural reading cue", "fast review animation", "eye jump effect", "quick eye scan"]
+  },
+  {
+    "name": "processing-wave",
+    "phrase": "background processing wave",
+    "category": "loading",
+    "concept": "Opacity and brightness rise and fall once per cycle at a measured pace, suggesting quiet background processing. Use it for tasks that are working steadily but not urgently.",
+    "keywords": ["background processing cue", "steady work indicator", "measured loading wave", "quiet processing animation", "calm working effect", "gentle brightness wave", "background work wave", "steady processing cue"]
+  },
+  {
+    "name": "reading-wave-soft",
+    "phrase": "subtle low key reading wave",
+    "category": "loading",
+    "concept": "Opacity and position shift only slightly across the cycle, a low-amplitude version of the reading wave. Use it where a strong wave would distract from the content.",
+    "keywords": ["subtle reading wave", "low key processing cue", "gentle text scan", "minimal reading animation", "understated loading wave", "soft sequential cue", "low amplitude reading wave", "gentle sequential scan"]
+  },
+  {
+    "name": "flicker-scan",
+    "phrase": "quick flicker scan burst",
+    "category": "loading",
+    "concept": "Opacity flickers rapidly through the first half of the cycle, then settles, a quick scanning burst. Use it for a fast, energetic scan cue at the start of a loop.",
+    "keywords": ["flicker scan effect", "quick flicker loading", "energetic scan burst", "opacity flicker loop", "fast scanning flicker", "brief flicker cue", "quick flicker burst", "flicker scanning loop"]
+  },
+  {
+    "name": "flicker-scan-fast",
+    "phrase": "very fast tight flicker scan",
+    "category": "loading",
+    "concept": "Opacity flickers in a tight burst within the first fifth of the cycle, faster than the standard flicker scan. Use it for a snappier, more urgent scan cue.",
+    "keywords": ["very fast flicker", "tight flicker burst", "urgent scan cue", "rapid opacity flicker", "snappy flicker loading", "quick burst scan effect", "fast tight flicker", "urgent flicker scan"]
+  },
+  {
+    "name": "flicker-scan-strobe",
+    "phrase": "even strobe flicker",
+    "category": "loading",
+    "concept": "Opacity strobes evenly across the whole cycle at regular intervals, unlike a front-loaded flicker scan. Use it for a constant, alert-style scanning cue.",
+    "keywords": ["strobe flicker effect", "even opacity strobe", "regular flicker loading", "constant scanning strobe", "alert style flicker", "steady strobe pulse", "even strobe pulse", "regular strobe scan"]
+  },
+  {
+    "name": "flicker-scan-double",
+    "phrase": "two flicker bursts",
+    "category": "loading",
+    "concept": "Two short flicker bursts fire with a calm gap between them, a double-burst scanning rhythm. Use it where a single flicker burst feels too brief.",
+    "keywords": ["double flicker burst", "two burst scanning", "paired flicker effect", "dual burst loading", "repeated flicker pattern", "two phase flicker scan", "double burst flicker", "two stage flicker"]
+  },
+  {
+    "name": "flicker-scan-quick",
+    "phrase": "anticipatory flicker before reset",
+    "category": "loading",
+    "concept": "The element stays steady through most of the cycle, then flickers briefly right before the loop restarts. Use it as a quick heads-up cue just before a refresh.",
+    "keywords": ["anticipatory flicker", "pre reset flicker cue", "brief flicker before loop", "end of cycle flicker", "heads up scan flicker", "quick warning flicker", "pre loop flicker", "late cycle flicker"]
+  },
+  {
+    "name": "flicker-scan-energetic",
+    "phrase": "energetic brightness flicker scan",
+    "category": "loading",
+    "concept": "Opacity flickers pair with brightness boosts at irregular points through the cycle, a more energetic scan than a plain opacity flicker. Use it for a lively, attention-grabbing loading cue.",
+    "keywords": ["energetic flicker scan", "brightness flicker loading", "lively scan effect", "irregular flicker pulse", "attention grabbing flicker", "dynamic scan burst", "energetic brightness flicker", "dynamic flicker loading"]
+  },
+  {
+    "name": "flicker-scan-rapid",
+    "phrase": "rapid continuous flicker",
+    "category": "loading",
+    "concept": "Opacity flickers evenly and rapidly across the entire cycle at the highest frequency in this set. Use it for an intense, high-energy scanning cue.",
+    "keywords": ["rapid flicker scan", "high frequency flicker", "intense scanning effect", "continuous rapid flicker", "fast paced flicker loading", "high energy scan cue", "rapid continuous flicker", "high energy flicker loop"]
+  }
+]

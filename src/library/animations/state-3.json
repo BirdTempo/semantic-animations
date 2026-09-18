@@ -1,0 +1,806 @@
+[
+  {
+    "name": "glow-bright",
+    "phrase": "bright glow pulse",
+    "category": "state",
+    "concept": "A soft glow pulses while the element also brightens slightly, combining light and luminance. Use it for an active or lit-up state that needs a touch more punch than a plain glow.",
+    "keywords": [
+      "bright glow",
+      "brightening pulse",
+      "lit up and glowing",
+      "luminous pulse",
+      "glow with brightness",
+      "radiant active state",
+      "soft bright pulse",
+      "glowing highlight",
+      "brighter halo",
+      "active glow effect"
+    ]
+  },
+  {
+    "name": "glow-luminous",
+    "phrase": "luminous ambient glow",
+    "category": "state",
+    "concept": "The element brightens and casts a wider soft light at the same time, for a gentle luminous idle state. Use it when an element should feel lit from within, not just outlined.",
+    "keywords": [
+      "luminous glow",
+      "glowing brightness",
+      "soft luminous pulse",
+      "lit from within",
+      "ambient luminance",
+      "glow and brighten",
+      "gentle luminous state",
+      "radiant idle glow",
+      "soft inner light"
+    ]
+  },
+  {
+    "name": "glow-radiant-wide",
+    "phrase": "radiant wide glow",
+    "category": "state",
+    "concept": "A dim brightness rise pairs with a wide, diffuse halo that spreads well past the element edges. Use it for a prominent idle highlight that should read as radiant, not sharp.",
+    "keywords": [
+      "wide radiant glow",
+      "diffuse halo",
+      "broad ambient glow",
+      "radiant spread",
+      "wide soft halo",
+      "spread out glow",
+      "diffuse light pulse",
+      "radiant idle state",
+      "wide glowing aura"
+    ]
+  },
+  {
+    "name": "glow-brighten-quick",
+    "phrase": "quick brighten glow",
+    "category": "state",
+    "concept": "The element brightens sharply along with a tight glow, on a short cycle. Use it for a small element that needs a crisp, noticeable idle pulse of light.",
+    "keywords": [
+      "brighten pulse",
+      "sharp glow pulse",
+      "quick brightness rise",
+      "crisp glow",
+      "tight glow pulse",
+      "fast brighten cycle",
+      "small element glow",
+      "noticeable light pulse"
+    ]
+  },
+  {
+    "name": "glow-luster",
+    "phrase": "lustrous soft glow",
+    "category": "state",
+    "concept": "A moderate glow and brightness rise combine for a lustrous, polished idle shine. Use it for elements that should feel premium or softly lit, like a badge or icon.",
+    "keywords": [
+      "lustrous glow",
+      "polished shine",
+      "premium glow pulse",
+      "soft luster",
+      "shiny idle state",
+      "glow with luster",
+      "polished ambient light",
+      "subtle premium glow"
+    ]
+  },
+  {
+    "name": "glow-shine-soft",
+    "phrase": "soft shine glow",
+    "category": "state",
+    "concept": "A faint brightness lift joins a narrow glow for a very soft, barely-there shine. Use it where a hint of life is wanted without drawing much attention.",
+    "keywords": [
+      "soft shine",
+      "faint glow pulse",
+      "barely there shine",
+      "gentle shine glow",
+      "subtle light lift",
+      "quiet glow",
+      "understated shine",
+      "low-key ambient glow"
+    ]
+  },
+  {
+    "name": "glow-bloom-fade",
+    "phrase": "fast bloom slow fade",
+    "category": "state",
+    "concept": "The glow blooms quickly then fades slowly back to rest, an asymmetric rhythm unlike a smooth sine pulse. Use it when the light should feel like it switches on fast and lingers.",
+    "keywords": [
+      "fast bloom",
+      "slow fade glow",
+      "asymmetric glow rhythm",
+      "quick bloom slow decay",
+      "glow that lingers",
+      "snap-on glow",
+      "fast rise slow fall",
+      "lingering light"
+    ]
+  },
+  {
+    "name": "glow-fade-bloom",
+    "phrase": "slow bloom fast fade",
+    "category": "state",
+    "concept": "The glow builds slowly then fades quickly, the reverse asymmetric rhythm of a fast bloom. Use it for a light that feels like it gathers gradually then snaps off.",
+    "keywords": [
+      "slow bloom",
+      "fast fade glow",
+      "gradual glow build",
+      "quick snap off",
+      "building light pulse",
+      "slow rise fast fall",
+      "gathering glow",
+      "asymmetric fade"
+    ]
+  },
+  {
+    "name": "glow-fast-bloom",
+    "phrase": "instant bloom glow",
+    "category": "state",
+    "concept": "The glow blooms almost instantly to a wide halo then fades slowly over most of the cycle. Use it for a state that should flash into light and dissolve gently.",
+    "keywords": [
+      "instant bloom",
+      "flash to glow",
+      "quick bright bloom",
+      "slow dissolve glow",
+      "snap bloom",
+      "fast ignite glow",
+      "glow that flashes on",
+      "abrupt bloom soft fade"
+    ]
+  },
+  {
+    "name": "glow-ember",
+    "phrase": "ember-like glow",
+    "category": "state",
+    "concept": "Brightness and glow build slowly like a warming ember, then fade quickly, on a longer cycle. Use it for a warm, smoldering idle light rather than a crisp pulse.",
+    "keywords": [
+      "ember glow",
+      "smoldering light",
+      "warm slow glow",
+      "glowing ember effect",
+      "slow warm pulse",
+      "ember pulse",
+      "warming light state",
+      "slow build quick fade"
+    ]
+  },
+  {
+    "name": "glow-swell",
+    "phrase": "swelling glow",
+    "category": "state",
+    "concept": "The glow swells up early in the cycle and eases back down, an uneven rhythm rather than a symmetric pulse. Use it for a light that feels like it swells and recedes.",
+    "keywords": [
+      "swelling glow",
+      "uneven glow rhythm",
+      "glow that swells",
+      "rising and receding light",
+      "asymmetric swell",
+      "soft swell pulse",
+      "glow surge",
+      "light that swells"
+    ]
+  },
+  {
+    "name": "glow-simmer",
+    "phrase": "simmering double glow",
+    "category": "state",
+    "concept": "Two small glow bumps occur per cycle, like a simmering light rather than one smooth pulse. Use it for a quietly active state that flickers with light twice per beat.",
+    "keywords": [
+      "simmering glow",
+      "double bump glow",
+      "two-pulse glow",
+      "flickering simmer",
+      "small repeated glow",
+      "simmer effect",
+      "light that simmers",
+      "double glow pulse"
+    ]
+  },
+  {
+    "name": "shimmer-sheen",
+    "phrase": "soft shimmer sheen",
+    "category": "state",
+    "concept": "A quick, subtle brightness rise pairs with a slight opacity dip, like a sheen passing over the surface. Use it for a light shimmer distinct from a moving highlight sweep.",
+    "keywords": [
+      "shimmer sheen",
+      "soft sheen pulse",
+      "subtle shimmer",
+      "brightness sheen",
+      "quick light sheen",
+      "filter based shimmer",
+      "gentle sheen effect",
+      "shimmering surface"
+    ]
+  },
+  {
+    "name": "shimmer-glint",
+    "phrase": "quick glint shimmer",
+    "category": "state",
+    "concept": "A brief, sharp brightness spike suggests a glint of light catching the surface. Use it for a small, fast shimmer that reads as a quick catch of light.",
+    "keywords": [
+      "glint shimmer",
+      "catching light",
+      "quick brightness spike",
+      "glinting surface",
+      "fast light catch",
+      "sharp shimmer flash",
+      "brief glint",
+      "light catch effect"
+    ]
+  },
+  {
+    "name": "shimmer-veil",
+    "phrase": "veiled shimmer blur",
+    "category": "state",
+    "concept": "A faint brightness rise combines with a whisper of blur, like a veil of light passing over. Use it for a soft, hazy shimmer rather than a crisp one.",
+    "keywords": [
+      "veiled shimmer",
+      "hazy shimmer",
+      "soft blur shimmer",
+      "shimmer with blur",
+      "veil of light",
+      "gentle hazy pulse",
+      "misty shimmer",
+      "subtle veil effect"
+    ]
+  },
+  {
+    "name": "shimmer-quick",
+    "phrase": "quick subtle shimmer",
+    "category": "state",
+    "concept": "Brightness rises and falls fast and barely, a minimal shimmer for constant background motion. Use it where the shimmer must stay in the background, almost unnoticed.",
+    "keywords": [
+      "quick shimmer",
+      "fast subtle shimmer",
+      "minimal shimmer",
+      "barely there shimmer",
+      "background shimmer",
+      "rapid tiny pulse",
+      "quiet fast shimmer",
+      "low amplitude shimmer"
+    ]
+  },
+  {
+    "name": "shimmer-flutter",
+    "phrase": "fluttering shimmer",
+    "category": "state",
+    "concept": "Brightness flutters up and down twice in quick succession, like light catching an uneven surface. Use it for a shimmer with an irregular, fluttering rhythm.",
+    "keywords": [
+      "fluttering shimmer",
+      "irregular shimmer",
+      "flutter pulse",
+      "double flutter light",
+      "uneven shimmer rhythm",
+      "flickering flutter",
+      "shimmer with flutter",
+      "light flutter effect"
+    ]
+  },
+  {
+    "name": "shimmer-glaze",
+    "phrase": "glazed shimmer",
+    "category": "state",
+    "concept": "Brightness and saturation both lift slightly together, giving a glazed, glossy shimmer. Use it for a surface that should look faintly glazed or polished as it idles.",
+    "keywords": [
+      "glazed shimmer",
+      "glossy shimmer",
+      "saturated shimmer",
+      "polished glaze effect",
+      "shiny glaze pulse",
+      "glossy light pulse",
+      "glaze highlight",
+      "saturated brightness shimmer"
+    ]
+  },
+  {
+    "name": "shimmer-subtle",
+    "phrase": "very subtle shimmer",
+    "category": "state",
+    "concept": "A tiny brightness change, barely perceptible, keeps an element quietly alive. Use it for the most understated shimmer available, for calm interfaces.",
+    "keywords": [
+      "very subtle shimmer",
+      "barely visible shimmer",
+      "minimal light change",
+      "quiet shimmer",
+      "understated shimmer",
+      "tiny brightness pulse",
+      "gentle background pulse",
+      "calm shimmer effect"
+    ]
+  },
+  {
+    "name": "shimmer-drift",
+    "phrase": "drifting color shimmer",
+    "category": "state",
+    "concept": "Brightness and a faint hue shift drift slowly together, like light slowly drifting across a surface. Use it for a slower, dreamier shimmer with a hint of color movement.",
+    "keywords": [
+      "drifting shimmer",
+      "slow color shimmer",
+      "hue drift pulse",
+      "dreamy shimmer",
+      "drifting light effect",
+      "slow shimmer with hue",
+      "gentle color drift",
+      "ambient hue shimmer"
+    ]
+  },
+  {
+    "name": "focus-breathe",
+    "phrase": "soft focus breathing",
+    "category": "state",
+    "concept": "A tiny blur breathes in and out, like the element softly loses and regains focus. Use it for a dreamy, ambient idle state on a calm interface.",
+    "keywords": [
+      "soft focus breathe",
+      "blur breathing",
+      "dreamy blur pulse",
+      "gentle focus shift",
+      "breathing blur effect",
+      "ambient soft focus",
+      "hazy breathing state",
+      "focus in and out"
+    ]
+  },
+  {
+    "name": "soft-focus-drift",
+    "phrase": "drifting soft focus",
+    "category": "state",
+    "concept": "A faint blur and a slight brightness dip drift together, like attention softly drifting out of focus. Use it for a slow, contemplative ambient loop.",
+    "keywords": [
+      "soft focus drift",
+      "drifting blur",
+      "gentle unfocus",
+      "dim soft focus",
+      "slow focus drift",
+      "dreamy unfocus pulse",
+      "ambient blur drift",
+      "contemplative blur"
+    ]
+  },
+  {
+    "name": "dreamy-blur-pulse",
+    "phrase": "dreamy blur pulse",
+    "category": "state",
+    "concept": "A small blur rises with a light opacity dip, for a dreamy, hazy pulse of soft focus. Use it where an element should feel gently unreal or floating in a dream.",
+    "keywords": [
+      "dreamy blur",
+      "hazy pulse",
+      "soft dream effect",
+      "blur and fade pulse",
+      "dreamlike state",
+      "ambient dream pulse",
+      "gentle haze",
+      "floating blur effect"
+    ]
+  },
+  {
+    "name": "hazy-breathe",
+    "phrase": "hazy ambient breathe",
+    "category": "state",
+    "concept": "A gentle blur breathes between a light haze and a deeper one, never fully sharp. Use it for a constantly soft, hazy idle presence.",
+    "keywords": [
+      "hazy breathe",
+      "constant haze pulse",
+      "soft haze breathing",
+      "misty idle state",
+      "gentle haze cycle",
+      "perpetual soft blur",
+      "hazy ambient loop",
+      "dreamy haze effect"
+    ]
+  },
+  {
+    "name": "blur-dream",
+    "phrase": "dreamlike blur scale",
+    "category": "state",
+    "concept": "A soft blur grows alongside a barely-there scale increase, for a slow dreamlike swell. Use it for an element that should feel like it gently drifts closer and softer.",
+    "keywords": [
+      "blur dream effect",
+      "dreamlike swell",
+      "blur with scale",
+      "soft dreamy grow",
+      "gentle blur scale",
+      "dream state pulse",
+      "drifting closer blur",
+      "soft grow and blur"
+    ]
+  },
+  {
+    "name": "blur-soft-focus",
+    "phrase": "gentle soft focus",
+    "category": "state",
+    "concept": "A very slight blur comes and goes on a short cycle, the lightest soft-focus breathing available. Use it for a quick, quiet hint of ambient motion.",
+    "keywords": [
+      "gentle soft focus",
+      "light blur pulse",
+      "quick soft focus",
+      "minimal blur breathe",
+      "subtle focus shift",
+      "short blur cycle",
+      "faint soft focus",
+      "quiet blur pulse"
+    ]
+  },
+  {
+    "name": "blur-veil-breathe",
+    "phrase": "veiled glow breathe",
+    "category": "state",
+    "concept": "A soft blur breathes together with a faint glow, like a veil of light and haze. Use it for an ambient state that combines softness with a gentle inner light.",
+    "keywords": [
+      "veiled breathe",
+      "blur and glow combo",
+      "hazy glow breathing",
+      "soft veil pulse",
+      "misty glow effect",
+      "combined blur and light",
+      "gentle veiled glow",
+      "dreamy glow breathe"
+    ]
+  },
+  {
+    "name": "glow-breathe",
+    "phrase": "breathing glow",
+    "category": "state",
+    "concept": "The element grows very slightly while a soft glow rises and falls, like breathing light. Use it for an idle state that should feel calmly alive.",
+    "keywords": [
+      "breathing glow",
+      "glow with scale",
+      "calm breathing light",
+      "gentle grow and glow",
+      "idle breathing state",
+      "soft scale glow",
+      "alive glow effect",
+      "breathing highlight"
+    ]
+  },
+  {
+    "name": "glow-pulse-soft",
+    "phrase": "soft pulsing glow",
+    "category": "state",
+    "concept": "A faint scale increase joins a small brightness rise for a soft, gentle pulsing glow. Use it for a subtle idle pulse that barely moves.",
+    "keywords": [
+      "soft pulse glow",
+      "gentle scale pulse",
+      "faint pulsing light",
+      "subtle grow and brighten",
+      "calm pulse effect",
+      "tiny scale glow",
+      "understated pulse",
+      "soft brighten scale"
+    ]
+  },
+  {
+    "name": "glow-scale-breathe",
+    "phrase": "slow scale glow breathe",
+    "category": "state",
+    "concept": "A slow, gentle scale grow accompanies a soft glow, on a longer breathing cycle. Use it for a calmer, slower breathing-and-glowing idle state.",
+    "keywords": [
+      "slow breathing glow",
+      "gentle scale breathe",
+      "calm glow cycle",
+      "slow grow with glow",
+      "long breathing pulse",
+      "relaxed glow scale",
+      "soft slow breathe",
+      "tranquil glow pulse"
+    ]
+  },
+  {
+    "name": "glow-gentle-swell",
+    "phrase": "gentle swelling glow",
+    "category": "state",
+    "concept": "The element swells early in the cycle with a rising glow, then eases back slowly. Use it for a soft surge of light and size rather than a steady pulse.",
+    "keywords": [
+      "gentle swell glow",
+      "swelling scale and glow",
+      "surging light effect",
+      "soft surge pulse",
+      "rising swell glow",
+      "uneven swell rhythm",
+      "gentle light surge",
+      "swell and glow combo"
+    ]
+  },
+  {
+    "name": "glow-drift-scale",
+    "phrase": "slow drifting glow scale",
+    "category": "state",
+    "concept": "A slow scale grow and a gentle brightness rise drift together over a long cycle. Use it for a very calm, slow ambient presence with a hint of size change.",
+    "keywords": [
+      "drifting glow scale",
+      "slow ambient grow",
+      "gentle drift brighten",
+      "calm scale drift",
+      "slow presence pulse",
+      "tranquil drift glow",
+      "long cycle glow scale",
+      "slow brighten and grow"
+    ]
+  },
+  {
+    "name": "two-stage-glow",
+    "phrase": "two-stage glow hold",
+    "category": "state",
+    "concept": "The glow brightens, holds briefly at its peak, then fades, instead of a smooth sine pulse. Use it when the light should feel deliberate, with a clear pause at full glow.",
+    "keywords": [
+      "two-stage glow",
+      "glow that holds",
+      "brighten hold fade",
+      "stepped glow pulse",
+      "deliberate glow pause",
+      "glow with a pause",
+      "held glow peak",
+      "pause and fade glow"
+    ]
+  },
+  {
+    "name": "glow-flash-hold",
+    "phrase": "flash and hold glow",
+    "category": "state",
+    "concept": "The element flashes brightly and glows, holds that peak briefly, then fades slowly away. Use it for a stronger two-stage glow that reads as a deliberate flash.",
+    "keywords": [
+      "flash and hold",
+      "bright flash glow",
+      "held bright peak",
+      "flash then fade",
+      "deliberate flash glow",
+      "two-stage flash",
+      "glow flash pause",
+      "strong held glow"
+    ]
+  },
+  {
+    "name": "glow-step-pulse",
+    "phrase": "stepped glow pulse",
+    "category": "state",
+    "concept": "The glow rises in two steps to a wider peak, holds, then fades, rather than one smooth curve. Use it for a layered, stepped light build.",
+    "keywords": [
+      "stepped glow",
+      "layered glow pulse",
+      "two-step brighten",
+      "glow that steps up",
+      "staged glow build",
+      "incremental glow",
+      "stepped light rise",
+      "layered light pulse"
+    ]
+  },
+  {
+    "name": "glow-brighten-hold",
+    "phrase": "brighten and hold",
+    "category": "state",
+    "concept": "Brightness rises, holds briefly at its peak, then eases back down, a two-stage brightness pulse. Use it for a state that should feel like it pauses at full brightness.",
+    "keywords": [
+      "brighten and hold",
+      "held brightness peak",
+      "two-stage brighten",
+      "brightness pause",
+      "stepped brightness pulse",
+      "brighten then hold",
+      "paused bright state",
+      "deliberate brighten"
+    ]
+  },
+  {
+    "name": "glow-two-beat",
+    "phrase": "two-beat glow pulse",
+    "category": "state",
+    "concept": "Two short glow beats fire close together, then the element rests for the remainder of the cycle. Use it for a light that pulses twice like a heartbeat, then pauses.",
+    "keywords": [
+      "two-beat glow",
+      "double beat pulse",
+      "heartbeat glow",
+      "two pulses then rest",
+      "paired glow beats",
+      "double flash glow",
+      "beat and rest cycle",
+      "twin pulse glow"
+    ]
+  },
+  {
+    "name": "aura-slow",
+    "phrase": "slow ambient aura",
+    "category": "state",
+    "concept": "A soft glow rises and falls over many seconds, an unhurried aura rather than a quick pulse. Use it for a calm, meditative idle presence.",
+    "keywords": [
+      "slow aura",
+      "unhurried glow",
+      "meditative light cycle",
+      "long slow pulse",
+      "calm aura effect",
+      "gentle slow glow",
+      "many-second glow cycle",
+      "tranquil aura"
+    ]
+  },
+  {
+    "name": "aura-deep",
+    "phrase": "deep slow aura",
+    "category": "state",
+    "concept": "A wide glow and a gentle brightness rise build deeply over a long cycle, like a deep aura of light. Use it for a strong but very slow ambient presence.",
+    "keywords": [
+      "deep aura",
+      "slow wide glow",
+      "deep ambient light",
+      "long deep pulse",
+      "strong slow aura",
+      "deep breathing light",
+      "wide slow brighten",
+      "immersive aura effect"
+    ]
+  },
+  {
+    "name": "aura-meditative",
+    "phrase": "meditative glow blur",
+    "category": "state",
+    "concept": "A soft blur and a wide glow rise together over a very long cycle, almost meditative in pace. Use it for the calmest, slowest ambient state in the set.",
+    "keywords": [
+      "meditative aura",
+      "slow blur and glow",
+      "calm meditative pulse",
+      "very slow ambient state",
+      "tranquil blur glow",
+      "meditative light cycle",
+      "peaceful aura effect",
+      "long meditative pulse"
+    ]
+  },
+  {
+    "name": "aura-drift",
+    "phrase": "drifting slow aura",
+    "category": "state",
+    "concept": "A slow scale grow and a wide glow drift together over several seconds. Use it for an aura that feels like it slowly expands and recedes.",
+    "keywords": [
+      "drifting aura",
+      "slow expanding glow",
+      "aura with scale drift",
+      "gentle expand and glow",
+      "slow drifting light",
+      "expanding aura effect",
+      "calm drift pulse",
+      "aura scale drift"
+    ]
+  },
+  {
+    "name": "aura-long",
+    "phrase": "long slow brightness aura",
+    "category": "state",
+    "concept": "Brightness alone rises and falls over a long cycle, a pure light aura with no shadow spread. Use it where only a slow glow of brightness is wanted, without a halo.",
+    "keywords": [
+      "long aura",
+      "slow brightness cycle",
+      "pure brightness aura",
+      "long brighten pulse",
+      "gentle long glow",
+      "slow luminance cycle",
+      "aura without halo",
+      "extended brightness pulse"
+    ]
+  },
+  {
+    "name": "aura-calm",
+    "phrase": "very calm faint aura",
+    "category": "state",
+    "concept": "A very faint glow barely rises over a long, calm cycle, the quietest aura available. Use it for the most understated ambient presence, almost imperceptible.",
+    "keywords": [
+      "calm aura",
+      "faint slow glow",
+      "quiet long pulse",
+      "barely visible aura",
+      "subdued ambient glow",
+      "gentle faint cycle",
+      "understated aura effect",
+      "calm quiet light"
+    ]
+  },
+  {
+    "name": "glow-wide",
+    "phrase": "wide soft glow",
+    "category": "state",
+    "concept": "A wide, diffuse halo spreads well beyond the element on each pulse, more spread out than a tight glow. Use it for an element that should cast a broader soft light.",
+    "keywords": [
+      "wide glow",
+      "broad halo",
+      "diffuse light spread",
+      "wider glow pulse",
+      "spread out halo",
+      "broad ambient light",
+      "generous glow radius",
+      "open wide glow"
+    ]
+  },
+  {
+    "name": "glow-diffuse",
+    "phrase": "diffuse soft glow",
+    "category": "state",
+    "concept": "A large, soft-edged halo diffuses outward on each pulse, softer and wider than a standard glow. Use it for a gentle, cloud-like spread of light.",
+    "keywords": [
+      "diffuse glow",
+      "cloud-like halo",
+      "soft-edged glow",
+      "wide diffuse light",
+      "gentle spread glow",
+      "broad soft halo",
+      "diffused ambient light",
+      "spread light effect"
+    ]
+  },
+  {
+    "name": "glow-halo-wide",
+    "phrase": "wide box halo glow",
+    "category": "state",
+    "concept": "A broad box-shadow halo pulses around the element's full outline, wider and more even than a drop-shadow glow. Use it for a boxed or pill element that needs a rounded halo.",
+    "keywords": [
+      "wide halo",
+      "box shadow glow",
+      "rounded halo pulse",
+      "even glow outline",
+      "boxed glow effect",
+      "pill halo glow",
+      "outline halo pulse",
+      "surrounding light halo"
+    ]
+  },
+  {
+    "name": "glow-spread",
+    "phrase": "spreading soft glow",
+    "category": "state",
+    "concept": "The glow spreads out to a very large, soft radius before fading, wider than most glows in the set. Use it for a dramatic but still gentle ambient spread.",
+    "keywords": [
+      "spreading glow",
+      "large soft radius",
+      "wide spread pulse",
+      "dramatic soft glow",
+      "expansive glow effect",
+      "broad spreading light",
+      "generous soft spread",
+      "wide gentle glow"
+    ]
+  },
+  {
+    "name": "glow-halo-soft",
+    "phrase": "soft wide halo brighten",
+    "category": "state",
+    "concept": "A gentle brightness rise joins a wide, soft halo for an even, diffuse lit look. Use it for an element that should feel softly and broadly lit at once.",
+    "keywords": [
+      "soft halo brighten",
+      "wide gentle halo",
+      "even soft light",
+      "broad brighten glow",
+      "diffuse brighten effect",
+      "soft wide light",
+      "gentle halo brightness",
+      "evenly lit glow"
+    ]
+  },
+  {
+    "name": "shimmer-flicker",
+    "phrase": "quick flicker shimmer",
+    "category": "state",
+    "concept": "Brightness flickers rapidly and irregularly at low amplitude, faster and fainter than a normal shimmer cycle. Use it for a faint, nervous flicker of light rather than a smooth pulse.",
+    "keywords": [
+      "flicker shimmer",
+      "rapid brightness flicker",
+      "irregular flicker pulse",
+      "faint quick flicker",
+      "nervous light flicker",
+      "fast flicker effect",
+      "subtle flicker shimmer",
+      "quick irregular shimmer"
+    ]
+  },
+  {
+    "name": "glow-slow-radiance",
+    "phrase": "slow wide radiance",
+    "category": "state",
+    "concept": "A very large, soft halo builds over a long, unhurried cycle, the widest and slowest glow in the set. Use it for a rare, dramatic ambient radiance that takes its time.",
+    "keywords": [
+      "slow radiance",
+      "wide slow halo",
+      "unhurried radiant glow",
+      "large slow pulse",
+      "dramatic slow aura",
+      "wide radiant cycle",
+      "long radiance effect",
+      "expansive slow glow"
+    ]
+  }
+]

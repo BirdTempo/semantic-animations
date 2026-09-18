@@ -1,0 +1,802 @@
+[
+  {
+    "name": "drift-x",
+    "phrase": "drift sideways",
+    "category": "state",
+    "concept": "A slow, small, continuous horizontal drift instead of a vertical bob. Use it for an idle element on a horizontal layout, like a list item or a side panel icon.",
+    "keywords": [
+      "horizontal idle motion",
+      "sideways drift",
+      "side-to-side bob",
+      "lateral idle animation",
+      "gentle horizontal sway",
+      "resting horizontal motion",
+      "idle on a side axis",
+      "calm lateral drift"
+    ]
+  },
+  {
+    "name": "drift-x-wide",
+    "phrase": "drift and linger",
+    "category": "state",
+    "concept": "A horizontal drift that lingers at its furthest point before returning. Use it when an idle element should pause and feel unhurried, not just oscillate.",
+    "keywords": [
+      "lingering drift",
+      "pause at the edge",
+      "unhurried idle motion",
+      "horizontal hold",
+      "idle with a pause",
+      "slow lateral linger",
+      "resting with a hold",
+      "calm horizontal pause"
+    ]
+  },
+  {
+    "name": "creep-x",
+    "phrase": "creep sideways",
+    "category": "state",
+    "concept": "A small horizontal creep that pauses, then eases back past its start before it settles. Use it for an idle element that should feel like it slowly explores its space.",
+    "keywords": [
+      "idle creep",
+      "exploratory drift",
+      "slow horizontal wander",
+      "subtle sideways creep",
+      "idle exploration",
+      "wandering idle motion",
+      "gentle creeping bob",
+      "resting wander"
+    ]
+  },
+  {
+    "name": "drift-x-tilt",
+    "phrase": "drift and tilt",
+    "category": "state",
+    "concept": "A tiny horizontal drift paired with a very small rotation. Use it for an idle element that should feel loose and slightly playful, not rigid.",
+    "keywords": [
+      "drift with tilt",
+      "gentle rotation and drift",
+      "loose idle motion",
+      "tiny tilt animation",
+      "playful idle sway",
+      "subtle rotate and shift",
+      "idle tilt drift",
+      "calm tilted drift"
+    ]
+  },
+  {
+    "name": "pendulum-drift",
+    "phrase": "swing gently",
+    "category": "state",
+    "concept": "An asymmetric horizontal swing that travels further one way than the other, like a pendulum that loses energy. Use it for an idle element that should feel like it settles, not perfectly balanced.",
+    "keywords": [
+      "pendulum motion",
+      "asymmetric swing",
+      "idle settling motion",
+      "uneven horizontal sway",
+      "losing momentum feel",
+      "gentle swinging idle",
+      "lopsided drift",
+      "calm pendulum idle"
+    ]
+  },
+  {
+    "name": "drift-x-flicker",
+    "phrase": "drift with a flicker",
+    "category": "state",
+    "concept": "A small horizontal drift paired with a very faint opacity dip at its peak. Use it for an idle element that should feel subtly alive, like a soft flicker of attention.",
+    "keywords": [
+      "drift with flicker",
+      "faint opacity dip",
+      "subtle idle flicker",
+      "gentle fade and shift",
+      "soft attention flicker",
+      "idle with a glimmer",
+      "tiny opacity idle",
+      "calm flickering drift"
+    ]
+  },
+  {
+    "name": "float-diagonal",
+    "phrase": "float diagonally",
+    "category": "state",
+    "concept": "A small float that moves on a diagonal path instead of straight up. Use it for an idle illustration or icon that should feel like it drifts freely, not on one axis.",
+    "keywords": [
+      "diagonal float",
+      "angled idle drift",
+      "free-floating motion",
+      "idle on a diagonal",
+      "gentle diagonal bob",
+      "weightless diagonal drift",
+      "idle illustration motion",
+      "calm angled float"
+    ]
+  },
+  {
+    "name": "float-diagonal-reverse",
+    "phrase": "float the other way",
+    "category": "state",
+    "concept": "A small diagonal float toward the opposite corner, down and to the left. Use it to vary the direction of idle motion across a set of floating elements.",
+    "keywords": [
+      "reverse diagonal float",
+      "opposite corner drift",
+      "varied idle direction",
+      "downward diagonal bob",
+      "idle motion variety",
+      "gentle counter-drift",
+      "alternate float direction",
+      "calm reverse drift"
+    ]
+  },
+  {
+    "name": "float-diagonal-zigzag",
+    "phrase": "float in an arc",
+    "category": "state",
+    "concept": "A small float that arcs from one side to the other while it rises, like a gentle zigzag. Use it for an idle element that should feel like it traces a soft path.",
+    "keywords": [
+      "arcing float",
+      "zigzag idle motion",
+      "tracing a soft path",
+      "idle arc drift",
+      "gentle side-to-side rise",
+      "curved idle float",
+      "wandering arc motion",
+      "calm arcing drift"
+    ]
+  },
+  {
+    "name": "float-diagonal-tilt",
+    "phrase": "float and lean",
+    "category": "state",
+    "concept": "A small diagonal float paired with a very slight lean. Use it for an idle element that should feel like it gently leans into its own motion.",
+    "keywords": [
+      "diagonal float with lean",
+      "tilted idle drift",
+      "gentle leaning motion",
+      "idle tilt and float",
+      "soft diagonal lean",
+      "weightless leaning drift",
+      "idle rotation and shift",
+      "calm leaning float"
+    ]
+  },
+  {
+    "name": "float-diagonal-quick",
+    "phrase": "float out and settle",
+    "category": "state",
+    "concept": "A diagonal float that moves out quickly, then eases back slowly. Use it for an idle element that should feel like it darts gently, then rests.",
+    "keywords": [
+      "quick out slow back",
+      "idle dart and settle",
+      "fast rise gentle return",
+      "asymmetric diagonal float",
+      "idle motion with snap",
+      "gentle darting drift",
+      "quick diagonal idle",
+      "calm settle after dart"
+    ]
+  },
+  {
+    "name": "float-diagonal-triangle",
+    "phrase": "float through a triangle",
+    "category": "state",
+    "concept": "A small float that visits three points in a loose triangular path. Use it for an idle element that should feel like it wanders gently, not just back and forth.",
+    "keywords": [
+      "triangular idle path",
+      "wandering float motion",
+      "three-point drift",
+      "gentle looping float",
+      "idle triangle motion",
+      "meandering idle drift",
+      "soft looping path",
+      "calm wandering float"
+    ]
+  },
+  {
+    "name": "float-breathe",
+    "phrase": "float and breathe",
+    "category": "state",
+    "concept": "A small vertical float combined with a very subtle scale pulse. Use it for an idle element that should feel calm, alive, and gently expanding as it rises.",
+    "keywords": [
+      "float with breathing",
+      "combined bob and pulse",
+      "idle scale and rise",
+      "gentle expanding float",
+      "calm alive motion",
+      "subtle grow while floating",
+      "idle breath and bob",
+      "weightless breathing float"
+    ]
+  },
+  {
+    "name": "float-swell",
+    "phrase": "swell and float",
+    "category": "state",
+    "concept": "A float where the scale pulse peaks slightly before the vertical rise. Use it for an idle element that should feel like it swells first, then lifts.",
+    "keywords": [
+      "phase-shifted breathing",
+      "swell before rise",
+      "idle scale lead",
+      "staggered float and pulse",
+      "gentle swelling motion",
+      "offset breathing float",
+      "idle lift after swell",
+      "calm staggered pulse"
+    ]
+  },
+  {
+    "name": "float-pulse-soft",
+    "phrase": "float with a soft pulse",
+    "category": "state",
+    "concept": "A gentle float combined with a very faint scale and opacity pulse. Use it for an idle element that should feel softly alive without it drawing attention.",
+    "keywords": [
+      "soft combined pulse",
+      "float with faint opacity",
+      "gentle triple-property idle",
+      "subtle alive motion",
+      "quiet idle pulse",
+      "calm soft float",
+      "faint breathing bob",
+      "weightless soft pulse"
+    ]
+  },
+  {
+    "name": "float-grow",
+    "phrase": "float and grow on the rise",
+    "category": "state",
+    "concept": "A float where the scale grows only while the element rises, then shrinks back as it falls. Use it for an idle element that should feel like it gathers energy on the way up.",
+    "keywords": [
+      "grow on the rise",
+      "asymmetric scale and float",
+      "idle energy gather",
+      "rise-only growth",
+      "gentle lift and grow",
+      "coupled rise and scale",
+      "idle upward swell",
+      "calm gathering motion"
+    ]
+  },
+  {
+    "name": "float-breathe-wide",
+    "phrase": "float and breathe slowly",
+    "category": "state",
+    "concept": "A wide, slow float and breathe cycle with a gentle build and release. Use it for an idle element that should feel unhurried and calm over a longer cycle.",
+    "keywords": [
+      "slow wide breathing float",
+      "unhurried idle cycle",
+      "gentle build and release",
+      "long calm float",
+      "idle slow expansion",
+      "extended breathing motion",
+      "wide idle pulse",
+      "calm long cycle"
+    ]
+  },
+  {
+    "name": "float-breathe-tilt",
+    "phrase": "float, breathe, and tilt",
+    "category": "state",
+    "concept": "A float and breathe cycle with a very slight rotation added. Use it for an idle element that should feel gently alive and slightly loose.",
+    "keywords": [
+      "float breathe and tilt",
+      "triple transform idle",
+      "gentle rotation with pulse",
+      "loose alive motion",
+      "idle rise scale and turn",
+      "subtle combined idle",
+      "calm tilted breathing",
+      "weightless tilted float"
+    ]
+  },
+  {
+    "name": "float-quick-rise",
+    "phrase": "rise quickly, settle slowly",
+    "category": "state",
+    "concept": "A float that rises quickly, then eases back down slowly. Use it for an idle element that should feel like it lifts with a little energy, then rests gently.",
+    "keywords": [
+      "quick rise slow fall",
+      "asymmetric float rhythm",
+      "fast lift gentle settle",
+      "idle energy burst",
+      "uneven float timing",
+      "snap up ease down",
+      "idle quick lift",
+      "calm slow return"
+    ]
+  },
+  {
+    "name": "float-quick-fall",
+    "phrase": "rise slowly, settle quickly",
+    "category": "state",
+    "concept": "A float that rises slowly, then drops back down quickly. Use it for an idle element that should feel like it gathers gently, then releases with a small snap.",
+    "keywords": [
+      "slow rise quick fall",
+      "asymmetric float release",
+      "gentle lift fast drop",
+      "idle gather and release",
+      "uneven float rhythm",
+      "slow build quick settle",
+      "idle gentle gather",
+      "calm quick return"
+    ]
+  },
+  {
+    "name": "float-snap-up",
+    "phrase": "snap up and drift down",
+    "category": "state",
+    "concept": "A float that snaps upward quickly, holds briefly, then drifts back down slowly. Use it for an idle element that should feel like it perks up now and then.",
+    "keywords": [
+      "snap up idle motion",
+      "quick lift with hold",
+      "brief pause at peak",
+      "idle perk up",
+      "fast rise held pause",
+      "slow drift back down",
+      "idle attention snap",
+      "calm hold and release"
+    ]
+  },
+  {
+    "name": "float-overshoot-settle",
+    "phrase": "float past and settle",
+    "category": "state",
+    "concept": "A float that rises slightly past its resting point, then eases back to settle. Use it for an idle element that should feel like it gently overshoots before it rests.",
+    "keywords": [
+      "overshoot idle motion",
+      "gentle settle after rise",
+      "small float overshoot",
+      "idle ease into rest",
+      "soft rebound settle",
+      "subtle spring-like idle",
+      "calm overshoot drift",
+      "weightless settle motion"
+    ]
+  },
+  {
+    "name": "float-lag",
+    "phrase": "hold, then drop",
+    "category": "state",
+    "concept": "A float that stays near rest for most of its cycle, then drops and returns quickly near the end. Use it for an idle element that should feel mostly still with an occasional small dip.",
+    "keywords": [
+      "mostly still idle",
+      "occasional quick dip",
+      "idle with long hold",
+      "rare small drop",
+      "lagging float rhythm",
+      "idle pause then snap",
+      "quiet with a dip",
+      "calm long rest"
+    ]
+  },
+  {
+    "name": "suspend",
+    "phrase": "suspend, barely moving",
+    "category": "state",
+    "concept": "An extremely slow, extremely small vertical drift that feels almost still. Use it for an idle element that should feel suspended in place, calmer than a float.",
+    "keywords": [
+      "almost still idle",
+      "extremely slow drift",
+      "suspended in place",
+      "barely perceptible motion",
+      "calmest idle state",
+      "quiet suspended float",
+      "minimal vertical drift",
+      "near-stillness animation"
+    ]
+  },
+  {
+    "name": "suspend-deep",
+    "phrase": "suspend, almost still",
+    "category": "state",
+    "concept": "An even smaller vertical drift paired with a barely visible opacity shift. Use it for an idle element that should feel deeply calm and nearly motionless.",
+    "keywords": [
+      "deep stillness idle",
+      "barely visible opacity shift",
+      "near-motionless drift",
+      "extremely subtle idle",
+      "quiet deep calm",
+      "minimal opacity and drift",
+      "almost frozen motion",
+      "suspended deep calm"
+    ]
+  },
+  {
+    "name": "suspend-tilt",
+    "phrase": "suspend and barely tilt",
+    "category": "state",
+    "concept": "An extremely slow, extremely small rotation instead of a vertical drift. Use it for an idle element that should feel suspended with the faintest hint of turning.",
+    "keywords": [
+      "barely perceptible rotation",
+      "suspended tilt",
+      "extremely slow turn",
+      "minimal idle rotation",
+      "near-still rotation",
+      "quiet suspended turn",
+      "faint idle tilt",
+      "almost frozen rotation"
+    ]
+  },
+  {
+    "name": "suspend-scale",
+    "phrase": "suspend, barely breathing",
+    "category": "state",
+    "concept": "A scale pulse so small and so slow it stays near rest for most of its cycle. Use it for an idle element that should feel like the quietest possible sign of life.",
+    "keywords": [
+      "barely breathing idle",
+      "near-rest scale pulse",
+      "quietest sign of life",
+      "minimal idle pulse",
+      "suspended breathing",
+      "extremely subtle scale",
+      "calm near-still pulse",
+      "almost imperceptible breath"
+    ]
+  },
+  {
+    "name": "suspend-drift",
+    "phrase": "suspend, drifting faintly",
+    "category": "state",
+    "concept": "An extremely slow, extremely small diagonal drift. Use it for an idle element that should feel suspended but with the faintest sense of direction.",
+    "keywords": [
+      "faint diagonal suspension",
+      "extremely slow diagonal drift",
+      "suspended with direction",
+      "minimal idle diagonal",
+      "near-still diagonal motion",
+      "quiet suspended drift",
+      "almost frozen diagonal",
+      "calm faint direction"
+    ]
+  },
+  {
+    "name": "breathe-slow-grow",
+    "phrase": "grow slowly, shrink fast",
+    "category": "state",
+    "concept": "A breathe pulse that grows slowly, then shrinks back quickly. Use it for an idle element that should feel like it gathers gently, then releases with a small snap.",
+    "keywords": [
+      "slow grow quick shrink",
+      "asymmetric breathing rhythm",
+      "gentle scale build",
+      "fast scale release",
+      "idle gather and snap",
+      "uneven pulse timing",
+      "calm gradual swell",
+      "quick return to rest"
+    ]
+  },
+  {
+    "name": "breathe-quick-grow",
+    "phrase": "grow fast, shrink slowly",
+    "category": "state",
+    "concept": "A breathe pulse that grows quickly, then shrinks back slowly. Use it for an idle element that should feel like it perks up, then settles gently.",
+    "keywords": [
+      "quick grow slow shrink",
+      "asymmetric pulse rhythm",
+      "fast scale build",
+      "gentle scale release",
+      "idle perk and settle",
+      "uneven breathing timing",
+      "sudden swell slow ease",
+      "calm gradual return"
+    ]
+  },
+  {
+    "name": "breathe-hold",
+    "phrase": "grow and hold",
+    "category": "state",
+    "concept": "A breathe pulse that grows, holds briefly at its peak, then shrinks back. Use it for an idle element that should feel like it pauses at full attention.",
+    "keywords": [
+      "hold at peak scale",
+      "pause at full size",
+      "idle breathing with hold",
+      "brief scale plateau",
+      "calm held pulse",
+      "gentle grow and pause",
+      "idle full attention pause",
+      "steady peak hold"
+    ]
+  },
+  {
+    "name": "breathe-swell-deep",
+    "phrase": "swell deeply",
+    "category": "state",
+    "concept": "A deeper breathe pulse that swells quickly, then eases down slowly over most of the cycle. Use it for an idle element that should feel like a stronger, still-subtle sign of life.",
+    "keywords": [
+      "deeper breathing pulse",
+      "quick swell slow ease",
+      "stronger idle pulse",
+      "subtle deep breath",
+      "idle emphasis pulse",
+      "calm deep swell",
+      "gentle strong life sign",
+      "gradual long ease"
+    ]
+  },
+  {
+    "name": "breathe-flutter",
+    "phrase": "breathe with a flutter",
+    "category": "state",
+    "concept": "A breathe pulse with two small peaks of different heights in one cycle. Use it for an idle element that should feel like a soft double breath, not a single pulse.",
+    "keywords": [
+      "double peak breathing",
+      "fluttering idle pulse",
+      "soft double breath",
+      "uneven twin pulse",
+      "idle flutter motion",
+      "gentle two-stage swell",
+      "subtle breath variation",
+      "calm fluttering scale"
+    ]
+  },
+  {
+    "name": "breathe-float",
+    "phrase": "breathe while floating",
+    "category": "state",
+    "concept": "A breathe pulse with a small vertical float that moves in step. Use it for an idle element where the pulse should lead and the float should feel secondary.",
+    "keywords": [
+      "scale-led idle motion",
+      "breathing with a float",
+      "gentle pulse and lift",
+      "idle scale primary",
+      "combined breathe and rise",
+      "subtle life with lift",
+      "quiet pulse and bob",
+      "calm scale-first motion"
+    ]
+  },
+  {
+    "name": "breathe-float-offset",
+    "phrase": "breathe, then float",
+    "category": "state",
+    "concept": "A breathe pulse and a small float that peak at slightly different moments. Use it for an idle element that should feel like its pulse and lift are gently out of step.",
+    "keywords": [
+      "offset scale and lift",
+      "staggered breathe and float",
+      "idle phase difference",
+      "gentle out-of-step motion",
+      "combined offset pulse",
+      "subtle timing gap",
+      "idle layered motion",
+      "calm staggered rhythm"
+    ]
+  },
+  {
+    "name": "breathe-float-micro",
+    "phrase": "breathe and float, barely",
+    "category": "state",
+    "concept": "An extremely tiny combined scale and vertical float, almost imperceptible. Use it for an idle element that should feel alive at the smallest possible scale.",
+    "keywords": [
+      "micro combined idle motion",
+      "barely visible pulse and lift",
+      "tiniest sign of life",
+      "extremely subtle combo",
+      "near-imperceptible idle",
+      "minimal scale and float",
+      "quiet micro motion",
+      "calm tiny combination"
+    ]
+  },
+  {
+    "name": "breathe-float-deep",
+    "phrase": "breathe and float deeply",
+    "category": "state",
+    "concept": "A slower, slightly larger combined scale and float cycle. Use it for an idle element that should feel calm but with a bit more presence than the micro version.",
+    "keywords": [
+      "deeper combined idle motion",
+      "slower pulse and lift",
+      "more presence idle",
+      "gentle stronger combo",
+      "calm deep combination",
+      "idle emphasis motion",
+      "subtle larger cycle",
+      "quiet deeper breath"
+    ]
+  },
+  {
+    "name": "breathe-float-fast",
+    "phrase": "breathe and float quickly",
+    "category": "state",
+    "concept": "A quicker combined scale and float cycle with a held middle stage. Use it for an idle element that should feel briskly alive, not sluggish.",
+    "keywords": [
+      "quick combined idle motion",
+      "brisk pulse and lift",
+      "fast idle rhythm",
+      "short cycle combo",
+      "idle held middle stage",
+      "lively short pulse",
+      "calm quick combination",
+      "energetic idle bob"
+    ]
+  },
+  {
+    "name": "breathe-float-hold",
+    "phrase": "breathe, float, and hold",
+    "category": "state",
+    "concept": "A combined scale and float that holds briefly at its peak before it returns. Use it for an idle element that should feel like it pauses gently at full lift.",
+    "keywords": [
+      "combined hold at peak",
+      "pause at full lift",
+      "idle plateau motion",
+      "gentle held combination",
+      "calm peak pause",
+      "steady combined hold",
+      "idle full pulse pause",
+      "quiet held rise"
+    ]
+  },
+  {
+    "name": "hover-idle",
+    "phrase": "hover, barely idle",
+    "category": "state",
+    "concept": "A tiny, fast vertical jitter. Use it for an element that should feel live and idle, like it hovers in place, rather than static.",
+    "keywords": [
+      "tiny fast jitter",
+      "live idle motion",
+      "hovering in place",
+      "barely-there vertical shift",
+      "quick subtle bob",
+      "idle liveliness",
+      "fast small twitch",
+      "calm live hover"
+    ]
+  },
+  {
+    "name": "hover-idle-double",
+    "phrase": "hover with a double beat",
+    "category": "state",
+    "concept": "A tiny vertical jitter with two small beats per cycle instead of one. Use it for an idle element that should feel like it has a quick pulse of life, twice as often.",
+    "keywords": [
+      "double beat jitter",
+      "twin tiny idle beats",
+      "fast repeated bob",
+      "live idle rhythm",
+      "quick double motion",
+      "hovering with two beats",
+      "subtle repeated twitch",
+      "calm double hover"
+    ]
+  },
+  {
+    "name": "hover-flicker",
+    "phrase": "hover and flicker",
+    "category": "state",
+    "concept": "A tiny vertical jitter paired with a very faint opacity dip. Use it for an idle element that should feel live, like a soft flicker of activity.",
+    "keywords": [
+      "jitter with flicker",
+      "live opacity dip",
+      "faint idle flicker",
+      "subtle activity sign",
+      "quick fade and shift",
+      "hovering with a glimmer",
+      "tiny opacity twitch",
+      "calm flickering hover"
+    ]
+  },
+  {
+    "name": "hover-tick",
+    "phrase": "hover with a tick",
+    "category": "state",
+    "concept": "A tiny vertical jitter that snaps between two close positions with brief holds. Use it for an idle element that should feel like a small mechanical tick, not a smooth bob.",
+    "keywords": [
+      "ticking idle motion",
+      "snap between positions",
+      "mechanical tick feel",
+      "stepped idle jitter",
+      "brief hold and snap",
+      "quick tick rhythm",
+      "idle clock-like twitch",
+      "calm ticking hover"
+    ]
+  },
+  {
+    "name": "hover-tremble",
+    "phrase": "tremble faintly",
+    "category": "state",
+    "concept": "A tiny tremor that moves in both horizontal and vertical directions at once. Use it for an idle element that should feel like it has a faint, live tremble.",
+    "keywords": [
+      "faint idle tremor",
+      "two-axis micro jitter",
+      "live trembling motion",
+      "subtle shaking idle",
+      "tiny combined tremble",
+      "quick faint quiver",
+      "calm micro tremor",
+      "gentle idle shiver"
+    ]
+  },
+  {
+    "name": "hover-idle-scale",
+    "phrase": "hover with a tiny pulse",
+    "category": "state",
+    "concept": "A tiny vertical jitter paired with a barely visible scale flicker. Use it for an idle element that should feel live through both motion and the faintest pulse.",
+    "keywords": [
+      "jitter with tiny pulse",
+      "barely visible scale flicker",
+      "live motion and pulse",
+      "subtle combined liveliness",
+      "quick bob and grow",
+      "idle micro pulse",
+      "calm live combination",
+      "tiny scale twitch"
+    ]
+  },
+  {
+    "name": "orbit-drift-quarter",
+    "phrase": "drift in a small orbit",
+    "category": "state",
+    "concept": "A small circular drift traced through four quarter-phase points. Use it for an idle element that should feel like it gently orbits in place.",
+    "keywords": [
+      "circular idle drift",
+      "small orbit motion",
+      "quarter-phase drift",
+      "gentle orbiting idle",
+      "looping circular path",
+      "idle orbit animation",
+      "calm circular motion",
+      "weightless orbiting drift"
+    ]
+  },
+  {
+    "name": "orbit-drift-reverse",
+    "phrase": "drift the other way around",
+    "category": "state",
+    "concept": "The same small circular drift traced in the opposite rotational direction. Use it to vary the orbit direction across a set of idle elements.",
+    "keywords": [
+      "reverse orbit motion",
+      "opposite circular direction",
+      "varied orbit idle",
+      "counter-clockwise drift",
+      "idle orbit variety",
+      "gentle reverse loop",
+      "alternate circular path",
+      "calm counter-orbit"
+    ]
+  },
+  {
+    "name": "orbit-drift-wide",
+    "phrase": "drift in a wide ellipse",
+    "category": "state",
+    "concept": "A small elliptical drift that is wider side to side than top to bottom. Use it for an idle element that should feel like it traces a gentle, flattened orbit.",
+    "keywords": [
+      "wide elliptical drift",
+      "flattened orbit motion",
+      "horizontal-leaning orbit",
+      "gentle wide loop",
+      "idle elliptical path",
+      "calm flattened circle",
+      "soft wide orbit",
+      "weightless ellipse drift"
+    ]
+  },
+  {
+    "name": "orbit-drift-tight",
+    "phrase": "drift in a tight pulse orbit",
+    "category": "state",
+    "concept": "A small circular drift with a faint scale pulse at the far points of the loop. Use it for an idle element that should feel like it breathes as it orbits.",
+    "keywords": [
+      "orbit with pulse",
+      "tight circular breathing",
+      "combined orbit and scale",
+      "idle pulse at orbit edge",
+      "gentle breathing loop",
+      "calm tight orbit",
+      "subtle scale in a loop",
+      "weightless pulsing orbit"
+    ]
+  },
+  {
+    "name": "orbit-drift-slow",
+    "phrase": "drift in a slow tall ellipse",
+    "category": "state",
+    "concept": "A slow elliptical drift that is taller top to bottom than side to side. Use it for an idle element that should feel like a gentle, vertical-leaning orbit.",
+    "keywords": [
+      "slow vertical ellipse",
+      "tall orbit motion",
+      "vertical-leaning orbit",
+      "gentle slow loop",
+      "idle tall elliptical path",
+      "calm vertical orbit",
+      "soft slow ellipse",
+      "weightless tall orbit"
+    ]
+  }
+]

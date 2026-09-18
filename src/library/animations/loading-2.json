@@ -1,0 +1,352 @@
+[
+  {
+    "name": "spin-windup",
+    "phrase": "wind up and spin",
+    "category": "loading",
+    "concept": "A rotation that starts slowly and accelerates through each turn, like a motor winding up to speed. Use it when a process is gathering momentum rather than already at full speed.",
+    "keywords": ["winding up", "starting slow", "gaining momentum", "motor starting", "ramping up", "building speed", "warming up", "accelerating spin", "engine starting", "spooling up"]
+  },
+  {
+    "name": "spin-surge",
+    "phrase": "surge and settle spin",
+    "category": "loading",
+    "concept": "A rotation that speeds up through the middle of each turn and eases at the ends. It reads as effortful, mechanical work rather than a flat, constant spin.",
+    "keywords": ["surging spin", "effortful spin", "mechanical rotation", "speeding up and slowing down", "uneven pace loading", "working hard spinner", "labored spin", "pulsing speed", "variable speed spin"]
+  },
+  {
+    "name": "spin-flywheel",
+    "phrase": "flywheel coasting spin",
+    "category": "loading",
+    "concept": "A rotation that starts fast and decelerates across the turn, like a flywheel coasting down before the next push. Suits a process driven by bursts of effort.",
+    "keywords": ["flywheel spin", "coasting down", "decelerating rotation", "momentum loss", "spinning down", "burst of energy", "losing speed", "wheel spinning down", "inertia spin"]
+  },
+  {
+    "name": "spin-anticipate",
+    "phrase": "wind back then spin",
+    "category": "loading",
+    "concept": "A small backward dip before the rotation launches forward, like a pitcher winding up before the throw. Gives a spinner a sense of readying itself.",
+    "keywords": ["anticipation spin", "wind back", "coiling before spin", "readying motion", "backswing", "pullback spin", "getting ready to load", "charging up rotation", "preparing motion"]
+  },
+  {
+    "name": "spin-overshoot",
+    "phrase": "spin past and settle",
+    "category": "loading",
+    "concept": "A rotation that swings slightly past a full turn before easing back into place. Gives a spinner a springy, elastic finish each cycle.",
+    "keywords": ["overshoot spin", "springy rotation", "bouncy spinner", "past the mark spin", "elastic settle", "snap back spin", "rebound rotation", "loose spin", "settling spin"]
+  },
+  {
+    "name": "spin-crank",
+    "phrase": "crank the spin",
+    "category": "loading",
+    "concept": "A rotation with visibly increasing angular speed within each turn, like a hand crank being pulled through its arc. Suggests manual, ratcheted effort.",
+    "keywords": ["cranking spin", "hand crank motion", "ratcheting speed", "pulling through", "manual effort spin", "increasing speed rotation", "lever crank", "wind and release", "turning a crank"]
+  },
+  {
+    "name": "spin-breathe",
+    "phrase": "spin and breathe",
+    "category": "loading",
+    "concept": "A rotation with a single gentle scale pulse per turn, as if the spinner is breathing while it works. Softer and calmer than a plain spin.",
+    "keywords": ["breathing spinner", "pulsing while spinning", "gentle loading pulse", "soft spin", "calm loading icon", "living spinner", "swelling spin", "rhythmic spin", "relaxed loading"]
+  },
+  {
+    "name": "spin-inhale",
+    "phrase": "inhale into a spin",
+    "category": "loading",
+    "concept": "A rotation where the element grows early in the turn and settles back by the end, like a single deep inhale carried through the motion. Distinct from an even, centered pulse.",
+    "keywords": ["inhaling spinner", "growing then settling", "deep breath spin", "front loaded swell", "expanding early", "single breath rotation", "swelling spin", "loading breath"]
+  },
+  {
+    "name": "spin-pulse-double",
+    "phrase": "double-pulse spin",
+    "category": "loading",
+    "concept": "A rotation with two small scale pulses per turn, once on each half. Reads as a steady, ticking heartbeat layered onto ordinary spinning.",
+    "keywords": ["double pulse spinner", "heartbeat spin", "two beats per turn", "ticking spin", "rhythmic pulse loading", "twice per rotation", "steady pulse spinner", "beating loading icon"]
+  },
+  {
+    "name": "orbit-breathe",
+    "phrase": "orbit and breathe",
+    "category": "loading",
+    "concept": "A slow rotation combined with a wide scale swell and a small sideways drift, as if the spinner breathes while circling a point. Calmer and larger than a simple pulse.",
+    "keywords": ["orbiting breath", "drifting swell", "wide breathing spinner", "circling pulse", "slow orbit loading", "breathing while circling", "gentle drifting spin", "large pulse orbit"]
+  },
+  {
+    "name": "spin-throb",
+    "phrase": "throb then spin",
+    "category": "loading",
+    "concept": "A sharp single scale kick near the start of each turn, followed by a plain smooth rotation for the rest of the cycle. Reads as a quick heartbeat kick, not a continuous pulse.",
+    "keywords": ["throbbing spin", "single kick pulse", "heartbeat kick", "sharp pulse spinner", "brief throb loading", "quick beat rotation", "kick then coast", "jolt spin"]
+  },
+  {
+    "name": "spin-billow",
+    "phrase": "billowing spin",
+    "category": "loading",
+    "concept": "A slow rotation with two wide, gentle scale swells offset from the turn's start, like a sail billowing in a light wind. Softer and slower than a double pulse.",
+    "keywords": ["billowing spinner", "sail in the wind", "slow swelling spin", "gentle wide pulse", "drifting swell loading", "soft double swell", "wavelike spin", "undulating rotation"]
+  },
+  {
+    "name": "spin-tick",
+    "phrase": "tick around the clock",
+    "category": "loading",
+    "concept": "A rotation that jumps in four quarter-turn steps with a clear pause between each, like a clock's second hand ticking. Stepped, not smooth.",
+    "keywords": ["ticking spinner", "clock tick rotation", "quarter turn steps", "stepped spin", "second hand motion", "clicking rotation", "discrete turn steps", "paused rotation", "clock hand loading"]
+  },
+  {
+    "name": "spin-ratchet",
+    "phrase": "ratchet around",
+    "category": "loading",
+    "concept": "A rotation that advances in six short steps with a brief hold between each, like a ratchet wrench catching its teeth. Quicker and busier than spin-tick.",
+    "keywords": ["ratcheting spinner", "wrench ratchet motion", "six step rotation", "catching teeth", "mechanical ratchet loading", "clicking through steps", "gear ratchet spin", "notched turning"]
+  },
+  {
+    "name": "spin-notch",
+    "phrase": "snap through notches",
+    "category": "loading",
+    "concept": "A quick rotation that snaps through eight small notches with short pauses between each. Feels crisp and mechanical, like a dial clicking past marked positions.",
+    "keywords": ["notched spinner", "dial clicking", "snapping steps", "eight step rotation", "crisp mechanical spin", "clicking dial loading", "marked position rotation", "fast notch turning"]
+  },
+  {
+    "name": "spin-index",
+    "phrase": "index around slowly",
+    "category": "loading",
+    "concept": "A slow rotation that advances in three long steps with generous pauses, like an indexing table turning between fixed positions. Deliberate rather than busy.",
+    "keywords": ["indexing spinner", "turntable stepping", "three position rotation", "slow deliberate steps", "fixed position turning", "long pause rotation", "indexing table loading", "measured turning"]
+  },
+  {
+    "name": "spin-cog",
+    "phrase": "cog catching spin",
+    "category": "loading",
+    "concept": "A stepped rotation where each quarter-turn slightly overshoots and settles, like a gear tooth catching and rocking into place. More mechanical than a clean step.",
+    "keywords": ["gear tooth catch", "cog spinner", "rocking step rotation", "meshing gear motion", "catch and settle spin", "toothed rotation", "gear engaging loading", "mechanical catch spin"]
+  },
+  {
+    "name": "spin-stepper",
+    "phrase": "micro-step spin",
+    "category": "loading",
+    "concept": "A rotation broken into twelve fine, even micro-steps, like a stepper motor driving a dial. Reads as precise and mechanical rather than smooth.",
+    "keywords": ["stepper motor spin", "micro stepping rotation", "precise steps loading", "fine grained turning", "twelve step spin", "motor driven dial", "mechanical precision spin", "incremental rotation"]
+  },
+  {
+    "name": "orbit-wobble",
+    "phrase": "wobble in orbit",
+    "category": "loading",
+    "concept": "A rotation combined with a small circular drift, as if the spinner traces a tiny orbit while it turns. More alive than a rotation fixed to one point.",
+    "keywords": ["orbiting wobble", "circular drift spin", "wobbly rotation", "off-center spin", "drifting spinner", "tiny orbit loading", "wandering rotation", "circling wobble"]
+  },
+  {
+    "name": "orbit-drift",
+    "phrase": "drift wider in orbit",
+    "category": "loading",
+    "concept": "A rotation on a wider circular path that also swells and shrinks slightly as it drifts away from and back toward center. More pronounced than orbit-wobble.",
+    "keywords": ["wide orbit drift", "drifting and swelling spin", "far circling rotation", "expanding orbit loading", "breathing orbit", "large circular wobble", "away and back drift"]
+  },
+  {
+    "name": "spin-teeter",
+    "phrase": "teeter while spinning",
+    "category": "loading",
+    "concept": "A rotation with a small side-to-side sway layered on top, like the spinner is teetering while it turns. Quicker and more nervous than a wide orbit.",
+    "keywords": ["teetering spin", "side to side sway", "rocking rotation", "unsteady spinner", "swaying while spinning", "tipping motion loading", "nervous wobble spin"]
+  },
+  {
+    "name": "orbit-loop",
+    "phrase": "loop like a moon",
+    "category": "loading",
+    "concept": "A wide circular path traced while the element also rotates in place, like a small moon orbiting a point while turning on its own axis. The largest of the orbit variants.",
+    "keywords": ["moon orbit spin", "wide circling rotation", "orbiting and turning", "satellite loop loading", "large circular path", "self rotating orbit", "looping around a point"]
+  },
+  {
+    "name": "spin-jitter-orbit",
+    "phrase": "jittery orbit spin",
+    "category": "loading",
+    "concept": "A fast rotation with small, irregular position jitters instead of a smooth circular drift. Reads as nervous, urgent activity rather than calm orbiting.",
+    "keywords": ["jittery spinner", "nervous orbit", "irregular drift spin", "urgent jitter loading", "shaky rotation", "erratic small movements", "twitchy spin", "fast unsettled rotation"]
+  },
+  {
+    "name": "orbit-sway",
+    "phrase": "sway in a slow orbit",
+    "category": "loading",
+    "concept": "A slow, gentle circular drift with a full rotation, tracing a calm and simple loop. The most relaxed of the orbit variants.",
+    "keywords": ["gentle orbit sway", "slow circling spin", "calm drifting rotation", "relaxed orbit loading", "easy circular motion", "soft swaying orbit", "unhurried loop spin"]
+  },
+  {
+    "name": "spin-grow",
+    "phrase": "grow through the spin",
+    "category": "loading",
+    "concept": "A rotation that grows steadily larger across the turn, then resets to its starting size at the next loop. Suggests a process building toward something.",
+    "keywords": ["growing spinner", "expanding rotation", "building up spin", "scale up loading", "swelling turn", "progressive growth spin", "cycle reset growth"]
+  },
+  {
+    "name": "spin-expand-reset",
+    "phrase": "expand and fade reset",
+    "category": "loading",
+    "concept": "A rotation that grows and fades slightly toward the end of its turn before snapping back to full size and opacity. Reads as a stronger build-up than spin-grow.",
+    "keywords": ["expanding fade spin", "grow and fade loading", "snap back rotation", "fading growth spin", "dissolve and reset", "large scale build spin", "fade before reset"]
+  },
+  {
+    "name": "spin-balloon",
+    "phrase": "balloon inflate spin",
+    "category": "loading",
+    "concept": "A rotation where the element inflates past its target size before settling, like a balloon overfilled then eased back. Bouncier than a plain growth spin.",
+    "keywords": ["inflating spinner", "balloon spin", "overfilled scale", "bouncy growth rotation", "swelling past target", "elastic inflate loading", "puffing up spin"]
+  },
+  {
+    "name": "spin-zoom-loop",
+    "phrase": "zoom forward loop",
+    "category": "loading",
+    "concept": "A quick rotation with a strong, steady scale increase across the turn, then a sharp snap back to start. Feels fast and forward-driving, like zooming ahead.",
+    "keywords": ["zooming spinner", "fast scale ramp", "forward driving spin", "quick growth loading", "sharp reset zoom", "accelerating scale spin", "driving forward rotation"]
+  },
+  {
+    "name": "spin-amplify",
+    "phrase": "amplify in steps",
+    "category": "loading",
+    "concept": "A smoothly rotating element that grows in four distinct size steps, one per quarter-turn, then resets. The contrast between smooth turning and stepped growth reads as building intensity.",
+    "keywords": ["amplifying spin", "stepped growth rotation", "quarter step scale", "building intensity spin", "incremental amplify loading", "smooth turn stepped grow", "escalating size spin"]
+  },
+  {
+    "name": "gyrate",
+    "phrase": "gyrate",
+    "category": "loading",
+    "concept": "A rotation layered with a gentle side-to-side skew, giving the turn a slightly warped, two-axis feel without any 3D. A livelier alternative to a flat spin.",
+    "keywords": ["gyrating spinner", "skewed rotation", "warped spin", "two axis feel", "twisting loading icon", "flexing rotation", "off-kilter spin"]
+  },
+  {
+    "name": "gyrate-tilt",
+    "phrase": "tilt and gyrate",
+    "category": "loading",
+    "concept": "A rotation with a stronger vertical skew than the base gyrate, giving each turn a pronounced tilting, top-heavy feel. Reads as a heavier, more exaggerated wobble.",
+    "keywords": ["tilting gyrate", "top heavy spin", "strong skew rotation", "leaning wobble loading", "pronounced tilt spin", "heavy skewed turn", "exaggerated gyrate"]
+  },
+  {
+    "name": "gyrate-twist",
+    "phrase": "twist through the spin",
+    "category": "loading",
+    "concept": "A rotation where the skew shifts from one axis in the first half of the turn to the other axis in the second half, giving a twisting, figure-like motion.",
+    "keywords": ["twisting spinner", "shifting axis skew", "figure motion rotation", "cross axis twist", "two phase gyrate", "changing skew spin", "twisted loading icon"]
+  },
+  {
+    "name": "gyrate-flutter",
+    "phrase": "flutter and spin",
+    "category": "loading",
+    "concept": "A fast rotation with rapid, small skew oscillations layered throughout, like a fluttering flag caught in the turn. Busier and quicker than the base gyrate.",
+    "keywords": ["fluttering spin", "rapid skew oscillation", "flag flutter rotation", "quivering spinner", "fast wobble loading", "trembling gyrate", "shivering turn"]
+  },
+  {
+    "name": "gyrate-lean",
+    "phrase": "lean into the spin",
+    "category": "loading",
+    "concept": "A rotation with an uneven skew, leaning further one way than it corrects on the other. Gives the turn a lopsided, off-balance character.",
+    "keywords": ["leaning spin", "lopsided rotation", "off balance gyrate", "uneven skew spin", "tilted leaning loading", "asymmetric wobble", "skewed lean turn"]
+  },
+  {
+    "name": "gyrate-shear",
+    "phrase": "shear through the spin",
+    "category": "loading",
+    "concept": "A slow rotation with one strong vertical shear peak at the midpoint, like the shape briefly shearing sideways mid-turn. Heavier and simpler than the twist variant.",
+    "keywords": ["shearing spin", "single shear peak", "heavy skew rotation", "midpoint shear loading", "slow warp spin", "one sided shear turn", "deep shear gyrate"]
+  },
+  {
+    "name": "spin-urgent",
+    "phrase": "urgent quick spin",
+    "category": "loading",
+    "concept": "A very fast rotation with a tiny scale kick each turn, reading as urgent, high-priority activity. Faster than a standard spin, with a hint of pressure.",
+    "keywords": ["urgent spinner", "high priority loading", "fast pulse spin", "rushed rotation", "pressing spin", "quick urgent loading icon", "hurried spinner"]
+  },
+  {
+    "name": "spin-blitz",
+    "phrase": "blitz spin",
+    "category": "loading",
+    "concept": "A very fast rotation with a brief opacity flicker each turn, like a quick flash of activity. Reads as an intense, momentary burst of work.",
+    "keywords": ["blitz spinner", "flickering fast spin", "intense burst loading", "flashing rotation", "rapid flicker spin", "brief flash loading icon", "sharp burst spinner"]
+  },
+  {
+    "name": "spin-frenzy",
+    "phrase": "frenzied spin",
+    "category": "loading",
+    "concept": "A very fast, unevenly paced rotation that speeds and slows erratically within the turn. Reads as frantic, high-intensity activity rather than steady work.",
+    "keywords": ["frenzied spinner", "erratic fast rotation", "frantic loading", "chaotic spin pace", "uneven fast spin", "manic rotation", "high intensity spinner"]
+  },
+  {
+    "name": "spin-dash",
+    "phrase": "dash spin",
+    "category": "loading",
+    "concept": "A very fast rotation with a brief horizontal squish each turn, suggesting a streak or motion blur. Feels like a quick dash rather than a plain fast spin.",
+    "keywords": ["dashing spinner", "streaked rotation", "squished fast spin", "motion blur loading", "quick dash icon", "stretched spin", "speedy squish spinner"]
+  },
+  {
+    "name": "spin-stately",
+    "phrase": "stately slow spin",
+    "category": "loading",
+    "concept": "A very slow rotation with a smooth ease-in-out through each turn, reading as calm and dignified. Suits a background process with no urgency.",
+    "keywords": ["stately spinner", "dignified slow rotation", "calm loading icon", "unhurried spin", "graceful slow turn", "measured pace spinner", "composed loading"]
+  },
+  {
+    "name": "spin-regal",
+    "phrase": "regal even spin",
+    "category": "loading",
+    "concept": "An extremely slow, constant-speed rotation with a faint scale breath, reading as calm and composed. The slowest and evenest of the family.",
+    "keywords": ["regal spinner", "extremely slow rotation", "composed loading icon", "faint breathing spin", "serene slow turn", "even paced spinner", "quiet loading motion"]
+  },
+  {
+    "name": "spin-ponder",
+    "phrase": "ponder and turn",
+    "category": "loading",
+    "concept": "A slow rotation that pauses at each quarter-turn as if considering before continuing, like someone pondering a decision. Deliberate and unhurried.",
+    "keywords": ["pondering spinner", "thoughtful pause rotation", "considering spin", "deliberate slow steps", "contemplative loading icon", "reflective turn", "unhurried pause spin"]
+  },
+  {
+    "name": "spin-drift-slow",
+    "phrase": "drift slowly while spinning",
+    "category": "loading",
+    "concept": "A slow rotation with a very small, gentle circular drift, like a leaf turning slowly on still water. Meditative and understated.",
+    "keywords": ["slow drifting spin", "meditative rotation", "gentle circling loading", "calm drifting orbit", "still water turn", "quiet drift spinner", "understated slow orbit"]
+  },
+  {
+    "name": "spin-pendulum",
+    "phrase": "swing like a pendulum",
+    "category": "loading",
+    "concept": "The element swings forward then reverses back to its start, like a pendulum, instead of completing a full rotation. Loops smoothly as a back-and-forth motion.",
+    "keywords": ["pendulum spinner", "swinging back and forth", "reversing rotation", "clock pendulum motion", "swing loading icon", "oscillating swing", "to and fro spin"]
+  },
+  {
+    "name": "spin-seesaw",
+    "phrase": "seesaw the spin",
+    "category": "loading",
+    "concept": "The element tips one way, then the other, then levels out, like a seesaw rocking through its middle. A sharper back-and-forth than the pendulum swing.",
+    "keywords": ["seesaw spinner", "tipping rotation", "rocking back and forth", "leveling motion loading", "tilt and reverse spin", "rocking seesaw icon", "alternating tip spin"]
+  },
+  {
+    "name": "spin-tug",
+    "phrase": "tug then continue",
+    "category": "loading",
+    "concept": "The rotation moves forward, briefly pulls back as if tugged, then continues on to complete the turn. A single reversal inside an otherwise forward spin.",
+    "keywords": ["tug of war spin", "pulling back rotation", "brief reversal spin", "forward then tug loading", "resistance rotation", "snap back forward spin", "give and pull motion"]
+  },
+  {
+    "name": "spin-waver",
+    "phrase": "waver forward",
+    "category": "loading",
+    "concept": "The rotation edges forward with several small backward wavers along the way, like a hand that keeps hesitating before completing its turn. Net progress with visible hesitation.",
+    "keywords": ["wavering spinner", "hesitant rotation", "uneven forward spin", "faltering loading icon", "stop and go turn", "unsteady forward progress", "hesitating spin"]
+  },
+  {
+    "name": "orbit-tick",
+    "phrase": "tick around in orbit",
+    "category": "loading",
+    "concept": "A stepped rotation, paused at four points like a compass, that also shifts position slightly at each stop. Like a turret ticking between fixed headings.",
+    "keywords": ["orbiting tick spin", "turret stepping motion", "compass point pause", "stepped orbit loading", "position shift rotation", "ticking turret icon", "paused heading spin"]
+  },
+  {
+    "name": "spin-windup-fast",
+    "phrase": "quick wind-up spin",
+    "category": "loading",
+    "concept": "A very short, sharply accelerating rotation that ends with a small scale kick, like a spring released under urgency. Combines the wind-up feel with high speed.",
+    "keywords": ["fast wind up spin", "urgent spring release", "quick accelerating rotation", "snap release loading", "sharp wind up icon", "rapid coil release", "urgent momentum spin"]
+  },
+  {
+    "name": "gyrate-pulse",
+    "phrase": "gyrate and pulse",
+    "category": "loading",
+    "concept": "A rotation with a side-to-side skew that peaks alongside a small scale pulse, combining the warped feel of gyrate with a soft breathing beat.",
+    "keywords": ["pulsing gyrate", "skew and pulse spin", "wobbly breathing rotation", "combined skew pulse loading", "beating warped spin", "flexing pulse icon", "twisting breath spin"]
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "name": "slide-out-up-left",
+    "phrase": "slide out toward the upper-left corner",
+    "category": "exit",
+    "concept": "The element moves diagonally up and to the left while fading out, leaving along a straight angled path instead of a single axis. Use it when the exit should imply an off-screen corner rather than an edge.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["exit diagonally upper-left", "leave toward top-left corner", "dismiss to upper-left", "diagonal corner exit", "slide off at an angle", "card sliding off upper-left", "angled departure up-left", "leave along a diagonal", "toast exiting diagonally", "notification off to the corner"]
+  },
+  {
+    "name": "slide-out-up-right",
+    "phrase": "slide out toward the upper-right corner",
+    "category": "exit",
+    "concept": "The element moves diagonally up and to the right while fading out, leaving along a straight angled path instead of a single axis. Use it when the exit should imply an off-screen corner rather than an edge.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["exit diagonally upper-right", "leave toward top-right corner", "dismiss to upper-right", "diagonal corner exit", "slide off at an angle", "card sliding off upper-right", "angled departure up-right", "leave along a diagonal", "toast exiting diagonally", "notification off to the corner"]
+  },
+  {
+    "name": "slide-out-down-left",
+    "phrase": "slide out toward the lower-left corner",
+    "category": "exit",
+    "concept": "The element moves diagonally down and to the left while fading out, leaving along a straight angled path instead of a single axis. Use it when the exit should imply an off-screen corner rather than an edge.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["exit diagonally lower-left", "leave toward bottom-left corner", "dismiss to lower-left", "diagonal corner exit", "slide off at an angle", "card sliding off lower-left", "angled departure down-left", "leave along a diagonal", "sink toward the corner", "notification off to the corner"]
+  },
+  {
+    "name": "slide-out-down-right",
+    "phrase": "slide out toward the lower-right corner",
+    "category": "exit",
+    "concept": "The element moves diagonally down and to the right while fading out, leaving along a straight angled path instead of a single axis. Use it when the exit should imply an off-screen corner rather than an edge.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["exit diagonally lower-right", "leave toward bottom-right corner", "dismiss to lower-right", "diagonal corner exit", "slide off at an angle", "card sliding off lower-right", "angled departure down-right", "leave along a diagonal", "sink toward the corner", "notification off to the corner"]
+  },
+  {
+    "name": "corner-tuck-top-right",
+    "phrase": "shrink and tuck into the top-right corner",
+    "category": "exit",
+    "concept": "The element shrinks while sliding into the top-right corner, as if tucking itself away like a minimized window. Use it for panels or cards that collapse into a corner icon rather than leaving the screen entirely.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["minimize to corner", "tuck into top-right corner", "shrink and slide to corner", "collapse into corner icon", "minimize window", "tuck away top-right", "shrink toward the corner", "dock into corner", "collapse to corner", "archive into corner"]
+  },
+  {
+    "name": "corner-tuck-top-left",
+    "phrase": "shrink and tuck into the top-left corner",
+    "category": "exit",
+    "concept": "The element shrinks while sliding into the top-left corner, as if tucking itself away like a minimized window. Use it for panels or cards that collapse into a corner icon rather than leaving the screen entirely.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["minimize to corner", "tuck into top-left corner", "shrink and slide to corner", "collapse into corner icon", "minimize window", "tuck away top-left", "shrink toward the corner", "dock into corner", "collapse to corner", "archive into corner"]
+  },
+  {
+    "name": "corner-tuck-bottom-right",
+    "phrase": "shrink and tuck into the bottom-right corner",
+    "category": "exit",
+    "concept": "The element shrinks while sliding into the bottom-right corner, as if tucking itself away like a minimized window. Use it for panels or cards that collapse into a corner icon rather than leaving the screen entirely.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["minimize to corner", "tuck into bottom-right corner", "shrink and slide to corner", "collapse into corner icon", "minimize window", "tuck away bottom-right", "shrink toward the corner", "dock into corner", "collapse to corner", "archive into corner"]
+  },
+  {
+    "name": "corner-tuck-bottom-left",
+    "phrase": "shrink and tuck into the bottom-left corner",
+    "category": "exit",
+    "concept": "The element shrinks while sliding into the bottom-left corner, as if tucking itself away like a minimized window. Use it for panels or cards that collapse into a corner icon rather than leaving the screen entirely.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["minimize to corner", "tuck into bottom-left corner", "shrink and slide to corner", "collapse into corner icon", "minimize window", "tuck away bottom-left", "shrink toward the corner", "dock into corner", "collapse to corner", "archive into corner"]
+  },
+  {
+    "name": "arc-out-up-right",
+    "phrase": "arc away toward the upper right",
+    "category": "exit",
+    "concept": "The element follows a curved arc rather than a straight line, moving sideways first and then sweeping upward and away. Use it when a departure should read as a graceful flight path instead of a rigid slide.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["arc away upper-right", "curved exit path", "sweep off in an arc", "fly away curving upward", "graceful curved exit", "swoosh off screen", "curving departure", "arcing dismiss", "fly off in a curve", "banking exit right"]
+  },
+  {
+    "name": "arc-out-up-left",
+    "phrase": "arc away toward the upper left",
+    "category": "exit",
+    "concept": "The element follows a curved arc rather than a straight line, moving sideways first and then sweeping upward and away. Use it when a departure should read as a graceful flight path instead of a rigid slide.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["arc away upper-left", "curved exit path", "sweep off in an arc", "fly away curving upward", "graceful curved exit", "swoosh off screen", "curving departure", "arcing dismiss", "fly off in a curve", "banking exit left"]
+  },
+  {
+    "name": "arc-out-down-right",
+    "phrase": "arc away toward the lower right",
+    "category": "exit",
+    "concept": "The element follows a curved arc rather than a straight line, moving sideways first and then dropping down and away. Use it when a departure should read as a graceful flight path instead of a rigid slide.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["arc away lower-right", "curved exit path", "sweep off in an arc", "fly away curving downward", "graceful curved exit", "swoosh off screen", "curving departure", "arcing dismiss", "fly off in a curve", "banking exit down-right"]
+  },
+  {
+    "name": "arc-out-down-left",
+    "phrase": "arc away toward the lower left",
+    "category": "exit",
+    "concept": "The element follows a curved arc rather than a straight line, moving sideways first and then dropping down and away. Use it when a departure should read as a graceful flight path instead of a rigid slide.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["arc away lower-left", "curved exit path", "sweep off in an arc", "fly away curving downward", "graceful curved exit", "swoosh off screen", "curving departure", "arcing dismiss", "fly off in a curve", "banking exit down-left"]
+  },
+  {
+    "name": "swoop-out-right",
+    "phrase": "swoop out to the right",
+    "category": "exit",
+    "concept": "The element dips slightly downward before swooping rightward and slightly upward off the far edge, like a bird banking away. Use it for a lively, energetic departure that covers a long horizontal distance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["swoop away right", "dip then swoop off", "swoop off to the right", "bird-like exit", "banking swoop", "swoop off screen", "playful sideways exit", "swoop far right", "dip and dash right", "energetic swoop exit"]
+  },
+  {
+    "name": "swoop-out-left",
+    "phrase": "swoop out to the left",
+    "category": "exit",
+    "concept": "The element dips slightly downward before swooping leftward and slightly upward off the far edge, like a bird banking away. Use it for a lively, energetic departure that covers a long horizontal distance.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["swoop away left", "dip then swoop off", "swoop off to the left", "bird-like exit", "banking swoop", "swoop off screen", "playful sideways exit", "swoop far left", "dip and dash left", "energetic swoop exit"]
+  },
+  {
+    "name": "loop-out-up",
+    "phrase": "loop and rise away",
+    "category": "exit",
+    "concept": "The element traces a small loop, swinging right then left, before rising straight up and out. Use it for a whimsical or playful departure, such as a balloon-like element drifting off after a little flourish.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["loopy exit upward", "curl before leaving", "playful loop departure", "swing and rise away", "whimsical exit upward", "balloon-like exit", "flourish before leaving", "loop then float up", "curly departure path", "swing-out and rise"]
+  },
+  {
+    "name": "loop-out-down",
+    "phrase": "loop and sink away",
+    "category": "exit",
+    "concept": "The element traces a small loop, swinging left then right, before sinking straight down and out. Use it for a whimsical or playful departure, such as a leaf-like element drifting off after a little flourish.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["loopy exit downward", "curl before leaving", "playful loop departure", "swing and sink away", "whimsical exit downward", "leaf-like exit", "flourish before leaving", "loop then sink down", "curly departure path", "swing-out and drop"]
+  },
+  {
+    "name": "spiral-out-clockwise",
+    "phrase": "spiral away clockwise",
+    "category": "exit",
+    "concept": "The element spins clockwise while shrinking and drifting away, as if being sucked into a vanishing point. Use it for a dramatic or magical disappearance, such as an item vanishing into thin air.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["spiral away clockwise", "spin and shrink out", "vanish spinning", "magical disappear", "swirl away", "rotate and shrink exit", "twist away clockwise", "spinning vanish", "sucked away spinning", "disappear with a spin"]
+  },
+  {
+    "name": "spiral-out-counter",
+    "phrase": "spiral away counter-clockwise",
+    "category": "exit",
+    "concept": "The element spins counter-clockwise while shrinking and drifting away, as if being sucked into a vanishing point. Use it for a dramatic or magical disappearance, such as an item vanishing into thin air.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["spiral away counter-clockwise", "spin and shrink out", "vanish spinning reverse", "magical disappear", "swirl away reverse", "rotate and shrink exit", "twist away counter-clockwise", "spinning vanish reverse", "sucked away spinning", "disappear with a reverse spin"]
+  },
+  {
+    "name": "zigzag-out-up",
+    "phrase": "zigzag upward and away",
+    "category": "exit",
+    "concept": "The element zigzags side to side while climbing upward, like a paper airplane veering before it leaves view. Use it for an erratic, attention-grabbing exit rather than a smooth departure.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["zigzag away upward", "veering exit upward", "erratic departure upward", "wobbly path exit", "paper-airplane exit", "dart back and forth then leave", "jittery upward exit", "weaving departure", "snake path exit", "zigzag off screen"]
+  },
+  {
+    "name": "zigzag-out-down",
+    "phrase": "zigzag downward and away",
+    "category": "exit",
+    "concept": "The element zigzags side to side while dropping downward, like a falling leaf veering before it leaves view. Use it for an erratic, attention-grabbing exit rather than a smooth departure.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["zigzag away downward", "veering exit downward", "erratic departure downward", "wobbly path exit", "falling-leaf exit", "dart back and forth then leave", "jittery downward exit", "weaving departure", "snake path exit", "zigzag off screen"]
+  },
+  {
+    "name": "yank-out-left",
+    "phrase": "pull back then yank out to the left",
+    "category": "exit",
+    "concept": "The element pulls back slightly to the right, as if gathering momentum, then yanks hard to the left and off screen. Use it when a dismissal should feel forceful and sudden, like something being snatched away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yank away left", "snatch off screen", "forceful pull then exit", "sudden yank left", "wind-up and dash left", "snap away left", "pull-back dismiss", "quick yank exit", "jerked off screen", "forceful leftward exit"]
+  },
+  {
+    "name": "yank-out-right",
+    "phrase": "pull back then yank out to the right",
+    "category": "exit",
+    "concept": "The element pulls back slightly to the left, as if gathering momentum, then yanks hard to the right and off screen. Use it when a dismissal should feel forceful and sudden, like something being snatched away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yank away right", "snatch off screen", "forceful pull then exit", "sudden yank right", "wind-up and dash right", "snap away right", "pull-back dismiss", "quick yank exit", "jerked off screen", "forceful rightward exit"]
+  },
+  {
+    "name": "yank-out-up",
+    "phrase": "pull back then yank out upward",
+    "category": "exit",
+    "concept": "The element pulls back slightly downward, as if gathering momentum, then yanks hard upward and off screen. Use it when a dismissal should feel forceful and sudden, like something being snatched away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yank away upward", "snatch off screen", "forceful pull then exit", "sudden yank up", "wind-up and dash up", "snap away upward", "pull-back dismiss", "quick yank exit", "jerked off screen", "forceful upward exit"]
+  },
+  {
+    "name": "yank-out-down",
+    "phrase": "pull back then yank out downward",
+    "category": "exit",
+    "concept": "The element pulls back slightly upward, as if gathering momentum, then yanks hard downward and off screen. Use it when a dismissal should feel forceful and sudden, like something being snatched away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["yank away downward", "snatch off screen", "forceful pull then exit", "sudden yank down", "wind-up and dash down", "snap away downward", "pull-back dismiss", "quick yank exit", "jerked off screen", "forceful downward exit"]
+  },
+  {
+    "name": "flick-out-up",
+    "phrase": "flick upward off the surface",
+    "category": "exit",
+    "concept": "The element dips down a touch, then flicks upward and away with a slight rotation, like flicking a crumb off a table. Use it for a light, dismissive gesture rather than a weighty exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flick away upward", "light dismissive flick", "flick off the table", "quick flick exit", "tiny dip then flick", "casual flick dismiss", "snap-flick upward", "brush away exit", "light flick departure", "flick off screen"]
+  },
+  {
+    "name": "flick-out-down",
+    "phrase": "flick downward off the surface",
+    "category": "exit",
+    "concept": "The element lifts up a touch, then flicks downward and away with a slight rotation, like flicking a crumb off a table. Use it for a light, dismissive gesture rather than a weighty exit.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["flick away downward", "light dismissive flick", "flick off the table", "quick flick exit", "tiny lift then flick", "casual flick dismiss", "snap-flick downward", "brush away exit", "light flick departure", "flick off screen"]
+  },
+  {
+    "name": "fling-out-up",
+    "phrase": "settle briefly then fling upward",
+    "category": "exit",
+    "concept": "The element settles for a brief moment as if paused, then flings far upward and out of view in one fast motion. Use it for a two-beat exit: a pause that builds anticipation, then a big departure.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["pause then fling upward", "settle and launch away", "two-beat exit upward", "anticipation then departure", "hold then fling off", "beat pause launch", "delayed fling upward", "wait then fly away", "pause-launch exit", "big fling departure"]
+  },
+  {
+    "name": "fling-out-right",
+    "phrase": "settle briefly then fling to the right",
+    "category": "exit",
+    "concept": "The element settles for a brief moment as if paused, then flings far to the right and out of view in one fast motion. Use it for a two-beat exit: a pause that builds anticipation, then a big departure.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["pause then fling right", "settle and launch away", "two-beat exit rightward", "anticipation then departure", "hold then fling off", "beat pause launch", "delayed fling right", "wait then fly away", "pause-launch exit", "big fling departure"]
+  },
+  {
+    "name": "bounce-out-up",
+    "phrase": "bounce then launch upward",
+    "category": "exit",
+    "concept": "The element bounces down and up once, gathering energy, before launching upward and off screen. Use it for a springy, elastic exit that feels alive rather than mechanical.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["bouncy exit upward", "springy departure", "elastic bounce then leave", "energetic bounce away", "bounce and launch up", "playful bounce exit", "springy dismiss", "bounce before leaving", "elastic launch upward", "bouncy send-off"]
+  },
+  {
+    "name": "bounce-out-down",
+    "phrase": "bounce then launch downward",
+    "category": "exit",
+    "concept": "The element bounces up and down once, gathering energy, before launching downward and off screen. Use it for a springy, elastic exit that feels alive rather than mechanical.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["bouncy exit downward", "springy departure", "elastic bounce then leave", "energetic bounce away", "bounce and launch down", "playful bounce exit", "springy dismiss", "bounce before leaving", "elastic launch downward", "bouncy send-off"]
+  },
+  {
+    "name": "skid-out-right",
+    "phrase": "skid off to the right",
+    "category": "exit",
+    "concept": "The element skids sideways with a slight rotating tilt, as if sliding off the edge of a surface. Use it for a friction-driven exit, like a card being pushed off a table.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["skid off screen right", "slide off with tilt", "push off the table", "skid away right", "sliding tilt exit", "friction exit", "skid off edge", "tilted slide away", "card skidding off", "push and skid exit"]
+  },
+  {
+    "name": "skid-out-left",
+    "phrase": "skid off to the left",
+    "category": "exit",
+    "concept": "The element skids sideways with a slight rotating tilt, as if sliding off the edge of a surface. Use it for a friction-driven exit, like a card being pushed off a table.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["skid off screen left", "slide off with tilt", "push off the table", "skid away left", "sliding tilt exit", "friction exit", "skid off edge", "tilted slide away", "card skidding off", "push and skid exit"]
+  },
+  {
+    "name": "toss-out-up-right",
+    "phrase": "toss away toward the upper right",
+    "category": "exit",
+    "concept": "The element is tossed diagonally toward the upper right while tumbling with rotation, like discarding a piece of paper over one's shoulder. Use it for a careless, casual dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["toss away diagonally", "discard over the shoulder", "tumble off upper-right", "careless toss exit", "throw away up-right", "casual discard", "tossed aside", "flung diagonally away", "throw off toward corner", "tumbling toss exit"]
+  },
+  {
+    "name": "toss-out-up-left",
+    "phrase": "toss away toward the upper left",
+    "category": "exit",
+    "concept": "The element is tossed diagonally toward the upper left while tumbling with rotation, like discarding a piece of paper over one's shoulder. Use it for a careless, casual dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["toss away diagonally", "discard over the shoulder", "tumble off upper-left", "careless toss exit", "throw away up-left", "casual discard", "tossed aside", "flung diagonally away", "throw off toward corner", "tumbling toss exit"]
+  },
+  {
+    "name": "toss-out-down-right",
+    "phrase": "toss away toward the lower right",
+    "category": "exit",
+    "concept": "The element is tossed diagonally toward the lower right while tumbling with rotation, like discarding a piece of paper onto the floor. Use it for a careless, casual dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["toss away diagonally", "discard onto the floor", "tumble off lower-right", "careless toss exit", "throw away down-right", "casual discard", "tossed aside", "flung diagonally away", "throw off toward corner", "tumbling toss exit"]
+  },
+  {
+    "name": "toss-out-down-left",
+    "phrase": "toss away toward the lower left",
+    "category": "exit",
+    "concept": "The element is tossed diagonally toward the lower left while tumbling with rotation, like discarding a piece of paper onto the floor. Use it for a careless, casual dismissal.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["toss away diagonally", "discard onto the floor", "tumble off lower-left", "careless toss exit", "throw away down-left", "casual discard", "tossed aside", "flung diagonally away", "throw off toward corner", "tumbling toss exit"]
+  },
+  {
+    "name": "long-haul-exit-up",
+    "phrase": "travel far upward and out of view",
+    "category": "exit",
+    "concept": "The element starts slowly and then accelerates hard, traveling three times the standard distance straight up and out of view. Use it when an exit needs to feel like it is leaving the screen entirely, not just nudging out of the layout.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["long exit upward", "travel far up and away", "slow start fast finish up", "leave the screen entirely", "far-reaching exit up", "accelerating long departure", "full-screen exit upward", "long haul away", "big distance exit up", "gathering speed upward"]
+  },
+  {
+    "name": "long-haul-exit-down",
+    "phrase": "travel far downward and out of view",
+    "category": "exit",
+    "concept": "The element starts slowly and then accelerates hard, traveling three times the standard distance straight down and out of view. Use it when an exit needs to feel like it is leaving the screen entirely, not just nudging out of the layout.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["long exit downward", "travel far down and away", "slow start fast finish down", "leave the screen entirely", "far-reaching exit down", "accelerating long departure", "full-screen exit downward", "long haul away", "big distance exit down", "gathering speed downward"]
+  },
+  {
+    "name": "sprint-out-left",
+    "phrase": "burst away then coast to the left",
+    "category": "exit",
+    "concept": "The element bursts away quickly at the start and then coasts to its final position, the opposite feel of a typical accelerating exit. Use it when the initial reaction should read as sudden but the departure should settle smoothly out of view.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["fast start slow finish left", "sudden burst then coast", "quick reaction slow exit", "decelerating departure left", "sprint then ease away", "burst and coast left", "initial snap then glide", "fast-out slow-away", "quick start smooth exit", "sprint away left"]
+  },
+  {
+    "name": "sprint-out-right",
+    "phrase": "burst away then coast to the right",
+    "category": "exit",
+    "concept": "The element bursts away quickly at the start and then coasts to its final position, the opposite feel of a typical accelerating exit. Use it when the initial reaction should read as sudden but the departure should settle smoothly out of view.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["fast start slow finish right", "sudden burst then coast", "quick reaction slow exit", "decelerating departure right", "sprint then ease away", "burst and coast right", "initial snap then glide", "fast-out slow-away", "quick start smooth exit", "sprint away right"]
+  },
+  {
+    "name": "creep-out-up",
+    "phrase": "creep away then rush upward",
+    "category": "exit",
+    "concept": "The element creeps away almost imperceptibly at first, then rushes out of view in its final moments. Use it for a slow build-up departure, like something quietly sneaking off before suddenly vanishing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["creeping exit upward", "slow build then rush away", "sneak off then vanish", "gradual then sudden exit", "quiet creep away", "slow start fast finish up", "sneaking departure", "barely-moving then gone", "stealthy exit upward", "delayed rush away"]
+  },
+  {
+    "name": "creep-out-down",
+    "phrase": "creep away then rush downward",
+    "category": "exit",
+    "concept": "The element creeps away almost imperceptibly at first, then rushes out of view in its final moments. Use it for a slow build-up departure, like something quietly sneaking off before suddenly vanishing.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["creeping exit downward", "slow build then rush away", "sneak off then vanish", "gradual then sudden exit", "quiet creep away", "slow start fast finish down", "sneaking departure", "barely-moving then gone", "stealthy exit downward", "delayed rush away"]
+  },
+  {
+    "name": "dive-out-down-right",
+    "phrase": "dive steeply toward the lower right",
+    "category": "exit",
+    "concept": "The element dives steeply toward the bottom-right corner, picking up speed and rotating slightly as it falls away. Use it for a dramatic downward exit, like an object being dropped and skidding off the corner.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dive off bottom-right", "fall away diagonally", "steep downward exit", "dramatic dive exit", "drop and skid corner", "plunge toward corner", "falling diagonal exit", "dive off screen", "steep corner drop", "plunging departure"]
+  },
+  {
+    "name": "dive-out-down-left",
+    "phrase": "dive steeply toward the lower left",
+    "category": "exit",
+    "concept": "The element dives steeply toward the bottom-left corner, picking up speed and rotating slightly as it falls away. Use it for a dramatic downward exit, like an object being dropped and skidding off the corner.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["dive off bottom-left", "fall away diagonally", "steep downward exit", "dramatic dive exit", "drop and skid corner", "plunge toward corner", "falling diagonal exit", "dive off screen", "steep corner drop", "plunging departure"]
+  },
+  {
+    "name": "climb-out-up-left",
+    "phrase": "climb diagonally toward the upper left",
+    "category": "exit",
+    "concept": "The element climbs diagonally toward the upper-left, gaining speed as it ascends and fades away. Use it for a determined upward-and-away departure along a 45-degree path.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["climb away upper-left", "ascend diagonally out", "rising corner exit", "climb off screen", "diagonal ascent departure", "rise toward corner", "upward climb exit", "ascending corner departure", "climb and fade upper-left", "steady diagonal ascent"]
+  },
+  {
+    "name": "climb-out-up-right",
+    "phrase": "climb diagonally toward the upper right",
+    "category": "exit",
+    "concept": "The element climbs diagonally toward the upper-right, gaining speed as it ascends and fades away. Use it for a determined upward-and-away departure along a 45-degree path.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["climb away upper-right", "ascend diagonally out", "rising corner exit", "climb off screen", "diagonal ascent departure", "rise toward corner", "upward climb exit", "ascending corner departure", "climb and fade upper-right", "steady diagonal ascent"]
+  },
+  {
+    "name": "curl-away-up",
+    "phrase": "curl and blur upward and away",
+    "category": "exit",
+    "concept": "The element curls to one side and rotates as it rises, gradually blurring as though motion is outpacing focus. Use it for a soft, dreamlike upward departure, such as a thought bubble drifting away.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["curl and rise away", "dreamlike upward exit", "blur while leaving", "curling upward departure", "soft blurred exit", "thought-bubble drift", "curl off and fade", "gentle curling exit", "hazy upward departure", "rotate and blur away"]
+  },
+  {
+    "name": "curl-away-down",
+    "phrase": "curl and blur downward and away",
+    "category": "exit",
+    "concept": "The element curls to one side and rotates as it sinks, gradually blurring as though motion is outpacing focus. Use it for a soft, dreamlike downward departure, such as a leaf settling out of view.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["curl and sink away", "dreamlike downward exit", "blur while leaving", "curling downward departure", "soft blurred exit", "leaf-like drift", "curl off and fade", "gentle curling exit", "hazy downward departure", "rotate and blur away"]
+  },
+  {
+    "name": "peel-out-right",
+    "phrase": "peel off to the right like a sticker",
+    "category": "exit",
+    "concept": "The element lifts slightly at the corner as if peeling loose, then flips away to the right like a sticker pulled off a surface. Use it for a satisfying peel-off dismissal, such as removing a label or tag.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["peel off to the right", "sticker peel exit", "lift and peel away", "label peel-off", "peel loose then leave", "unstick and exit right", "peel-away dismiss", "corner lift then peel", "sticker-style exit", "peeling departure right"]
+  },
+  {
+    "name": "peel-out-left",
+    "phrase": "peel off to the left like a sticker",
+    "category": "exit",
+    "concept": "The element lifts slightly at the corner as if peeling loose, then flips away to the left like a sticker pulled off a surface. Use it for a satisfying peel-off dismissal, such as removing a label or tag.",
+    "defaults": { "repeat": 1 },
+    "keywords": ["peel off to the left", "sticker peel exit", "lift and peel away", "label peel-off", "peel loose then leave", "unstick and exit left", "peel-away dismiss", "corner lift then peel", "sticker-style exit", "peeling departure left"]
+  }
+]

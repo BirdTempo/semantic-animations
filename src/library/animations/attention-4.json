@@ -1,0 +1,352 @@
+[
+  {
+    "name": "base-rock",
+    "phrase": "rock on its base",
+    "category": "attention",
+    "concept": "A rotation that pivots from the bottom edge, like a toy rocking on its base. Use it for an icon that should read as balanced and self-righting.",
+    "keywords": ["rock on its base", "toy rocking motion", "roly-poly rock", "self-righting icon", "balanced rocking", "base pivot animation", "rocking toy icon", "tipping and righting", "rock back and forth", "stable rocking cue"]
+  },
+  {
+    "name": "bottom-tip",
+    "phrase": "tip and settle from the bottom",
+    "category": "attention",
+    "concept": "A tip from the bottom edge that overshoots once and settles into rest before the next cycle. Use it for an element that should look top-heavy and unstable, in a playful way.",
+    "keywords": ["tip and settle", "overshoot then rest", "top-heavy icon", "unstable tip motion", "tipping from the base", "settle after a tip", "playful instability", "bottom-anchored tip", "tip and recover"]
+  },
+  {
+    "name": "seesaw-tip",
+    "phrase": "seesaw side to side",
+    "category": "attention",
+    "concept": "A steady side-to-side rock from the bottom edge, like a seesaw with no pause at the ends. Use it for a toggle or switch icon that stays in constant, even motion.",
+    "keywords": ["seesaw motion", "side to side rock", "even rocking rhythm", "toggle icon motion", "switch rocking cue", "constant seesaw", "balanced side rock", "rhythmic tipping", "seesaw icon animation"]
+  },
+  {
+    "name": "roly-poly",
+    "phrase": "wobble like a roly-poly toy",
+    "category": "attention",
+    "concept": "A bottom-pivoted rock that decays in amplitude each cycle, like a roly-poly toy settling after a push. Use it for a friendly, bouncy notification cue.",
+    "keywords": ["roly-poly toy", "decaying rock motion", "bouncy settle", "wobbly toy animation", "push and settle", "friendly rocking cue", "tumbler toy motion", "rock and decay", "playful settle"]
+  },
+  {
+    "name": "foot-rock",
+    "phrase": "rock gently on its foot",
+    "category": "attention",
+    "concept": "A small, even rock from a point near the bottom, like a figure shifting its weight foot to foot. Use it for a light, low-key attention cue on a grounded element.",
+    "keywords": ["shift weight foot to foot", "light rocking cue", "grounded element motion", "low-key rock", "small foot rock", "weight-shift animation", "subtle base rock", "gentle foot tilt"]
+  },
+  {
+    "name": "anchor-rock",
+    "phrase": "rock slowly like it's anchored",
+    "category": "attention",
+    "concept": "A slow, heavy rock from the bottom edge, as if the element is anchored and swaying under load. Use it for a sturdy icon that needs a calm, weighty attention cue.",
+    "keywords": ["anchored rocking", "heavy sway motion", "sturdy icon cue", "slow weighted rock", "calm heavy tilt", "anchor sway", "grounded slow rock", "weighted base motion"]
+  },
+  {
+    "name": "baseline-teeter",
+    "phrase": "teeter on its baseline",
+    "category": "attention",
+    "concept": "A quick tip-and-settle from the bottom edge, followed by a pause before it repeats. Use it for an icon that needs a brief nudge of attention without constant motion.",
+    "keywords": ["quick tip and pause", "teeter then rest", "brief base nudge", "periodic tipping", "tip pause repeat", "baseline wobble pause", "intermittent teeter", "short tip cue"]
+  },
+  {
+    "name": "slow-lean",
+    "phrase": "lean slowly and return",
+    "category": "attention",
+    "concept": "A slow, single-axis lean to one side and back, calmer and less showy than a wobble. Use it for a subtle cue that something deserves a second look, without urgency.",
+    "keywords": ["slow single lean", "calm tilt cue", "subtle second look", "gentle one-way lean", "unhurried tilt", "quiet lean motion", "low-urgency attention", "slow return tilt", "soft single-axis lean"]
+  },
+  {
+    "name": "gentle-lean",
+    "phrase": "lean gently to one side",
+    "category": "attention",
+    "concept": "A gentle lean away from center that eases back slowly, with no overshoot. Use it for a calm highlight on an element that should feel composed, not urgent.",
+    "keywords": ["gentle single lean", "composed tilt cue", "slow ease back", "no overshoot lean", "calm highlight motion", "soft lean and return", "quiet tilt animation", "measured lean cue"]
+  },
+  {
+    "name": "calm-tilt",
+    "phrase": "tilt calmly and ease back",
+    "category": "attention",
+    "concept": "A slow tilt from the top edge that rises and settles evenly, like a calm nod. Use it for a friendly, low-intensity highlight on a card or icon.",
+    "keywords": ["calm nodding tilt", "slow top-anchored tilt", "friendly highlight cue", "even rise and settle", "low-intensity tilt", "gentle nod motion", "top-pivot lean", "composed tilt cue"]
+  },
+  {
+    "name": "lean-back",
+    "phrase": "lean back and return",
+    "category": "attention",
+    "concept": "A slow lean backward and a smooth return, the opposite direction of a forward lean. Use it for a relaxed, unhurried cue, like an element easing off.",
+    "keywords": ["lean backward slowly", "relaxed tilt cue", "easing off motion", "backward lean and return", "unhurried backward tilt", "calm recline motion", "slow backward ease", "gentle backward cue"]
+  },
+  {
+    "name": "easy-lean",
+    "phrase": "ease into a lean",
+    "category": "attention",
+    "concept": "An unhurried lean from an off-center pivot, drifting gently to one side before easing home. Use it for a soft, ambient highlight that never feels urgent.",
+    "keywords": ["unhurried off-center lean", "ambient highlight cue", "soft drifting tilt", "easy going motion", "gentle off-axis lean", "slow ambient tilt", "relaxed drift cue", "soft single lean"]
+  },
+  {
+    "name": "soft-incline",
+    "phrase": "tilt into a soft incline",
+    "category": "attention",
+    "concept": "A slow tilt that rises, briefly holds at a lower angle, then eases back to level. Use it for a calm cue that lingers a moment longer than a plain lean.",
+    "keywords": ["soft rising tilt", "brief hold and ease", "lingering lean cue", "slow incline motion", "calm hold and settle", "gentle rise and pause", "soft tilt with hold", "unhurried lingering tilt"]
+  },
+  {
+    "name": "quick-teeter",
+    "phrase": "teeter quickly side to side",
+    "category": "attention",
+    "concept": "A fast, small-amplitude rotation that oscillates evenly, like a nervous back-and-forth twitch. Use it for an urgent cue that needs energy without a large motion.",
+    "keywords": ["fast small oscillation", "nervous back and forth", "quick even teeter", "small amplitude tilt", "urgent tilt cue", "rapid twitchy motion", "fast tiny rotation", "jittery attention cue", "nervous energy tilt"]
+  },
+  {
+    "name": "jitter-tilt",
+    "phrase": "jitter with small tilts",
+    "category": "attention",
+    "concept": "A rapid series of tiny tilts that alternate direction every beat, like a jittery nervous tic. Use it for a high-energy alert on a small icon or badge.",
+    "keywords": ["rapid alternating tilt", "jittery nervous tic", "tiny fast tilts", "high-energy alert cue", "quick alternating rotation", "nervous jitter motion", "fast tic-like tilt", "small jitter cue"]
+  },
+  {
+    "name": "nervous-teeter",
+    "phrase": "teeter with nervous energy",
+    "category": "attention",
+    "concept": "A fast teeter that oscillates with slightly decaying amplitude each cycle, like restless nervous energy settling and building again. Use it for anxious, urgent states.",
+    "keywords": ["restless teeter motion", "nervous decaying oscillation", "anxious tilt cue", "fast restless rotation", "urgent nervous energy", "decaying teeter cycle", "jittery restless motion", "tense small tilt"]
+  },
+  {
+    "name": "fidget-tilt",
+    "phrase": "fidget with a small tilt",
+    "category": "attention",
+    "concept": "A burst of quick small tilts followed by a pause, like fidgeting fingers tapping then resting. Use it for an intermittent nervous cue rather than constant motion.",
+    "keywords": ["fidgeting burst tilt", "quick tilt then pause", "tapping-like motion", "intermittent nervous cue", "burst and rest tilt", "fidgety small rotation", "tap and settle tilt", "periodic fidget cue"]
+  },
+  {
+    "name": "flutter-teeter",
+    "phrase": "flutter-teeter rapidly",
+    "category": "attention",
+    "concept": "A rapid flutter of small tilts that gradually settle within each cycle, like a fluttering, anxious flicker. Use it for a lively, high-frequency attention cue.",
+    "keywords": ["fluttering small tilt", "rapid flicker motion", "anxious flutter cue", "high-frequency teeter", "fluttery rotation", "quick settling flutter", "lively tilt flicker", "fast flutter animation"]
+  },
+  {
+    "name": "twitch-tilt",
+    "phrase": "twitch with a sharp tilt",
+    "category": "attention",
+    "concept": "A sharp, single twitch of rotation that snaps and immediately rests before repeating. Use it for a brief, startling nudge, like a sudden reflex.",
+    "keywords": ["sharp single twitch", "snap and rest tilt", "reflex-like motion", "startling tilt cue", "brief twitch animation", "sudden snap rotation", "quick reflex tilt", "startle cue motion"]
+  },
+  {
+    "name": "rapid-teeter",
+    "phrase": "teeter rapidly in place",
+    "category": "attention",
+    "concept": "A very fast, small back-and-forth rotation with no pause, like a buzzing vibration. Use it for a high-urgency cue that needs constant nervous energy.",
+    "keywords": ["buzzing vibration tilt", "very fast teeter", "constant nervous rotation", "high-urgency buzz cue", "vibrating small tilt", "fast buzz motion", "rapid vibrating rotation", "no-pause teeter cue"]
+  },
+  {
+    "name": "lean-in",
+    "phrase": "lean in toward the viewer",
+    "category": "attention",
+    "concept": "A tilt paired with a slight scale increase, as if the element is leaning toward the viewer. Use it for a call to action that should feel inviting and forward.",
+    "keywords": ["tilt and grow", "lean toward viewer", "inviting forward motion", "scale up with tilt", "approach cue animation", "forward leaning scale", "call-to-action tilt", "tilt plus grow cue"]
+  },
+  {
+    "name": "tilt-forward",
+    "phrase": "tilt forward and grow",
+    "category": "attention",
+    "concept": "A forward tilt combined with a small scale increase, as if the element is stepping closer. Use it for a highlighted item that should feel more present.",
+    "keywords": ["forward tilt and scale", "stepping closer motion", "present highlight cue", "tilt with growth", "forward lean scale", "approach and grow", "closer stepping tilt", "scale forward cue"]
+  },
+  {
+    "name": "press-lean",
+    "phrase": "press forward and lean in",
+    "category": "attention",
+    "concept": "A tilt that rises in two stages with a matching scale increase, as if pressing forward in steps. Use it for a firm, deliberate emphasis on an element.",
+    "keywords": ["staged tilt and scale", "press forward motion", "deliberate emphasis cue", "two-stage lean", "firm forward tilt", "stepped scale increase", "press and grow tilt", "staged approach cue"]
+  },
+  {
+    "name": "approach-tilt",
+    "phrase": "tilt as if approaching",
+    "category": "attention",
+    "concept": "A tilt from an off-center pivot with a scale increase, reading as the element angling and approaching at once. Use it for a friendly beckoning cue.",
+    "keywords": ["angling and approaching", "off-center tilt scale", "beckoning motion cue", "approach with growth", "friendly angled lean", "tilt toward viewer", "scale and angle cue", "beckon and grow tilt"]
+  },
+  {
+    "name": "lean-close",
+    "phrase": "lean in close",
+    "category": "attention",
+    "concept": "A gentle tilt with a modest scale increase that reads as coming in close, softer than a full approach. Use it for a warm, low-key invitation.",
+    "keywords": ["gentle close lean", "modest scale increase", "warm invitation cue", "soft coming-close tilt", "low-key approach motion", "tilt and slight grow", "close-in tilt cue", "subtle invite motion"]
+  },
+  {
+    "name": "tilt-loom",
+    "phrase": "loom forward with a tilt",
+    "category": "attention",
+    "concept": "A pronounced tilt with a larger scale increase, as if the element looms forward toward the viewer. Use it for a bold, attention-grabbing emphasis.",
+    "keywords": ["looming forward tilt", "bold scale increase", "pronounced approach cue", "large tilt and grow", "attention-grabbing loom", "dominant forward lean", "loom and grow motion", "bold approaching tilt"]
+  },
+  {
+    "name": "corner-tilt",
+    "phrase": "tilt from the top corner",
+    "category": "attention",
+    "concept": "A tilt that pivots from the top-left corner instead of the center, giving the rotation a lopsided, hinge-like feel. Use it for a playful, off-kilter attention cue.",
+    "keywords": ["top-left corner pivot", "hinge-like tilt", "lopsided rotation cue", "off-kilter attention", "corner-anchored tilt", "asymmetric pivot motion", "playful hinge tilt", "corner hinge animation"]
+  },
+  {
+    "name": "diagonal-tip",
+    "phrase": "tip along a diagonal",
+    "category": "attention",
+    "concept": "A tilt that pivots from the top-right corner, swinging along a diagonal axis. Use it for a distinct, asymmetric highlight on a card or tile.",
+    "keywords": ["top-right corner pivot", "diagonal axis tilt", "asymmetric highlight cue", "corner diagonal swing", "distinct tilt pivot", "off-center diagonal motion", "tile corner tilt", "diagonal hinge cue"]
+  },
+  {
+    "name": "corner-pivot",
+    "phrase": "pivot from the bottom corner",
+    "category": "attention",
+    "concept": "A tilt that pivots from the bottom-left corner, rotating up and away from that anchor point. Use it for a grounded but asymmetric attention cue.",
+    "keywords": ["bottom-left corner pivot", "grounded asymmetric tilt", "corner anchor rotation", "lower corner hinge", "asymmetric grounded cue", "bottom corner swing", "hinge from below", "corner-based tilt motion"]
+  },
+  {
+    "name": "angled-tilt",
+    "phrase": "tilt from the far corner",
+    "category": "attention",
+    "concept": "A tilt that pivots from the bottom-right corner, giving a strong diagonal lean. Use it for a bold, corner-anchored highlight.",
+    "keywords": ["bottom-right corner pivot", "strong diagonal lean", "bold corner highlight", "far corner tilt", "diagonal hinge motion", "corner-anchored lean", "bottom-right swing", "asymmetric bold tilt"]
+  },
+  {
+    "name": "edge-tilt",
+    "phrase": "tilt from a near corner",
+    "category": "attention",
+    "concept": "A tilt that pivots near a corner just inside the element's edge, giving a tighter diagonal swing than a true corner pivot. Use it for a compact, contained highlight.",
+    "keywords": ["near-corner pivot", "tight diagonal swing", "compact tilt cue", "contained corner motion", "inset corner hinge", "small diagonal pivot", "edge-anchored tilt", "close corner rotation"]
+  },
+  {
+    "name": "diagonal-rock",
+    "phrase": "rock along a diagonal",
+    "category": "attention",
+    "concept": "A steady rock that pivots from a corner near the opposite edge, swinging evenly back and forth along a diagonal. Use it for a continuous, off-axis attention cue.",
+    "keywords": ["diagonal rocking motion", "corner-anchored rock", "even diagonal swing", "continuous off-axis tilt", "opposite corner pivot", "steady diagonal rock", "off-axis rocking cue", "corner rock animation"]
+  },
+  {
+    "name": "pendulum-swing",
+    "phrase": "swing like a slow pendulum",
+    "category": "attention",
+    "concept": "A wide, slow swing from the top edge that arcs to each side, like a pendulum in motion. Use it for a calm but noticeable highlight, wider and slower than a wobble.",
+    "keywords": ["wide pendulum arc", "slow swinging motion", "top-anchored swing", "calm noticeable tilt", "pendulum-like rotation", "wide slow arc", "swinging highlight cue", "gentle pendulum motion"]
+  },
+  {
+    "name": "wide-swing",
+    "phrase": "swing wide and slow",
+    "category": "attention",
+    "concept": "A broad, uneven swing from near the top edge with a wider arc than a standard pendulum. Use it for a generous, sweeping attention cue on a larger element.",
+    "keywords": ["broad swinging arc", "generous sweep motion", "wide arc tilt", "sweeping attention cue", "large swinging rotation", "expansive pendulum motion", "wide swing highlight", "broad arc animation"]
+  },
+  {
+    "name": "long-swing",
+    "phrase": "swing in one long arc",
+    "category": "attention",
+    "concept": "A single long swing that travels from one side to the other before easing back to center. Use it for a slow, deliberate highlight with a clear beginning and end.",
+    "keywords": ["single long arc", "deliberate swinging motion", "one-way sweep tilt", "slow travel and return", "long arc rotation", "deliberate long swing", "clear sweep cue", "travel and settle tilt"]
+  },
+  {
+    "name": "slow-pendulum",
+    "phrase": "swing steadily like a pendulum",
+    "category": "attention",
+    "concept": "A steady, linear pendulum swing with no easing, giving it a mechanical, clock-like rhythm. Use it for a calm cue that should feel regular and dependable.",
+    "keywords": ["linear pendulum motion", "clock-like swing", "mechanical rhythm tilt", "steady regular swing", "dependable pendulum cue", "even-paced arc", "metronome-like tilt", "regular swinging rhythm"]
+  },
+  {
+    "name": "grand-swing",
+    "phrase": "swing in a grand arc",
+    "category": "attention",
+    "concept": "A large-amplitude swing from near the top edge, sweeping further than a standard pendulum for a more dramatic, slower highlight. Use it sparingly for a strong but calm cue.",
+    "keywords": ["large amplitude swing", "dramatic slow arc", "sweeping grand motion", "strong calm highlight", "expansive pendulum swing", "bold slow tilt", "grand arc rotation", "dramatic swinging cue"]
+  },
+  {
+    "name": "arc-swing",
+    "phrase": "swing off to one side",
+    "category": "attention",
+    "concept": "An asymmetric swing that arcs out to one side, dips through a smaller counter-angle, then returns, like a pendulum losing energy. Use it for a distinctive one-sided highlight.",
+    "keywords": ["asymmetric arc motion", "one-sided swing tilt", "energy-losing pendulum", "uneven arc rotation", "distinctive swinging cue", "lopsided pendulum motion", "dipping arc swing", "one-side sweep tilt"]
+  },
+  {
+    "name": "double-tilt",
+    "phrase": "tilt twice, then settle",
+    "category": "attention",
+    "concept": "A tilt one way, then the other, then a settle and pause before the cycle repeats. Use it for a brief, deliberate nudge that reads as a clear back-and-forth gesture.",
+    "keywords": ["tilt then counter-tilt", "settle and pause tilt", "deliberate double gesture", "back-and-forth then rest", "two-direction tilt cue", "brief double nudge", "settle before repeat", "clear gesture tilt"]
+  },
+  {
+    "name": "tilt-tilt",
+    "phrase": "tilt, tilt, then rest",
+    "category": "attention",
+    "concept": "Two quick tilts in the same rhythm, one to each side, followed by rest. Use it for a light, repeated nudge that reads as a friendly double tap.",
+    "keywords": ["two quick tilts", "friendly double tap cue", "light repeated nudge", "rhythmic double tilt", "tap-like tilt motion", "two-beat tilt cue", "paired tilt gesture", "double nudge animation"]
+  },
+  {
+    "name": "two-step-tilt",
+    "phrase": "tilt in two quick steps",
+    "category": "attention",
+    "concept": "A tilt in two uneven steps, a bigger lean followed by a smaller counter-lean, before it settles. Use it for a cue with a clear primary direction and a soft correction.",
+    "keywords": ["uneven two-step tilt", "primary lean with correction", "stepped tilt motion", "bigger then smaller tilt", "soft correction cue", "two-stage lean gesture", "asymmetric double tilt", "stepped settle motion"]
+  },
+  {
+    "name": "see-tilt-saw",
+    "phrase": "tilt one way, then the other",
+    "category": "attention",
+    "concept": "A tilt that swings to one side, then fully across to the other, before settling at center. Use it for a decisive back-and-forth cue with equal weight on both sides.",
+    "keywords": ["equal both-side tilt", "full swing gesture", "decisive back and forth", "center settle tilt", "balanced double swing", "see-saw style tilt", "full-range tilt cue", "symmetric double gesture"]
+  },
+  {
+    "name": "dual-tip",
+    "phrase": "tip twice, then pause",
+    "category": "attention",
+    "concept": "Two separate tips from the bottom edge, each with its own small pause, before a longer rest. Use it for a cue that reads as two distinct taps rather than one fluid motion.",
+    "keywords": ["two separate tips", "distinct double tap cue", "paused tip gesture", "bottom-anchored double tip", "separate tap motion", "two-beat tip cue", "distinct tipping gesture", "paused double nudge"]
+  },
+  {
+    "name": "alt-tilt",
+    "phrase": "alternate tilt, then settle",
+    "category": "attention",
+    "concept": "A quick alternating tilt, one direction then the other with a smaller follow-through, then settle. Use it for a compact double gesture on a small element.",
+    "keywords": ["quick alternating gesture", "compact double tilt", "follow-through tilt cue", "small element nudge", "alternating settle motion", "brief alternating tilt", "compact tilt gesture", "quick settle cue"]
+  },
+  {
+    "name": "twin-tilt",
+    "phrase": "tilt, counter-tilt, then rest",
+    "category": "attention",
+    "concept": "A tilt, a counter-tilt, and a smaller final lean before it rests, like two echoing gestures. Use it for a cue with more texture than a simple back-and-forth.",
+    "keywords": ["echoing double gesture", "tilt counter-tilt lean", "textured tilt motion", "three-beat tilt cue", "layered gesture animation", "echoing tilt rhythm", "final lean settle", "rich double tilt cue"]
+  },
+  {
+    "name": "faint-tilt",
+    "phrase": "tilt so faintly it's barely there",
+    "category": "attention",
+    "concept": "A barely perceptible tilt at a very small angle, meant to be felt more than seen. Use it as a gentle still-active cue rather than an alarm.",
+    "keywords": ["barely perceptible tilt", "gentle still-active cue", "very small angle tilt", "subtle ambient motion", "quiet presence cue", "minimal tilt animation", "soft background motion", "faint ongoing tilt"]
+  },
+  {
+    "name": "whisper-tilt",
+    "phrase": "tilt like a quiet whisper",
+    "category": "attention",
+    "concept": "A quiet, tiny tilt that eases back and forth without drawing real attention. Use it to signal an element is alive and idle, not urgent.",
+    "keywords": ["quiet tiny tilt", "alive and idle cue", "whisper-soft motion", "understated tilt cue", "non-urgent presence signal", "subtle idle animation", "soft whisper motion", "gentle idle tilt"]
+  },
+  {
+    "name": "idle-tilt",
+    "phrase": "tilt gently while idle",
+    "category": "attention",
+    "concept": "A slow, linear, tiny tilt with a steady unhurried pace, like an element idling without urgency. Use it for a calm ambient cue on a status indicator.",
+    "keywords": ["steady idle motion", "linear tiny tilt", "ambient status cue", "unhurried idle tilt", "calm background rotation", "idling indicator motion", "gentle status tilt", "low-key idle cue"]
+  },
+  {
+    "name": "hover-tilt",
+    "phrase": "tilt slightly while hovering",
+    "category": "attention",
+    "concept": "A very small tilt from the top edge, subtle enough to suggest an element is hovering in place rather than moving. Use it for a soft, passive attention cue.",
+    "keywords": ["subtle hovering tilt", "passive attention cue", "small top-pivot tilt", "suggestive hover motion", "soft passive cue", "gentle hovering rotation", "understated hover cue", "minimal top tilt"]
+  },
+  {
+    "name": "drift-tilt",
+    "phrase": "drift into a faint tilt",
+    "category": "attention",
+    "concept": "A slow, off-center tilt that drifts to one side then the other at a barely visible angle. Use it for an ambient cue that feels organic rather than mechanical.",
+    "keywords": ["slow drifting tilt", "organic ambient motion", "off-center faint tilt", "barely visible drift", "natural drifting cue", "gentle organic rotation", "soft drift motion", "ambient organic tilt"]
+  }
+]

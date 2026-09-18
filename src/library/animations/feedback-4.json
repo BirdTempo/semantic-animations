@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "quiet-nod",
+    "phrase": "quietly acknowledged",
+    "category": "feedback",
+    "concept": "A tiny scale-up and settle, smaller than a success pop. Use it for a calm acknowledgment that needs no fanfare.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "checkbox toggled",
+      "item acknowledged",
+      "note taken",
+      "quiet confirmation",
+      "small nod",
+      "task noted",
+      "status noted",
+      "gentle acknowledgment",
+      "low-key confirmation",
+      "mark noted"
+    ]
+  },
+  {
+    "name": "soft-blink",
+    "phrase": "briefly registered",
+    "category": "feedback",
+    "concept": "A single fast flick of near-transparency near the start, then a long hold at rest. A quiet blink for something noted in passing.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "reminder set",
+      "status changed",
+      "note logged",
+      "quick acknowledgment",
+      "glanced at",
+      "registered briefly",
+      "filed away",
+      "noted in passing",
+      "logged silently",
+      "flag set"
+    ]
+  },
+  {
+    "name": "gentle-tilt-settle",
+    "phrase": "gently settled",
+    "category": "feedback",
+    "concept": "A small tilt that straightens back out, like a soft nod toward a checkmark. Use it for a mild, checkmark-adjacent confirmation that stays understated.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item checked off",
+      "step confirmed",
+      "mark complete",
+      "gentle checkmark",
+      "quiet tick",
+      "small confirmation",
+      "step done",
+      "task ticked",
+      "list item done",
+      "soft confirmation"
+    ]
+  },
+  {
+    "name": "micro-nod-down",
+    "phrase": "acknowledged with a nod",
+    "category": "feedback",
+    "concept": "A tiny downward dip and recovery, like a small nod of the head. A quiet, physical-feeling acknowledgment for a minor action.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item acknowledged",
+      "status noted",
+      "reminder acknowledged",
+      "note taken",
+      "small nod of confirmation",
+      "quiet nod",
+      "task registered",
+      "minor update confirmed",
+      "field accepted",
+      "input accepted"
+    ]
+  },
+  {
+    "name": "corner-glow",
+    "phrase": "quietly highlighted",
+    "category": "feedback",
+    "concept": "A soft, localized brightening that rises and fades without any movement. Use it where a subtle glow reads better than a shift in shape.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item highlighted briefly",
+      "field accepted",
+      "selection confirmed",
+      "quiet highlight",
+      "soft glow feedback",
+      "value accepted",
+      "subtle emphasis",
+      "field validated",
+      "gentle highlight",
+      "input confirmed"
+    ]
+  },
+  {
+    "name": "scale-tick",
+    "phrase": "quick acknowledgment",
+    "category": "feedback",
+    "concept": "A barely-there pulse, fast and small, for actions that repeat often and should never feel showy. Ideal for frequent autosave-style ticks.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "keystroke autosave",
+      "typing saved",
+      "draft autosaved",
+      "frequent update",
+      "every keystroke",
+      "continuous sync",
+      "quiet tick",
+      "background save",
+      "auto sync tick",
+      "low-key tick"
+    ]
+  },
+  {
+    "name": "registered-bounce",
+    "phrase": "registered",
+    "category": "feedback",
+    "concept": "A very small, fast single bounce with a slight overshoot before settling. A crisp, low-key way to say an action was registered.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "vote cast",
+      "tap registered",
+      "click registered",
+      "button pressed",
+      "reaction added",
+      "quick registration",
+      "input received",
+      "action registered",
+      "tap confirmed",
+      "choice registered"
+    ]
+  },
+  {
+    "name": "dim-and-hold",
+    "phrase": "turned off",
+    "category": "feedback",
+    "concept": "A quiet fade to a dimmer resting state that holds, rather than returning to full. Use it for something toggled off or deactivated.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "notification muted",
+      "toggle switched off",
+      "feature disabled",
+      "item deactivated",
+      "setting turned off",
+      "dimmed after disabling",
+      "option unchecked",
+      "reminder cancelled",
+      "alert silenced",
+      "turned off quietly"
+    ]
+  },
+  {
+    "name": "quiet-tilt-right",
+    "phrase": "gently noted",
+    "category": "feedback",
+    "concept": "A small rightward tilt that returns to level. A calm way to mark a minor change without drawing much attention.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "label updated",
+      "tag added",
+      "status changed",
+      "minor edit accepted",
+      "small update noted",
+      "field updated",
+      "value changed",
+      "quiet adjustment",
+      "setting nudged",
+      "preference updated"
+    ]
+  },
+  {
+    "name": "soft-lift",
+    "phrase": "quietly lifted",
+    "category": "feedback",
+    "concept": "A small upward drift and settle, the opposite of a nod. Use it for a light acknowledgment that feels like a gentle rise.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item pinned",
+      "priority raised slightly",
+      "bookmark added",
+      "favorited quietly",
+      "note flagged",
+      "item promoted slightly",
+      "marked important",
+      "quiet elevation",
+      "subtle highlight raised",
+      "saved to favorites"
+    ]
+  },
+  {
+    "name": "gentle-squeeze",
+    "phrase": "quietly compressed",
+    "category": "feedback",
+    "concept": "A small vertical compression and release, like a soft press downward. Use it for a compact acknowledgment of a toggle or click.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "toggle switched",
+      "option selected",
+      "filter applied",
+      "setting confirmed",
+      "choice made",
+      "quiet press feedback",
+      "control activated",
+      "switch flipped",
+      "option toggled quietly",
+      "preference set"
+    ]
+  },
+  {
+    "name": "gentle-widen",
+    "phrase": "quietly confirmed",
+    "category": "feedback",
+    "concept": "A small horizontal stretch and release. A soft, low-key way to confirm a change without any vertical motion.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "field validated",
+      "entry accepted",
+      "text confirmed",
+      "value saved quietly",
+      "input approved",
+      "form field accepted",
+      "quiet approval",
+      "entry registered",
+      "text accepted",
+      "data confirmed"
+    ]
+  },
+  {
+    "name": "quiet-press",
+    "phrase": "quietly pressed",
+    "category": "feedback",
+    "concept": "A quick small shrink followed by a slower return, like a soft press acknowledgment. Fits a button or control that just registered a tap.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "button tapped",
+      "control pressed",
+      "quiet click feedback",
+      "tap acknowledged",
+      "press registered",
+      "control activated softly",
+      "button acknowledged",
+      "quiet tap response",
+      "control confirmed",
+      "input pressed"
+    ]
+  },
+  {
+    "name": "hush-fade",
+    "phrase": "quietly dimmed and back",
+    "category": "feedback",
+    "concept": "A single, slow, shallow dip in opacity that returns to rest. A hushed rhythm distinct from a sharp blink, for a calm confirmation.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item archived quietly",
+      "note filed",
+      "status updated softly",
+      "quiet dim confirmation",
+      "gentle acknowledgment fade",
+      "calm confirmation",
+      "soft dim response",
+      "item processed quietly",
+      "low-key fade feedback",
+      "quiet update"
+    ]
+  },
+  {
+    "name": "drift-right",
+    "phrase": "quietly shifted",
+    "category": "feedback",
+    "concept": "A very small rightward drift and return. A subtle way to acknowledge a change without any scale or opacity shift.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item moved slightly",
+      "order nudged",
+      "step advanced",
+      "queue position updated",
+      "quiet progression",
+      "item shifted",
+      "list reordered slightly",
+      "quiet step forward",
+      "position updated",
+      "item advanced quietly"
+    ]
+  },
+  {
+    "name": "drift-left",
+    "phrase": "quietly retracted",
+    "category": "feedback",
+    "concept": "A very small leftward drift and return, the mirror of a quiet rightward shift. Use it for a subtle undo-adjacent acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item undone quietly",
+      "step reverted",
+      "action retracted",
+      "quiet undo feedback",
+      "change reverted softly",
+      "step back acknowledged",
+      "reverted quietly",
+      "undo registered",
+      "quiet correction",
+      "edit reverted"
+    ]
+  },
+  {
+    "name": "glimmer-tick",
+    "phrase": "quietly glimmered",
+    "category": "feedback",
+    "concept": "A tiny brightening paired with a barely-there scale tick. A quiet glimmer for a small value change that deserves a flicker of light.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "counter incremented",
+      "value ticked up",
+      "quiet metric update",
+      "number updated softly",
+      "tally incremented",
+      "quiet count update",
+      "stat refreshed",
+      "counter nudged",
+      "score updated quietly",
+      "quiet increment"
+    ]
+  },
+  {
+    "name": "hushed-settle",
+    "phrase": "quietly settled in two steps",
+    "category": "feedback",
+    "concept": "A tiny overshoot followed by a tiny undershoot before resting, a double-stage settle. Use it for an acknowledgment that feels considered rather than instant.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "form submitted quietly",
+      "request queued",
+      "change applied softly",
+      "settings saved carefully",
+      "quiet careful confirmation",
+      "update applied",
+      "preference locked in",
+      "quiet settle response",
+      "change committed softly",
+      "entry finalized"
+    ]
+  },
+  {
+    "name": "check-whisper",
+    "phrase": "whispered confirmation",
+    "category": "feedback",
+    "concept": "A faint tilt paired with a faint upward lift, both settling together. A whisper of a checkmark for a very minor confirmation.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "subtask checked",
+      "minor step confirmed",
+      "small tick registered",
+      "quiet tick mark",
+      "tiny confirmation",
+      "checklist item done",
+      "step marked done softly",
+      "quiet completion tick",
+      "small task closed",
+      "item ticked quietly"
+    ]
+  },
+  {
+    "name": "quiet-contrast-pulse",
+    "phrase": "quietly softened",
+    "category": "feedback",
+    "concept": "A brief, gentle drop in contrast and back, with no movement at all. A muted flicker for a calm, low-stakes acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "field blurred and accepted",
+      "input softened briefly",
+      "quiet contrast feedback",
+      "gentle softening response",
+      "muted acknowledgment",
+      "soft visual confirmation",
+      "quiet dampening effect",
+      "gentle field response",
+      "muted field feedback",
+      "soft input confirmation"
+    ]
+  },
+  {
+    "name": "tiny-tap",
+    "phrase": "quietly tapped",
+    "category": "feedback",
+    "concept": "A very quick, very small shrink and snap back. The lightest possible tap acknowledgment, faster than a press.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "icon tapped",
+      "chip selected",
+      "quiet tap feedback",
+      "tag clicked",
+      "small control tapped",
+      "toggle tapped lightly",
+      "quiet select feedback",
+      "tap noted",
+      "light tap response",
+      "tiny click feedback"
+    ]
+  },
+  {
+    "name": "settle-low",
+    "phrase": "settled into place",
+    "category": "feedback",
+    "concept": "A small downward move that holds rather than returning up. Use it for something that has quietly settled into a resting, lower-priority state.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item deprioritized",
+      "task moved to later",
+      "note archived quietly",
+      "item sunk to bottom",
+      "reminder snoozed",
+      "quiet deprioritization",
+      "task backlogged",
+      "item quietly shelved",
+      "note set aside",
+      "priority lowered quietly"
+    ]
+  },
+  {
+    "name": "quiet-flicker",
+    "phrase": "quietly flickered",
+    "category": "feedback",
+    "concept": "Two small, fast opacity dips in a row, like a brief double flicker. Use it for a repeated but low-stakes acknowledgment, distinct from a single blink.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "double tap registered",
+      "sync flickered twice",
+      "status refreshed twice",
+      "quiet double confirmation",
+      "brief double flicker",
+      "two-part acknowledgment",
+      "quick refresh feedback",
+      "status re-checked",
+      "double registered quietly",
+      "quiet re-confirmation"
+    ]
+  },
+  {
+    "name": "soft-hum",
+    "phrase": "quietly warmed",
+    "category": "feedback",
+    "concept": "A gentle rise and fall in color saturation, with no movement. A quiet hum of feedback for a change that is felt more than seen.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "theme adjusted quietly",
+      "color setting applied",
+      "quiet warmth feedback",
+      "preference tinted softly",
+      "ambient confirmation",
+      "subtle color feedback",
+      "quiet saturation cue",
+      "soft visual cue",
+      "gentle warmth response",
+      "quiet tint feedback"
+    ]
+  },
+  {
+    "name": "gentle-dip-right",
+    "phrase": "quietly dipped",
+    "category": "feedback",
+    "concept": "A tiny diagonal dip down and to the right before returning home. A soft, understated acknowledgment with a bit of directional character.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item nudged aside",
+      "note shifted quietly",
+      "step acknowledged diagonally",
+      "quiet diagonal nudge",
+      "subtle repositioning",
+      "item bumped softly",
+      "quiet corner nudge",
+      "small diagonal shift",
+      "item settled diagonally",
+      "quiet nudge feedback"
+    ]
+  },
+  {
+    "name": "quiet-shrink-breathe",
+    "phrase": "quietly held its breath",
+    "category": "feedback",
+    "concept": "A slow, very shallow inward shrink that holds briefly before releasing. A calm, breathing rhythm for a low-key confirmation.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "form field validated slowly",
+      "quiet contemplative confirmation",
+      "slow acknowledgment",
+      "gentle breathing feedback",
+      "calm hold response",
+      "quiet held confirmation",
+      "slow settle feedback",
+      "field quietly validated",
+      "careful quiet confirmation",
+      "slow calm acknowledgment"
+    ]
+  },
+  {
+    "name": "muted-glow-hold",
+    "phrase": "quietly marked",
+    "category": "feedback",
+    "concept": "A soft brightening that rises and holds, rather than fading back. Use it for an item that stays quietly marked after the action.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item marked read",
+      "message opened",
+      "note flagged and kept",
+      "item quietly marked",
+      "status held as marked",
+      "bookmark held",
+      "flag set and kept",
+      "item stays highlighted",
+      "quiet persistent mark",
+      "marked and held"
+    ]
+  },
+  {
+    "name": "soft-recede",
+    "phrase": "quietly receded",
+    "category": "feedback",
+    "concept": "A gentle dim paired with a slight shrink, both holding at the end. Use it for an item quietly archived or moved out of focus.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item archived",
+      "note dismissed quietly",
+      "task moved out of view",
+      "item quietly removed from focus",
+      "notification dismissed softly",
+      "item set aside",
+      "quiet archive feedback",
+      "note quietly closed",
+      "item faded from view",
+      "task quietly closed"
+    ]
+  },
+  {
+    "name": "quiet-two-step",
+    "phrase": "quietly noted twice",
+    "category": "feedback",
+    "concept": "A brief dim paired with a small downward move, both settling back together. Use it for a two-part quiet acknowledgment, like a note being logged.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "note logged and dimmed",
+      "item quietly logged",
+      "status quietly recorded",
+      "entry logged softly",
+      "quiet dual confirmation",
+      "record made quietly",
+      "note filed softly",
+      "quiet logging feedback",
+      "entry quietly noted",
+      "item quietly recorded"
+    ]
+  },
+  {
+    "name": "quiet-roll",
+    "phrase": "quietly rolled",
+    "category": "feedback",
+    "concept": "A small side-to-side tilt that settles back to level. A subtle rocking motion for a mild, checkmark-adjacent acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item rocked gently",
+      "quiet settle wobble",
+      "small side to side confirmation",
+      "gentle rocking feedback",
+      "quiet balance response",
+      "item quietly rocked",
+      "subtle side to side nod",
+      "calm rocking acknowledgment",
+      "gentle sway confirmation",
+      "quiet rock feedback"
+    ]
+  },
+  {
+    "name": "hush-blur-clear",
+    "phrase": "quietly refocused",
+    "category": "feedback",
+    "concept": "A brief, faint blur that clears again, with no movement at all. Use it for a quiet acknowledgment of a refresh or refocus.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "view refreshed quietly",
+      "data resynced softly",
+      "quiet refocus feedback",
+      "screen quietly refreshed",
+      "content quietly reloaded",
+      "view resynced",
+      "quiet refresh cue",
+      "content refocused softly",
+      "quiet reload feedback",
+      "data quietly refreshed"
+    ]
+  },
+  {
+    "name": "soft-nudge-up",
+    "phrase": "softly nudged",
+    "category": "feedback",
+    "concept": "A very small upward nudge paired with a faint brightening, both fading back together. An extremely subtle highlight for a very minor action.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "field focused briefly",
+      "item lightly emphasized",
+      "quiet nudge upward",
+      "subtle field feedback",
+      "minor emphasis added",
+      "quiet upward cue",
+      "field quietly emphasized",
+      "small emphasis nudge",
+      "quiet highlight nudge",
+      "light emphasis feedback"
+    ]
+  },
+  {
+    "name": "quiet-scale-hold",
+    "phrase": "quietly selected",
+    "category": "feedback",
+    "concept": "A small scale increase that holds rather than returning to size. Use it for an item that stays quietly marked as selected.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item selected",
+      "row highlighted and kept",
+      "option chosen and held",
+      "item quietly selected",
+      "choice held as active",
+      "quiet persistent selection",
+      "item marked active",
+      "selection held quietly",
+      "option stays selected",
+      "item quietly activated"
+    ]
+  },
+  {
+    "name": "gentle-fade-tick",
+    "phrase": "barely dimmed",
+    "category": "feedback",
+    "concept": "An extremely shallow, quick dip in opacity and back. The faintest possible acknowledgment tick, for very frequent low-stakes events.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "field autofilled",
+      "value auto-corrected",
+      "quiet frequent tick",
+      "background sync tick",
+      "minor auto update",
+      "quiet micro feedback",
+      "frequent low-key tick",
+      "auto adjustment noted",
+      "quiet auto tick",
+      "background update tick"
+    ]
+  },
+  {
+    "name": "muted-corner-pulse",
+    "phrase": "quietly pulsed",
+    "category": "feedback",
+    "concept": "A faint brightening paired with a faint dip in opacity, both easing back together. A muted pulse for a calm confirmation with a bit of light.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item quietly confirmed",
+      "status pulse feedback",
+      "quiet light confirmation",
+      "subtle pulse response",
+      "item softly pulsed",
+      "quiet acknowledgment glow",
+      "gentle pulse feedback",
+      "calm pulse cue",
+      "quiet muted response",
+      "subtle glow pulse"
+    ]
+  },
+  {
+    "name": "quiet-settle-left",
+    "phrase": "quietly settled left",
+    "category": "feedback",
+    "concept": "A tiny leftward shift paired with a faint shrink, both easing back to rest. A quiet, compact settle for a minor correction.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item corrected quietly",
+      "value adjusted slightly",
+      "quiet leftward correction",
+      "minor correction feedback",
+      "field quietly corrected",
+      "small correction confirmed",
+      "quiet adjustment feedback",
+      "value quietly corrected",
+      "minor edit settled",
+      "quiet fix confirmed"
+    ]
+  },
+  {
+    "name": "soft-checkmark-nod",
+    "phrase": "softly checked off",
+    "category": "feedback",
+    "concept": "A small tilt paired with a small scale bump, both settling together like a nod toward a checkmark. Slightly more present than a whisper, still calm.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item marked complete",
+      "checklist step done",
+      "task checked off softly",
+      "quiet completion nod",
+      "step confirmed gently",
+      "item quietly finished",
+      "task closed softly",
+      "checklist ticked calmly",
+      "quiet task completion",
+      "step wrapped up quietly"
+    ]
+  },
+  {
+    "name": "quiet-hold-dim",
+    "phrase": "quietly dimmed for good",
+    "category": "feedback",
+    "concept": "A slow, gentle fade to a dimmer resting state that holds. A softer, slower cousin of a quick dim-off, for a gradual deactivation.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "feature quietly disabled",
+      "option grayed out",
+      "setting quietly turned down",
+      "reminder quietly cleared",
+      "item quietly muted",
+      "notification quietly silenced",
+      "option quietly disabled",
+      "setting dimmed gradually",
+      "alert quietly turned off",
+      "feature quietly retired"
+    ]
+  },
+  {
+    "name": "tiny-registered-hop",
+    "phrase": "registered with a tiny hop",
+    "category": "feedback",
+    "concept": "A very small upward hop paired with a faint scale bump, both settling back. A quiet, playful-but-restrained acknowledgment for something logged.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "reaction registered",
+      "emoji added quietly",
+      "quick vote logged",
+      "small hop confirmation",
+      "quiet playful acknowledgment",
+      "tap logged softly",
+      "quiet interaction registered",
+      "small registered hop",
+      "light interaction confirmed",
+      "quiet tally hop"
+    ]
+  },
+  {
+    "name": "soft-waver",
+    "phrase": "softly wavered",
+    "category": "feedback",
+    "concept": "A minimal side to side rotation, smaller than a roll, that settles back to level. Use it for the calmest possible tilt-based acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "field lightly flagged",
+      "quiet minimal waver",
+      "subtle uncertainty acknowledged softly",
+      "gentle tilt feedback",
+      "quiet minor wobble",
+      "field quietly wavered",
+      "soft uncertain confirmation",
+      "minimal tilt cue",
+      "quiet faint waver",
+      "subtle waver feedback"
+    ]
+  },
+  {
+    "name": "quiet-pulse-out",
+    "phrase": "quietly held",
+    "category": "feedback",
+    "concept": "A small scale increase that rises, holds briefly at its peak, and eases back. Slower and more deliberate than a quick nod, with a visible plateau.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "settings applied and held",
+      "preference confirmed and paused",
+      "quiet deliberate confirmation",
+      "change held before settling",
+      "quiet paused acknowledgment",
+      "confirmation with a pause",
+      "settings quietly held",
+      "preference paused then set",
+      "quiet held response",
+      "change confirmed deliberately"
+    ]
+  },
+  {
+    "name": "gentle-vanish-tick",
+    "phrase": "briefly faded",
+    "category": "feedback",
+    "concept": "A sharp, brief, fairly deep dip toward transparency that recovers quickly. Deeper than a blink, but still fast and quiet, for a firmer low-key acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item briefly hidden and shown",
+      "quiet firm acknowledgment",
+      "status flashed and returned",
+      "brief deep fade feedback",
+      "quiet strong tick",
+      "item flickered firmly",
+      "status quietly reasserted",
+      "brief vanish and return",
+      "quiet decisive tick",
+      "firm quiet confirmation"
+    ]
+  },
+  {
+    "name": "hush-settle-diagonal",
+    "phrase": "quietly settled diagonally",
+    "category": "feedback",
+    "concept": "A tiny diagonal drift from the upper left back to rest. A quiet, directional settle distinct from a straight nudge.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item quietly repositioned",
+      "note settled into place",
+      "quiet diagonal settle",
+      "item quietly aligned",
+      "subtle alignment feedback",
+      "quiet corner settle",
+      "item eased into position",
+      "quiet placement confirmation",
+      "note quietly aligned",
+      "item settled quietly"
+    ]
+  },
+  {
+    "name": "soft-mark-glow",
+    "phrase": "quietly marked with a glow",
+    "category": "feedback",
+    "concept": "A faint glow that grows softly and holds, rather than a brightness shift. Use it for an item that stays quietly flagged after the action.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item flagged and kept glowing",
+      "note marked and held",
+      "quiet persistent glow",
+      "item quietly flagged",
+      "status held with a glow",
+      "bookmark glows quietly",
+      "quiet marked highlight",
+      "flag held with soft glow",
+      "item quietly emphasized and kept",
+      "note stays softly glowing"
+    ]
+  },
+  {
+    "name": "quiet-tap-tilt",
+    "phrase": "quietly tapped and tilted",
+    "category": "feedback",
+    "concept": "A faint tilt paired with a faint shrink-then-grow, both settling together. A quiet, slightly textured tap acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "control tapped lightly",
+      "toggle tapped softly",
+      "quiet tilted tap",
+      "button lightly tapped",
+      "quiet textured tap feedback",
+      "control quietly tapped",
+      "tap acknowledged with tilt",
+      "light tap and tilt",
+      "quiet control response",
+      "toggle quietly acknowledged"
+    ]
+  },
+  {
+    "name": "muted-breath-hold",
+    "phrase": "quietly deprioritized",
+    "category": "feedback",
+    "concept": "A small, slow shrink that holds at a smaller size rather than returning. Use it for an item quietly deprioritized or set to the background.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item deprioritized softly",
+      "task set to low priority",
+      "note quietly minimized",
+      "item quietly backgrounded",
+      "reminder quietly softened",
+      "task quietly demoted",
+      "item held at lower priority",
+      "note quietly shrunk",
+      "item quietly muted in size",
+      "task quietly set aside"
+    ]
+  },
+  {
+    "name": "quiet-two-beat",
+    "phrase": "quietly beat twice",
+    "category": "feedback",
+    "concept": "Two small, fast scale pulses in a row, distinct from a double opacity flicker. Use it for a repeated but quiet confirmation, like a double tap.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "double click registered",
+      "two taps confirmed",
+      "quiet double beat",
+      "repeated action confirmed softly",
+      "double tap acknowledged",
+      "quiet two part tap",
+      "second confirmation quiet",
+      "double press registered",
+      "quiet repeated tick",
+      "two quiet beats"
+    ]
+  },
+  {
+    "name": "quiet-settle-scale-fade",
+    "phrase": "quietly settled with a fade",
+    "category": "feedback",
+    "concept": "A small scale rise paired with a shallow opacity dip, both holding briefly before easing back. A calm, considered settle distinct from a quick dip.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "form saved carefully",
+      "change committed quietly",
+      "quiet careful settle",
+      "update confirmed calmly",
+      "quiet final confirmation",
+      "entry quietly finalized",
+      "change quietly locked in",
+      "quiet composed confirmation",
+      "settings quietly finalized",
+      "update quietly settled"
+    ]
+  },
+  {
+    "name": "gentle-corner-dim",
+    "phrase": "corner dimmed and restored",
+    "category": "feedback",
+    "concept": "A soft, brief dimming of overall brightness that returns to normal, the inverse of a glow. Use it for a quiet, muted acknowledgment with no movement.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "item quietly muted briefly",
+      "status dimmed and restored",
+      "quiet inverse glow",
+      "brief dim feedback",
+      "quiet muted flash",
+      "item briefly darkened",
+      "quiet dim confirmation",
+      "status quietly dimmed",
+      "brief darkening feedback",
+      "quiet dark tick"
+    ]
+  },
+  {
+    "name": "hush-final-nod",
+    "phrase": "the last quiet nod",
+    "category": "feedback",
+    "concept": "A slow, small downward move paired with a faint tilt, both easing back together. The calmest, slowest nod in the set, for a closing acknowledgment.",
+    "defaults": {
+      "repeat": 1
+    },
+    "keywords": [
+      "session closed quietly",
+      "final step acknowledged",
+      "quiet closing confirmation",
+      "last item noted",
+      "quiet farewell feedback",
+      "closing action acknowledged",
+      "quiet final tick",
+      "session quietly wrapped up",
+      "final note taken",
+      "quiet closing nod"
+    ]
+  }
+]

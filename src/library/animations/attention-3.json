@@ -1,0 +1,902 @@
+[
+  {
+    "name": "pulse-fast",
+    "phrase": "pulse fast and hard",
+    "category": "attention",
+    "concept": "The element snaps to a much larger scale and back, very fast and continuous. Reserve it for the single most urgent item on a screen, like a critical status badge.",
+    "keywords": [
+      "urgent pulse",
+      "critical alert",
+      "high-priority indicator",
+      "fast pulse",
+      "rapid pulse",
+      "emergency highlight",
+      "snap pulse",
+      "insistent pulse",
+      "sharp pulse",
+      "needs attention now"
+    ]
+  },
+  {
+    "name": "pulse-overshoot",
+    "phrase": "pulse with a bounce",
+    "category": "attention",
+    "concept": "The element grows past its target size, then settles back slightly before the loop repeats. A springy, elastic way to say this moved for a reason.",
+    "keywords": [
+      "springy pulse",
+      "bouncy emphasis",
+      "overshoot pulse",
+      "elastic pulse",
+      "spring highlight",
+      "playful pulse",
+      "bounce back",
+      "rubbery pulse",
+      "kinetic pulse",
+      "energetic emphasis"
+    ]
+  },
+  {
+    "name": "pulse-anticipate",
+    "phrase": "wind up then pulse",
+    "category": "attention",
+    "concept": "The element dips smaller first, then grows large before returning to rest. The wind-up reads as gathering energy before the emphasis lands.",
+    "keywords": [
+      "wind-up pulse",
+      "anticipation pulse",
+      "coiled emphasis",
+      "gather then grow",
+      "spring-loaded pulse",
+      "pre-pulse dip",
+      "charged pulse",
+      "tension release",
+      "load and release",
+      "building emphasis"
+    ]
+  },
+  {
+    "name": "pulse-strobe-scale",
+    "phrase": "pulse in rapid bursts",
+    "category": "attention",
+    "concept": "The element pops twice in tight, back-to-back succession with almost no rest between beats. Reads as stark and mechanical, more clipped than a normal fast pulse.",
+    "keywords": [
+      "strobe pulse",
+      "staccato pulse",
+      "rapid-fire emphasis",
+      "double-tap pulse",
+      "machine-gun pulse",
+      "twitchy pulse",
+      "stark pulse",
+      "clipped pulse",
+      "insistent flicker",
+      "on-off scale"
+    ]
+  },
+  {
+    "name": "pulse-fade",
+    "phrase": "pulse while fading",
+    "category": "attention",
+    "concept": "The element grows and dims at the same time, then returns to rest, continuous. A wavering way to keep drawing the eye without a hard flash.",
+    "keywords": [
+      "fade and grow",
+      "scale with fade",
+      "breathing fade",
+      "pulse and dim",
+      "soft fade pulse",
+      "grow and fade",
+      "dimming emphasis",
+      "wavering highlight",
+      "fade-scale combo",
+      "ebb and flow"
+    ]
+  },
+  {
+    "name": "pulse-flash-scale",
+    "phrase": "flash and pulse together",
+    "category": "attention",
+    "concept": "The element pops larger while dropping sharply in opacity, then recovers, continuous. Near-flash urgency, but the scale change sets it apart from a plain flash.",
+    "keywords": [
+      "near flash pulse",
+      "urgent flash pulse",
+      "dramatic dim pulse",
+      "scale flash",
+      "sharp attention flash",
+      "almost-flash effect",
+      "intense blink pulse",
+      "jolt with scale",
+      "emphatic pop dim",
+      "eye-catching flash pulse"
+    ]
+  },
+  {
+    "name": "pulse-warning",
+    "phrase": "pulse like a warning",
+    "category": "attention",
+    "concept": "The element dims sharply while growing only a little, fast and continuous. Reads as a caution or hazard cue rather than a simple highlight.",
+    "keywords": [
+      "warning pulse",
+      "caution blink",
+      "alert dimming",
+      "danger pulse",
+      "hazard highlight",
+      "fast warning blink",
+      "risk indicator",
+      "watch this pulse",
+      "alarm dim",
+      "cautionary flicker"
+    ]
+  },
+  {
+    "name": "pulse-flicker",
+    "phrase": "flicker and twitch",
+    "category": "attention",
+    "concept": "The element flickers twice with a small twitch of scale, then holds steady until the loop restarts. Reads as an unstable signal rather than a steady pulse.",
+    "keywords": [
+      "flicker pulse",
+      "unstable signal",
+      "twitchy highlight",
+      "glitchy blink",
+      "signal flicker",
+      "nervous pulse",
+      "stutter highlight",
+      "faulty light effect",
+      "jittery emphasis",
+      "intermittent blink"
+    ]
+  },
+  {
+    "name": "pulse-ghost",
+    "phrase": "pulse and recede",
+    "category": "attention",
+    "concept": "The element shrinks and fades instead of growing, then returns, continuous. A receding pulse that still draws the eye, just by contrast rather than by getting bigger.",
+    "keywords": [
+      "receding pulse",
+      "ghost pulse",
+      "shrink and fade",
+      "fading inward",
+      "ethereal highlight",
+      "dim and shrink",
+      "spectral pulse",
+      "vanishing emphasis",
+      "soft recede",
+      "inward fade"
+    ]
+  },
+  {
+    "name": "throb-snap",
+    "phrase": "throb and snap back",
+    "category": "attention",
+    "concept": "The element expands quickly, then eases back down slowly, continuous. An asymmetric throb that reads as a sudden swell with a soft release.",
+    "keywords": [
+      "quick expand slow release",
+      "snap throb",
+      "sudden swell",
+      "asymmetric throb",
+      "sharp grow soft fall",
+      "tension throb",
+      "snap and settle",
+      "abrupt swell",
+      "quick swell slow ease",
+      "rapid grow gradual shrink"
+    ]
+  },
+  {
+    "name": "throb-linger",
+    "phrase": "throb and let go",
+    "category": "attention",
+    "concept": "The element builds up slowly, then snaps back down fast, continuous. The mirror image of throb-snap: patient growth, sudden release.",
+    "keywords": [
+      "slow build quick snap-back",
+      "lingering throb",
+      "gradual swell",
+      "sudden release",
+      "build and snap",
+      "slow grow fast fall",
+      "patient swell",
+      "delayed release throb",
+      "creeping grow sudden shrink",
+      "held swell quick drop"
+    ]
+  },
+  {
+    "name": "throb-hold",
+    "phrase": "throb and hold",
+    "category": "attention",
+    "concept": "The element grows quickly, holds at its peak size for a moment, then contracts, continuous. The pause at full size sets it apart from a simple asymmetric throb.",
+    "keywords": [
+      "hold-at-peak throb",
+      "plateau pulse",
+      "sustained swell",
+      "pause and release",
+      "held expansion",
+      "throb with pause",
+      "lingering peak",
+      "momentary hold",
+      "expand hold release",
+      "suspended swell"
+    ]
+  },
+  {
+    "name": "throb-heavy",
+    "phrase": "throb heavily",
+    "category": "attention",
+    "concept": "The element builds slowly to a large peak size, then releases fast, continuous. The big amplitude and long build make it feel weighty and deliberate.",
+    "keywords": [
+      "heavy throb",
+      "weighty swell",
+      "big slow build",
+      "powerful pulse",
+      "deep throb",
+      "large-amplitude swell",
+      "forceful emphasis",
+      "ponderous pulse",
+      "major swell",
+      "dramatic slow build"
+    ]
+  },
+  {
+    "name": "glow-ring",
+    "phrase": "ring out in shadow",
+    "category": "attention",
+    "concept": "A ring built from box-shadow blooms outward from the element's edge and fades, continuous. A solid, elastic-feeling halo, distinct from a blurred filter glow.",
+    "keywords": [
+      "shadow ring pulse",
+      "expanding halo",
+      "box-shadow ping",
+      "solid ring bloom",
+      "notification ring",
+      "elastic halo",
+      "outward ring pulse",
+      "ring bloom effect",
+      "radiating shadow",
+      "pulsing ring border"
+    ]
+  },
+  {
+    "name": "pulse-double",
+    "phrase": "pulse twice",
+    "category": "attention",
+    "concept": "The element pulses twice in quick succession, then pauses before the loop repeats. Reads as a double-tap notification rather than one steady beat.",
+    "keywords": [
+      "double pulse",
+      "double-tap emphasis",
+      "two quick beats",
+      "notification double-tap",
+      "paired pulse",
+      "double beat highlight",
+      "two-beat pulse",
+      "repeat pulse twice",
+      "dual pulse",
+      "double ping"
+    ]
+  },
+  {
+    "name": "pulse-triple",
+    "phrase": "pulse three times",
+    "category": "attention",
+    "concept": "The element pulses three times in rapid succession, then pauses before the loop repeats. More insistent than a double pulse, without becoming a strobe.",
+    "keywords": [
+      "triple pulse",
+      "three quick beats",
+      "rapid triple tap",
+      "insistent triple pulse",
+      "three-beat highlight",
+      "staccato triple",
+      "urgent triple ping",
+      "triple knock",
+      "three-pulse burst",
+      "repeated triple beat"
+    ]
+  },
+  {
+    "name": "pulse-heartbeat",
+    "phrase": "pulse like a heartbeat",
+    "category": "attention",
+    "concept": "The element beats once strongly, then once more softly, then pauses, continuous. Mimics a heartbeat's lub-dub rhythm for a living, vital-sign feel.",
+    "keywords": [
+      "heartbeat pulse",
+      "lub-dub rhythm",
+      "cardiac pulse",
+      "life-sign indicator",
+      "pulsing like a heart",
+      "vital sign pulse",
+      "double unequal beat",
+      "heart-rhythm highlight",
+      "living pulse",
+      "rhythmic heartbeat cue"
+    ]
+  },
+  {
+    "name": "pulse-double-fade",
+    "phrase": "pulse twice and dim",
+    "category": "attention",
+    "concept": "The element pulses twice, each beat dipping in opacity as well as size, then pauses. A more urgent cousin of a plain double pulse.",
+    "keywords": [
+      "double pulse with fade",
+      "two-beat fade",
+      "dimming double pulse",
+      "double flicker-pulse",
+      "paired fade pulse",
+      "twice-dimmed emphasis",
+      "double dim beat",
+      "two-stage fade pulse",
+      "repeated dim pulse",
+      "dual fade beat"
+    ]
+  },
+  {
+    "name": "glow-build",
+    "phrase": "glow builds slowly",
+    "category": "attention",
+    "concept": "A halo brightens gradually over several seconds, then resets sharply to nothing, continuous. Reads as something charging up rather than idly glowing.",
+    "keywords": [
+      "slow build glow",
+      "charging glow",
+      "ramping halo",
+      "building brightness",
+      "gradual glow buildup",
+      "energy charging effect",
+      "slow intensify glow",
+      "glow that builds",
+      "powering-up glow",
+      "accumulating light"
+    ]
+  },
+  {
+    "name": "glow-fuse",
+    "phrase": "glow like a lit fuse",
+    "category": "attention",
+    "concept": "Light gathers slowly at first, then accelerates into a bright flare before cutting out, continuous. Use it for a countdown or a rare, escalating cue.",
+    "keywords": [
+      "fuse glow",
+      "accelerating glow",
+      "escalating halo",
+      "countdown glow",
+      "slow-then-fast glow",
+      "igniting effect",
+      "building to a flare",
+      "glow that accelerates",
+      "spark buildup",
+      "energy fuse effect"
+    ]
+  },
+  {
+    "name": "glow-charge",
+    "phrase": "glow and hold at full charge",
+    "category": "attention",
+    "concept": "Brightness climbs steadily, holds at full intensity for a moment, then cuts back to nothing, continuous. Like a battery reaching full charge before it resets.",
+    "keywords": [
+      "charging glow",
+      "hold-at-peak glow",
+      "full-charge halo",
+      "glow that holds",
+      "steady charge effect",
+      "battery-charge glow",
+      "glow plateau",
+      "charged and released",
+      "sustained peak glow",
+      "power-up and hold"
+    ]
+  },
+  {
+    "name": "pulse-corner-tl",
+    "phrase": "pulse from the top-left corner",
+    "category": "attention",
+    "concept": "The element grows from its top-left corner instead of its center, continuous. Suited to a badge or icon that is visually anchored to that corner.",
+    "keywords": [
+      "top-left pulse",
+      "corner-anchored pulse",
+      "badge corner emphasis",
+      "anchored growth",
+      "top-left emphasis",
+      "docked corner pulse",
+      "corner-origin scale",
+      "pinned top-left highlight",
+      "asymmetric corner pulse",
+      "anchor point pulse"
+    ]
+  },
+  {
+    "name": "pulse-corner-tr",
+    "phrase": "pulse from the top-right corner",
+    "category": "attention",
+    "concept": "The element grows from its top-right corner instead of its center, continuous. Suited to a badge or icon that is visually anchored to that corner.",
+    "keywords": [
+      "top-right pulse",
+      "corner-anchored pulse",
+      "badge corner emphasis",
+      "anchored growth",
+      "top-right emphasis",
+      "docked corner pulse",
+      "corner-origin scale",
+      "pinned top-right highlight",
+      "asymmetric corner pulse",
+      "anchor point pulse"
+    ]
+  },
+  {
+    "name": "pulse-corner-bl",
+    "phrase": "pulse from the bottom-left corner",
+    "category": "attention",
+    "concept": "The element grows from its bottom-left corner instead of its center, continuous. Suited to a badge or icon that is visually anchored to that corner.",
+    "keywords": [
+      "bottom-left pulse",
+      "corner-anchored pulse",
+      "badge corner emphasis",
+      "anchored growth",
+      "bottom-left emphasis",
+      "docked corner pulse",
+      "corner-origin scale",
+      "pinned bottom-left highlight",
+      "asymmetric corner pulse",
+      "anchor point pulse"
+    ]
+  },
+  {
+    "name": "pulse-corner-br",
+    "phrase": "pulse from the bottom-right corner",
+    "category": "attention",
+    "concept": "The element grows from its bottom-right corner instead of its center, continuous. Suited to a badge or icon that is visually anchored to that corner.",
+    "keywords": [
+      "bottom-right pulse",
+      "corner-anchored pulse",
+      "badge corner emphasis",
+      "anchored growth",
+      "bottom-right emphasis",
+      "docked corner pulse",
+      "corner-origin scale",
+      "pinned bottom-right highlight",
+      "asymmetric corner pulse",
+      "anchor point pulse"
+    ]
+  },
+  {
+    "name": "pulse-edge-top",
+    "phrase": "pulse from the top edge",
+    "category": "attention",
+    "concept": "The element grows from its top edge instead of its center, continuous. Suited to an element docked to the top of a bar or a panel.",
+    "keywords": [
+      "top edge pulse",
+      "edge-anchored pulse",
+      "top-docked emphasis",
+      "anchored top growth",
+      "top-aligned pulse",
+      "docked edge pulse",
+      "edge-origin scale",
+      "pinned top highlight",
+      "asymmetric edge pulse",
+      "top anchor pulse"
+    ]
+  },
+  {
+    "name": "pulse-edge-bottom",
+    "phrase": "pulse from the bottom edge",
+    "category": "attention",
+    "concept": "The element grows from its bottom edge instead of its center, continuous. Suited to an element docked to the bottom of a bar or a panel.",
+    "keywords": [
+      "bottom edge pulse",
+      "edge-anchored pulse",
+      "bottom-docked emphasis",
+      "anchored bottom growth",
+      "bottom-aligned pulse",
+      "docked edge pulse",
+      "edge-origin scale",
+      "pinned bottom highlight",
+      "asymmetric edge pulse",
+      "bottom anchor pulse"
+    ]
+  },
+  {
+    "name": "pulse-edge-left",
+    "phrase": "pulse from the left edge",
+    "category": "attention",
+    "concept": "The element grows from its left edge instead of its center, continuous. Suited to an element docked to the left side of a bar or a panel.",
+    "keywords": [
+      "left edge pulse",
+      "edge-anchored pulse",
+      "left-docked emphasis",
+      "anchored left growth",
+      "left-aligned pulse",
+      "docked edge pulse",
+      "edge-origin scale",
+      "pinned left highlight",
+      "asymmetric edge pulse",
+      "left anchor pulse"
+    ]
+  },
+  {
+    "name": "pulse-edge-right",
+    "phrase": "pulse from the right edge",
+    "category": "attention",
+    "concept": "The element grows from its right edge instead of its center, continuous. Suited to an element docked to the right side of a bar or a panel.",
+    "keywords": [
+      "right edge pulse",
+      "edge-anchored pulse",
+      "right-docked emphasis",
+      "anchored right growth",
+      "right-aligned pulse",
+      "docked edge pulse",
+      "edge-origin scale",
+      "pinned right highlight",
+      "asymmetric edge pulse",
+      "right anchor pulse"
+    ]
+  },
+  {
+    "name": "glow-brighten",
+    "phrase": "glow brighter and dimmer",
+    "category": "attention",
+    "concept": "Brightness itself pulses up and down rhythmically, continuous. Like a light source getting brighter and dimmer, without any change in size.",
+    "keywords": [
+      "brightness pulse",
+      "luminance pulse",
+      "glow brighten effect",
+      "light-level pulse",
+      "pulsing brightness",
+      "overexposed blink",
+      "radiant brighten",
+      "brightening emphasis",
+      "glow flare",
+      "luminosity pulse"
+    ]
+  },
+  {
+    "name": "glow-saturate",
+    "phrase": "glow with deeper color",
+    "category": "attention",
+    "concept": "Color saturation intensifies and calms rhythmically, continuous. Makes an element's own color read as more alive, without moving or resizing it.",
+    "keywords": [
+      "saturation pulse",
+      "color intensity pulse",
+      "vivid pulse",
+      "color glow effect",
+      "saturating highlight",
+      "rich-color pulse",
+      "vibrancy pulse",
+      "deepening color effect",
+      "color throb",
+      "chromatic pulse"
+    ]
+  },
+  {
+    "name": "glow-deep",
+    "phrase": "glow deep and wide",
+    "category": "attention",
+    "concept": "A large, heavily blurred halo blooms slowly and recedes, continuous. A diffuse glow for elements that should feel important but calm.",
+    "keywords": [
+      "deep glow",
+      "diffuse halo",
+      "large blur glow",
+      "soft wide glow",
+      "heavy halo pulse",
+      "broad glow bloom",
+      "ambient deep glow",
+      "wide-radius glow",
+      "slow deep halo",
+      "expansive glow pulse"
+    ]
+  },
+  {
+    "name": "glow-tight",
+    "phrase": "glow in a tight blip",
+    "category": "attention",
+    "concept": "A small, tightly focused glow blips on and off twice in quick succession, continuous. A crisp, minimal cue rather than a soft halo.",
+    "keywords": [
+      "tight glow",
+      "sharp glow blip",
+      "quick glow flicker",
+      "crisp halo blip",
+      "minimal glow pulse",
+      "fast small glow",
+      "snappy glow",
+      "glow double-blip",
+      "precise light pulse",
+      "pinpoint glow flicker"
+    ]
+  },
+  {
+    "name": "glow-layered",
+    "phrase": "glow in two layers",
+    "category": "attention",
+    "concept": "Two glows of different sizes bloom together, a tight inner glow and a wide outer one, continuous. Gives the halo more depth than a single blur.",
+    "keywords": [
+      "layered glow",
+      "double halo",
+      "depth glow",
+      "inner and outer glow",
+      "stacked glow pulse",
+      "dual-radius halo",
+      "rich glow layers",
+      "complex glow bloom",
+      "multi-layer halo",
+      "textured glow pulse"
+    ]
+  },
+  {
+    "name": "glow-contrast",
+    "phrase": "glow with more contrast",
+    "category": "attention",
+    "concept": "Contrast punches up and back rhythmically, continuous. Makes the element look momentarily punchier and more defined, without moving or resizing.",
+    "keywords": [
+      "contrast pulse",
+      "punchy glow",
+      "defined-edge pulse",
+      "contrast throb",
+      "sharpened emphasis",
+      "crisp contrast effect",
+      "bold pulse",
+      "high-contrast blink",
+      "edge-definition pulse",
+      "punch effect"
+    ]
+  },
+  {
+    "name": "glow-pulse-sync",
+    "phrase": "pulse and glow together",
+    "category": "attention",
+    "concept": "The element grows and glows at exactly the same moment, continuous. Size and light reinforce the same beat instead of competing for attention.",
+    "keywords": [
+      "glow and grow together",
+      "synced pulse-glow",
+      "size and light combo",
+      "unified pulse",
+      "glow-scale sync",
+      "matched pulse and glow",
+      "coordinated emphasis",
+      "simultaneous glow-grow",
+      "in-sync highlight",
+      "combined swell and shine"
+    ]
+  },
+  {
+    "name": "glow-pulse-offset",
+    "phrase": "pulse and glow out of step",
+    "category": "attention",
+    "concept": "Size and glow move out of step with each other, the halo peaking while the element is actually smallest, continuous. A layered, more complex read than a synced pulse.",
+    "keywords": [
+      "offset glow pulse",
+      "out-of-phase glow",
+      "staggered pulse-glow",
+      "asynchronous emphasis",
+      "delayed glow effect",
+      "phase-shifted pulse",
+      "complex glow rhythm",
+      "unsynced size and light",
+      "layered timing effect",
+      "counter-rhythm glow"
+    ]
+  },
+  {
+    "name": "pulse-corner-glow",
+    "phrase": "pulse and glow from a corner",
+    "category": "attention",
+    "concept": "The element grows from a corner while glowing, continuous. Suited to a badge or icon docked at an edge that needs both a size cue and a glow.",
+    "keywords": [
+      "corner glow pulse",
+      "docked badge glow",
+      "anchored glow-scale",
+      "corner-anchored emphasis",
+      "badge glow pulse",
+      "edge-docked highlight",
+      "corner swell and shine",
+      "pinned glow effect",
+      "anchored pulse-glow",
+      "docked emphasis cue"
+    ]
+  },
+  {
+    "name": "throb-glow",
+    "phrase": "throb with a glow",
+    "category": "attention",
+    "concept": "An asymmetric throb, quick to grow and glow, slow to settle back down, continuous. Combines the urgency of a fast swell with the warmth of light.",
+    "keywords": [
+      "throb with glow",
+      "glowing swell",
+      "quick-grow glow throb",
+      "asymmetric glow pulse",
+      "urgent glow swell",
+      "throbbing light",
+      "swelling glow effect",
+      "glow throb combo",
+      "fast-in slow-out glow",
+      "radiant throb"
+    ]
+  },
+  {
+    "name": "pulse-urgent-triple-flash",
+    "phrase": "flash three times, urgently",
+    "category": "attention",
+    "concept": "Three fast scale-and-opacity flashes fire in a row, then a longer pause, continuous. The most insistent motion in the set, for something that cannot be missed.",
+    "keywords": [
+      "triple flash pulse",
+      "three-beat flash",
+      "urgent flash sequence",
+      "insistent triple flash",
+      "rapid triple dim",
+      "cannot-miss pulse",
+      "escalated attention cue",
+      "triple urgent blink",
+      "high-priority flash burst",
+      "repeated dim and grow"
+    ]
+  },
+  {
+    "name": "pulse-squash",
+    "phrase": "squash and pulse",
+    "category": "attention",
+    "concept": "The element squashes wide and flat at its peak instead of growing evenly, continuous. A springy, cartoon-like way to draw the eye.",
+    "keywords": [
+      "squash pulse",
+      "squash and stretch",
+      "cartoon-like pulse",
+      "flattening emphasis",
+      "springy squash",
+      "wide-flat pulse",
+      "bouncy squash effect",
+      "elastic squash",
+      "playful flatten",
+      "squish highlight"
+    ]
+  },
+  {
+    "name": "pulse-stretch-vertical",
+    "phrase": "stretch tall and pulse",
+    "category": "attention",
+    "concept": "The element stretches tall and narrow at its peak, continuous. Reads as reaching upward, good for a vertical list item or a column highlight.",
+    "keywords": [
+      "vertical stretch pulse",
+      "tall pulse",
+      "upward stretch emphasis",
+      "narrow-tall pulse",
+      "elongating highlight",
+      "vertical squash-stretch",
+      "reach-up pulse",
+      "column highlight motion",
+      "tall-thin pulse",
+      "stretch upward effect"
+    ]
+  },
+  {
+    "name": "pulse-stretch-horizontal",
+    "phrase": "stretch wide and pulse",
+    "category": "attention",
+    "concept": "The element stretches wide and short at its peak, continuous. Reads as spreading sideways, good for a row or a horizontal bar highlight.",
+    "keywords": [
+      "horizontal stretch pulse",
+      "wide pulse",
+      "sideways stretch emphasis",
+      "short-wide pulse",
+      "spreading highlight",
+      "horizontal squash-stretch",
+      "widen effect",
+      "row highlight motion",
+      "wide-flat pulse variant",
+      "stretch sideways effect"
+    ]
+  },
+  {
+    "name": "pulse-diagonal-corner",
+    "phrase": "pulse and lean from a corner",
+    "category": "attention",
+    "concept": "The element grows from a corner while nudging slightly along the diagonal toward the center, continuous. A corner pulse with a faint sense of reaching inward.",
+    "keywords": [
+      "diagonal corner pulse",
+      "reaching corner emphasis",
+      "corner nudge-pulse",
+      "inward-leaning pulse",
+      "diagonal swell",
+      "corner-anchored nudge",
+      "angled pulse effect",
+      "corner-to-center pulse",
+      "diagonal grow effect",
+      "leaning corner highlight"
+    ]
+  },
+  {
+    "name": "pulse-fade-deep",
+    "phrase": "pulse and fade almost away",
+    "category": "attention",
+    "concept": "A slow, smooth pulse where opacity drops almost to nothing at the peak while size barely changes, continuous. A deep, moody fade rather than a sharp flash.",
+    "keywords": [
+      "deep fade pulse",
+      "near-invisible pulse",
+      "moody fade emphasis",
+      "slow deep dim",
+      "almost-gone pulse",
+      "subtle scale deep fade",
+      "low-opacity pulse",
+      "dramatic slow dim",
+      "ghostly deep fade",
+      "fade to near nothing"
+    ]
+  },
+  {
+    "name": "glow-pulse-warning",
+    "phrase": "glow like an alert light",
+    "category": "attention",
+    "concept": "A fast, urgent glow blip pairs with a small scale pop, continuous. Reads as an alert light rather than an ambient halo.",
+    "keywords": [
+      "warning glow pulse",
+      "alert light effect",
+      "fast glow blip",
+      "urgent glow cue",
+      "alarm-light pulse",
+      "caution glow flash",
+      "rapid glow warning",
+      "emergency glow blip",
+      "quick alert halo",
+      "warning light pulse"
+    ]
+  },
+  {
+    "name": "pulse-quick-release-corner",
+    "phrase": "throb from a corner",
+    "category": "attention",
+    "concept": "An asymmetric throb anchored at a corner, quick to expand and slow to settle, continuous. For a corner badge that needs urgency rather than a gentle pulse.",
+    "keywords": [
+      "corner throb",
+      "quick corner swell",
+      "anchored asymmetric pulse",
+      "corner-anchored throb",
+      "urgent corner emphasis",
+      "badge throb effect",
+      "fast corner grow",
+      "corner swell slow settle",
+      "anchored quick release",
+      "corner urgency pulse"
+    ]
+  },
+  {
+    "name": "pulse-slow-build-scale",
+    "phrase": "grow slowly then reset",
+    "category": "attention",
+    "concept": "The element creeps larger over several seconds, then snaps back to rest and starts again, continuous. A slow-building size cue that mirrors a building glow, through scale instead of light.",
+    "keywords": [
+      "slow build pulse",
+      "creeping scale growth",
+      "gradual swell reset",
+      "slow-motion pulse",
+      "building size cue",
+      "long-build emphasis",
+      "patient growth pulse",
+      "accumulating scale effect",
+      "slow swell and snap",
+      "gradual grow reset"
+    ]
+  },
+  {
+    "name": "pulse-double-corner",
+    "phrase": "pulse twice from a corner",
+    "category": "attention",
+    "concept": "Two quick pulses anchored at a corner, then a pause, continuous. Combines the double-beat rhythm with a fixed anchor point for a docked element.",
+    "keywords": [
+      "corner double pulse",
+      "anchored double beat",
+      "docked double-tap",
+      "corner-anchored double pulse",
+      "two-beat corner emphasis",
+      "paired corner pulse",
+      "docked notification beat",
+      "corner double ping",
+      "anchored twin pulse",
+      "double beat at anchor"
+    ]
+  },
+  {
+    "name": "throb-whisper",
+    "phrase": "throb very quietly",
+    "category": "attention",
+    "concept": "A very low-amplitude asymmetric throb, quick to rise and slow to settle, continuous. The quietest option in the set, for something that should stay noticeable without shouting.",
+    "keywords": [
+      "whisper throb",
+      "subtle asymmetric pulse",
+      "quiet emphasis",
+      "low-amplitude throb",
+      "gentle asymmetric swell",
+      "faint pulse cue",
+      "understated throb",
+      "soft urgency pulse",
+      "barely-there throb",
+      "minimal asymmetric emphasis"
+    ]
+  }
+]
