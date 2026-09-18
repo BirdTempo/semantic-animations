@@ -52,6 +52,31 @@ describe('playAnimation', () => {
     await done;
     expect(settled).toBe(true);
   });
+
+  it('resolves a one-shot animation immediately under reduced motion, with no animationend needed', async () => {
+    const original = window.matchMedia;
+    window.matchMedia = ((query: string) => ({
+      matches: query === '(prefers-reduced-motion: reduce)',
+      media: query,
+      onchange: null,
+      addListener: () => {},
+      removeListener: () => {},
+      addEventListener: () => {},
+      removeEventListener: () => {},
+      dispatchEvent: () => false,
+    })) as typeof window.matchMedia;
+
+    try {
+      const el = document.createElement('div');
+      // CSS disables the animation under reduced motion, so animationend
+      // never fires in the real browser either — the promise must not wait
+      // for an event that will never come.
+      await expect(playAnimation(el, 'fade-in')).resolves.toBeUndefined();
+      expect(el.classList.contains('sa-fade-in')).toBe(true);
+    } finally {
+      window.matchMedia = original;
+    }
+  });
 });
 
 describe('stopAnimation', () => {

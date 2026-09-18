@@ -1,0 +1,62 @@
+/*
+ * semantic-animations/animate.css
+ *
+ * GENERATED FILE. Source lives in styles/animate/*.css; do not edit
+ * styles/animate.css by hand. Run `npm run css:build` after changing a
+ * source file, or adding a new one, under styles/animate/.
+ *
+ * A curated set of UI animations. Pure CSS, no build step, no JS required.
+ *
+ *   import 'semantic-animations/animate.css';
+ *   <div class="sa-fade-in">Welcome</div>
+ *
+ * Put the class on any element. Every animation here is transform-,
+ * opacity-, or filter-based (two exceptions noted per-class), so it
+ * composites cheaply and works on any element regardless of its own
+ * color, size, or content.
+ *
+ * Tune any animation with custom properties, on the element or on a parent:
+ *
+ *   --sa-duration   how long one run takes           (default varies by class)
+ *   --sa-delay      wait before the first run        (default 0s)
+ *   --sa-timing     the easing curve                 (default per class)
+ *   --sa-repeat     how many runs                     (default varies by class)
+ *   --sa-distance   travel distance for slide-* moves (default 20px)
+ *   --sa-stagger    gap between children (sa-dots-bounce) (default 0.15s)
+ *
+ *   <div class="sa-slide-in-up" style="--sa-duration: 600ms">Toast</div>
+ *
+ * Classes that read `currentColor` (noted per-class) share the same
+ * one-property contract `semantic-icons` uses for stroke color: set
+ * `color` to tint them; nothing here otherwise assumes a color.
+ */
+
+[class*='sa-'] {
+  --sa-delay: 0s;
+  --sa-stagger: 0.15s;
+  --sa-distance: 20px;
+}
+
+/* --------------------------------------------------------- reduced motion
+ * A single generic rule, not a per-class list: it has to keep working as
+ * the catalog grows past what anyone would hand-enumerate here.
+ *
+ * This is safe by construction, not by exception-listing: every entrance
+ * and exit animation defines its start and end state inside its own
+ * `@keyframes` (with `animation-fill-mode: both`), not on the class
+ * selector itself. So when `animation: none` strips the animation, the
+ * element falls back to its own plain CSS — which never set opacity or
+ * transform at all — instead of getting stuck at a keyframe's start or
+ * end state. A class that needs a *visual* fallback for a value it does
+ * set directly (rare; check before adding one) must add its own
+ * `@media (prefers-reduced-motion: reduce)` override nearby, in its own
+ * source file, rather than growing this block.
+ */
+@media (prefers-reduced-motion: reduce) {
+  [class*='sa-'],
+  [class*='sa-'] > *,
+  .sa-progress-sweep::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

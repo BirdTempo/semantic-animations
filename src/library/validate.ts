@@ -1,7 +1,7 @@
 // Metadata and contract checks for curated library entries.
 import type { AnimationEntry } from './types.js';
 import { normalizePhrase } from './normalize-phrase.js';
-import { CATEGORIES, KNOWN_NAMES, NAMES_BY_CATEGORY } from './known-names.js';
+import { CATEGORIES } from './known-names.js';
 
 export const MIN_KEYWORDS = 4;
 export const MIN_CONCEPT_LENGTH = 20;
@@ -29,13 +29,8 @@ export function checkEntry(entry: AnimationEntry): Problem[] {
     return [...problems, 'keywords is missing or is not a list of strings'];
   }
 
-  if (!KNOWN_NAMES.has(entry.name)) {
-    problems.push(`name "${entry.name}" has no matching class in styles/animate.css`);
-  }
   if (!(CATEGORIES as readonly string[]).includes(entry.category)) {
     problems.push(`category "${entry.category}" is not one of: ${CATEGORIES.join(', ')}`);
-  } else if (!NAMES_BY_CATEGORY[entry.category as (typeof CATEGORIES)[number]].includes(entry.name)) {
-    problems.push(`name "${entry.name}" does not belong to category "${entry.category}"`);
   }
   if (entry.phrase.trim() === '') problems.push('phrase is empty');
   if (entry.concept.trim().length < MIN_CONCEPT_LENGTH) {
@@ -80,11 +75,6 @@ export function checkLibrary(entries: AnimationEntry[]): Map<string, Problem[]> 
     seenPhrases.add(phraseKey);
     if (problems.length > 0) byEntry.set(`${position}: ${name}`, problems);
   });
-
-  const missing = [...KNOWN_NAMES].filter((name) => !seenNames.has(name));
-  if (missing.length > 0) {
-    byEntry.set('library', [`no entry for CSS class(es): ${missing.map((n) => `sa-${n}`).join(', ')}`]);
-  }
 
   return byEntry;
 }

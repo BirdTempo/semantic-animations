@@ -1,0 +1,72 @@
+/* ===================================================================== state
+   An ambient, idle-state loop. Small amplitude by design: these earn their
+   place at rest, not as the main event. */
+
+.sa-float {
+  animation: sa-float var(--sa-duration, 3s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.sa-breathe {
+  animation: sa-breathe var(--sa-duration, 3.2s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+  transform-origin: center;
+}
+@keyframes sa-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.035);
+  }
+}
+
+.sa-sway {
+  animation: sa-sway var(--sa-duration, 3.5s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+  transform-origin: top center;
+}
+@keyframes sa-sway {
+  0%,
+  100% {
+    transform: rotate(-2.5deg);
+  }
+  50% {
+    transform: rotate(2.5deg);
+  }
+}
+
+/* filter, not box-shadow: works on any element shape with no layout cost.
+   Reads `currentColor`. */
+.sa-glow {
+  animation: sa-glow var(--sa-duration, 2.2s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 0 transparent);
+  }
+  50% {
+    filter: drop-shadow(0 0 6px currentColor);
+  }
+}
+
+.sa-nudge {
+  animation: sa-nudge var(--sa-duration, 1.4s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
+}
+@keyframes sa-nudge {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+}

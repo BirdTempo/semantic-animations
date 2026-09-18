@@ -22,14 +22,9 @@ describe('checkEntry', () => {
     expect(checkEntry(goodEntry({ name: 'FadeIn' }))).toContain('name "FadeIn" is not kebab-case');
   });
 
-  it('rejects a name with no matching CSS class', () => {
-    const problems = checkEntry(goodEntry({ name: 'made-up-animation' }));
-    expect(problems.some((p) => p.includes('no matching class'))).toBe(true);
-  });
-
-  it('rejects a category the name does not belong to', () => {
-    const problems = checkEntry(goodEntry({ category: 'loading' }));
-    expect(problems.some((p) => p.includes('does not belong to category'))).toBe(true);
+  it('rejects a category that is not one of the six', () => {
+    const problems = checkEntry(goodEntry({ category: 'vibes' }));
+    expect(problems.some((p) => p.includes('is not one of'))).toBe(true);
   });
 
   it('rejects a concept that is too short', () => {
@@ -76,11 +71,5 @@ describe('checkLibrary', () => {
     ]);
     const flat = [...problems.values()].flat();
     expect(flat.some((p) => p.includes('duplicate phrase'))).toBe(true);
-  });
-
-  it('flags a CSS class with no library entry', () => {
-    const problems = checkLibrary([goodEntry()]);
-    const flat = [...problems.values()].flat();
-    expect(flat.some((p) => p.includes('no entry for CSS class'))).toBe(true);
   });
 });

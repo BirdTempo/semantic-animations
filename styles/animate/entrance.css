@@ -1,0 +1,112 @@
+/* ================================================================ entrance
+   An element arriving. Runs once and holds its finished state.
+
+   Every rule's start state lives in its own `@keyframes` (as `from` or
+   `0%`), never on the class selector, with `animation-fill-mode: both`.
+   That is what lets the generic reduced-motion rule in base.css disable
+   these safely: with no animation, the element falls back to its own
+   plain, unset opacity/transform, not to a hidden or offset start state. */
+
+.sa-fade-in {
+  animation: sa-fade-in var(--sa-duration, 0.4s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sa-slide-in-up {
+  animation: sa-slide-in-up var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-slide-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(var(--sa-distance));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sa-slide-in-down {
+  animation: sa-slide-in-down var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-slide-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(calc(var(--sa-distance) * -1));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sa-slide-in-left {
+  animation: sa-slide-in-left var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(calc(var(--sa-distance) * -1));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sa-slide-in-right {
+  animation: sa-slide-in-right var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(var(--sa-distance));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sa-scale-in {
+  transform-origin: center;
+  animation: sa-scale-in var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.sa-pop-in {
+  transform-origin: center;
+  animation: sa-pop-in var(--sa-duration, 0.5s) var(--sa-timing, cubic-bezier(0.34, 1.56, 0.64, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

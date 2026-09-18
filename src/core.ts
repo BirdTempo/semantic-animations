@@ -51,6 +51,14 @@ export function playAnimation(el: Element, nameOrPhrase: string, options: PlayOp
   const oneShot = mergedRepeat === 1 || mergedRepeat === '1';
   if (!oneShot) return Promise.resolve();
 
+  // Under reduced motion, styles/animate.css disables the animation outright
+  // (`animation: none`), so it never starts and `animationend` never fires.
+  // Waiting for it here would hang forever, so resolve immediately instead —
+  // the caller's own follow-up (removing a dismissed toast, say) still runs.
+  const reducedMotion =
+    typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches === true;
+  if (reducedMotion) return Promise.resolve();
+
   return new Promise<void>((resolveDone) => {
     const done = (): void => {
       el.removeEventListener('animationend', done);

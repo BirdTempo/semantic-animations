@@ -9,14 +9,14 @@
 import { ANIMATIONS } from './animations.generated.js';
 import { createAnimationIndex, searchIndex, bestMatch, LOCAL_MIN_SCORE, type SearchOptions } from './query.js';
 import { renderAnimation, type RenderOptions, type RenderedAnimation } from './render.js';
-import { CATEGORIES, NAMES_BY_CATEGORY } from './known-names.js';
+import { CATEGORIES } from './known-names.js';
 import type { AnimationEntry, AnimationMatch } from './types.js';
 
 /** Every curated animation. Treat it as read-only: the search index is built once. */
 export { ANIMATIONS };
 export { renderAnimation };
 export { createAnimationIndex, searchIndex, bestMatch, LOCAL_MIN_SCORE };
-export { CATEGORIES, NAMES_BY_CATEGORY };
+export { CATEGORIES };
 export type { AnimationEntry, AnimationMatch, SearchOptions, RenderOptions, RenderedAnimation };
 
 /** The index over the whole library. Built once, on first use. */

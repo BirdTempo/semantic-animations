@@ -1,0 +1,74 @@
+/* ==================================================================== exit
+   An element leaving. Runs once and holds its finished (hidden) state.
+   Remove the element from the DOM on `animationend`; the class only
+   animates it out of the way.
+
+   Under reduced motion, `playAnimation()` skips waiting for
+   `animationend` (it never fires once CSS disables the animation) and
+   resolves immediately instead, so the caller's own removal code still
+   runs right away — no motion, but the dismissal still happens. */
+
+.sa-fade-out {
+  animation: sa-fade-out var(--sa-duration, 0.35s) var(--sa-timing, ease-in) var(--sa-delay) var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+.sa-slide-out-up {
+  animation: sa-slide-out-up var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-slide-out-up {
+  to {
+    opacity: 0;
+    transform: translateY(calc(var(--sa-distance) * -1));
+  }
+}
+
+.sa-slide-out-down {
+  animation: sa-slide-out-down var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-slide-out-down {
+  to {
+    opacity: 0;
+    transform: translateY(var(--sa-distance));
+  }
+}
+
+.sa-slide-out-left {
+  animation: sa-slide-out-left var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-slide-out-left {
+  to {
+    opacity: 0;
+    transform: translateX(calc(var(--sa-distance) * -1));
+  }
+}
+
+.sa-slide-out-right {
+  animation: sa-slide-out-right var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-slide-out-right {
+  to {
+    opacity: 0;
+    transform: translateX(var(--sa-distance));
+  }
+}
+
+.sa-scale-out {
+  animation: sa-scale-out var(--sa-duration, 0.3s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+  transform-origin: center;
+}
+@keyframes sa-scale-out {
+  to {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+}

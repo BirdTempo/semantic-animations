@@ -1,14 +1,19 @@
 /*
  * semantic-animations/animate.css
  *
+ * GENERATED FILE. Source lives in styles/animate/*.css; do not edit
+ * styles/animate.css by hand. Run `npm run css:build` after changing a
+ * source file, or adding a new one, under styles/animate/.
+ *
  * A curated set of UI animations. Pure CSS, no build step, no JS required.
  *
  *   import 'semantic-animations/animate.css';
  *   <div class="sa-fade-in">Welcome</div>
  *
- * Put the class on any element. Every animation here is transform- and
- * opacity-based (one exception noted below), so it composites cheaply and
- * works on any element regardless of its own color, size, or content.
+ * Put the class on any element. Every animation here is transform-,
+ * opacity-, or filter-based (two exceptions noted per-class), so it
+ * composites cheaply and works on any element regardless of its own
+ * color, size, or content.
  *
  * Tune any animation with custom properties, on the element or on a parent:
  *
@@ -21,9 +26,9 @@
  *
  *   <div class="sa-slide-in-up" style="--sa-duration: 600ms">Toast</div>
  *
- * `sa-ring` and `sa-glow` read the element's `color` (via `currentColor`),
- * the same one-property contract `semantic-icons` uses for stroke color.
- * Set `color` to tint them; nothing else here depends on color at all.
+ * Classes that read `currentColor` (noted per-class) share the same
+ * one-property contract `semantic-icons` uses for stroke color: set
+ * `color` to tint them; nothing here otherwise assumes a color.
  */
 
 [class*='sa-'] {
@@ -32,166 +37,27 @@
   --sa-distance: 20px;
 }
 
-/* ================================================================ entrance
-   An element arriving. Runs once and holds its finished state. */
-
-.sa-fade-in {
-  opacity: 0;
-  animation: sa-fade-in var(--sa-duration, 0.4s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-fade-in {
-  to {
-    opacity: 1;
-  }
-}
-
-.sa-slide-in-up {
-  opacity: 0;
-  transform: translateY(var(--sa-distance));
-  animation: sa-slide-in-up var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-slide-in-up {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.sa-slide-in-down {
-  opacity: 0;
-  transform: translateY(calc(var(--sa-distance) * -1));
-  animation: sa-slide-in-down var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-slide-in-down {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.sa-slide-in-left {
-  opacity: 0;
-  transform: translateX(calc(var(--sa-distance) * -1));
-  animation: sa-slide-in-left var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-slide-in-left {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.sa-slide-in-right {
-  opacity: 0;
-  transform: translateX(var(--sa-distance));
-  animation: sa-slide-in-right var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-slide-in-right {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.sa-scale-in {
-  opacity: 0;
-  transform: scale(0.85);
-  animation: sa-scale-in var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-  transform-origin: center;
-}
-@keyframes sa-scale-in {
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.sa-pop-in {
-  opacity: 0;
-  transform: scale(0.7);
-  animation: sa-pop-in var(--sa-duration, 0.5s) var(--sa-timing, cubic-bezier(0.34, 1.56, 0.64, 1)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-  transform-origin: center;
-}
-@keyframes sa-pop-in {
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* ==================================================================== exit
-   An element leaving. Runs once and holds its finished (hidden) state.
-   Remove the element from the DOM on `animationend`; the class only
-   animates it out of the way. */
-
-.sa-fade-out {
-  animation: sa-fade-out var(--sa-duration, 0.35s) var(--sa-timing, ease-in) var(--sa-delay) var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-fade-out {
-  to {
-    opacity: 0;
-  }
-}
-
-.sa-slide-out-up {
-  animation: sa-slide-out-up var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-slide-out-up {
-  to {
-    opacity: 0;
-    transform: translateY(calc(var(--sa-distance) * -1));
-  }
-}
-
-.sa-slide-out-down {
-  animation: sa-slide-out-down var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-slide-out-down {
-  to {
-    opacity: 0;
-    transform: translateY(var(--sa-distance));
-  }
-}
-
-.sa-slide-out-left {
-  animation: sa-slide-out-left var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-slide-out-left {
-  to {
-    opacity: 0;
-    transform: translateX(calc(var(--sa-distance) * -1));
-  }
-}
-
-.sa-slide-out-right {
-  animation: sa-slide-out-right var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-}
-@keyframes sa-slide-out-right {
-  to {
-    opacity: 0;
-    transform: translateX(var(--sa-distance));
-  }
-}
-
-.sa-scale-out {
-  animation: sa-scale-out var(--sa-duration, 0.3s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
-    var(--sa-repeat, 1) forwards;
-  transform-origin: center;
-}
-@keyframes sa-scale-out {
-  to {
-    opacity: 0;
-    transform: scale(0.85);
+/* --------------------------------------------------------- reduced motion
+ * A single generic rule, not a per-class list: it has to keep working as
+ * the catalog grows past what anyone would hand-enumerate here.
+ *
+ * This is safe by construction, not by exception-listing: every entrance
+ * and exit animation defines its start and end state inside its own
+ * `@keyframes` (with `animation-fill-mode: both`), not on the class
+ * selector itself. So when `animation: none` strips the animation, the
+ * element falls back to its own plain CSS — which never set opacity or
+ * transform at all — instead of getting stuck at a keyframe's start or
+ * end state. A class that needs a *visual* fallback for a value it does
+ * set directly (rare; check before adding one) must add its own
+ * `@media (prefers-reduced-motion: reduce)` override nearby, in its own
+ * source file, rather than growing this block.
+ */
+@media (prefers-reduced-motion: reduce) {
+  [class*='sa-'],
+  [class*='sa-'] > *,
+  .sa-progress-sweep::after {
+    animation: none !important;
+    transition: none !important;
   }
 }
 
@@ -308,7 +174,8 @@
 }
 
 /* The one exception to the transform/opacity-only rule: box-shadow, to draw
-   an expanding ring. Fine for one element; wrong for a whole list. */
+   an expanding ring. Fine for one element; wrong for a whole list. Reads
+   `currentColor`. */
 .sa-ring {
   animation: sa-ring var(--sa-duration, 1.6s) var(--sa-timing, cubic-bezier(0.2, 0.6, 0.4, 1)) var(--sa-delay)
     var(--sa-repeat, infinite);
@@ -324,6 +191,194 @@
   100% {
     box-shadow: 0 0 0 14px transparent;
     opacity: 0;
+  }
+}
+
+/* ================================================================ entrance
+   An element arriving. Runs once and holds its finished state.
+
+   Every rule's start state lives in its own `@keyframes` (as `from` or
+   `0%`), never on the class selector, with `animation-fill-mode: both`.
+   That is what lets the generic reduced-motion rule in base.css disable
+   these safely: with no animation, the element falls back to its own
+   plain, unset opacity/transform, not to a hidden or offset start state. */
+
+.sa-fade-in {
+  animation: sa-fade-in var(--sa-duration, 0.4s) var(--sa-timing, ease-out) var(--sa-delay) var(--sa-repeat, 1) both;
+}
+@keyframes sa-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sa-slide-in-up {
+  animation: sa-slide-in-up var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-slide-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(var(--sa-distance));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sa-slide-in-down {
+  animation: sa-slide-in-down var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-slide-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(calc(var(--sa-distance) * -1));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sa-slide-in-left {
+  animation: sa-slide-in-left var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(calc(var(--sa-distance) * -1));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sa-slide-in-right {
+  animation: sa-slide-in-right var(--sa-duration, 0.45s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(var(--sa-distance));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sa-scale-in {
+  transform-origin: center;
+  animation: sa-scale-in var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.16, 1, 0.3, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.sa-pop-in {
+  transform-origin: center;
+  animation: sa-pop-in var(--sa-duration, 0.5s) var(--sa-timing, cubic-bezier(0.34, 1.56, 0.64, 1)) var(--sa-delay)
+    var(--sa-repeat, 1) both;
+}
+@keyframes sa-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ==================================================================== exit
+   An element leaving. Runs once and holds its finished (hidden) state.
+   Remove the element from the DOM on `animationend`; the class only
+   animates it out of the way.
+
+   Under reduced motion, `playAnimation()` skips waiting for
+   `animationend` (it never fires once CSS disables the animation) and
+   resolves immediately instead, so the caller's own removal code still
+   runs right away — no motion, but the dismissal still happens. */
+
+.sa-fade-out {
+  animation: sa-fade-out var(--sa-duration, 0.35s) var(--sa-timing, ease-in) var(--sa-delay) var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+.sa-slide-out-up {
+  animation: sa-slide-out-up var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-slide-out-up {
+  to {
+    opacity: 0;
+    transform: translateY(calc(var(--sa-distance) * -1));
+  }
+}
+
+.sa-slide-out-down {
+  animation: sa-slide-out-down var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-slide-out-down {
+  to {
+    opacity: 0;
+    transform: translateY(var(--sa-distance));
+  }
+}
+
+.sa-slide-out-left {
+  animation: sa-slide-out-left var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-slide-out-left {
+  to {
+    opacity: 0;
+    transform: translateX(calc(var(--sa-distance) * -1));
+  }
+}
+
+.sa-slide-out-right {
+  animation: sa-slide-out-right var(--sa-duration, 0.35s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+}
+@keyframes sa-slide-out-right {
+  to {
+    opacity: 0;
+    transform: translateX(var(--sa-distance));
+  }
+}
+
+.sa-scale-out {
+  animation: sa-scale-out var(--sa-duration, 0.3s) var(--sa-timing, cubic-bezier(0.7, 0, 0.84, 0)) var(--sa-delay)
+    var(--sa-repeat, 1) forwards;
+  transform-origin: center;
+}
+@keyframes sa-scale-out {
+  to {
+    opacity: 0;
+    transform: scale(0.85);
   }
 }
 
@@ -451,7 +506,7 @@
 }
 
 /* Needs `position: relative; overflow: hidden` on the container. Draws its
-   own moving bar; the container itself is the track. */
+   own moving bar; the container itself is the track. Reads `currentColor`. */
 .sa-progress-sweep {
   position: relative;
   overflow: hidden;
@@ -520,7 +575,8 @@
   }
 }
 
-/* filter, not box-shadow: works on any element shape with no layout cost. */
+/* filter, not box-shadow: works on any element shape with no layout cost.
+   Reads `currentColor`. */
 .sa-glow {
   animation: sa-glow var(--sa-duration, 2.2s) var(--sa-timing, ease-in-out) var(--sa-delay) var(--sa-repeat, infinite);
 }
@@ -544,44 +600,5 @@
   }
   50% {
     transform: translateX(4px);
-  }
-}
-
-/* --------------------------------------------------------- reduced motion
- * Turning an animation off must never leave the element invisible or
- * displaced. Every entrance/exit class that starts or ends off-screen or
- * transparent is also returned to its settled state.
- */
-
-@media (prefers-reduced-motion: reduce) {
-  [class*='sa-'],
-  [class*='sa-'] > *,
-  .sa-progress-sweep::after {
-    animation: none !important;
-    transition: none !important;
-  }
-
-  .sa-fade-in,
-  .sa-slide-in-up,
-  .sa-slide-in-down,
-  .sa-slide-in-left,
-  .sa-slide-in-right,
-  .sa-scale-in,
-  .sa-pop-in {
-    opacity: 1 !important;
-    transform: none !important;
-  }
-
-  .sa-fade-out,
-  .sa-slide-out-up,
-  .sa-slide-out-down,
-  .sa-slide-out-left,
-  .sa-slide-out-right,
-  .sa-scale-out {
-    opacity: 0 !important;
-  }
-
-  .sa-dots-bounce > * {
-    opacity: 1 !important;
   }
 }
