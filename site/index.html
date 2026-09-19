@@ -308,7 +308,7 @@
   }
   @media (max-width: 40rem) {
     .row { grid-template-columns: 1.75rem 2.25rem minmax(0, 1fr); }
-    .row .row-phrase, .row .row-copy { display: none; }
+    .row .row-phrase, .row .row-actions { display: none; }
   }
   .row:hover, .row:focus-visible { background: var(--paper-raised); outline: none; }
   .row[hidden] { display: none; }
@@ -323,9 +323,11 @@
     align-items: center;
     justify-content: center;
   }
+  .row-demo.motion-off { animation: none !important; transition: none !important; }
   .row-name { font-family: var(--mono); font-size: 0.85rem; white-space: nowrap; }
   .row-phrase { color: var(--muted); font-size: 0.92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .row-copy {
+  .row-actions { display: flex; align-items: center; gap: 0.4rem; }
+  .row-toggle {
     font-family: var(--mono);
     font-size: 0.75rem;
     color: var(--muted);
@@ -333,8 +335,27 @@
     border-radius: 3px;
     padding: 0.3rem 0.55rem;
     background: transparent;
+    white-space: nowrap;
   }
-  .row:hover .row-copy { color: var(--ink); }
+  .row:hover .row-toggle { color: var(--ink); }
+  .row-toggle[aria-pressed='true'],
+  .row-toggle[aria-expanded='true'] {
+    color: var(--paper);
+    background: var(--trace);
+    border-color: var(--trace);
+  }
+  .row-code {
+    margin: 0 0 0.75rem;
+    padding: 1rem 1.1rem;
+    background: var(--ink);
+    color: #dfe3d8;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    line-height: 1.6;
+    border-radius: 4px;
+    overflow-x: auto;
+    white-space: pre;
+  }
   .no-results { color: var(--muted); padding: 1.5rem 0; font-size: 0.95rem; }
 
   /* --------------------------------------------------------------- a11y */
@@ -637,18 +658,30 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
           '<span class="row-demo" aria-hidden="true"></span>' +
           '<span class="row-name">sa-' + entry.name + '</span>' +
           '<span class="row-phrase">"' + escapeHtml(entry.phrase) + '"</span>' +
-          '<span class="row-copy" data-copy>copy class</span>';
+          '<span class="row-actions">' +
+            '<span class="row-toggle" data-motion aria-pressed="false">reduced motion</span>' +
+            '<span class="row-toggle" data-show aria-expanded="false">show class</span>' +
+            '<span class="row-toggle" data-copy>copy class</span>' +
+          '</span>';
         row.addEventListener('click', (event) => {
+          const motionBtn = event.target.closest('[data-motion]');
+          if (motionBtn) {
+            const on = row.dataset.reducedMotion !== 'true';
+            row.dataset.reducedMotion = String(on);
+            motionBtn.setAttribute('aria-pressed', String(on));
+            playRowDemo(row, entry);
+            return;
+          }
+          const showBtn = event.target.closest('[data-show]');
+          if (showBtn) {
+            toggleShowClass(row, entry, showBtn);
+            return;
+          }
           if (event.target.closest('[data-copy]')) {
             copyToClipboard('sa-' + entry.name, event.target.closest('[data-copy]'));
             return;
           }
-          const demo = row.querySelector('.row-demo');
-          demo.className = 'row-demo';
-          demo.style.backgroundImage = '';
-          void demo.offsetWidth;
-          prepareDemoElement(demo, entry);
-          core.playAnimation(demo, entry.name).catch(() => {});
+          playRowDemo(row, entry);
           input.value = entry.phrase;
           play(entry.name);
         });
@@ -669,7 +702,11 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
       rows.forEach((row) => {
         const match = query === '' || row.dataset.search.includes(query);
         row.hidden = !match;
-        if (match) visible += 1;
+        if (match) {
+          visible += 1;
+        } else {
+          collapseShowClass(row);
+        }
       });
       groupsEl.querySelectorAll('.category-group').forEach((group) => {
         const anyVisible = [...group.querySelectorAll('.row')].some((r) => !r.hidden);
@@ -677,6 +714,105 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
       });
       noResultsEl.hidden = visible !== 0;
     });
+  }
+
+  function playRowDemo(row, entry) {
+    const demo = row.querySelector('.row-demo');
+    demo.className = 'row-demo' + (row.dataset.reducedMotion === 'true' ? ' motion-off' : '');
+    demo.style.backgroundImage = '';
+    void demo.offsetWidth;
+    prepareDemoElement(demo, entry);
+    core.playAnimation(demo, entry.name).catch(() => {});
+  }
+
+  function collapseShowClass(row) {
+    const panel = row.nextElementSibling;
+    if (panel && panel.classList.contains('row-code')) panel.hidden = true;
+    const showBtn = row.querySelector('[data-show]');
+    if (showBtn) {
+      showBtn.setAttribute('aria-expanded', 'false');
+      showBtn.textContent = 'show class';
+    }
+  }
+
+  function toggleShowClass(row, entry, btn) {
+    let panel = row.nextElementSibling;
+    if (!panel || !panel.classList.contains('row-code')) {
+      panel = document.createElement('pre');
+      panel.className = 'row-code';
+      panel.hidden = true;
+      row.after(panel);
+    }
+    if (btn.getAttribute('aria-expanded') === 'true') {
+      panel.hidden = true;
+      btn.setAttribute('aria-expanded', 'false');
+      btn.textContent = 'show class';
+      return;
+    }
+    if (!panel.textContent) {
+      panel.textContent = cssForEntry(entry.name) || '/* not found in styles/animate.css */';
+    }
+    panel.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    btn.textContent = 'hide class';
+  }
+
+  let animateSheetRules = null;
+
+  function getAnimateSheetRules() {
+    if (animateSheetRules) return animateSheetRules;
+    const sheet = [...document.styleSheets].find((s) => s.href && s.href.includes('animate.css'));
+    try {
+      animateSheetRules = sheet ? [...sheet.cssRules] : [];
+    } catch (err) {
+      animateSheetRules = [];
+    }
+    return animateSheetRules;
+  }
+
+  function cssForEntry(name) {
+    const rules = getAnimateSheetRules();
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const boundary = new RegExp('(^|[^\\w-])sa-' + escaped + '($|[^\\w-])');
+    const blocks = [];
+    for (const rule of rules) {
+      if (rule.type === CSSRule.STYLE_RULE && boundary.test(rule.selectorText)) {
+        blocks.push(prettyCss(rule.cssText));
+      } else if (rule.type === CSSRule.KEYFRAMES_RULE && boundary.test(rule.name)) {
+        blocks.push(prettyCss(rule.cssText));
+      }
+    }
+    return blocks.join('\n\n');
+  }
+
+  // A light CSS pretty-printer for the browser's own (single-line)
+  // rule.cssText, so "show class" reads like the source file instead of
+  // one long line. Delimiters are tokenized on their own, since a `}`
+  // often sits with no surrounding whitespace to key off.
+  function prettyCss(cssText) {
+    const tokens = cssText.match(/[^{};]+|[{};]/g) || [];
+    const lines = [];
+    let depth = 0;
+    let buffer = '';
+    for (const tok of tokens) {
+      if (tok !== '{' && tok !== '}' && tok !== ';') {
+        buffer += tok;
+        continue;
+      }
+      const head = buffer.trim();
+      buffer = '';
+      if (tok === '{') {
+        lines.push('  '.repeat(depth) + head + ' {');
+        depth += 1;
+      } else if (tok === ';') {
+        if (head) lines.push('  '.repeat(depth) + head + ';');
+      } else {
+        if (head) lines.push('  '.repeat(depth) + head + ';');
+        depth = Math.max(0, depth - 1);
+        lines.push('  '.repeat(depth) + '}');
+      }
+    }
+    return lines.join('\n');
   }
 
   function copyToClipboard(text, button) {
