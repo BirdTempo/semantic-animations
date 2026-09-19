@@ -328,7 +328,9 @@
     background: var(--paper-raised);
     border: 1px solid var(--line);
     border-radius: 6px;
+    cursor: pointer;
   }
+  .tile:hover { border-color: var(--accent); }
   .tile-demo {
     width: 100%;
     height: 3.5rem;
@@ -739,7 +741,6 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
     demo.type = 'button';
     demo.className = 'tile-demo';
     demo.setAttribute('aria-label', 'Play ' + entry.phrase);
-    demo.addEventListener('click', () => playTileDemo(demo, entry));
 
     const name = document.createElement('div');
     name.className = 'tile-name';
@@ -770,6 +771,10 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
     actions.append(showBtn, copyBtn);
 
     tile.append(demo, name, phrase, meta, actions);
+    tile.addEventListener('click', (event) => {
+      if (event.target.closest('.tile-actions')) return;
+      playTileDemo(demo, entry);
+    });
     return tile;
   }
 
