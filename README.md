@@ -1,6 +1,9 @@
 # semantic-animations
 
-A curated set of 33 CSS/JS UI animations you can find with plain prose.
+<!-- TODO: replace TODO below with the real Buy Me a Coffee username -->
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/TODO)
+
+A curated set of 1033 CSS/JS UI animations you can find with plain prose.
 Search runs in your page, with no request and no key.
 
 ```js
@@ -264,3 +267,6 @@ keywords the search engine can actually use.
 ## License
 
 MIT © BirdTempo
+
+<!-- TODO: replace TODO below with the real Buy Me a Coffee username -->
+If this saved you time, [buy me a coffee](https://www.buymeacoffee.com/TODO).
