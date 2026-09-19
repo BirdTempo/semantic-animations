@@ -323,7 +323,6 @@
     align-items: center;
     justify-content: center;
   }
-  .row-demo.motion-off { animation: none !important; transition: none !important; }
   .row-name { font-family: var(--mono); font-size: 0.85rem; white-space: nowrap; }
   .row-phrase { color: var(--muted); font-size: 0.92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .row-actions { display: flex; align-items: center; gap: 0.4rem; }
@@ -659,19 +658,10 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
           '<span class="row-name">sa-' + entry.name + '</span>' +
           '<span class="row-phrase">"' + escapeHtml(entry.phrase) + '"</span>' +
           '<span class="row-actions">' +
-            '<span class="row-toggle" data-motion aria-pressed="false">reduced motion</span>' +
             '<span class="row-toggle" data-show aria-expanded="false">show class</span>' +
             '<span class="row-toggle" data-copy>copy class</span>' +
           '</span>';
         row.addEventListener('click', (event) => {
-          const motionBtn = event.target.closest('[data-motion]');
-          if (motionBtn) {
-            const on = row.dataset.reducedMotion !== 'true';
-            row.dataset.reducedMotion = String(on);
-            motionBtn.setAttribute('aria-pressed', String(on));
-            playRowDemo(row, entry);
-            return;
-          }
           const showBtn = event.target.closest('[data-show]');
           if (showBtn) {
             toggleShowClass(row, entry, showBtn);
@@ -718,7 +708,7 @@ useSemanticAnimation(ref, <span class="tok-str">'task completed'</span>, saveCou
 
   function playRowDemo(row, entry) {
     const demo = row.querySelector('.row-demo');
-    demo.className = 'row-demo' + (row.dataset.reducedMotion === 'true' ? ' motion-off' : '');
+    demo.className = 'row-demo';
     demo.style.backgroundImage = '';
     void demo.offsetWidth;
     prepareDemoElement(demo, entry);
